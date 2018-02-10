@@ -17,8 +17,8 @@ add the following to ``.bashrc`` or ``.bash_profile``.
 
 Run the following commands to bootstrap your environment ::
 
-    git clone https://github.com/jszh/papersmith
-    cd papersmith
+    git clone https://github.com/ai-writing/Challenge2018
+    cd Challenge2018
     pip install -r requirements/dev.txt
     npm install
     npm start  # run the webpack dev server and flask server using concurrently
