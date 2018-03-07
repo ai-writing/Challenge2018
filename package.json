@@ -15,7 +15,9 @@
   },
   "author": "Jason Zhong",
   "license": "BSD-3-Clause",
-  "engines": { "node" : ">=4" },
+  "engines": {
+    "node": ">=4"
+  },
   "bugs": {
     "url": "https://github.com/jszh/papersmith/issues"
   },

@@ -15,9 +15,20 @@ add the following to ``.bashrc`` or ``.bash_profile``.
 
     export PAPERSMITH_SECRET='something-really-secret'
 
-Run the following commands to bootstrap your environment ::
+First, clone the front end ::
+
+    git clone https://github.com/ai-writing/Front-End
+    cd Front-End
+    npm run build
+    cd ..
+
+Then, run the following commands to bootstrap your environment ::
 
     git clone https://github.com/ai-writing/Challenge2018
+    cp -r Front-End/dist/static Challenge2018/papersmith/static
+    mkdir Challenge2018/papersmith/templates/editor
+    cp -r Front-End/dist/index.html Challenge2018/papersmith/templates/editor
+
     cd Challenge2018
     pip install -r requirements/dev.txt
     npm install
@@ -38,6 +49,8 @@ database tables and perform the initial migration ::
     flask db migrate
     flask db upgrade
     npm start
+
+Troubleshoot: If there's an error while running npm, consider upgrading to the latest version.
 
 
 Deployment

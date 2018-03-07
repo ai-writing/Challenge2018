@@ -18,7 +18,7 @@ def load_user(user_id):
     return User.get_by_id(int(user_id))
 
 
-@blueprint.route('/', methods=['GET', 'POST'])
+@blueprint.route('/home/', methods=['GET', 'POST'])
 def home():
     """Home page."""
     form = LoginForm(request.form)
