@@ -1,3 +1,3 @@
 # -*- coding: utf-8 -*-
-"""The editor module, including the homepage and user auth."""
+"""The editor module, main editor for users."""
 from . import views  # noqa
