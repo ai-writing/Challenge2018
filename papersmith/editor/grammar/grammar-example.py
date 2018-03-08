@@ -3,7 +3,7 @@
 from papersmith.editor.issue import Issue
 
 def check(content):
-    '检查内容中的语法错误'
+    '样例：检查内容中的语法错误'
 
     # do something with the content, which is a string
 
