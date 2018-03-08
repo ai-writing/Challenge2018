@@ -15,49 +15,58 @@ Python 3 (recommended)  https://www.python.org/downloads/
 PostgreSQL              https://www.postgresql.org/download/
 ======================  ======================
 
-Quickstart
-----------
+Installation
+------------
 
 First, set your app's secret key as an environment variable. For example,
-add the following to ``.bashrc`` or ``.bash_profile``.
+add the following to ``.bashrc`` or ``.bash_profile``. For Windows, add to system preferences.
 
 .. code-block:: bash
 
     export PAPERSMITH_SECRET='something-really-secret'
 
-Then, clone and build the front end ::
+Then, clone and build the front end (Note: 可能需要翻墙） ::
 
     git clone https://github.com/ai-writing/Front-End
     cd Front-End
+    npm install
     npm run build
     cd ..
 
-Afterwards, copy the front end distribution to the back end project ::
+Download the back end ::
 
     git clone https://github.com/ai-writing/Challenge2018
-    cp -r Front-End/dist/static Challenge2018/papersmith/static
-    mkdir Challenge2018/papersmith/templates/editor
-    cp Front-End/dist/index.html Challenge2018/papersmith/templates/editor
-
-It is recommended that you use virtualenv_ to manage the python environment. If you choose to do so, create a new env and activate it: ::
-
     cd Challenge2018
+
+It is recommended that you use virtualenv_ to manage the python environment. If you choose to do so, create a new virtual env and activate it: ::
+
     virtualenv venv
     . venv/bin/activate
 
 .. _virtualenv: http://pythonguidecn.readthedocs.io/zh/latest/dev/virtualenvs.html
 
-Finally, run the following commands to bootstrap your environment (make sure you are in the ``Challenge2018`` directory) :: 
+If you are using Windows, make sure to run this command first ::
 
-    brew install postgresql # run this if you use macOS and brew; otherwise please refer to "Prerequisites"
+    npm install -g win-node-env
+
+Afterwards, run the following commands to bootstrap your environment (make sure you are in the ``Challenge2018`` directory) ::
+
     pip install -r requirements/dev.txt
     npm install
-    flask db init
-    flask db migrate
-    flask db upgrade
+    npm run build
+    
+Finally, copy the front end distribution to the back end project (You can also do it with GUI) ::
+
+    cp -r Front-End/dist/static Challenge2018/papersmith/static
+    mkdir Challenge2018/papersmith/templates/editor
+    cp Front-End/dist/index.html Challenge2018/papersmith/templates/editor
+
     npm start  # run the webpack dev server and flask server using concurrently
 
-You will see a pretty welcome screen. In a web browser, you can visit the application at ``http://localhost:5000/``.
+You will see a pretty welcome screen. In a web browser, you can visit the application at ``http://localhost:5000/``. If the website does not load, try stopping npm, and then ::
+
+    set FLASK_APP=autoapp.py
+    flask run
 
 In general, before running shell commands, set the ``FLASK_APP`` and
 ``FLASK_DEBUG`` environment variables ::
