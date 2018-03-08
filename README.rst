@@ -77,7 +77,11 @@ Back-end Development
 
 文章例子： ::
 
-    # TODO
+    In 2014, we organized the first workshop about the creative community, it had attracted more than 40 people from government agencies, social organizations, business circles, IT experts and design professional teachers and students to participate.The design of the six teams are based on Internet.
+
+    Communication technology such as Internet of things, sensor network and so on, so as to form a new management form community based on large-scale information intelligent processing.
+
+    Six teams results varied, respectively: the design of electronic waste recycling platform, the prototype design of community old-age self-help, the design of remote control robot, Babel Tower breaker Bracelet design, the design of the joint office, commercial exhibition and creative communication space design and the design of City pet dog intelligence community.
 
 对于每个发现的问题，封装成 ``Issue`` 格式 (``papersmith/editor/issue.py``) ::
 
