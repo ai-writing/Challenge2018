@@ -39,15 +39,13 @@ Afterwards, copy the front end distribution to the back end project ::
     mkdir Challenge2018/papersmith/templates/editor
     cp Front-End/dist/index.html Challenge2018/papersmith/templates/editor
 
-It is recommended that you use virtualenv_ to manage the python environment.
-
-.. _virtualenv: http://pythonguidecn.readthedocs.io/zh/latest/dev/virtualenvs.html
-
-If you choose to use virtualenv, create a new env and activate it ::
+It is recommended that you use virtualenv_ to manage the python environment. If you choose to do so, create a new env and activate it: ::
 
     cd Challenge2018
     virtualenv venv
     . venv/bin/activate
+
+.. _virtualenv: http://pythonguidecn.readthedocs.io/zh/latest/dev/virtualenvs.html
 
 Finally, run the following commands to bootstrap your environment (make sure you are in the ``Challenge2018`` directory) :: 
 
