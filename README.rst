@@ -45,7 +45,7 @@ It is recommended that you use virtualenv_ to manage the python environment. If 
 
 .. _virtualenv: http://pythonguidecn.readthedocs.io/zh/latest/dev/virtualenvs.html
 
-If you are using Windows, make sure to run this command first ::
+If you are using Windows, make sure to run this command first (don't install it on Mac or Linux) ::
 
     npm install -g win-node-env
 
@@ -65,7 +65,7 @@ Finally, copy the front end distribution to the back end project (You can also d
 
 You will see a pretty welcome screen. In a web browser, you can visit the application at ``http://localhost:5000/``. If the website does not load, try stopping npm, and then ::
 
-    set FLASK_APP=autoapp.py
+    export FLASK_APP=autoapp.py     # use set instead of export on Windows
     flask run
 
 In general, before running shell commands, set the ``FLASK_APP`` and
