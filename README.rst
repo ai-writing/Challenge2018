@@ -10,9 +10,9 @@ Prerequisites
 ======================  ======================
 Package name            How to get it?
 ======================  ======================
-Node.js (includes npm)  `Node.js website<https://nodejs.org/en/>`_
-Python 3 (recommended)  `Python website<https://www.python.org/downloads/>`_
-PostgreSQL              `PostgreSQL website<https://www.postgresql.org/download/>`_
+Node.js (includes npm)  https://nodejs.org/en/
+Python 3 (recommended)  https://www.python.org/downloads/
+PostgreSQL              https://www.postgresql.org/download/
 ======================  ======================
 
 Quickstart
@@ -73,7 +73,7 @@ Troubleshoot: If there's an error while running npm, consider upgrading to the l
 Back end development
 --------------------
 
-和后段开发有关的资源都在 ``Challenge2018/papersmith/editor/`` 目录下。
+和后段开发有关的资源都在 ``papersmith/editor/`` 目录下。
 
 后端的语法、语义、句式检查分别作为一个 python package，存放在上述文件夹中。以 ``grammar`` package 为例，其中包含 ``grammar.py`` module，实现一个 ``check(content)`` 函数，其中 content 是前端传来的用户文章。
 
@@ -81,7 +81,7 @@ Back end development
 
     # TODO
 
-对于每个发现的问题，封装成 ``Issue`` 格式 (``Challenge2018/papersmith/editor/issue.py``) ::
+对于每个发现的问题，封装成 ``Issue`` 格式 (``papersmith/editor/issue.py``) ::
 
     category:       1语法/2语义/3句式
     itype:          issue 类型：1错误/2建议/3普通；
@@ -90,7 +90,7 @@ Back end development
     replacement:    替换成的字符串
     exp_id:         解释的编号
 
-注意 ``start`` 和 ``end`` 是 ``list`` 类型，即使分别只有一个下标。非常简单的使用样例请看 ``Challenge2018/papersmith/editor/grammar/grammar-example.py``。
+注意 ``start`` 和 ``end`` 是 ``list`` 类型，即使分别只有一个下标。非常简单的使用样例请看 ``papersmith/editor/grammar/grammar-example.py``。
 
 
 Deployment
