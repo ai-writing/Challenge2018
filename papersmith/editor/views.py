@@ -23,34 +23,38 @@ def home():
 
 @blueprint.route('/check/', methods=['GET', 'POST'])
 def check():
-    grammar_issues = grammar.check(request.data)
+    grammar_results = grammar.check(request.data)
 
-    json_issues = []
-    spelling_errors = 5
-    grammar_errors = 0
-    grammar_suggestions = 0
-    semantic_errors = 2
-    semantic_suggestions = 4
-    structure_suggestions = 1
+    spelling_issues = {'err':[], 'sug': []}
+    grammar_issues = {'err':[], 'sug': []}
+    semantic_issues = {'err':[], 'sug': []}
+    structure_issues = {'err':[], 'sug': []}
 
-    for issue in grammar_issues:
-        json_issues.append(issue.export())
-        if issue.itype == 1:   grammar_errors += 1
-        elif issue.itype == 2: grammar_suggestions += 1
+    for issue in grammar_results:
+        if issue.itype == 1:   grammar_issues['err'].append(issue.export())
+        elif issue.itype == 2: grammar_issues['sug'].append(issue.export())
 
-    total_issues = spelling_errors + grammar_errors + grammar_suggestions \
-        + semantic_errors + semantic_suggestions + structure_suggestions
+    total_issues = len(spelling_issues['err']) + len(grammar_issues['err']) \
+        + len(semantic_issues['err']) + len(structure_issues['err']) \
+        + len(spelling_issues['sug']) + len(grammar_issues['sug']) \
+        + len(semantic_issues['sug']) + len(structure_issues['sug'])
 
     return jsonify({
         "success":1,
-        "data":{
+        "count":{
             "id": 1,
-            "errorSpelling": spelling_errors,
-            "errorGrammar": grammar_errors,
-            "errorLexeme": semantic_errors,
-            "suggestLexeme": semantic_suggestions,
-            "suggestStructure": structure_suggestions,
+            "errorSpelling": len(spelling_issues['err']),
+            "errorGrammar": len(grammar_issues['err']),
+            "errorSemantic": len(semantic_issues['err']),
+            "errorStructure": len(structure_issues['err']),
+            "suggestSpelling": len(spelling_issues['sug']),
+            "suggestGrammar": len(grammar_issues['sug']),
+            "suggestSemantic": len(semantic_issues['sug']),
+            "suggestStructure": len(structure_issues['sug']),
             "sumNum": total_issues
         },
-        "issues": json_issues
+        "spelling": spelling_issues,
+        "grammar": grammar_issues,
+        "semantic": semantic_issues,
+        "structure": structure_issues
     })

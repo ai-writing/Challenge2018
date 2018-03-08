@@ -57,7 +57,7 @@ Finally, run the following commands to bootstrap your environment (make sure you
     flask db upgrade
     npm start  # run the webpack dev server and flask server using concurrently
 
-You will see a pretty welcome screen.
+You will see a pretty welcome screen. In a web browser, you can visit the application at ``http://localhost:5000/``.
 
 In general, before running shell commands, set the ``FLASK_APP`` and
 ``FLASK_DEBUG`` environment variables ::
@@ -68,7 +68,7 @@ In general, before running shell commands, set the ``FLASK_APP`` and
 Troubleshoot: If there's an error while running npm, consider upgrading to the latest version.
 
 
-Back end development
+Back-end Development
 --------------------
 
 和后端开发有关的资源都在 ``papersmith/editor/`` 目录下。
@@ -90,6 +90,52 @@ Back end development
 
 注意 ``start`` 和 ``end`` 是 ``list`` 类型，即使分别只有一个下标。非常简单的使用样例请看 ``papersmith/editor/grammar/grammar-example.py``。
 
+
+Front-end Development
+---------------------
+
+Access the API at ``localhost:5000/check/``. Sample format: ::
+
+    {
+        "count": {
+            "errorGrammar": 1, 
+            "errorSemantic": 0, 
+            "errorSpelling": 0, 
+            "errorStructure": 0, 
+            "id": 1, 
+            "suggestGrammar": 0, 
+            "suggestSemantic": 0, 
+            "suggestSpelling": 0, 
+            "suggestStructure": 0, 
+            "sumNum": 1
+        }, 
+        "grammar": {
+            "err": [
+            {
+                "cat": 1, 
+                "eid": 3, 
+                "end": [19], 
+                "rep": "replacement", 
+                "start": [15], 
+                "type": 1
+            }
+            ], 
+            "sug": []
+        }, 
+        "semantic": {
+            "err": [], 
+            "sug": []
+        }, 
+        "spelling": {
+            "err": [], 
+            "sug": []
+        }, 
+        "structure": {
+            "err": [], 
+            "sug": []
+        }, 
+        "success": 1
+    }
 
 Deployment
 ----------
