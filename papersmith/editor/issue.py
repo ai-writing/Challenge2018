@@ -21,18 +21,18 @@ class Issue:
 
     def print(self):
         '用于调试打印'
-        if self.category == 1:      print('grammar', end = '\t')
-        elif self.category == 2:    print('semantic', end = '\t')
-        elif self.category == 3:    print('sentence', end = '\t')
-        else:                       print('unknown category', end = '\t')
+        if self.category == 1:      print('grammar', end = ', ')
+        elif self.category == 2:    print('semantic', end = ', ')
+        elif self.category == 3:    print('sentence', end = ', ')
+        else:                       print('unknown category', end = ', ')
 
-        if self.itype == 1:      print('error', end = '\t')
-        elif self.itype == 2:    print('suggestion', end = '\t')
-        elif self.itype == 3:    print('info', end = '\t')
-        else:                    print('unknown type', end = '\t')
+        if self.itype == 1:      print('error', end = ', ')
+        elif self.itype == 2:    print('suggestion', end = ', ')
+        elif self.itype == 3:    print('info', end = ', ')
+        else:                    print('unknown type', end = ', ')
 
-        print(self.start + ' to ' + self.end, end = '\t')
-        print(self.replacement, end = '\t')
+        print(self.start + ' to ' + self.end, end = ', ')
+        print(self.replacement, end = ', ')
         print(self.exp_id)
 
     def export(self):

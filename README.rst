@@ -71,7 +71,7 @@ Troubleshoot: If there's an error while running npm, consider upgrading to the l
 Back end development
 --------------------
 
-和后段开发有关的资源都在 ``papersmith/editor/`` 目录下。
+和后端开发有关的资源都在 ``papersmith/editor/`` 目录下。
 
 后端的语法、语义、句式检查分别作为一个 python package，存放在上述文件夹中。以 ``grammar`` package 为例，其中包含 ``grammar.py`` module，实现一个 ``check(content)`` 函数，其中 content 是前端传来的用户文章。
 
