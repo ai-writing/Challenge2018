@@ -15,17 +15,21 @@ Python 3 (recommended)  https://www.python.org/downloads/
 PostgreSQL              https://www.postgresql.org/download/
 ======================  ======================
 
-Installation
-------------
+Installation 配制开发环境
+------------------------
 
 First, set your app's secret key as an environment variable. For example,
 add the following to ``.bashrc`` or ``.bash_profile``. For Windows, add to system preferences.
+
+首先，在环境变量中设置一个密钥，名为 ``PAPERSMITH_SECRET``，内容任意。Mac 和 Linux 使用以下代码，Windows 在系统设置中。
 
 .. code-block:: bash
 
     export PAPERSMITH_SECRET='something-really-secret'
 
-Then, clone and build the front end (Note: 可能需要翻墙） ::
+请先为整个项目新建一个文件夹，以下操作假设都在这个文件夹内进行。
+
+Then, clone and build the front end 下载、编译前端（Note: 可能需要翻墙） ::
 
     git clone https://github.com/ai-writing/Front-End
     cd Front-End
@@ -33,29 +37,29 @@ Then, clone and build the front end (Note: 可能需要翻墙） ::
     npm run build
     cd ..
 
-Download the back end ::
+Download the back end 下载后端（本项目） ::
 
     git clone https://github.com/ai-writing/Challenge2018
     cd Challenge2018
 
-It is recommended that you use virtualenv_ to manage the python environment. If you choose to do so, create a new virtual env and activate it: ::
+It is recommended that you use virtualenv_ to manage the python environment. If you choose to do so, create a new virtual env and activate it 推荐使用 virtualenv 创建 python 虚拟环境 ::
 
     virtualenv venv
     . venv/bin/activate
 
 .. _virtualenv: http://pythonguidecn.readthedocs.io/zh/latest/dev/virtualenvs.html
 
-If you are using Windows, make sure to run this command first (don't install it on Mac or Linux) ::
+If you are using Windows, make sure to run this command first (don't install it on Mac or Linux) Windows 用户请先执行以下命令 ::
 
     npm install -g win-node-env
 
-Afterwards, run the following commands to bootstrap your environment (make sure you are in the ``Challenge2018`` directory) ::
+Afterwards, run the following commands to bootstrap your environment (make sure you are in the ``Challenge2018`` directory) 配置本项目 ::
 
     pip install -r requirements/dev.txt
     npm install
     npm run build
     
-Finally, copy the front end distribution to the back end project (You can also do it with GUI) ::
+Finally, copy the front end distribution to the back end project (You can also do it with GUI) 将前端编译好的文件，拷贝到本项目对应目录中 ::
 
     cp -r Front-End/dist/static Challenge2018/papersmith/static
     mkdir Challenge2018/papersmith/templates/editor
@@ -63,10 +67,12 @@ Finally, copy the front end distribution to the back end project (You can also d
 
     npm start  # run the webpack dev server and flask server using concurrently
 
-You will see a pretty welcome screen. In a web browser, you can visit the application at ``http://localhost:5000/``. If the website does not load, try stopping npm, and then ::
+You will see a pretty welcome screen. In a web browser, you can visit the application at ``http://localhost:5000/``. If the website does not load, try stopping npm, and then 对于 Windows 用户，上述最后一条命令中可能报错，请 Ctrl-C 关闭这个命令。随后，可以通过以下的命令启动后端服务器 ::
 
-    export FLASK_APP=autoapp.py     # use set instead of export on Windows
+    set FLASK_APP=autoapp.py
     flask run
+
+至此，配置完毕。
 
 In general, before running shell commands, set the ``FLASK_APP`` and
 ``FLASK_DEBUG`` environment variables ::
