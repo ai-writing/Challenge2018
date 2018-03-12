@@ -21,7 +21,7 @@ blueprint = Blueprint('editor', __name__, static_folder='../static', template_fo
 def home():
     return render_template('index.html')
 
-@blueprint.route('/check/', methods=['GET', 'POST'])
+@blueprint.route('/api/check/', methods=['GET', 'POST'])
 def check():
     grammar_results = grammar.check(request.data)
 

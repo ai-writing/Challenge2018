@@ -61,7 +61,7 @@ Back-end Development
 Front-end Development
 ---------------------
 
-Access the API at ``localhost:5000/check/``. Sample format: ::
+Access the API at ``localhost:5000/api/check/``. Sample format: ::
 
     {
         "count": {
