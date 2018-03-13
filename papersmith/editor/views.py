@@ -10,6 +10,7 @@ from flask import Blueprint, flash, redirect, render_template, request, url_for
 from papersmith.utils import flash_errors
 from papersmith.extensions import csrf_protect
 from flask import jsonify
+import json
 
 from . import issue
 
@@ -27,7 +28,9 @@ def home():
 def check():
     # using csrf exempt for now; to add csrf, refer to: http://flask.pocoo.org/snippets/3/
     # <form method=post action=""><input name=_csrf_token type=hidden value="{{ csrf_token() }}"></form>
-    grammar_results = grammar.check(request.data)
+    content = json.loads(request.data)['paperBody']
+    print(content)
+    grammar_results = grammar.check(content)
 
     spelling_issues = {'err':[], 'sug': []}
     grammar_issues = {'err':[], 'sug': []}
