@@ -8,6 +8,7 @@ from flask import Blueprint, flash, redirect, render_template, request, url_for
 # from papersmith.user.forms import RegisterForm
 # from papersmith.user.models import User
 from papersmith.utils import flash_errors
+from papersmith.extensions import csrf_protect
 from flask import jsonify
 
 from . import issue
@@ -21,8 +22,11 @@ blueprint = Blueprint('editor', __name__, static_folder='../static', template_fo
 def home():
     return render_template('index.html')
 
-@blueprint.route('/api/num/', methods=['GET', 'POST'])
+@blueprint.route('/api/num', methods=['GET', 'POST'])
+@csrf_protect.exempt
 def check():
+    # using csrf exempt for now; to add csrf, refer to: http://flask.pocoo.org/snippets/3/
+    # <form method=post action=""><input name=_csrf_token type=hidden value="{{ csrf_token() }}"></form>
     grammar_results = grammar.check(request.data)
 
     spelling_issues = {'err':[], 'sug': []}
