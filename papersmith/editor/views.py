@@ -15,6 +15,7 @@ import json
 from . import issue
 
 from papersmith.editor.grammar import grammar
+from papersmith.editor.spelling import spelling
 
 blueprint = Blueprint('editor', __name__, static_folder='../static', template_folder='../templates/editor')
 
@@ -28,9 +29,11 @@ def home():
 def check():
     # using csrf exempt for now; to add csrf, refer to: http://flask.pocoo.org/snippets/3/
     # <form method=post action=""><input name=_csrf_token type=hidden value="{{ csrf_token() }}"></form>
+
     content = json.loads(request.data)['paperBody']
     print(content)
     grammar_results = grammar.check(content)
+    spelling_results = spelling.check(content)
 
     spelling_issues = {'err':[], 'sug': []}
     grammar_issues = {'err':[], 'sug': []}
@@ -40,6 +43,9 @@ def check():
     for issue in grammar_results:
         if issue.itype == 1:   grammar_issues['err'].append(issue.export())
         elif issue.itype == 2: grammar_issues['sug'].append(issue.export())
+
+    for issue in spelling_results:
+       spelling_issues['err'].append(issue.export())
 
     total_issues = len(spelling_issues['err']) + len(grammar_issues['err']) \
         + len(semantic_issues['err']) + len(structure_issues['err']) \
