@@ -30,7 +30,7 @@ def check():
     # using csrf exempt for now; to add csrf, refer to: http://flask.pocoo.org/snippets/3/
     # <form method=post action=""><input name=_csrf_token type=hidden value="{{ csrf_token() }}"></form>
 
-    content = json.loads(request.data)['paperBody']
+    content = json.loads(request.data.decode('utf8'))['paperBody']
     print(content)
     grammar_results = grammar.check(content)
     spelling_results = spelling.check(content)
