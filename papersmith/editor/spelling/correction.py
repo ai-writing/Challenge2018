@@ -14,7 +14,7 @@ def edit_distance(word):
               'v':['c','f','g','b'],'b':['v','g','h','n'],
               'n':['b','h','j','m'],'m':['n','j','k']}
     
-    if word in wordfrequency and wordfrequency[word]>2:
+    if word in wordfrequency and wordfrequency[word]>1:
         return word
     for i in range(len(word)):
         w=word[:i]+'\''+word[i:]
@@ -30,7 +30,7 @@ def edit_distance(word):
         if i in wordfrequency:
             wordlist.append(i)
     for i in sorted(wordlist,key=lambda x:-wordfrequency[x]):
-        if wordfrequency[i]>2:
+        if wordfrequency[i]>1:
             return i
     letters    = 'abcdefghijklmnopqrstuvwxyz\''
     splits     = [(word[:i], word[i:])    for i in range(len(word) + 1)]
