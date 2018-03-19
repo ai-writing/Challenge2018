@@ -13,7 +13,7 @@ def check(content):
                 w=i.lower()
                 word=edit_distance(w)
                 if word != w :
-                   issue = Issue(1, 1, pos, pos+len(i)-1, word, 0)
+                   issue = Issue(1, 1, [pos], [pos+len(i)-1], word, 0)
                    issues.append(issue)
                 pos+=len(i)+1
     return issues
