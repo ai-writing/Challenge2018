@@ -21,4 +21,5 @@ def check(content):
                 issue = Issue(1, 1, [pos], [pos+len(w)], word, 0)
                 issues.append(issue)
         pos+=len(w)+1
+        w=''
     return issues
