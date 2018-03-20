@@ -6,14 +6,19 @@ from papersmith.editor.spelling.correction import edit_distance
 def check(content):
     issues=[]
     pos=0
-    words=re.split(r'[1234567890;,\s.!?\"<>\-:\\()+=|{}[\]@#$%^&*]\s*',content)
-    for i in words:
-        if len(i)>0:
-            if not (i.isupper() or i.istitle()):
-                w=i.lower()
-                word=edit_distance(w)
-                if word != w :
-                   issue = Issue(1, 1, [pos], [pos+len(i)], word, 0)
-                   issues.append(issue)
-        pos+=len(i)+1
+    w=''
+    for i in content:
+        if (ord(i)>64 and ord(i)<91) or (ord(i)>96 and ord(i)<123):
+            w+=i
+            continue
+        if len(w)==0:
+            pos+=1
+            continue
+        if not (w.isupper() or w.istitle()):
+            s=w.lower()
+            word=edit_distance(s)
+            if word != s :
+                issue = Issue(1, 1, [pos], [pos+len(w)], word, 0)
+                issues.append(issue)
+        pos+=len(w)+1
     return issues
