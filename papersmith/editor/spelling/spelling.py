@@ -8,8 +8,11 @@ def check(content):
     pos=0
     w=''
     for i in content:
-        if (ord(i)>64 and ord(i)<91) or (ord(i)>96 and ord(i)<123):
+        if (ord(i)>64 and ord(i)<91) or (ord(i)>96 and ord(i)<123) or ord(i)== 39:
             w+=i
+            if len(w)==1 and w=='\'':
+                pos+=1
+                w=''
             continue
         if len(w)==0:
             pos+=1
