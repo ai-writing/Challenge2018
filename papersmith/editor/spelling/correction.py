@@ -22,7 +22,7 @@ def edit_distance(word):
             return w
     l=[]
     for i in range(len(word)):
-        if i != '\'':
+        if word[i] != '\'':
             for j in keyboard[word[i]]:
                 l.append(word[:i]+j+word[i+1:])
     wordlist=[]
