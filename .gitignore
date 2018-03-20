@@ -44,6 +44,7 @@ docs/_build
 
 # Virtualenvs
 env/
+venv/
 
 # npm
 /node_modules/
@@ -51,3 +52,6 @@ env/
 # webpack-built files
 /papersmith/static/build/
 /papersmith/webpack/manifest.json
+
+# other
+py3/
