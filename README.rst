@@ -172,3 +172,9 @@ should cache all your assets forever by including the following line
 in your ``settings.py``::
 
     SEND_FILE_MAX_AGE_DEFAULT = 31556926  # one year
+
+
+Branch Management 
+-----------------
+
+Creating a branch 'dev-gjy'
