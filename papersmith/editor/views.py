@@ -16,9 +16,10 @@ from . import issue
 
 from papersmith.editor.grammar import grammar
 from papersmith.editor.spelling import spelling
+from papersmith.editor.spelling.correction import gen_trie
 
 blueprint = Blueprint('editor', __name__, static_folder='../static', template_folder='../templates/editor')
-
+gen_trie()
 
 @blueprint.route('/', methods=['GET', 'POST'])
 def home():

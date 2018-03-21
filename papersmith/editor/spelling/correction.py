@@ -1,5 +1,46 @@
+class node:
+    def __init__(self):
+        self.sons=[-1]*28
+
+nodelist=[node()]
+
+def gen_trie():
+	global nodelist
+	nodenum=1
+	currentnode=0
+	t = eval(open("papersmith/editor/spelling/wordfrequency.txt").read())
+	for key,value in t.items():
+		for i in key:
+			if i=='\'':
+				if nodelist[currentnode].sons[26] < 0:
+				    nodelist.append(node())
+				    nodelist[currentnode].sons[26] = nodenum
+				    nodenum += 1
+				currentnode = nodelist[currentnode].sons[26]
+			else:
+				if nodelist[currentnode].sons[ord(i)-97]<0:
+				    nodelist.append(node())
+				    nodelist[currentnode].sons[ord(i) - 97] = nodenum
+				    nodenum += 1
+				currentnode=nodelist[currentnode].sons[ord(i)-97]
+			nodelist[currentnode].sons[27]=value
+		currentnode=0
+
+def wordfrequency(word):
+    global nodelist
+    currentnode=0
+    for i in word:
+        if i=='\'':
+            if nodelist[currentnode].sons[26] < 0:
+                return -1
+            currentnode=nodelist[currentnode].sons[26]
+        else:
+            if nodelist[currentnode].sons[ord(i)-97]<0:
+                return -1
+            currentnode=nodelist[currentnode].sons[ord(i)-97]
+    return nodelist[currentnode].sons[27]
 def edit_distance(word): 
-    wordfrequency=eval(open('papersmith/editor/spelling/wordfrequency.txt').read())
+    global nodelist
     keyboard={'q':['w','a'],'w':['q','a','s','e'],
               'e':['w','s','d','r'],'r':['e','d','f','t'],
               't':['r','f','g','y'],'y':['t','g','h','u'],
@@ -14,11 +55,11 @@ def edit_distance(word):
               'v':['c','f','g','b'],'b':['v','g','h','n'],
               'n':['b','h','j','m'],'m':['n','j','k']}
     
-    if word in wordfrequency and wordfrequency[word]>1:
+    if wordfrequency(word)>1:
         return word
     for i in range(len(word)):
         w=word[:i]+'\''+word[i:]
-        if w in wordfrequency:
+        if wordfrequency(w)>1:
             return w
     l=[]
     for i in range(len(word)):
@@ -27,10 +68,10 @@ def edit_distance(word):
                 l.append(word[:i]+j+word[i+1:])
     wordlist=[]
     for i in l:
-        if i in wordfrequency:
+        if wordfrequency(i)>-1:
             wordlist.append(i)
-    for i in sorted(wordlist,key=lambda x:-wordfrequency[x]):
-        if wordfrequency[i]>1:
+    for i in sorted(wordlist,key=lambda x:-wordfrequency(x)):
+        if wordfrequency(i)>1:
             return i
     letters    = 'abcdefghijklmnopqrstuvwxyz\''
     splits     = [(word[:i], word[i:])    for i in range(len(word) + 1)]
@@ -41,8 +82,8 @@ def edit_distance(word):
     s=set(deletes + transposes + replaces + inserts)
     wordlist=[]
     for i in s:
-        if i in wordfrequency:
+        if wordfrequency(i)>-1:
             wordlist.append(i)
-    for i in sorted(wordlist,key=lambda x:-wordfrequency[x]):
+    for i in sorted(wordlist,key=lambda x:-wordfrequency(x)):
         return i
     return ' '
