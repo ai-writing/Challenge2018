@@ -23,9 +23,37 @@ def gen_trie():
 				    nodelist[currentnode].sons[ord(i) - 97] = nodenum
 				    nodenum += 1
 				currentnode=nodelist[currentnode].sons[ord(i)-97]
-			nodelist[currentnode].sons[27]=value
+		nodelist[currentnode].sons[27]=value
 		currentnode=0
 
+def edit_distances(word):
+    letters    = 'abcdefghijklmnopqrstuvwxyz\''
+    splits     = [(word[:i], word[i:])    for i in range(len(word) + 1)]
+    deletes    = [L + R[1:]               for L, R in splits if R]
+    transposes = [L + R[1] + R[0] + R[2:] for L, R in splits if len(R)>1]
+    replaces   = [L + c + R[1:]           for L, R in splits if R for c in letters]
+    inserts    = [L + c + R               for L, R in splits for c in letters]
+    return set(deletes + transposes + replaces + inserts)
+def edit_distance1(word):
+    wordlist=[]
+    s=edit_distances(word)
+    for i in s:
+        if wordfrequency(i)>0:
+            wordlist.append(i)
+    if len(wordlist)>0:
+        return sorted(wordlist,key=lambda x:-wordfrequency(x))[0]
+    return ''
+def edit_distance2(word):
+    wordlist=[]
+    s=edit_distances(word)
+    for i in s:
+        ss=edit_distances(i)
+        for j in ss:
+            if j not in wordlist and wordfrequency(j)>0:
+                wordlist.append(j)
+    if len(wordlist)>0:
+        return sorted(wordlist,key=lambda x:-wordfrequency(x))[0]
+    return ''
 def wordfrequency(word):
     global nodelist
     currentnode=0
@@ -55,11 +83,11 @@ def edit_distance(word):
               'v':['c','f','g','b'],'b':['v','g','h','n'],
               'n':['b','h','j','m'],'m':['n','j','k']}
     
-    if wordfrequency(word)>1:
+    if wordfrequency(word)>0:
         return word
     for i in range(len(word)):
         w=word[:i]+'\''+word[i:]
-        if wordfrequency(w)>1:
+        if wordfrequency(w)>0:
             return w
     l=[]
     for i in range(len(word)):
@@ -67,23 +95,24 @@ def edit_distance(word):
             for j in keyboard[word[i]]:
                 l.append(word[:i]+j+word[i+1:])
     wordlist=[]
+    kbword=''
     for i in l:
-        if wordfrequency(i)>-1:
+        if wordfrequency(i)>0:
             wordlist.append(i)
-    for i in sorted(wordlist,key=lambda x:-wordfrequency(x)):
-        if wordfrequency(i)>1:
-            return i
-    letters    = 'abcdefghijklmnopqrstuvwxyz\''
-    splits     = [(word[:i], word[i:])    for i in range(len(word) + 1)]
-    deletes    = [L + R[1:]               for L, R in splits if R]
-    transposes = [L + R[1] + R[0] + R[2:] for L, R in splits if len(R)>1]
-    replaces   = [L + c + R[1:]           for L, R in splits if R for c in letters]
-    inserts    = [L + c + R               for L, R in splits for c in letters]
-    s=set(deletes + transposes + replaces + inserts)
-    wordlist=[]
-    for i in s:
-        if wordfrequency(i)>-1:
-            wordlist.append(i)
-    for i in sorted(wordlist,key=lambda x:-wordfrequency(x)):
-        return i
+    if len(wordlist)>0:
+        kbword=sorted(wordlist,key=lambda x:-wordfrequency(x))[0]
+    word1=edit_distance1(word)
+    if len(word1)>0:
+        if len(kbword)>0:
+            if wordfrequency(word1)>=wordfrequency(kbword)*5:
+                return word1
+            else:
+                return kbword
+        else:
+            return word1
+    else:
+        if len(kbword)>0:
+            return kbword
+    if len(word)>7:
+        return edit_distance2(word)
     return ' '
