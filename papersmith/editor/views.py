@@ -15,6 +15,7 @@ import json
 from . import issue
 
 from papersmith.editor.grammar import grammar
+from papersmith.editor.spelling import capital
 from papersmith.editor.spelling import spelling
 from papersmith.editor.spelling.correction import gen_trie
 
@@ -35,6 +36,7 @@ def check():
     print(content)
     grammar_results = grammar.check(content)
     spelling_results = spelling.check(content)
+    spelling_results += capital.check(content)
 
     spelling_issues = {'err':[], 'sug': []}
     grammar_issues = {'err':[], 'sug': []}
@@ -46,7 +48,9 @@ def check():
         elif issue.itype == 2: grammar_issues['sug'].append(issue.export())
 
     for issue in spelling_results:
-       spelling_issues['err'].append(issue.export())
+       if issue.itype == 1:   spelling_issues['err'].append(issue.export())
+       elif issue.itype == 2: spelling_issues['sug'].append(issue.export())
+
 
     total_issues = len(spelling_issues['err']) + len(grammar_issues['err']) \
         + len(semantic_issues['err']) + len(structure_issues['err']) \
