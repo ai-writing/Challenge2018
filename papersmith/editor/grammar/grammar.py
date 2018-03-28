@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from papersmith.editor.issue import Issue
-from neuralcoref import Coref
+from papersmith.editor.coref import coref
 
 def check(content):
     '检查内容中的语法错误'
