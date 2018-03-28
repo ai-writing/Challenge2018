@@ -17,7 +17,7 @@ def check(content):
             string=chr(ord(content[j])-32)
             for k in range(l):
                 string+=content[j+k+1]
-            issues.append(Issue(1,2,[j],[j+l+1],string,0))
+            issues.append(Issue(1,1,[j],[j+l+1],string,0))
             break
         break
     for i in range(len(content)):
@@ -37,7 +37,7 @@ def check(content):
                     string=chr(ord(content[i+j+1])-32)
                     for k in range(l):
                         string+=content[i+j+k+2]
-                    issues.append(Issue(1,2,[i+j+1],[i+j+l+2],string,0))
+                    issues.append(Issue(1,1,[i+j+1],[i+j+l+2],string,0))
                     break
                 break
     
