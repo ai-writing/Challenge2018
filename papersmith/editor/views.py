@@ -41,6 +41,7 @@ def check():
     structure_issues = {'err':[], 'sug': []}
 
     for issue in grammar_results:
+        print(issue)
         if issue.itype == 1:   grammar_issues['err'].append(issue.export())
         elif issue.itype == 2: grammar_issues['sug'].append(issue.export())
 
