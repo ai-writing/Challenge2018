@@ -8,7 +8,7 @@ def gen_trie():
 	global nodelist
 	nodenum=1
 	currentnode=0
-	t = eval(open("papersmith/editor/spelling/wordfrequency.txt").read())
+	t = eval(open("papersmith/editor/spelling/frequency.txt").read())
 	for key,value in t.items():
 		for i in key:
 			if i=='\'':

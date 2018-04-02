@@ -4,7 +4,7 @@ from papersmith.editor.issue import Issue
 from papersmith.editor.spelling.correction import edit_distance
 
 def check(content):
-    proper_noun=eval(open("papersmith/editor/spelling/proper-nouns-list.txt").read())
+    proper_noun=eval(open("papersmith/editor/spelling/proper_nouns.txt").read())
     issues=[]
     pos=0
     w=''
