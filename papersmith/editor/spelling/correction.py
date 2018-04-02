@@ -104,7 +104,7 @@ def edit_distance(word):
     word1=edit_distance1(word)
     if len(word1)>0:
         if len(kbword)>0:
-            if wordfrequency(word1)>=wordfrequency(kbword)*5:
+            if wordfrequency(word1)>=wordfrequency(kbword)*10:
                 return word1
             else:
                 return kbword
