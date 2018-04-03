@@ -18,6 +18,13 @@ def check(content):
         if len(w)==0:
             pos+=1
             continue
+        extra_len=0
+        if w[-1]=='\'':
+            w=w[:-1]
+            extra_len=1
+        elif w[-2:]=="'s":
+            w=w[:-2]
+            extra_len=2
         if w in proper_noun:
             if ord(w[0])>96 and ord(w[0])<123:
                 issue = Issue(1, 1, [pos], [pos+len(w)], chr(ord(w[0])-32)+w[1:].lower(), 0)
@@ -28,6 +35,6 @@ def check(content):
             if word != s :
                 issue = Issue(1, 1, [pos], [pos+len(w)], word, 0)
                 issues.append(issue)
-        pos+=len(w)+1
+        pos+=len(w)+1+extra_len
         w=''
     return issues
