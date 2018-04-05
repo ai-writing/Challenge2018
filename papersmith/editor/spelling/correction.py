@@ -8,7 +8,7 @@ def gen_trie():
 	global nodelist
 	nodenum=1
 	currentnode=0
-	t = eval(open("papersmith/editor/spelling/wordfrequency.txt").read())
+	t = eval(open("papersmith/editor/spelling/frequency.txt").read())
 	for key,value in t.items():
 		for i in key:
 			if i=='\'':
@@ -104,7 +104,7 @@ def edit_distance(word):
     word1=edit_distance1(word)
     if len(word1)>0:
         if len(kbword)>0:
-            if wordfrequency(word1)>=wordfrequency(kbword)*5:
+            if wordfrequency(word1)>=wordfrequency(kbword)*10:
                 return word1
             else:
                 return kbword
