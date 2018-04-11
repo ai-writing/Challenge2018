@@ -4,11 +4,8 @@ import nltk
 
 def check(content):
 	sentence_tag = nltk.pos_tag(nltk.word_tokenize(content))
-	grammar = r"""
-	NP: {<.*>+}
-		}<VBD|IN>+{
-	"""
+	grammar = r'NP:{<NN><NN>}'
 	tree = nltk.RegexpParser(grammar).parse(sentence_tag)
 	print(tree)
 
-check("yesterday I went to the theater.")
+check("I with my dog went to my father theater.")
