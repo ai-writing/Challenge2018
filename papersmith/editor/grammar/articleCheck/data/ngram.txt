@@ -1,0 +1,3215 @@
+1
+precondition 0 0 0 2
+concept 0 1 0 5
+evidence 2 0 0 0
+global 1 0 0 0
+results 11 0 0 2
+gt 2 0 0 0
+computation 1 0 0 0
+contributions 1 0 0 0
+graph 0 8 1 16
+factoring 1 0 0 0
+removal 0 0 0 2
+0 1 0 0 0
+init 9 0 0 1
+ti 0 2 0 0
+349 1 0 0 0
+account 0 1 0 0
+choice 4 0 0 0
+locked 1 0 0 0
+condition 15 0 0 2
+subrahmanian 4 0 0 0
+induction 1 0 0 1
+rights 1 0 0 0
+t. 1 0 0 0
+p 57 12 0 7
+proposition 5 0 0 0
+logistics 3 0 0 0
+ga 3 0 0 0
+demonstrations 1 0 0 0
+perspective 0 1 0 0
+n 9 0 0 0
+odd 1 0 0 0
+what 1 0 0 0
+section 7 0 0 1
+uniform 0 1 0 0
+; 1 0 0 0
+contrast 4 0 0 0
+movement 2 0 0 0
+circumval 2 0 0 0
+improvable 10 0 0 0
+decidability 1 0 0 0
+component 0 0 0 2
+understanding 2 0 0 0
+let 1 0 0 0
+others 0 0 0 1
+path 0 5 0 1
+change 0 1 0 0
+search 7 1 0 0
+k 106 2 5 2
+domains 9 0 0 14
+inference 2 0 0 0
+family 0 4 0 0
+orderings 1 0 0 0
+total 2 0 0 0
+propositional 1 0 0 0
+use 2 0 0 0
+uniformity 1 0 0 0
+abbreviations 0 0 0 1
+m. 2 0 0 0
+two 1 0 0 0
+vehicle 0 1 0 0
+hoffmann 3 0 0 0
+ith 0 0 0 1
+benchmark 1 0 0 1
+cases 1 0 0 0
+none 2 0 0 0
+balls 4 0 0 0
+1995 1 0 0 0
+f 5 0 0 0
+this 9 0 0 0
+science 2 0 0 0
+work 10 0 0 2
+values 3 0 0 4
+halts 1 0 0 0
+cp-05 1 0 0 0
+v 91 6 0 3
+following 0 0 0 1
+example 4 1 2 0
+dropv 1 0 0 0
+proof 18 2 0 10
+haslum 1 0 0 0
+claim 1 0 0 0
+share 1 0 0 0
+states 17 0 0 2
+scheduling 1 0 0 0
+sense 0 0 0 1
+aaai 1 0 0 0
+airplane 0 0 1 0
+action 6 0 3 2
+information 1 0 0 0
+goal 54 0 0 7
+turn 2 0 0 0
+s2 16 0 0 0
+s1 26 0 0 0
+1 20 0 0 0
+s. 8 0 0 0
+polit 2 0 0 0
+simplicity 4 0 0 0
+plans 9 0 0 0
+mapping 0 2 0 0
+tractability 2 0 0 10
+wrong 12 0 0 0
+icaps 1 0 0 0
+such 1 3 0 0
+types 4 0 0 0
+a 28 13 0 0
+jair 2 0 0 0
+robot 1 4 0 7
+element 2 0 0 0
+q 8 0 0 0
+si 6 0 0 0
+algorithms 2 0 0 3
+definitions 4 0 0 2
+order 1 0 0 0
+amir 3 0 0 0
+erol 2 0 0 0
+restriction 0 0 0 2
+vars 46 3 0 0
+insight 1 0 0 0
+course 0 0 0 2
+paper 3 0 0 2
+existence 1 0 0 2
+monotonicity 3 0 0 0
+solving 0 1 0 0
+, 17 1 0 1
+then 3 0 0 0
+them 4 0 0 0
+combination 0 0 0 2
+3 2 0 0 0
+practice 2 0 0 0
+they 4 0 0 0
+superset 0 2 0 0
+association 2 0 0 0
+vidal 2 0 0 0
+l. 1 0 0 0
+university 2 0 0 0
+drop 3 0 0 0
+l 85 3 0 0
+exists-is 1 0 0 0
+-lsb- 3 0 0 0
+l3 3 3 0 0
+each 7 0 0 0
+h. 1 0 0 0
+2n 1 0 0 0
+| 3 0 0 0
+2k 1 0 0 0
+subset 0 4 0 0
+domain 13 6 0 19
+generation 4 0 0 0
+principles 2 0 0 0
+related 1 0 0 0
+tin2004-07925c03-01 2 0 0 0
+unlock 2 0 0 0
+literature 1 2 0 0
+measure 1 1 0 0
+assumption 2 0 0 1
+80 1 0 0 0
+denotes 0 1 0 0
+evaluation 2 0 0 0
+e. 3 0 0 0
+reformulation 8 11 0 0
+theory 0 0 0 2
+interactions 1 0 0 0
+reason 0 0 0 2
+beginning 0 0 0 1
+care 0 1 0 0
+definition 17 4 1 15
+pairs 2 0 0 0
+g 9 0 2 1
+programming 2 0 0 0
+ordering 2 0 5 2
++1 9 0 0 0
+-246 1 0 0 0
+w 10 0 0 0
+bylander 6 0 0 0
+r. 2 0 0 0
+first 0 0 0 1
+intuition 0 0 0 1
+there 34 0 0 0
+symmetry 2 0 0 0
+* 2 0 0 0
+variables 36 0 0 6
+number 0 6 0 12
+one 11 0 0 0
+instances 37 0 0 3
+improvements 0 0 0 2
+another 1 0 0 0
+size 1 0 0 2
+introduction 1 0 0 0
+system 0 0 0 3
+2 6 0 0 0
+ijcai 1 0 0 0
+speaking 3 0 0 0
+discussion 0 0 0 3
+class-that 0 1 0 0
+elaboration 0 2 0 0
+that 12 1 0 0
+explanation 2 6 0 0
+immediate 4 0 0 0
+helmert 9 0 0 0
+vvars 0 0 0 2
+translation 2 0 0 0
+11 2 0 0 0
+b 78 0 0 7
+subroutine 0 0 0 2
+iteration 0 0 0 4
+j. 1 0 0 0
+classes 14 0 0 2
+non-monotonicity 2 0 0 0
+result 1 7 1 1
+pre 9 4 0 0
+locations 16 0 0 5
+manner 0 1 0 0
+sas 1 0 0 0
+any 2 0 0 0
+subgoals 2 0 0 1
+elaborations 2 0 0 0
+latter 0 0 0 1
+ideas 0 0 0 1
+note 6 0 0 0
+instance 8 13 31 26
+= 46 5 0 1
+all 8 0 0 0
+domshlak 7 0 0 0
+measures 13 0 0 0
+77 1 0 0 0
+73 1 0 0 0
+plan 12 19 0 15
+nothing 2 0 0 0
+class 3 5 0 5
+79 0 0 0 1
+observation 0 1 0 4
+vertices 3 0 0 0
+graphs 4 0 0 0
+proceedings 4 0 0 0
+hamming 6 0 0 1
++ 2 0 0 0
+fact 2 0 0 5
+d. 1 0 0 0
+operations 5 0 0 0
+planning 17 2 0 0
+relation 2 0 0 0
+knowledge 2 0 0 0
+outside 1 0 0 0
+only 2 0 0 0
+constant 0 1 0 0
+local 3 0 0 0
+preliminaries 1 0 0 0
+q. 1 0 0 0
+dk 4 0 0 0
+viewpoint 0 0 0 2
+means 2 0 0 0
+dd 4 0 0 0
+ones 0 0 0 1
+words 1 0 0 0
+trucks 3 0 0 0
+approach 0 1 0 0
+agoal 3 1 2 0
+requirement 0 0 0 2
+set 6 48 0 30
+intelligence 10 0 0 0
+we 136 0 0 0
+packet 0 2 0 0
+nebel 10 0 0 0
+namely 2 0 0 0
+are 1 0 0 0
+161-170 1 0 0 0
+-rsb- 36 3 0 0
+arm 0 0 0 3
+best 0 0 0 4
+notions 9 0 0 4
+-rcb- 3 0 0 0
+boundaries 1 0 0 1
+state 34 60 0 28
+r 10 1 0 0
+conditions 13 0 0 4
+notice 1 0 0 0
+girona 1 0 0 0
+pre-established 0 2 0 0
+key 1 2 0 5
+unlockl 1 0 0 0
+packages 2 0 0 0
+barrett 3 0 0 0
+motivations 1 0 0 0
+both 2 0 0 0
+c 26 0 0 1
+reformulations 6 0 0 0
+tractable 4 0 0 0
+many 3 0 0 0
+s 75 4 0 3
+sparseness 0 0 0 2
+and 2 0 0 0
+ijcai-93 1 0 0 0
+pos 26 0 0 0
+respect 7 0 0 0
+conference 2 0 0 2
+transformations 0 0 0 2
+basis 2 0 2 0
+addition 5 0 0 2
+. 3 0 0 3
+08034 1 0 0 0
+int 0 0 0 1
+a1goal 1 0 0 0
+interest 1 0 0 0
+movea 1 0 0 0
+ph 3 0 0 0
+improve 1 0 0 0
+empty 3 0 0 0
+location 8 2 1 3
+corresponding 0 0 0 2
+c. 3 0 0 0
+gripper 8 0 0 0
+restrictions 11 0 0 1
+propositions 1 0 0 0
+airplanes 2 0 0 1
+general 1 0 0 0
+dh 10 0 0 0
+r-95-17 2 0 0 0
+those 2 0 0 0
+case 1 1 0 16
+value 1 1 0 1
+choices 2 0 0 0
+complexity 7 0 0 2
+property 1 5 0 0
+p. 1 0 0 0
+loop 1 0 0 3
+vd 2 1 0 0
+vi 7 3 0 2
+metric 0 0 0 1
+it 31 0 0 0
+vn 2 0 0 0
+vp 3 0 0 0
+grammars 1 0 0 0
+itself 1 0 0 0
+conf 1 0 0 0
+movements 4 0 0 2
+same 0 0 0 2
+reachable 3 3 0 0
+arguments 0 0 0 1
+ball 3 0 0 0
+keys 1 0 0 0
+v. 1 0 0 0
+hand 28 2 0 3
+v1 7 0 0 1
+edges 9 0 0 0
+pgoal 1 0 0 0
+tangibility 7 0 0 0
+:625 1 0 0 0
+weld 5 0 0 0
+i 14 0 0 0
+pickv 1 0 0 0
+analysis 1 0 0 0
+pickl 2 0 0 0
+edge 0 0 2 0
+non-optimal 0 1 0 0
+termination 1 0 0 0
+1994b 3 0 0 0
+1994a 2 0 0 0
+actions 17 1 0 5
+k. 2 0 0 0
+heuristic 0 1 0 0
+advancement 0 0 0 2
+improvement 1 0 0 2
+4 6 0 0 0
+theorem 15 0 0 6
+usage 1 0 0 0
+dept. 4 0 0 0
+solvable 2 0 0 0
+... 1 0 0 0
+treewidth 0 0 0 5
+rules 1 0 0 0
+nau 4 0 0 0
+unification 0 0 0 2
+integer 0 0 1 0
+bit 0 1 0 0
+execution 0 0 0 4
+d 32 0 2 0
+-302 1 0 0 0
+t 29 2 0 2
+arbitrary 0 0 1 0
+output 2 0 0 0
+works 2 0 0 0
+sketch 2 0 0 0
+sequence 0 6 0 1
+b. 4 0 0 0
+some 4 0 0 0
+examples 2 0 0 0
+proofs 0 0 0 1
+unlocked 2 0 0 0
+engelhardt 4 0 0 0
+serializability 3 0 0 0
+r-95-16 2 0 0 0
+l2 6 0 0 2
+proc 2 0 0 0
+either 1 0 0 0
+problems 4 0 0 0
+journal 4 0 0 0
+l1 4 0 0 0
+vi-1 2 0 0 0
+post 9 2 0 0
+notation 1 0 0 0
+properties 1 0 0 0
+om 8 0 0 0
+extension 2 0 2 2
+package 0 1 0 1
+theorems 1 0 0 0
+o 18 0 0 0
+union 2 0 0 6
+extensions 5 0 0 0
+accounts 2 0 0 0
+operator 4 0 1 0
+1987 1 0 0 0
+initial 1 0 0 0
+width 70 0 0 6
+structure 4 0 0 3
+way 1 0 0 3
+jonsson 2 0 0 0
+function 4 2 0 1
+form 1 1 0 1
+differences 0 0 0 1
+-lrb- 5 2 0 5
+robustness 0 0 0 4
+bounds 0 0 0 1
+devices 1 0 0 0
+problem 1 1 0 19
+define 1 0 0 0
+implies 1 0 0 0
+movel 3 0 0 0
+-rrb- 52 4 2 0
+ai 1 0 0 0
+dropl 2 0 0 0
+abstract 2 0 0 0
+an 0 0 3 0
+formulation 2 2 0 1
+nk 2 0 0 0
+us 1 0 0 0
+application 2 0 0 2
+other 3 0 0 0
+5 6 0 0 0
+details 2 0 0 0
+papers 1 0 0 1
+department 4 0 0 0
+2006 3 0 0 0
+operators 4 0 0 0
+kinds 2 0 0 0
+korf 4 0 0 0
+2005 1 0 0 0
+vertex 2 1 0 0
+variation 0 2 0 0
+a. 1 0 0 0
+a1 16 0 0 0
+coverage 2 0 0 0
+planners 2 0 0 0
+variable 9 8 0 4
+geffner 2 0 0 0
+vein 1 0 0 0
+e 4 0 0 0
+algorithm 5 0 1 30
+vehicles 1 0 0 0
+persistent 1 0 0 0
+barcelona 1 0 0 0
+notion 4 6 0 8
+u 43 15 2 5
+2007 3 0 0 0
+time 15 1 0 1
+brafman 9 0 0 0
+2
+, precondition 0 0 0 1
+on concept 0 1 0 0
+, concept 0 0 0 1
+for concept 0 0 0 1
+of concept 0 0 0 1
+as evidence 1 0 0 0
+, global 1 0 0 0
+on results 1 0 0 0
+give results 1 0 0 0
+presented results 1 0 0 0
+of results 0 0 0 1
+is results 1 0 0 0
+prove results 1 0 0 0
+as results 1 0 0 0
+-lrb- gt 1 0 0 0
+polynomialtime computation 1 0 0 0
+on graph 0 0 0 1
+search graph 0 1 0 0
+creating graph 0 0 0 1
+be graph 0 0 0 1
+of graph 0 0 0 1
+create graph 0 1 0 0
+to graph 0 1 0 0
+in graph 0 0 1 0
+of factoring 1 0 0 0
+: removal 0 0 0 1
+-lcb- 0 1 0 0 0
+be init 0 0 0 1
+from init 1 0 0 0
+that init 1 0 0 0
+* init 1 0 0 0
+, init 1 0 0 0
+p init 1 0 0 0
+-lrb- init 1 0 0 0
+have ti 0 1 0 0
+- 349 1 0 0 0
+constitute account 0 1 0 0
+for choice 1 0 0 0
+-lcb- locked 1 0 0 0
+of condition 1 0 0 0
+imply condition 0 0 0 1
+by condition 1 0 0 0
+for condition 1 0 0 0
+yielding condition 1 0 0 0
+ackstr subrahmanian 1 0 0 0
+; subrahmanian 1 0 0 0
+& subrahmanian 1 0 0 0
+, t. 1 0 0 0
+because p 0 0 0 1
+exists p 0 1 0 0
+is p 0 1 0 0
+obtain p 0 1 0 0
+states p 1 0 0 0
+as p 1 0 0 0
+in p 1 0 0 0
+append p 1 0 0 0
+if p 1 0 0 0
+for p 0 1 0 0
+holds p 1 0 0 0
+, p 1 0 0 0
+= p 1 0 0 0
+that p 0 1 0 0
+after p 1 0 0 0
+denoting p 1 0 0 0
+let p 1 0 0 0
+plan p 1 0 0 0
+-lrb- p 1 0 0 0
+by p 1 0 0 0
+applying p 0 1 0 0
+of p 0 0 0 1
+s p 1 0 0 0
+-lsb- p 1 0 0 0
+many p 1 0 0 0
+of proposition 1 0 0 0
+and logistics 1 0 0 0
+to logistics 1 0 0 0
+as logistics 1 0 0 0
+and ga 1 0 0 0
+graphs ga 1 0 0 0
+-lrb- ga 1 0 0 0
+in demonstrations 1 0 0 0
+offer perspective 0 1 0 0
+: n 1 0 0 0
+= n 1 0 0 0
+, n 1 0 0 0
+for odd 1 0 0 0
+, what 1 0 0 0
+width section 1 0 0 0
+theorem section 1 0 0 0
+in section 1 0 0 0
+gives uniform 0 1 0 0
+; ; 1 0 0 0
+in contrast 1 0 0 0
+permit movement 1 0 0 0
+and circumval 1 0 0 0
+of circumval 1 0 0 0
+is improvable 1 0 0 0
+- improvable 1 0 0 0
+in improvable 1 0 0 0
+, decidability 1 0 0 0
+to component 0 0 0 1
+yields understanding 1 0 0 0
+, let 1 0 0 0
+; others 0 0 0 1
+and path 0 1 0 0
+is path 0 1 0 0
+, path 0 1 0 0
+in path 0 0 0 1
+make change 0 1 0 0
+and search 1 0 0 0
+perform search 0 1 0 0
+but search 1 0 0 0
+as search 1 0 0 0
+through search 1 0 0 0
+so search 1 0 0 0
+with search 1 0 0 0
+domain k 1 0 0 0
+exists k 0 0 1 0
+show k 1 0 0 0
+is k 1 0 0 0
+an k 1 0 0 0
+as k 1 0 0 0
+have k 1 0 0 0
+find k 1 0 0 0
+use k 1 0 0 0
+for k 1 0 0 0
+width k 1 0 0 0
+-rrb- k 1 0 0 0
+, k 1 0 0 0
+also k 1 0 0 0
+ph k 1 0 0 0
+has k 1 0 0 0
+... k 1 0 0 0
+that k 1 0 0 0
+let k 1 0 0 0
+plan k 1 0 0 0
+-lrb- k 1 0 0 0
+of k 1 0 0 0
+hamming k 1 0 0 0
+having k 1 0 0 0
+on domains 0 0 0 1
+from domains 0 0 0 1
+consider domains 1 0 0 0
+for domains 1 0 0 0
+among domains 0 0 0 1
+of domains 0 0 0 1
+, domains 1 0 0 0
+classify domains 1 0 0 0
+of inference 1 0 0 0
+with inference 1 0 0 0
+identify family 0 1 0 0
+present family 0 1 0 0
+on orderings 1 0 0 0
+in total 1 0 0 0
+of propositional 1 0 0 0
+by use 1 0 0 0
+favoring uniformity 1 0 0 0
+use abbreviations 0 0 0 1
+, m. 1 0 0 0
+if two 1 0 0 0
+is vehicle 0 1 0 0
+-lrb- hoffmann 1 0 0 0
+in ith 0 0 0 1
+of benchmark 1 0 0 0
+for benchmark 0 0 0 1
+consider cases 1 0 0 0
+, none 1 0 0 0
+and balls 1 0 0 0
+of balls 1 0 0 0
+drop balls 1 0 0 0
+nebel 1995 1 0 0 0
+function f 1 0 0 0
+let f 1 0 0 0
+; f 1 0 0 0
+-lcb- f 1 0 0 0
+be f 1 0 0 0
+to this 1 0 0 0
+because this 1 0 0 0
+let this 1 0 0 0
+, this 1 0 0 0
+prove this 1 0 0 0
+of science 1 0 0 0
+name work 0 0 0 1
+describe work 1 0 0 0
+refines work 1 0 0 0
+related work 1 0 0 0
+mention work 1 0 0 0
+; work 1 0 0 0
+acknowledgements work 1 0 0 0
+with work 1 0 0 0
+changes values 0 0 0 1
+had values 1 0 0 0
+change values 0 0 0 1
+have values 1 0 0 0
+and halts 1 0 0 0
+-lrb- cp-05 1 0 0 0
+and v 0 1 0 0
+on v 0 0 0 1
+all v 1 0 0 0
+set v 1 0 0 0
+improvable v 1 0 0 0
+for v 1 0 0 0
+-rrb- v 1 0 0 0
+of v 1 0 0 0
+= v 1 0 0 0
+when v 1 0 0 0
+, v 1 0 0 0
+most v 1 0 0 0
+sets v 1 0 0 0
+-lrb- v 1 0 0 0
+if v 1 0 0 0
+where v 1 0 0 0
+exists v 0 1 0 0
+define v 1 0 0 0
+do following 0 0 0 1
+as example 0 0 1 0
+for example 1 0 0 0
+, dropv 1 0 0 0
+that proof 0 0 0 1
+, proof 0 0 0 1
+understanding proof 0 1 0 0
+in proof 0 0 0 1
+; proof 0 0 0 1
+= proof 1 0 0 0
+by proof 1 0 0 0
+; haslum 1 0 0 0
+evidencing claim 1 0 0 0
+done share 1 0 0 0
+of states 1 0 0 0
+into states 1 0 0 0
+- states 1 0 0 0
+vertices states 0 0 0 1
+are states 1 0 0 0
+on scheduling 1 0 0 0
+in sense 0 0 0 1
+in aaai 1 0 0 0
+and airplane 0 0 1 0
+exhibit action 1 0 0 0
+be action 0 0 0 1
+exists action 0 0 1 0
+for action 0 0 1 0
+measures action 1 0 0 0
+hence action 1 0 0 0
+of information 1 0 0 0
+and goal 1 0 0 0
+be goal 0 0 0 1
+from goal 0 0 0 1
+vars goal 1 0 0 0
+-rrb- goal 1 0 0 0
+where goal 1 0 0 0
+* goal 1 0 0 0
+, goal 1 0 0 0
+to goal 1 0 0 0
+s goal 1 0 0 0
+pgoal goal 0 0 0 1
+-lrb- goal 1 0 0 0
+hold goal 0 0 0 1
+= goal 1 0 0 0
+-lrb- s2 1 0 0 0
+, s2 1 0 0 0
+-rrb- s2 1 0 0 0
+and s1 1 0 0 0
+-lrb- s1 1 0 0 0
+, s1 1 0 0 0
+dh s1 1 0 0 0
+-lcb- 1 1 0 0 0
++ 1 1 0 0 0
+, 1 1 0 0 0
+it 1 1 0 0 0
+to 1 1 0 0 0
+-lrb- 1 1 0 0 0
+= 1 1 0 0 0
+is 1 1 0 0 0
+and s. 1 0 0 0
+= s. 1 0 0 0
+, s. 1 0 0 0
+in s. 1 0 0 0
+of polit 1 0 0 0
+to simplicity 1 0 0 0
+for simplicity 1 0 0 0
+of plans 1 0 0 0
+via plans 1 0 0 0
+consider plans 1 0 0 0
+for plans 1 0 0 0
+is mapping 0 1 0 0
+on tractability 1 0 0 0
+for tractability 1 0 0 0
+of tractability 0 0 0 1
+such wrong 1 0 0 0
+s wrong 1 0 0 0
+in wrong 1 0 0 0
+, wrong 1 0 0 0
+define wrong 1 0 0 0
+-lrb- icaps 1 0 0 0
+action such 0 1 0 0
+p such 1 0 0 0
+a such 0 1 0 0
+of such 0 1 0 0
+, dropl 1 0 0 0
+of types 1 0 0 0
+study types 1 0 0 0
+for a 1 0 0 0
+of a 1 0 0 0
+* a 0 1 0 0
+, a 1 0 0 0
+actions a 0 1 0 0
+action a 0 1 0 0
+let a 0 1 0 0
+t a 1 0 0 0
+operator a 0 1 0 0
+-lrb- a 1 0 0 0
+and robot 0 0 0 1
+ball robot 0 0 0 1
+make robot 0 0 0 1
+component robot 0 0 0 1
+, robot 0 0 0 1
+devices robot 0 0 0 1
+moving robot 0 0 0 1
+have robot 0 1 0 0
+has robot 1 0 0 0
+for element 1 0 0 0
+union q 1 0 0 0
+to q 1 0 0 0
+set q 1 0 0 0
+, q 1 0 0 0
+of q 1 0 0 0
+-lrb- si 1 0 0 0
+from si 1 0 0 0
+, si 1 0 0 0
+in si 1 0 0 0
+and algorithms 0 0 0 1
+of algorithms 0 0 0 1
+by algorithms 1 0 0 0
+but algorithms 0 0 0 1
+, algorithms 1 0 0 0
+, definitions 1 0 0 0
+with definitions 0 0 0 1
+by definitions 1 0 0 0
+in definitions 1 0 0 0
+in order 1 0 0 0
+-lrb- amir 1 0 0 0
+; erol 1 0 0 0
+is restriction 0 0 0 1
+in vars 1 0 0 0
+on vars 0 1 0 0
+and vars 1 0 0 0
+-lcb- vars 1 0 0 0
+for vars 1 0 0 0
+holds vars 1 0 0 0
+when vars 1 0 0 0
+p vars 1 0 0 0
+s vars 1 0 0 0
+have vars 1 0 0 0
+v vars 1 0 0 0
+-lrb- vars 1 0 0 0
+if vars 1 0 0 0
+of insight 1 0 0 0
+during course 0 0 0 1
+of paper 0 0 0 1
+in paper 1 0 0 0
+preserves existence 1 0 0 0
+with existence 0 0 0 1
+measures monotonicity 1 0 0 0
+, solving 0 1 0 0
+pre , 1 0 0 0
+be , 1 0 0 0
+from , 1 0 0 0
+consider , 0 0 0 1
+for , 1 0 0 0
+that , 1 0 0 0
+giving , 0 1 0 0
+demonstrates , 1 0 0 0
+, , 1 0 0 0
+it , 1 0 0 0
+note , 1 0 0 0
+... , 1 0 0 0
+-lrb- , 1 0 0 0
+such , 1 0 0 0
+-lcb- , 1 0 0 0
+, then 1 0 0 0
+rename them 1 0 0 0
+of them 1 0 0 0
+move them 1 0 0 0
+just combination 0 0 0 1
+-lrb- 3 1 0 0 0
+r 3 1 0 0 0
+and practice 1 0 0 0
+if they 1 0 0 0
+locations they 1 0 0 0
+that they 1 0 0 0
+is superset 0 1 0 0
+, association 1 0 0 0
+of l. 1 0 0 0
+oping university 1 0 0 0
+* drop 1 0 0 0
+from l 1 0 0 0
+locations l 1 0 0 0
+say l 1 0 0 0
+-rrb- l 1 0 0 0
+in l 1 0 0 0
+if l 1 0 0 0
+-lcb- l 1 0 0 0
+for l 1 0 0 0
+* l 1 0 0 0
+, l 1 0 0 0
+location l 1 0 0 0
+way l 1 0 0 0
+; l 0 1 0 0
+: l 1 0 0 0
+= l 1 0 0 0
+< l 1 0 0 0
+pos l 1 0 0 0
+-lrb- l 1 0 0 0
+with l 1 0 0 0
+on l 1 0 0 0
+d l 1 0 0 0
+of l 1 0 0 0
+unlock l 1 0 0 0
+p l 1 0 0 0
+s l 1 0 0 0
+u l 1 0 0 0
+t l 1 0 0 0
+v l 1 0 0 0
+having l 1 0 0 0
+if exists-is 1 0 0 0
+= -lsb- 1 0 0 0
+in -lsb- 1 0 0 0
+and l3 1 0 0 0
+to l3 0 1 0 0
+least l3 0 1 0 0
+between l3 1 0 0 0
+bring each 1 0 0 0
+, each 1 0 0 0
+for each 1 0 0 0
+width each 1 0 0 0
+, h. 1 0 0 0
+= 2n 1 0 0 0
+and | 1 0 0 0
+-lrb- | 1 0 0 0
+where | 1 0 0 0
+has 2k 1 0 0 0
+be subset 0 1 0 0
+is subset 0 1 0 0
+on domain 0 0 0 1
+consider domain 0 0 0 1
+that domain 0 0 0 1
+giving domain 0 1 0 0
+of domain 0 1 0 0
+contains domain 0 1 0 0
+to domain 0 1 0 0
+-rrb- domain 1 0 0 0
+in domain 0 0 0 1
+-lrb- domain 1 0 0 0
+of generation 1 0 0 0
+: generation 1 0 0 0
+on principles 1 0 0 0
+by tin2004-07925c03-01 1 0 0 0
+to unlock 1 0 0 0
+of unlock 1 0 0 0
+certainly literature 0 1 0 0
+knowledge literature 1 0 0 0
+of measure 1 0 0 0
+assign measure 0 1 0 0
+by assumption 1 0 0 0
+and denotes 0 1 0 0
+by induction 1 0 0 0
+for induction 0 0 0 1
+, e. 1 0 0 0
+of reformulation 1 0 0 0
+as reformulation 1 0 0 0
+to reformulation 1 0 0 0
+is reformulation 0 1 0 0
+then reformulation 1 0 0 0
+in theory 0 0 0 1
+characterizing interactions 1 0 0 0
+explain reason 0 0 0 1
+at beginning 0 0 0 1
+with care 0 1 0 0
+on definition 0 0 0 1
+via definition 0 1 0 0
+from definition 0 0 0 1
+for definition 0 0 0 1
+give definition 0 1 0 0
+elected definition 0 0 0 1
+induces definition 0 0 1 0
+to definition 0 0 0 1
+in definition 1 0 0 0
+sequencing definition 1 0 0 0
+; definition 0 0 0 1
+with definition 1 0 0 0
+by definition 0 1 0 0
+union definition 1 0 0 0
+between pairs 1 0 0 0
+and g 0 0 1 0
+restrictions g 0 0 0 1
+e g 1 0 0 0
+of g 1 0 0 0
+let g 1 0 0 0
+in g 1 0 0 0
+-lrb- g 1 0 0 0
+of programming 1 0 0 0
+in turn 1 0 0 0
+i +1 1 0 0 0
+nk +1 1 0 0 0
+research -246 1 0 0 0
+and w 1 0 0 0
+for w 1 0 0 0
+-rrb- w 1 0 0 0
+of w 1 0 0 0
+to w 1 0 0 0
+let w 1 0 0 0
+in w 1 0 0 0
+-lrb- w 1 0 0 0
+-lrb- bylander 1 0 0 0
+in bylander 1 0 0 0
+, r. 1 0 0 0
+already there 1 0 0 0
+20 there 1 0 0 0
+since there 1 0 0 0
+, there 1 0 0 0
+but there 1 0 0 0
+are there 1 0 0 0
+where there 1 0 0 0
+if there 1 0 0 0
+for symmetry 1 0 0 0
+-lrb- * 1 0 0 0
+, * 1 0 0 0
+restore variables 1 0 0 0
+for variables 1 0 0 0
+that variables 1 0 0 0
+with variables 1 0 0 0
+many variables 1 0 0 0
+iteration variables 1 0 0 0
+, variables 1 0 0 0
+s variables 1 0 0 0
+uses variables 1 0 0 0
+at variables 1 0 0 0
+of variables 0 0 0 1
+on variables 1 0 0 0
+changes variables 1 0 0 0
+change variables 1 0 0 0
+improve variables 1 0 0 0
+capture number 0 1 0 0
+of number 0 1 0 0
+is number 0 0 0 1
+, number 0 0 0 1
+denotes number 0 0 0 1
+matter number 0 0 0 1
+gave number 0 1 0 0
+that one 1 0 0 0
+allows one 1 0 0 0
+, one 1 0 0 0
+to one 1 0 0 0
+basic one 1 0 0 0
+if one 1 0 0 0
+with one 1 0 0 0
+mean one 1 0 0 0
+be instances 1 0 0 0
+consider instances 1 0 0 0
+for instances 1 0 0 0
+that instances 1 0 0 0
+of instances 1 0 0 0
+, instances 0 0 0 1
+on instances 1 0 0 0
+solves instances 1 0 0 0
+of improvements 0 0 0 1
+to another 1 0 0 0
+have size 1 0 0 0
+denotes size 0 0 0 1
+exists ordering 0 0 1 0
+for ordering 1 0 0 0
+of ordering 0 0 0 1
+chooses ordering 0 0 1 0
+but ordering 0 0 1 0
+in ordering 0 0 0 1
+is 2 1 0 0 0
+r 2 1 0 0 0
+hamming 2 1 0 0 0
+theorem 2 1 0 0 0
+-lrb- 2 1 0 0 0
+k 2 1 0 0 0
+in ijcai 1 0 0 0
+, speaking 1 0 0 0
+from discussion 0 0 0 1
+to class-that 0 1 0 0
+as elaboration 0 1 0 0
+be that 1 0 0 0
+differ that 1 0 0 0
+from that 1 0 0 0
+show that 1 0 0 0
+variables that 1 0 0 0
+note that 1 0 0 0
+have that 1 0 0 0
+action that 0 1 0 0
+such that 1 0 0 0
+vd that 1 0 0 0
+is explanation 0 1 0 0
+seek explanation 0 1 0 0
+by explanation 0 1 0 0
+for explanation 0 1 0 0
+uniform explanation 1 0 0 0
+-lrb- helmert 1 0 0 0
+; helmert 1 0 0 0
+on vvars 0 0 0 1
+of translation 1 0 0 0
+by translation 1 0 0 0
+and b 1 0 0 0
+be b 1 0 0 0
+-lcb- b 1 0 0 0
+for b 1 0 0 0
+-rrb- b 1 0 0 0
+with b 1 0 0 0
+of b 1 0 0 0
+namely b 1 0 0 0
+, b 1 0 0 0
+width b 1 0 0 0
+as b 1 0 0 0
+have b 1 0 0 0
+then b 1 0 0 0
+-lrb- b 1 0 0 0
+; b 1 0 0 0
+if b 0 0 0 1
+= b 1 0 0 0
+by b 1 0 0 0
+define b 0 0 0 1
+perform subroutine 0 0 0 1
+in iteration 0 0 0 1
+before iteration 0 0 0 1
+, j. 1 0 0 0
+for classes 1 0 0 0
+that classes 1 0 0 0
+of classes 1 0 0 0
+studied classes 1 0 0 0
+, classes 1 0 0 0
+presented classes 1 0 0 0
+define classes 1 0 0 0
+tractable classes 1 0 0 0
+of non-monotonicity 1 0 0 0
+and result 1 0 0 0
+understanding result 0 0 1 0
+presents result 0 1 0 0
+as result 0 1 0 0
+although result 0 0 0 1
+present result 0 1 0 0
+gave result 0 1 0 0
+a pre 1 0 0 0
+of pre 0 1 0 0
+action pre 0 1 0 0
+-lrb- pre 1 0 0 0
+= pre 1 0 0 0
+by pre 1 0 0 0
+and locations 1 0 0 0
+on locations 0 0 0 1
+that locations 1 0 0 0
+of locations 1 0 0 0
+when locations 0 0 0 1
+by locations 1 0 0 0
+between locations 1 0 0 0
+be locations 0 0 0 1
+unlocking locations 1 0 0 0
+in manner 0 1 0 0
+for sas 1 0 0 0
+for any 1 0 0 0
+of subgoals 1 0 0 0
+violating subgoals 1 0 0 0
+as elaborations 1 0 0 0
+, latter 0 0 0 1
+of ideas 0 0 0 1
+have note 1 0 0 0
+and instance 0 0 0 1
+be instance 0 0 1 0
+given instance 0 1 0 0
+13 instance 0 1 0 0
+for instance 1 0 0 0
+solves instance 0 0 0 1
+on instance 1 0 0 0
+of instance 0 1 0 0
+16 instance 0 1 0 0
+, instance 0 1 0 0
+23 instance 1 0 0 0
+1 instance 0 1 0 0
+to instance 0 1 0 0
+as instance 0 0 1 0
+renders instance 0 0 1 0
+in instance 0 0 1 0
+8 instance 0 1 0 0
+with instance 1 0 0 0
+preliminaries instance 0 0 1 0
+if instance 0 1 0 0
+and = 1 0 0 0
+... = 1 0 0 0
+for = 0 0 0 1
+unlocked = 1 0 0 0
+of = 1 0 0 0
+is = 0 1 0 0
+, = 0 1 0 0
+hand = 1 0 0 0
+let = 1 0 0 0
+a = 0 1 0 0
+in = 1 0 0 0
+; = 1 0 0 0
+define = 1 0 0 0
+if = 1 0 0 0
+of all 1 0 0 0
+after all 1 0 0 0
+for all 1 0 0 0
+and domshlak 1 0 0 0
+-lrb- domshlak 1 0 0 0
+& domshlak 1 0 0 0
+on measures 1 0 0 0
+for measures 1 0 0 0
+that measures 1 0 0 0
+of measures 1 0 0 0
+obtain measures 1 0 0 0
+introducing measures 1 0 0 0
+identify measures 1 0 0 0
+= 77 1 0 0 0
+and plan 0 1 0 0
+be plan 0 0 0 1
+via plan 0 1 0 0
+in plan 0 0 0 1
+exists plan 0 1 0 0
+that plan 0 1 0 0
+outputs plan 0 1 0 0
+is plan 1 0 0 0
+after plan 0 0 0 1
+has plan 1 0 0 0
+, plan 0 0 0 1
+clearly plan 1 0 0 0
+of plan 0 0 0 1
+define plan 0 1 0 0
+find plan 0 1 0 0
+if plan 1 0 0 0
+does nothing 1 0 0 0
+that class 0 1 0 0
+of class 0 1 0 0
+into class 0 0 0 1
+but class 0 0 0 1
+by class 0 1 0 0
+change class 1 0 0 0
+defines class 0 1 0 0
+make observation 0 1 0 0
+from observation 0 0 0 1
+by observation 0 0 0 1
+of vertices 1 0 0 0
+as vertices 1 0 0 0
+whose vertices 1 0 0 0
+and graphs 1 0 0 0
+, graphs 1 0 0 0
+permit graphs 1 0 0 0
+in proceedings 1 0 0 0
+and hamming 1 0 0 0
+of hamming 1 0 0 0
+- hamming 1 0 0 0
+, hamming 1 0 0 0
+for hamming 1 0 0 0
+= + 1 0 0 0
+-lcb- + 1 0 0 0
+by fact 0 0 0 1
+in fact 1 0 0 0
+, d. 1 0 0 0
+considering operations 1 0 0 0
+of operations 1 0 0 0
+under operations 1 0 0 0
+on planning 1 0 0 0
+strips planning 1 0 0 0
+for planning 1 0 0 0
+giving planning 0 1 0 0
++ planning 1 0 0 0
+factored planning 1 0 0 0
+to planning 0 1 0 0
+in planning 1 0 0 0
+for relation 1 0 0 0
+of knowledge 1 0 0 0
+for outside 1 0 0 0
+if only 1 0 0 0
+by constant 0 1 0 0
+for q. 1 0 0 0
++1 dk 1 0 0 0
+nk dk 1 0 0 0
+= dk 1 0 0 0
+| dk 1 0 0 0
+from viewpoint 0 0 0 1
+by means 1 0 0 0
+, dd 1 0 0 0
+among ones 0 0 0 1
+in words 1 0 0 0
+of trucks 1 0 0 0
+: approach 0 1 0 0
+of agoal 1 0 0 0
+contain agoal 0 0 1 0
+in agoal 1 0 0 0
+, agoal 0 1 0 0
+define agoal 1 0 0 0
+drop requirement 0 0 0 1
+and set 0 1 0 0
+on set 0 0 0 1
+denote set 0 0 0 1
+that set 0 1 0 0
+of set 1 0 0 0
+is set 0 0 0 1
+among set 0 1 0 0
+enlarge set 0 0 0 1
+, set 1 0 0 0
+to set 0 0 0 1
+as set 1 0 0 0
+using set 0 1 0 0
+be set 0 1 0 0
+mean set 0 1 0 0
+if set 1 0 0 0
+of intelligence 1 0 0 0
+on intelligence 1 0 0 0
+and we 1 0 0 0
+simplicity we 1 0 0 0
+what we 1 0 0 0
+: we 1 0 0 0
+l we 1 0 0 0
+algorithm we 1 0 0 0
+that we 1 0 0 0
+-rcb- we 1 0 0 0
+since we 1 0 0 0
+, we 1 0 0 0
+here we 1 0 0 0
+one we 1 0 0 0
+1 we 1 0 0 0
+as we 1 0 0 0
+paper we 1 0 0 0
+while we 1 0 0 0
+now we 1 0 0 0
+which we 1 0 0 0
+-rrb- we 1 0 0 0
+hand we 1 0 0 0
+care we 1 0 0 0
+contain packet 0 1 0 0
+and nebel 1 0 0 0
+-lrb- nebel 1 0 0 0
+ackstr nebel 1 0 0 0
+; nebel 1 0 0 0
+& nebel 1 0 0 0
+-lrb- namely 1 0 0 0
+: are 1 0 0 0
+, 161-170 1 0 0 0
+... -rsb- 1 0 0 0
+let -rsb- 1 0 0 0
+from -rsb- 1 0 0 0
+ai -rsb- 1 0 0 0
+thus -rsb- 1 0 0 0
+- -rsb- 1 0 0 0
+, -rsb- 0 1 0 0
+to -rsb- 1 0 0 0
+s -rsb- 1 0 0 0
+-lsb- -rsb- 1 0 0 0
+in -rsb- 1 0 0 0
+-lrb- -rsb- 1 0 0 0
+with -rsb- 1 0 0 0
+by -rsb- 1 0 0 0
+define -rsb- 1 0 0 0
+using arm 0 0 0 1
+that arm 0 0 0 1
+to best 0 0 0 1
+of notions 1 0 0 0
+: notions 1 0 0 0
+for notions 0 0 0 1
+contrast notions 1 0 0 0
+that notions 1 0 0 0
+such -rcb- 1 0 0 0
+s -rcb- 1 0 0 0
+define -rcb- 1 0 0 0
+and boundaries 1 0 0 0
+of boundaries 0 0 0 1
+into state 1 0 0 0
+move state 0 1 0 0
+denote state 0 0 0 1
+as state 1 0 0 0
+at state 0 0 0 1
+have state 0 1 0 0
+in state 0 0 0 1
+if state 0 1 0 0
+from state 0 0 0 1
+for state 1 0 0 0
+- state 1 0 0 0
+, state 1 0 0 0
+denotes state 0 0 0 1
+to state 0 1 0 0
+; state 0 0 0 1
+is state 0 1 0 0
+define state 0 0 0 1
+be state 0 1 0 0
+that state 0 1 0 0
+reach state 0 1 0 0
+not state 0 1 0 0
+change state 0 0 0 1
+called state 0 0 0 1
+or state 1 0 0 0
+otherwise state 0 0 0 1
+... r 1 0 0 0
+for r 1 0 0 0
+-rrb- r 1 0 0 0
+that r 1 0 0 0
+, r 1 0 0 0
+s r 1 0 0 0
+: r 0 1 0 0
+of conditions 1 0 0 0
+via conditions 1 0 0 0
+are conditions 1 0 0 0
+that conditions 0 0 0 1
+in notice 1 0 0 0
+de girona 1 0 0 0
+create pre-established 0 1 0 0
+with key 0 0 0 1
+drop key 0 0 0 1
+where key 1 0 0 0
+up key 0 1 0 0
+, unlockl 1 0 0 0
+move packages 1 0 0 0
+-lrb- barrett 1 0 0 0
+by motivations 1 0 0 0
+that both 1 0 0 0
+then c 1 0 0 0
+from c 1 0 0 0
+for c 1 0 0 0
+of c 1 0 0 0
+, c 0 0 0 1
+limcopyright c 1 0 0 0
+planning c 1 0 0 0
+let c 1 0 0 0
+in c 1 0 0 0
+-lrb- c 1 0 0 0
+: c 1 0 0 0
+if c 1 0 0 0
+always reformulations 1 0 0 0
+are reformulations 1 0 0 0
+is tractable 1 0 0 0
+and s 1 0 0 0
+exists s 0 1 0 0
+replace s 1 0 0 0
+in s 1 0 0 0
+if s 1 0 0 0
+from s 0 1 0 0
+since s 1 0 0 0
+when s 1 0 0 0
+, s 1 0 0 0
+to s 1 0 0 0
+state s 1 0 0 0
+assumption s 1 0 0 0
+which s 1 0 0 0
+: s 1 0 0 0
+= s 1 0 0 0
+that s 1 0 0 0
+restricting s 1 0 0 0
+vertex s 1 0 0 0
+let s 1 0 0 0
+-lrb- s 1 0 0 0
+up s 0 0 0 1
+s s 1 0 0 0
+on sparseness 0 0 0 1
+of and 1 0 0 0
+since and 1 0 0 0
+of ijcai-93 1 0 0 0
+-lcb- pos 1 0 0 0
+of pos 1 0 0 0
+, pos 1 0 0 0
+init pos 1 0 0 0
+-lrb- pos 1 0 0 0
+; pos 1 0 0 0
+= pos 1 0 0 0
+with respect 1 0 0 0
+of conference 0 0 0 1
+under transformations 0 0 0 1
+on basis 0 0 1 0
+by basis 1 0 0 0
+, addition 0 0 0 1
+in addition 1 0 0 0
+by . 0 0 0 1
+, . 1 0 0 0
+but . 0 0 0 1
+that . 1 0 0 0
+, 08034 1 0 0 0
+of int 0 0 0 1
+plan a1goal 1 0 0 0
+of interest 1 0 0 0
+-lrb- ph 1 0 0 0
+abbreviations ph 1 0 0 0
+bounded ph 1 0 0 0
+to improve 1 0 0 0
+= empty 1 0 0 0
+from location 1 0 0 0
+for location 1 0 0 0
+to location 0 0 0 1
+unlock location 0 1 0 0
+at location 1 0 0 0
+than location 0 0 0 1
+opens location 0 1 0 0
+before location 1 0 0 0
+-lrb- corresponding 0 0 0 1
+, c. 1 0 0 0
+to gripper 1 0 0 0
+as gripper 1 0 0 0
+that gripper 1 0 0 0
+why gripper 1 0 0 0
+of gripper 1 0 0 0
+on restrictions 1 0 0 0
+for restrictions 0 0 0 1
+exploiting restrictions 1 0 0 0
+to restrictions 1 0 0 0
+ackstr restrictions 1 0 0 0
+under restrictions 1 0 0 0
+or restrictions 1 0 0 0
+from propositions 1 0 0 0
+using airplanes 0 0 0 1
+have airplanes 1 0 0 0
+in general 1 0 0 0
+-lrb- dh 1 0 0 0
+holds dh 1 0 0 0
+= dh 1 0 0 0
+, dh 1 0 0 0
+follows dh 1 0 0 0
+are those 1 0 0 0
+be case 0 0 0 1
+; case 0 0 0 1
+consider case 0 0 0 1
+in case 0 0 0 1
+to value 1 0 0 0
+s value 0 0 0 1
+now value 0 1 0 0
+are choices 1 0 0 0
+of complexity 1 0 0 0
+reducing complexity 1 0 0 0
+reveals property 0 1 0 0
+that property 1 0 0 0
+-rrb- property 0 1 0 0
+, p. 1 0 0 0
+of loop 0 0 0 1
+* loop 1 0 0 0
+-lrb- vd 1 0 0 0
+consider vd 0 1 0 0
+on vd 1 0 0 0
+for vi 0 1 0 0
+becomes vi 1 0 0 0
+, vi 0 0 0 1
+improves vi 1 0 0 0
+improve vi 0 0 0 1
+finds vi 0 1 0 0
+if vi 1 0 0 0
+denotes metric 0 0 0 1
+vehicle it 1 0 0 0
+all it 1 0 0 0
+because it 1 0 0 0
+solves it 1 0 0 0
+that it 1 0 0 0
+solving it 1 0 0 0
+definition it 1 0 0 0
+, it 1 0 0 0
+otherwise it 1 0 0 0
+s it 1 0 0 0
+2 it 1 0 0 0
+5 it 1 0 0 0
+pick it 1 0 0 0
+-rsb- it 1 0 0 0
+if it 1 0 0 0
+translation it 1 0 0 0
+improve it 1 0 0 0
+, vn 1 0 0 0
+and vp 1 0 0 0
+on vp 1 0 0 0
+-lrb- grammars 1 0 0 0
+instance itself 1 0 0 0
+on movements 0 0 0 1
+describes movements 1 0 0 0
+specify movements 1 0 0 0
+that movements 0 0 0 1
+is same 0 0 0 1
+be reachable 0 1 0 0
+is reachable 1 0 0 0
+exists reachable 0 1 0 0
+for reachable 1 0 0 0
+which arguments 0 0 0 1
+dropping ball 1 0 0 0
+hold ball 1 0 0 0
+all keys 1 0 0 0
+, v. 1 0 0 0
+b hand 1 0 0 0
+-lcb- hand 1 0 0 0
+= hand 1 0 0 0
+is hand 1 0 0 0
+, hand 1 0 0 0
+s hand 1 0 0 0
+-lrb- hand 1 0 0 0
+; hand 1 0 0 0
+with hand 0 1 0 0
+if hand 0 0 0 1
+ordering v1 1 0 0 0
+of v1 0 0 0 1
+variables v1 1 0 0 0
+-lcb- v1 1 0 0 0
+for v1 1 0 0 0
+of edges 1 0 0 0
+with edges 1 0 0 0
+of pgoal 1 0 0 0
+is tangibility 1 0 0 0
+, tangibility 1 0 0 0
+-rrb- :625 1 0 0 0
+and weld 1 0 0 0
+-lrb- weld 1 0 0 0
+by weld 1 0 0 0
+& weld 1 0 0 0
+-lcb- i 1 0 0 0
+from i 1 0 0 0
+for i 1 0 0 0
+if i 1 0 0 0
+, pickv 1 0 0 0
+on analysis 1 0 0 0
+, pickl 1 0 0 0
+is edge 0 0 1 0
+generate non-optimal 0 1 0 0
+upon termination 1 0 0 0
+-lrb- 1994b 1 0 0 0
+, 1994b 1 0 0 0
+; 1994a 1 0 0 0
+, 1994a 1 0 0 0
+and actions 1 0 0 0
+adding actions 1 0 0 0
+in actions 0 0 0 1
+exists actions 0 1 0 0
+of actions 1 0 0 0
+for advancement 0 0 0 1
+performing improvement 1 0 0 0
+performs improvement 0 0 0 1
+width 4 1 0 0 0
+-lrb- 4 1 0 0 0
+in 4 1 0 0 0
+and theorem 1 0 0 0
+from theorem 1 0 0 0
+prove theorem 0 0 0 1
+* theorem 1 0 0 0
+to theorem 0 0 0 1
+that theorem 1 0 0 0
+-rrb- theorem 1 0 0 0
+= theorem 1 0 0 0
+reflects usage 1 0 0 0
+, dept. 1 0 0 0
+for dept. 1 0 0 0
+is solvable 1 0 0 0
+, ... 1 0 0 0
+on treewidth 0 0 0 1
+increases treewidth 0 0 0 1
+when treewidth 0 0 0 1
+of rules 1 0 0 0
+; nau 1 0 0 0
+, nau 1 0 0 0
+is unification 0 0 0 1
+denote integer 0 0 1 0
+with bit 0 1 0 0
+during execution 0 0 0 1
+and d 1 0 0 0
+`` d 1 0 0 0
+d d 1 0 0 0
+for d 1 0 0 0
+-rrb- d 1 0 0 0
+= d 1 0 0 0
+that d 1 0 0 0
+, d 1 0 0 0
+in d 1 0 0 0
+has d 0 0 1 0
+where d 1 0 0 0
+research -302 1 0 0 0
+for t 1 0 0 0
+trucks t 1 0 0 0
+-rrb- t 1 0 0 0
+* t 1 0 0 0
+, t 1 0 0 0
+denote t 0 0 0 1
+init t 1 0 0 0
+-lrb- t 1 0 0 0
+= t 1 0 0 0
+exists t 0 1 0 0
+pick arbitrary 0 0 1 0
+is output 1 0 0 0
+, output 1 0 0 0
+in works 1 0 0 0
+-lrb- sketch 1 0 0 0
+be sequence 0 1 0 0
+consider sequence 0 1 0 0
+to sequence 0 1 0 0
+and b. 1 0 0 0
+ackstr b. 1 0 0 0
+, b. 1 0 0 0
+capture some 1 0 0 0
+, some 1 0 0 0
+and examples 1 0 0 0
+introducing examples 1 0 0 0
+of proofs 0 0 0 1
+, unlocked 1 0 0 0
+and engelhardt 1 0 0 0
+-lrb- engelhardt 1 0 0 0
+& engelhardt 1 0 0 0
+of serializability 1 0 0 0
+, serializability 1 0 0 0
+to l2 0 0 0 1
+that l2 1 0 0 0
+if l2 1 0 0 0
+between l2 1 0 0 0
+in proc 1 0 0 0
+then either 1 0 0 0
+of problems 1 0 0 0
+solving problems 1 0 0 0
+for problems 1 0 0 0
+in problems 1 0 0 0
+to l1 1 0 0 0
+that l1 1 0 0 0
+from l1 1 0 0 0
+in l1 1 0 0 0
+, vi-1 1 0 0 0
+pre post 1 0 0 0
+to post 1 0 0 0
+as post 0 1 0 0
+-lrb- post 1 0 0 0
+; post 1 0 0 0
+= post 1 0 0 0
+that notation 1 0 0 0
+to properties 1 0 0 0
+ackstr om 1 0 0 0
+motivate extension 1 0 0 0
+that extension 0 0 1 0
+is package 0 1 0 0
+move package 0 0 0 1
+from theorems 1 0 0 0
+* o 1 0 0 0
+by o 1 0 0 0
+in o 1 0 0 0
+is union 0 0 0 1
+by union 0 0 0 1
+of extensions 1 0 0 0
+study extensions 1 0 0 0
+are extensions 1 0 0 0
+that accounts 1 0 0 0
+; operator 1 0 0 0
+for operator 1 0 0 0
+denote operator 0 0 1 0
+e. 1987 1 0 0 0
+consider initial 1 0 0 0
+and width 1 0 0 0
+has width 1 0 0 0
+implies width 0 0 0 1
+have width 1 0 0 0
+for width 1 0 0 0
+call width 1 0 0 0
+of width 1 0 0 0
+is width 1 0 0 0
+that width 1 0 0 0
+, width 1 0 0 0
+or width 1 0 0 0
+increase width 0 0 0 1
+bounded width 1 0 0 0
+hamming width 1 0 0 0
+-lrb- width 1 0 0 0
+: width 1 0 0 0
+having width 1 0 0 0
+on structure 1 0 0 0
+into structure 1 0 0 0
+in way 0 0 0 1
+mean function 0 0 0 1
+with function 1 0 0 0
+, function 0 1 0 0
+in function 1 0 0 0
+of form 0 0 0 1
+in form 1 0 0 0
+; differences 0 0 0 1
+and -lrb- 1 0 0 0
+of -lrb- 1 0 0 0
+is -lrb- 0 1 0 0
+, -lrb- 0 0 0 1
+in -lrb- 1 0 0 0
+investigate robustness 0 0 0 1
+with bounds 0 0 0 1
+of devices 1 0 0 0
+then problem 0 0 0 1
+solves problem 0 0 0 1
+of problem 0 0 0 1
+, problem 0 0 0 1
+planning problem 1 0 0 0
+5 problem 0 0 0 1
+with problem 0 0 0 1
+why problem 0 1 0 0
+, define 1 0 0 0
+of implies 1 0 0 0
+-rcb- movel 1 0 0 0
+, movel 1 0 0 0
+and -rrb- 1 0 0 0
+vd -rrb- 1 0 0 0
+-rrb- -rrb- 1 0 0 0
+formulation -rrb- 1 0 0 0
+have -rrb- 1 0 0 0
+in -rrb- 1 0 0 0
+if -rrb- 1 0 0 0
+limcopyright -rrb- 1 0 0 0
+-lcb- -rrb- 1 0 0 0
+for -rrb- 1 0 0 0
+instance -rrb- 1 0 0 0
+- -rrb- 1 0 0 0
+, -rrb- 1 0 0 0
+-lrb- -rrb- 1 0 0 0
+to -rrb- 1 0 0 0
+init -rrb- 1 0 0 0
+then -rrb- 1 0 0 0
+; -rrb- 1 0 0 0
+define -rrb- 1 0 0 0
+be -rrb- 1 0 0 0
+such -rrb- 1 0 0 0
+a -rrb- 0 1 0 0
+width -rrb- 1 0 0 0
+-lrb- ai 1 0 0 0
+-rcb- movea 1 0 0 0
+08034 abstract 1 0 0 0
+, an 0 0 1 0
+of formulation 0 0 0 1
+to formulation 0 1 0 0
+in formulation 1 0 0 0
+-lrb- nk 1 0 0 0
+allow us 1 0 0 0
+by application 1 0 0 0
+of other 1 0 0 0
+width 5 1 0 0 0
+corollary 5 1 0 0 0
+-lrb- 5 1 0 0 0
+-rrb- 5 1 0 0 0
+are details 1 0 0 0
+in papers 1 0 0 0
+, department 1 0 0 0
+-lrb- 2006 1 0 0 0
+; 2006 1 0 0 0
+of operators 1 0 0 0
+with operators 1 0 0 0
+are kinds 1 0 0 0
+-lrb- korf 1 0 0 0
+refines korf 1 0 0 0
+-lrb- 2005 1 0 0 0
+from vertex 1 0 0 0
+for vertex 0 1 0 0
+if vertex 1 0 0 0
+consider variation 0 1 0 0
+, a. 1 0 0 0
+of a1 1 0 0 0
+s a1 1 0 0 0
+t a1 1 0 0 0
+-lrb- a1 1 0 0 0
+= a1 1 0 0 0
+by a1 1 0 0 0
+by planners 1 0 0 0
+be variable 0 1 0 0
+for variable 1 0 0 0
+that variable 1 0 0 0
+, variable 1 0 0 0
+bring variable 0 1 0 0
+find variable 0 1 0 0
+improve variable 1 0 0 0
+and geffner 1 0 0 0
+in vein 1 0 0 0
+-rcb- e 1 0 0 0
+* e 1 0 0 0
+and algorithm 0 0 0 1
+via algorithm 0 0 0 1
+that algorithm 1 0 0 0
+of algorithm 0 0 0 1
+in algorithm 0 0 0 1
+, algorithm 0 0 0 1
+obtain algorithm 0 0 0 1
+to algorithm 0 0 0 1
+planning algorithm 1 0 0 0
+call algorithm 0 0 0 1
+resembles algorithm 0 0 0 1
+if algorithm 0 0 0 1
+by algorithm 0 0 0 1
+define algorithm 0 0 0 1
+use vehicles 1 0 0 0
+for persistent 1 0 0 0
+, barcelona 1 0 0 0
+investigated notion 0 1 0 0
+of notion 1 0 0 0
+study notion 0 1 0 0
+presents notion 0 0 0 1
+to notion 1 0 0 0
+defines notion 0 1 0 0
+defining notion 1 0 0 0
+present notion 0 0 0 1
+define notion 0 0 0 1
+and u 1 0 0 0
+4-improve u 1 0 0 0
+implies u 1 0 0 0
+to u 1 0 0 0
+exists u 0 1 0 0
+that u 0 1 0 0
+of u 1 0 0 0
+- u 1 0 0 0
+when u 1 0 0 0
+, u 1 0 0 0
+bring u 1 0 0 0
+improves u 1 0 0 0
+let u 1 0 0 0
+in u 1 0 0 0
+-lrb- u 1 0 0 0
+c 2007 1 0 0 0
+at time 0 1 0 0
+, time 0 0 0 1
+in time 1 0 0 0
+-lrb- brafman 1 0 0 0
+, brafman 1 0 0 0
+in brafman 1 0 0 0
+3
+, d. 1 0 0 0
+and all 1 0 0 0
+restore all 1 0 0 0
+has all 1 0 0 0
+for all 1 0 0 0
+that all 1 0 0 0
+of all 1 0 0 0
+after all 1 0 0 0
+when all 1 0 0 0
+, all 1 0 0 0
+are all 1 0 0 0
+on all 1 0 0 0
+unlocking all 1 0 0 0
+, concept 0 0 0 1
+for concept 0 0 0 1
+be partial 0 0 0 1
+is partial 0 1 0 0
+or partial 1 0 0 0
+for partial 0 1 0 0
+denote partial 0 0 0 1
+* laci 1 0 0 0
+of precondition 0 1 0 0
+with precondition 1 0 0 0
+, precondition 0 0 0 1
+identify four 1 0 0 0
+obtain four 1 0 0 0
+graphs gt 1 0 0 0
+-lrb- gt 1 0 0 0
+polynomialtime computation 1 0 0 0
+be graph 0 0 0 1
+create graph 0 1 0 0
+creating graph 0 0 0 1
+restrictions graph 0 0 0 1
+of factoring 1 0 0 0
+: removal 0 0 0 1
+-lcb- 0 1 0 0 0
+from init 1 0 0 0
+that init 1 0 0 0
+* init 1 0 0 0
+, init 1 0 0 0
+-lrb- init 1 0 0 0
+= init 1 0 0 0
+of present 0 0 0 1
+and undirected 0 0 1 0
+- 349 1 0 0 0
+give results 1 0 0 0
+on every 1 0 0 0
+, every 1 0 0 0
+for every 1 0 0 0
+that every 1 0 0 0
+nebel 1995 1 0 0 0
+of condition 1 0 0 0
+imply condition 0 0 0 1
+by condition 1 0 0 0
+for condition 1 0 0 0
+yielding condition 1 0 0 0
+and subrahmanian 1 0 0 0
+& subrahmanian 1 0 0 0
+of and 1 0 0 0
+since and 1 0 0 0
+let and 0 1 0 0
+if and 1 0 0 0
+, t. 1 0 0 0
+let p 1 0 0 0
+for p 1 0 0 0
+that p 1 0 0 0
+abbreviations p 1 0 0 0
+after p 1 0 0 0
+denoting p 1 0 0 0
+, p 1 0 0 0
+states p 1 0 0 0
+as p 1 0 0 0
+-lsb- p 1 0 0 0
+plan p 1 0 0 0
+in p 1 0 0 0
+-lrb- p 1 0 0 0
+has p 1 0 0 0
+= p 1 0 0 0
+having p 1 0 0 0
+append p 1 0 0 0
+if p 1 0 0 0
+of proposition 1 0 0 0
+, small 1 0 0 0
+and logistics 1 0 0 0
+of logistics 0 0 0 1
+-lrb- logistics 1 0 0 0
+and ga 1 0 0 0
+-lrb- ga 1 0 0 0
+have consistent 0 1 0 0
+in demonstrations 1 0 0 0
+in second 0 0 0 1
+of established 0 0 0 1
+, what 1 0 0 0
+is uniform 0 1 0 0
+gives uniform 0 1 0 0
+as non-inclusion 1 0 0 0
+of 11th 0 0 0 1
+consider new 0 1 0 0
+offer new 0 1 0 0
+in contrast 1 0 0 0
+permit movement 1 0 0 0
+of multi-valued 0 1 0 0
+, decidability 1 0 0 0
+; others 0 0 0 1
+and path 0 1 0 0
+is path 0 1 0 0
+, path 0 1 0 0
+perform search 0 1 0 0
+as search 1 0 0 0
+also k 1 0 0 0
+use k 1 0 0 0
+width k 1 0 0 0
+of k 1 0 0 0
+is k 1 0 0 0
+that k 1 0 0 0
+, k 1 0 0 0
+to k 0 0 0 1
+-rrb- k 1 0 0 0
+performs k 0 0 0 1
+-lrb- k 1 0 0 0
+using k 0 0 0 1
+: k 1 0 0 0
+= k 1 0 0 0
+find k 0 1 0 0
+among studied 0 0 0 1
+p 5-improves 1 0 0 0
+of domains 0 0 0 1
+classify domains 1 0 0 0
+of inference 1 0 0 0
+identify family 0 1 0 0
+present family 0 1 0 0
+, total 0 0 0 1
+in total 1 0 0 0
+on causal 1 0 0 0
+of causal 0 0 0 1
+by use 1 0 0 0
+favoring uniformity 1 0 0 0
+use abbreviations 0 0 0 1
+, m. 1 0 0 0
+and two 1 0 0 0
+considering two 1 0 0 0
+consider two 1 0 0 0
+of two 1 0 0 0
+study two 1 0 0 0
+which two 0 0 0 1
+if two 1 0 0 0
+is vehicle 0 1 0 0
+seek theoretical 0 1 0 0
+by theoretical 0 1 0 0
+for theoretical 0 1 0 0
+make minor 0 1 0 0
+of more 1 0 0 0
+s more 1 0 0 0
+with more 1 0 0 0
+but more 0 0 0 1
+-lrb- hoffmann 1 0 0 0
+on `` 0 0 0 1
+is `` 0 0 0 1
+pgoal `` 0 0 0 1
+of `` 0 1 0 0
+of operators 1 0 0 0
+of benchmark 0 0 0 1
+, benchmark 0 0 0 1
+for benchmark 0 0 0 1
+on benchmark 0 0 0 1
+on domain-transition 0 0 0 1
+, none 1 0 0 0
+of balls 1 0 0 0
+drop balls 1 0 0 0
+, dropl 1 0 0 0
+function f 1 0 0 0
+let f 1 0 0 0
+; f 1 0 0 0
+-lcb- f 1 0 0 0
+be f 1 0 0 0
+evidencing this 1 0 0 0
+prove this 1 0 0 0
+motivate this 1 0 0 0
+because this 1 0 0 0
+knowledge this 1 0 0 0
+that this 1 0 0 0
+with this 1 0 0 0
+of this 1 0 0 0
+-rrb- this 1 0 0 0
+, this 1 0 0 0
+performing this 1 0 0 0
+to this 1 0 0 0
+width this 1 0 0 0
+so this 1 0 0 0
+theorem this 1 0 0 0
+in this 1 0 0 0
+let this 1 0 0 0
+acknowledgements this 1 0 0 0
+defining this 1 0 0 0
+clearly this 1 0 0 0
+related work 1 0 0 0
+changes values 0 0 0 1
+had values 1 0 0 0
+change values 0 0 0 1
+have values 1 0 0 0
+and halts 1 0 0 0
+-lrb- cp-05 1 0 0 0
+all v 1 0 0 0
+set v 1 0 0 0
+-lcb- v 1 0 0 0
+sets v 1 0 0 0
+of v 1 0 0 0
+* v 1 0 0 0
+when v 1 0 0 0
+v v 1 0 0 0
+-lrb- v 1 0 0 0
+= v 1 0 0 0
+if v 1 0 0 0
+perform following 0 0 0 1
+do following 0 0 0 1
+that following 0 0 0 1
+by following 0 0 0 1
+of following 0 0 0 1
+as example 0 0 1 0
+for example 1 0 0 0
+, dropv 1 0 0 0
+; proof 0 0 0 1
+in proof 0 0 0 1
+, proof 0 0 0 1
+understanding proof 0 1 0 0
+; haslum 1 0 0 0
+of states 1 0 0 0
+- states 1 0 0 0
+in sense 0 0 0 1
+in aaai 1 0 0 0
+and airplane 0 0 1 0
+exhibit action 1 0 0 0
+be action 0 0 0 1
+for action 0 0 1 0
+exists action 0 0 1 0
+contain action 0 0 1 0
+of information 1 0 0 0
+and goal 1 0 0 0
+be goal 0 1 0 0
+from goal 0 0 0 1
+that goal 0 1 0 0
+- goal 1 0 0 0
+is goal 0 1 0 0
+* goal 1 0 0 0
+reach goal 0 1 0 0
+, goal 1 0 0 0
+to goal 0 1 0 0
+-rrb- goal 1 0 0 0
+where goal 1 0 0 0
+in goal 0 0 0 1
+not goal 0 1 0 0
+-lrb- goal 1 0 0 0
+= goal 1 0 0 0
+if goal 0 1 0 0
+on syntactic 1 0 0 0
+-lrb- s2 1 0 0 0
+, s2 1 0 0 0
+-lrb- s1 1 0 0 0
+, s1 1 0 0 0
+-lcb- 1 1 0 0 0
++ 1 1 0 0 0
+- 1 1 0 0 0
+, 1 1 0 0 0
+it 1 1 0 0 0
+to 1 1 0 0 0
+-lrb- 1 1 0 0 0
+= 1 1 0 0 0
+is 1 1 0 0 0
+from s. 1 0 0 0
+= s. 1 0 0 0
+in s. 1 0 0 0
+from adjacent 0 0 1 0
+with non-decreasing 1 0 0 0
+to simplicity 1 0 0 0
+for simplicity 1 0 0 0
+of plans 1 0 0 0
+via plans 1 0 0 0
+consider plans 1 0 0 0
+for plans 1 0 0 0
+-lcb- locked 1 0 0 0
+is mapping 0 1 0 0
+of constraint 1 0 0 0
+on tractability 1 0 0 0
+for tractability 0 0 0 1
+of tractability 1 0 0 0
+presents tractability 0 1 0 0
+present tractability 0 1 0 0
+gave tractability 0 1 0 0
+and wrong 1 0 0 0
+-rrb- wrong 1 0 0 0
+, wrong 1 0 0 0
+in wrong 1 0 0 0
+now wrong 0 1 0 0
+define wrong 1 0 0 0
+-lrb- icaps 1 0 0 0
+- improving 1 0 0 0
+, improving 0 0 1 0
+a such 0 1 0 0
+be such 1 0 0 0
+preserves such 1 0 0 0
+vd such 1 0 0 0
+show such 1 0 0 0
+of such 0 1 0 0
+domain such 1 0 0 0
+p such 1 0 0 0
+s such 1 0 0 0
+in such 1 0 0 0
+action such 0 1 0 0
+find such 1 0 0 0
+if such 1 0 0 0
+* a 0 1 0 0
+, a 0 1 0 0
+actions a 0 1 0 0
+action a 0 1 0 0
+operator a 0 1 0 0
+: a 0 1 0 0
+is natural 0 0 0 1
+give natural 0 1 0 0
+and robot 0 0 0 1
+ball robot 0 0 0 1
+make robot 0 0 0 1
+component robot 0 0 0 1
+, robot 0 0 0 1
+devices robot 0 0 0 1
+moving robot 0 0 0 1
+have robot 0 1 0 0
+to q 1 0 0 0
+set q 1 0 0 0
+-lrb- si 1 0 0 0
+from si 1 0 0 0
+, si 1 0 0 0
+in si 1 0 0 0
+have truck 0 1 0 0
+with definitions 0 0 0 1
+in definitions 1 0 0 0
+in order 1 0 0 0
+-lrb- amir 1 0 0 0
+; erol 1 0 0 0
+is restriction 0 0 0 1
+in ith 0 0 0 1
+before ith 0 0 0 1
+of move 1 0 0 0
+during course 0 0 0 1
+for state-variable 1 0 0 0
+of mentioned 0 0 0 1
+in mentioned 0 0 0 1
+with existence 0 0 0 1
+and its 1 0 0 0
+from its 1 0 0 0
+of its 1 0 0 0
+into its 1 0 0 0
+to its 1 0 0 0
+done its 1 0 0 0
+in its 1 0 0 0
+... , 1 0 0 0
+, then 1 0 0 0
+rename them 1 0 0 0
+of them 1 0 0 0
+move them 1 0 0 0
+just combination 0 0 0 1
+and practice 1 0 0 0
+if they 1 0 0 0
+locations they 1 0 0 0
+that they 1 0 0 0
+is polynomial-time 1 0 0 0
+as postcondition 0 1 0 0
+is superset 0 1 0 0
+, association 1 0 0 0
+of structural 1 0 0 0
+exploiting structural 1 0 0 0
+-lrb- vidal 1 0 0 0
+of l. 1 0 0 0
+oping university 1 0 0 0
+* drop 1 0 0 0
+on l 1 0 0 0
+-lcb- l 1 0 0 0
+way l 1 0 0 0
+having l 1 0 0 0
+from l 1 0 0 0
+of l 1 0 0 0
+* l 1 0 0 0
+, l 1 0 0 0
+locations l 1 0 0 0
+as l 1 0 0 0
+let l 1 0 0 0
+t l 1 0 0 0
+unlock l 1 0 0 0
+in l 1 0 0 0
+-lrb- l 1 0 0 0
+= l 1 0 0 0
+< l 1 0 0 0
+say l 1 0 0 0
+location l 1 0 0 0
+s -lsb- 1 0 0 0
+in -lsb- 1 0 0 0
+for each 1 0 0 0
+width each 1 0 0 0
+of each 1 0 0 0
+, each 1 0 0 0
+bring each 1 0 0 0
+; each 1 0 0 0
+where each 1 0 0 0
+, h. 1 0 0 0
+= 2n 1 0 0 0
+and | 1 0 0 0
+-lrb- | 1 0 0 0
+where | 1 0 0 0
+and subset 0 1 0 0
+be subset 0 1 0 0
+is subset 0 1 0 0
+on subset 0 1 0 0
+`` domain 1 0 0 0
+consider domain 0 1 0 0
+giving domain 0 1 0 0
+of domain 0 1 0 0
+into domain 1 0 0 0
+contains domain 0 1 0 0
+on principles 1 0 0 0
+mention related 1 0 0 0
+describe related 1 0 0 0
+consider unlock 0 0 0 1
+of unlock 0 0 0 1
+* unlock 1 0 0 0
+to unlock 1 0 0 0
+in unlock 0 0 0 1
+-lrb- unlock 1 0 0 0
+certainly literature 0 1 0 0
+that our 1 0 0 0
+of our 1 0 0 0
+but our 1 0 0 0
+contrast our 1 0 0 0
+to our 1 0 0 0
+are our 1 0 0 0
+in our 1 0 0 0
+with our 1 0 0 0
+reflects our 1 0 0 0
+to space 1 0 0 0
+and denotes 0 1 0 0
+of artifical 1 0 0 0
+to 5-improve 1 0 0 0
+by induction 1 0 0 0
+for induction 0 0 0 1
+, e. 1 0 0 0
+of reformulation 1 0 0 0
+as reformulation 1 0 0 0
+is reformulation 0 1 0 0
+to reformulation 1 0 0 0
+in theory 0 0 0 1
+that five 0 0 0 1
+explain reason 0 0 0 1
+as blocksworld 1 0 0 0
+at beginning 0 0 0 1
+from definition 0 0 0 1
+for definition 0 0 0 1
+union definition 1 0 0 0
+to definition 0 0 0 1
+in definition 1 0 0 0
+sequencing definition 1 0 0 0
+; definition 0 0 0 1
+by definition 1 0 0 0
+between pairs 1 0 0 0
+from g 1 0 0 0
+of g 1 0 0 0
+thus g 1 0 0 0
+, g 1 0 0 0
+let g 1 0 0 0
+in g 1 0 0 0
+-lrb- g 1 0 0 0
+in turn 1 0 0 0
+i +1 1 0 0 0
+nk +1 1 0 0 0
+and w 1 0 0 0
+for w 1 0 0 0
+-rrb- w 1 0 0 0
+to w 1 0 0 0
+let w 1 0 0 0
+in w 1 0 0 0
+-lrb- w 1 0 0 0
+and hence 1 0 0 0
+-lrb- bylander 1 0 0 0
+, r. 1 0 0 0
+, think 1 0 0 0
+in first 0 0 0 1
+be initial 0 0 0 1
+called initial 0 0 0 1
+at initial 0 0 0 1
+for symmetry 1 0 0 0
+-lrb- * 1 0 0 0
+, * 1 0 0 0
+many variables 1 0 0 0
+on variables 0 0 0 1
+that variables 1 0 0 0
+iteration variables 1 0 0 0
+of variables 0 0 0 1
+capture number 0 1 0 0
+of number 0 1 0 0
+is number 0 0 0 1
+, number 0 0 0 1
+denotes number 0 0 0 1
+matter number 0 0 0 1
+gave number 0 1 0 0
+most one 1 0 0 0
+from one 1 0 0 0
+that one 1 0 0 0
+allows one 1 0 0 0
+, one 1 0 0 0
+improve one 1 0 0 0
+to one 1 0 0 0
+basic one 1 0 0 0
+-lrb- one 0 0 0 1
+hold one 1 0 0 0
+if one 1 0 0 0
+on instances 1 0 0 0
+solves instances 1 0 0 0
+be instances 1 0 0 0
+of instances 1 0 0 0
+, instances 0 0 0 1
+planning instances 1 0 0 0
+of improvements 0 0 0 1
+to another 1 0 0 0
+use several 1 0 0 0
+, several 1 0 0 0
+are several 1 0 0 0
+of size 1 0 0 0
+to given 0 1 0 0
+elected given 0 0 0 1
+from start 0 0 0 1
+induces ordering 0 0 1 0
+but ordering 0 0 1 0
+chooses ordering 0 0 1 0
+exists ordering 0 0 1 0
+in ordering 0 0 0 1
+for their 1 0 0 0
+into their 1 0 0 0
+, their 1 0 0 0
+to their 1 0 0 0
+as their 1 0 0 0
+in their 1 0 0 0
+; their 1 0 0 0
+is 2 1 0 0 0
+r 2 1 0 0 0
+theorem 2 1 0 0 0
+-lrb- 2 1 0 0 0
+= 2 1 0 0 0
+k 2 1 0 0 0
+-rrb- :625 1 0 0 0
+from discussion 0 0 0 1
+to class-that 0 1 0 0
+follows that 1 0 0 0
+differ that 1 0 0 0
+from that 1 0 0 0
+for that 1 0 0 0
+show that 1 0 0 0
+demonstrates that 1 0 0 0
+variables that 1 0 0 0
+holds that 1 0 0 0
+, that 0 0 1 0
+an that 1 0 0 0
+note that 1 0 0 0
+plan that 1 0 0 0
+have that 1 0 0 0
+in that 1 0 0 0
+such that 1 0 0 0
+implies that 1 0 0 0
+mean that 1 0 0 0
+uniform explanation 1 0 0 0
+research 14:253 1 0 0 0
+-lrb- helmert 1 0 0 0
+; helmert 1 0 0 0
+by assumption 1 0 0 0
+hamming distance 1 0 0 0
+and b 1 0 0 0
+then b 1 0 0 0
+-lcb- b 1 0 0 0
+namely b 1 0 0 0
+-rrb- b 1 0 0 0
+is b 0 1 0 0
+in b 1 0 0 0
+, b 1 0 0 0
+width b 1 0 0 0
+as b 1 0 0 0
+instance b 1 0 0 0
+formulation b 1 0 0 0
+-lrb- b 1 0 0 0
+; b 1 0 0 0
+if b 1 0 0 0
+= b 1 0 0 0
+by b 1 0 0 0
+define b 1 0 0 0
+, j. 1 0 0 0
+tractable classes 1 0 0 0
+: are 1 0 0 0
+-lrb- pre 1 0 0 0
+= pre 1 0 0 0
+by pre 1 0 0 0
+of locations 1 0 0 0
+between locations 1 0 0 0
+on locations 0 0 0 1
+of fourteenth 0 0 0 1
+for sas 1 0 0 0
+then any 1 0 0 0
+4-improve any 1 0 0 0
+for any 1 0 0 0
+that any 1 0 0 0
+23 any 1 0 0 0
+bring any 1 0 0 0
+at any 1 0 0 0
+have any 1 0 0 0
+hence any 1 0 0 0
+be any 1 0 0 0
+change any 1 0 0 0
+of subgoals 1 0 0 0
+as elaborations 1 0 0 0
+, latter 0 0 0 1
+is tuple 0 1 0 0
+is - 0 1 0 0
+of ideas 0 0 0 1
+, also 1 0 0 0
+and = 1 0 0 0
+b = 1 0 0 0
+in = 1 0 0 0
+unlocked = 1 0 0 0
+-rrb- = 1 0 0 0
+pos = 1 0 0 0
+hand = 1 0 0 0
+u = 1 0 0 0
+t = 1 0 0 0
+v = 1 0 0 0
+let = 1 0 0 0
+; = 0 1 0 0
+= = 0 1 0 0
+; differences 0 0 0 1
+to multiple 1 0 0 0
+of multiple 1 0 0 0
+on measures 1 0 0 0
+be sequence 0 1 0 0
+consider sequence 0 1 0 0
+to sequence 0 1 0 0
+at most 1 0 0 0
+= 75 1 0 0 0
+to connected 0 0 0 1
+and plan 0 1 0 0
+be plan 0 1 0 0
+by plan 1 0 0 0
+via plan 0 1 0 0
+applying plan 0 1 0 0
+solves plan 0 0 0 1
+exists plan 0 1 0 0
+that plan 0 1 0 0
+clearly plan 0 0 0 1
+of plan 1 0 0 0
+in plan 0 0 0 1
+after plan 0 0 0 1
+, plan 0 0 0 1
+obtain plan 0 1 0 0
+finds plan 0 1 0 0
+5 plan 0 0 0 1
+outputs plan 0 1 0 0
+for plan 0 1 0 0
+denote plan 0 0 0 1
+find plan 0 1 0 0
+define plan 0 1 0 0
+upon termination 1 0 0 0
+does nothing 1 0 0 0
+by extremely 1 0 0 0
+of class 0 0 0 1
+into class 0 0 0 1
+from observation 0 0 0 1
+by observation 0 0 0 1
+of vertices 1 0 0 0
+as vertices 1 0 0 0
+whose vertices 1 0 0 0
+with blowup 1 0 0 0
+, graphs 1 0 0 0
+in proceedings 1 0 0 0
+and hamming 0 0 0 1
+via hamming 0 0 0 1
+of hamming 1 0 0 0
+- hamming 1 0 0 0
+, hamming 1 0 0 0
+denotes hamming 0 0 0 1
+to hamming 1 0 0 0
+has hamming 1 0 0 0
+to typical 0 1 0 0
+for non-empty 1 0 0 0
+investigated notion 0 1 0 0
+of notion 0 0 0 1
+study notion 0 1 0 0
+presents notion 0 0 0 1
+defines notion 0 1 0 0
+present notion 0 0 0 1
+define notion 0 0 0 1
+by fact 0 0 0 1
+in fact 1 0 0 0
+on precise 0 0 0 1
+on planning 1 0 0 0
+given planning 0 1 0 0
+strips planning 1 0 0 0
+for planning 1 0 0 0
+be planning 0 1 0 0
+giving planning 0 1 0 0
+of planning 1 0 0 0
++ planning 1 0 0 0
+16 planning 0 1 0 0
+, planning 0 1 0 0
+factored planning 1 0 0 0
+1 planning 0 1 0 0
+to planning 0 1 0 0
+in planning 1 0 0 0
+8 planning 0 1 0 0
+13 planning 0 1 0 0
+if planning 0 1 0 0
+exists relation 0 1 0 0
+and vars 1 0 0 0
+s vars 1 0 0 0
+when vars 1 0 0 0
+in vars 1 0 0 0
+from state 0 1 0 0
+that state 0 1 0 0
+is state 0 1 0 0
+move state 0 1 0 0
+- state 1 0 0 0
+denotes state 0 0 0 1
+if state 0 0 0 1
+in state 1 0 0 0
+; state 0 0 0 1
+otherwise state 0 0 0 1
+with state 1 0 0 0
+change state 0 0 0 1
+define state 0 0 0 1
+of noninclusion-can 1 0 0 0
+be only 0 0 0 1
+because only 0 0 0 1
+consider only 1 0 0 0
+is only 1 0 0 0
+when only 0 0 0 1
+uses only 1 0 0 0
+at only 1 0 0 0
+, 8 1 0 0 0
+by constant 0 1 0 0
+-lrb- dk 1 0 0 0
++1 dk 1 0 0 0
+nk dk 1 0 0 0
+= dk 1 0 0 0
+from viewpoint 0 0 0 1
+by means 1 0 0 0
+, dd 1 0 0 0
+reveals shared 0 1 0 0
+of trucks 1 0 0 0
+have trucks 1 0 0 0
+, h 1 0 0 0
+of agoal 1 0 0 0
+in agoal 1 0 0 0
+, agoal 0 1 0 0
+define agoal 1 0 0 0
+| x 1 0 0 0
+drop requirement 0 0 0 1
+and set 0 1 0 0
+on set 0 0 0 1
+denote set 0 0 0 1
+that set 0 1 0 0
+is set 0 0 0 1
+among set 0 1 0 0
+, set 0 0 0 1
+enlarge set 0 0 0 1
+to set 0 0 0 1
+as set 0 0 0 1
+using set 0 1 0 0
+be set 0 1 0 0
+mean set 0 1 0 0
+if set 0 1 0 0
+and nebel 1 0 0 0
+& nebel 1 0 0 0
+-lrb- namely 1 0 0 0
+on individual 0 0 1 0
+as result 0 1 0 0
+, 161-170 1 0 0 0
+ai -rsb- 1 0 0 0
+p -rsb- 1 0 0 0
+-lsb- -rsb- 0 1 0 0
+, -rsb- 0 1 0 0
+using arm 0 0 0 1
+that arm 0 0 0 1
+to best 0 0 0 1
+of artificial 1 0 0 0
+on artificial 1 0 0 0
+and 3 1 0 0 0
+-lrb- 3 1 0 0 0
+r 3 1 0 0 0
+be smallest 0 0 0 1
+for various 1 0 0 0
+of conditions 1 0 0 0
+that conditions 0 0 0 1
+in localtion 1 0 0 0
+and we 1 0 0 0
+simplicity we 1 0 0 0
+what we 1 0 0 0
+: we 1 0 0 0
+l we 1 0 0 0
+algorithm we 1 0 0 0
+that we 1 0 0 0
+-rcb- we 1 0 0 0
+since we 1 0 0 0
+, we 1 0 0 0
+here we 1 0 0 0
+one we 1 0 0 0
+1 we 1 0 0 0
+as we 1 0 0 0
+paper we 1 0 0 0
+while we 1 0 0 0
+now we 1 0 0 0
+which we 1 0 0 0
+-rrb- we 1 0 0 0
+hand we 1 0 0 0
+care we 1 0 0 0
+create pre-established 0 1 0 0
+with key 0 0 0 1
+drop key 0 0 0 1
+where key 0 0 0 1
+up key 0 1 0 0
+, unlockl 1 0 0 0
+of packages 1 0 0 0
+move packages 1 0 0 0
+-lrb- barrett 1 0 0 0
+by barrett 1 0 0 0
+prove both 1 0 0 0
+if both 1 0 0 0
+that both 1 0 0 0
+then c 1 0 0 0
+from c 1 0 0 0
+for c 1 0 0 0
+of c 1 0 0 0
+limcopyright c 1 0 0 0
+let c 1 0 0 0
+-lrb- c 1 0 0 0
+: c 1 0 0 0
+if c 1 0 0 0
+always reformulations 1 0 0 0
+are reformulations 1 0 0 0
+for tractable 1 0 0 0
+that tractable 0 1 0 0
+of tractable 1 0 0 0
+into tractable 0 0 0 1
+presented tractable 1 0 0 0
+, tractable 1 0 0 0
+in tractable 1 0 0 0
+define tractable 1 0 0 0
+by tractable 0 1 0 0
+defines tractable 0 1 0 0
+of many 1 0 0 0
+and equal 1 0 0 0
+and s 1 0 0 0
+replace s 1 0 0 0
+in s 1 0 0 0
+if s 1 0 0 0
+from s 1 0 0 0
+since s 1 0 0 0
+when s 1 0 0 0
+, s 1 0 0 0
+to s 1 0 0 0
+state s 1 0 0 0
+assumption s 1 0 0 0
+which s 1 0 0 0
+: s 1 0 0 0
+= s 1 0 0 0
+define s 1 0 0 0
+that s 1 0 0 0
+restricting s 1 0 0 0
+vertex s 1 0 0 0
+let s 1 0 0 0
+-lrb- s 1 0 0 0
+with s 1 0 0 0
+by s 1 0 0 0
+s s 1 0 0 0
+- improves 1 0 0 0
+measures exhibit 1 0 0 0
+of simple 1 0 0 0
+solving simple 1 0 0 0
+of ijcai-93 1 0 0 0
+-lrb- pos 1 0 0 0
+; pos 1 0 0 0
+= pos 1 0 0 0
+-lcb- pos 1 0 0 0
+dropping whatever 1 0 0 0
+in polynomial 1 0 0 0
+, movel 1 0 0 0
+under transformations 0 0 0 1
+, addition 0 0 0 1
+in addition 1 0 0 0
+are three 1 0 0 0
+-lrb- ai 1 0 0 0
+in ai 1 0 0 0
+of interest 1 0 0 0
+-lrb- ph 1 0 0 0
+has ph 1 0 0 0
+bounded ph 1 0 0 0
+, ph 1 0 0 0
+of ph 1 0 0 0
+be empty 0 0 0 1
+= empty 1 0 0 0
+for empty 0 0 0 1
+width 4 1 0 0 0
+-lrb- 4 1 0 0 0
+in 4 1 0 0 0
+obtain corresponding 0 0 0 1
+but corresponding 0 0 0 1
+, c. 1 0 0 0
+from gripper 0 0 0 1
+that gripper 0 0 0 1
+of gripper 0 0 0 1
+as gripper 1 0 0 0
+in gripper 0 0 0 1
+-lrb- gripper 1 0 0 0
+why gripper 1 0 0 0
+on restrictions 1 0 0 0
+or restrictions 1 0 0 0
+for restrictions 0 0 0 1
+from propositions 1 0 0 0
+of airplanes 1 0 0 0
+to neighbour 0 1 0 0
+least neighbour 0 1 0 0
+as evidence 1 0 0 0
+-lrb- dh 1 0 0 0
+, dh 1 0 0 0
+, spain 1 0 0 0
+be case 0 0 0 1
+; case 0 0 0 1
+consider case 0 0 0 1
+by case 1 0 0 0
+in case 0 0 0 1
+introducing these 1 0 0 0
+for these 1 0 0 0
+of these 1 0 0 0
+in these 1 0 0 0
+under these 1 0 0 0
+by these 1 0 0 0
+on empirical 1 0 0 0
+: n 1 0 0 0
+improve n 1 0 0 0
+= n 1 0 0 0
+, n 1 0 0 0
+are n 1 0 0 0
+of complexity 1 0 0 0
+assign complexity 0 1 0 0
+presented complexity 1 0 0 0
+research 26:191 1 0 0 0
+, p. 1 0 0 0
+of loop 0 0 0 1
+* loop 1 0 0 0
+-lrb- vd 1 0 0 0
+on vd 1 0 0 0
+becomes vi 1 0 0 0
+improves vi 1 0 0 0
+, vi 1 0 0 0
+if vi 1 0 0 0
+vehicle it 1 0 0 0
+all it 1 0 0 0
+because it 1 0 0 0
+solves it 1 0 0 0
+that it 1 0 0 0
+solving it 1 0 0 0
+definition it 1 0 0 0
+, it 1 0 0 0
+otherwise it 1 0 0 0
+s it 1 0 0 0
+2 it 1 0 0 0
+5 it 1 0 0 0
+pick it 1 0 0 0
+-rsb- it 1 0 0 0
+if it 1 0 0 0
+translation it 1 0 0 0
+improve it 1 0 0 0
+, vn 1 0 0 0
+and vp 1 0 0 0
+on vp 1 0 0 0
+-lrb- grammars 1 0 0 0
+instance itself 1 0 0 0
+on movements 0 0 0 1
+specify movements 1 0 0 0
+that movements 0 0 0 1
+of binary 0 0 0 1
+if binary 0 0 0 1
+, binary 0 0 0 1
+define binary 0 0 0 1
+by grant 1 0 0 0
+-rrb- generic 0 1 0 0
+have same 0 0 0 1
+that same 0 0 0 1
+is same 0 0 0 1
+s same 0 0 0 1
+although same 0 0 0 1
+in same 0 0 0 1
+with same 0 0 0 1
+be reachable 0 1 0 0
+is reachable 1 0 0 0
+, reachable 0 1 0 0
+exists reachable 0 1 0 0
+of reachable 1 0 0 0
+is finite 0 1 0 0
+of composition 1 0 0 0
+hold ball 0 0 0 1
+of keys 1 0 0 0
+all keys 1 0 0 0
+between keys 1 0 0 0
+, 1-3 1 0 0 0
+, v. 1 0 0 0
+-lcb- hand 1 0 0 0
+with hand 0 1 0 0
+, hand 1 0 0 0
+-lrb- hand 1 0 0 0
+; hand 1 0 0 0
+= hand 1 0 0 0
+if hand 0 0 0 1
+ordering v1 1 0 0 0
+of v1 1 0 0 0
+variables v1 1 0 0 0
+-lcb- v1 1 0 0 0
+of edges 1 0 0 0
+with edges 1 0 0 0
+of pgoal 1 0 0 0
+plan pgoal 1 0 0 0
+, tangibility 1 0 0 0
+name recent 0 0 0 1
+and weld 1 0 0 0
+& weld 1 0 0 0
+-lcb- i 1 0 0 0
+from i 1 0 0 0
+, i 1 0 0 0
+for i 1 0 0 0
+if i 1 0 0 0
+, pickv 1 0 0 0
+, roughly 1 0 0 0
+, pickl 1 0 0 0
+is edge 0 0 1 0
+enlarge edge 0 0 0 1
+as quantitative 0 1 0 0
+: quantitative 0 1 0 0
+-lrb- 1994b 1 0 0 0
+; 1994a 1 0 0 0
+adding actions 1 0 0 0
+in actions 0 0 0 1
+of actions 1 0 0 0
+with unary 1 0 0 0
+yields human 1 0 0 0
+of previous 0 0 0 1
+violating previous 1 0 0 0
+in previous 0 0 0 1
+through heuristic 1 0 0 0
+and instance 0 0 0 1
+be instance 0 0 1 0
+given instance 0 0 1 0
+for instance 0 0 1 0
+solves instance 0 0 0 1
+of instance 0 0 1 0
+, instance 0 0 0 1
+to instance 0 0 1 0
+as instance 0 0 1 0
+renders instance 0 0 1 0
+in instance 0 0 1 0
+preliminaries instance 0 0 1 0
+exists instance 0 0 1 0
+if instance 0 0 1 0
+for advancement 0 0 0 1
+describes valid 1 0 0 0
+to location 0 0 0 1
+unlock location 0 1 0 0
+at location 1 0 0 0
+if location 1 0 0 0
+than location 0 0 0 1
+before location 1 0 0 0
+and theorem 1 0 0 0
+to theorem 0 0 0 1
+prove theorem 0 0 0 1
+-rrb- theorem 1 0 0 0
+is solvable 1 0 0 0
+in solvable 0 1 0 0
+among remaining 0 0 0 1
+for domainindependent 1 0 0 0
+, ... 1 0 0 0
+as motivating 0 1 0 0
+on treewidth 0 0 0 1
+increases treewidth 0 0 0 1
+when treewidth 0 0 0 1
+of early 0 0 0 1
+to grid 0 1 0 0
+denote integer 0 0 1 0
+with bit 0 1 0 0
+during execution 0 0 0 1
+via formal 0 1 0 0
+by formal 0 1 0 0
+and d 1 0 0 0
+-rrb- d 1 0 0 0
+= d 1 0 0 0
+, d 1 0 0 0
+in d 1 0 0 0
+where d 1 0 0 0
+define d 1 0 0 0
+trucks t 1 0 0 0
+union t 1 0 0 0
+* t 1 0 0 0
+, t 1 0 0 0
+-lrb- t 1 0 0 0
+; t 1 0 0 0
+= t 1 0 0 0
+in arbitrary 0 0 1 0
+permit arbitrary 1 0 0 0
+pick arbitrary 0 0 1 0
+is output 1 0 0 0
+* output 1 0 0 0
+, output 1 0 0 0
+is mathematical 1 0 0 0
+by mathematical 1 0 0 0
+, mathematical 1 0 0 0
+-lrb- sketch 1 0 0 0
+by domain-independent 1 0 0 0
+for domain-independent 0 0 0 1
+in backtrack-free 0 1 0 0
+, b. 1 0 0 0
+capture some 1 0 0 0
+, some 1 0 0 0
+for some 1 0 0 0
+if some 1 0 0 0
+de catalunya 1 0 0 0
+and examples 1 0 0 0
+with respect 1 0 0 0
+of proofs 0 0 0 1
+, unlocked 1 0 0 0
+by unlocked 1 0 0 0
+of llenguatges 1 0 0 0
+and engelhardt 1 0 0 0
+& engelhardt 1 0 0 0
+to l2 1 0 0 0
+that l2 1 0 0 0
+between l2 1 0 0 0
+in proc 1 0 0 0
+then either 1 0 0 0
+to l1 1 0 0 0
+that l1 1 0 0 0
+from l1 1 0 0 0
+between l1 1 0 0 0
+, vi-1 1 0 0 0
+-lrb- post 1 0 0 0
+; post 1 0 0 0
+= post 1 0 0 0
+to post 1 0 0 0
+define r 1 0 0 0
+-rrb- r 1 0 0 0
+specify permitted 1 0 0 0
+ackstr om 1 0 0 0
+that extension 0 0 1 0
+is package 0 1 0 0
+move package 0 0 0 1
+from theorems 1 0 0 0
+by o 1 0 0 0
+is union 0 0 0 1
+by union 0 0 0 1
+are extensions 1 0 0 0
+under mixed 1 0 0 0
+that introduced 0 0 0 1
+of computational 1 0 0 0
+understanding inclusion 0 0 1 0
+and communication 1 0 0 0
+by successive 1 0 0 0
+constitute satisfactory 0 1 0 0
+that accounts 1 0 0 0
+on operator 0 0 0 1
+denote operator 0 0 1 0
+studied theoretically 1 0 0 0
+e. 1987 1 0 0 0
+of computer 1 0 0 0
+already there 1 0 0 0
+20 there 1 0 0 0
+since there 1 0 0 0
+, there 1 0 0 0
+but there 1 0 0 0
+are there 1 0 0 0
+where there 1 0 0 0
+if there 1 0 0 0
+: fast 1 0 0 0
+: width 1 0 0 0
+in width 0 0 0 1
+have width 1 0 0 0
+for width 1 0 0 0
+of width 1 0 0 0
+resembles width 0 0 0 1
+increase width 0 0 0 1
+to width 0 0 0 1
+via width 0 0 0 1
+bounded width 1 0 0 0
+hamming width 1 0 0 0
+-lrb- width 1 0 0 0
+call width 1 0 0 0
+ph width 1 0 0 0
+has width 1 0 0 0
+having width 1 0 0 0
+define width 0 0 0 1
+, function 0 1 0 0
+exists function 0 1 0 0
+mean function 0 0 0 1
+of propositional 1 0 0 0
+and domshlak 1 0 0 0
+& domshlak 1 0 0 0
+on automated 1 0 0 0
+of subgoal 1 0 0 0
+, subgoal 1 0 0 0
+characterizing subgoal 1 0 0 0
+pre -lrb- 1 0 0 0
+be -lrb- 1 0 0 0
+and -lrb- 1 0 0 0
+init -lrb- 1 0 0 0
+e -lrb- 1 0 0 0
+d -lrb- 1 0 0 0
+vars -lrb- 1 0 0 0
+-rrb- -lrb- 1 0 0 0
+that -lrb- 1 0 0 0
+- -lrb- 1 0 0 0
+, -lrb- 1 0 0 0
+s -lrb- 1 0 0 0
+t -lrb- 1 0 0 0
+have -lrb- 1 0 0 0
+in -lrb- 1 0 0 0
+-lrb- -lrb- 1 0 0 0
+-lcb- -lrb- 1 0 0 0
+dh -lrb- 1 0 0 0
+generate -lrb- 0 1 0 0
+and with 1 0 0 0
+investigate robustness 0 0 0 1
+as robustness 0 1 0 0
+denotes maximum 0 0 0 1
+allow us 1 0 0 0
+are those 1 0 0 0
+then problem 0 0 0 1
+of problem 1 0 0 0
+, problem 0 0 0 1
+planning problem 1 0 0 0
+with problem 0 0 0 1
+why problem 0 1 0 0
+of implies 1 0 0 0
+has associated 0 0 1 0
+-lrb- -rrb- 0 0 1 0
+of defined 0 0 0 1
+of certain 1 0 0 0
+, ak 1 0 0 0
+make general 0 1 0 0
+in general 1 0 0 0
+on single 0 1 0 0
+search single 0 1 0 0
+via single 1 0 0 0
+opens single 0 1 0 0
+contain single 0 1 0 0
+and at 1 0 0 0
+vertices at 0 0 0 1
+in ijcai 1 0 0 0
+-lrb- nk 1 0 0 0
+that -lcb- 1 0 0 0
+and no 1 0 0 0
+that no 1 0 0 0
+is no 1 0 0 0
+changes no 1 0 0 0
+change no 1 0 0 0
+if no 1 0 0 0
+by application 0 0 0 1
+of other 0 0 0 1
+for other 0 0 0 1
+in other 1 0 0 0
+width 5 1 0 0 0
+corollary 5 1 0 0 0
+-lrb- 5 1 0 0 0
+-rrb- 5 1 0 0 0
+of holding 1 0 0 0
+; nau 1 0 0 0
+, nau 1 0 0 0
+, department 1 0 0 0
+; 2006 1 0 0 0
+that locathat 1 0 0 0
+reducing accidental 1 0 0 0
+-lrb- korf 1 0 0 0
+refines korf 1 0 0 0
+with vertex 1 0 0 0
+as vertex 1 0 0 0
+from vertex 1 0 0 0
+for vertex 0 1 0 0
+consider variation 0 1 0 0
+, a. 1 0 0 0
+-lrb- a1 1 0 0 0
+= a1 1 0 0 0
+and bounded 1 0 0 0
+implies bounded 0 0 0 1
+of bounded 1 0 0 0
+, bounded 1 0 0 0
+or bounded 1 0 0 0
+has bounded 1 0 0 0
+having bounded 1 0 0 0
+be variable 0 1 0 0
+on variable 1 0 0 0
+exists variable 0 1 0 0
+for variable 0 1 0 0
+that variable 0 1 0 0
+of variable 0 0 0 1
+, variable 0 0 0 1
+bring variable 0 1 0 0
+improves variable 1 0 0 0
+improve variable 0 0 0 1
+improvable variable 1 0 0 0
+and geffner 1 0 0 0
+on structure 0 0 0 1
+-rcb- e 1 0 0 0
+and algorithm 0 0 0 1
+that algorithm 0 0 1 0
+of algorithm 0 0 0 1
+, algorithm 0 0 0 1
+planning algorithm 1 0 0 0
+by algorithm 0 0 0 1
+if algorithm 0 0 0 1
+and persistent 1 0 0 0
+via persistent 0 0 0 1
+for persistent 1 0 0 0
+that persistent 1 0 0 0
+of persistent 1 0 0 0
+is persistent 1 0 0 0
+, persistent 1 0 0 0
+bounded persistent 1 0 0 0
+have persistent 1 0 0 0
+has persistent 1 0 0 0
+having persistent 1 0 0 0
+08034 barcelona 1 0 0 0
+and u 1 0 0 0
+that u 1 0 0 0
+when u 1 0 0 0
+bring u 1 0 0 0
+improves u 1 0 0 0
+let u 1 0 0 0
+in u 1 0 0 0
+-lrb- u 1 0 0 0
+if u 1 0 0 0
+c 2007 1 0 0 0
+at time 0 1 0 0
+in time 1 0 0 0
+-lrb- brafman 1 0 0 0

@@ -67,7 +67,7 @@ def wordfrequency(word):
                 return -1
             currentnode=nodelist[currentnode].sons[ord(i)-97]
     return nodelist[currentnode].sons[27]
-def edit_distance(word): 
+def edit_distance(word):
     global nodelist
     keyboard={'q':['w','a'],'w':['q','a','s','e'],
               'e':['w','s','d','r'],'r':['e','d','f','t'],
@@ -82,7 +82,7 @@ def edit_distance(word):
               'x':['z','s','d','c'],'c':['x','d','f','v'],
               'v':['c','f','g','b'],'b':['v','g','h','n'],
               'n':['b','h','j','m'],'m':['n','j','k']}
-    
+
     if wordfrequency(word)>0:
         return word
     for i in range(len(word)):

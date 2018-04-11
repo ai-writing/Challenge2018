@@ -1,0 +1,5421 @@
+1
+all 4 0 0 0
+partial 1 5 0 6
+audemard 4 0 0 0
+ganzinger 1 0 0 0
+results 9 0 2 4
+eds 1 0 0 0
+prefix 0 0 0 1
+/ 11 0 0 0
+types 2 0 0 0
+caqe 2 0 0 0
+edges 12 0 0 2
+contributions 0 0 0 4
+reasoning 3 0 0 0
+gi 6 0 0 0
+simon 6 0 0 0
+iii 4 0 0 0
+technique 5 4 0 2
+environment 0 3 0 4
+to 39 0 0 0
+swap 6 0 0 0
+ti 1 0 0 0
+suite 0 0 0 2
+nodes 2 0 0 0
+undirected 0 0 1 0
+presentation 2 0 0 1
+al. 34 0 0 0
+n.constraints 4 2 0 0
+advantage 0 0 1 0
+zhang 3 0 0 0
+rise 2 0 0 0
+minisat 2 0 0 0
+ullman 2 0 0 0
+deadlocks 1 0 0 0
+negations 5 0 0 0
+lynce 3 0 0 0
+g. 2 0 0 0
+difference 2 2 0 2
+condition 5 0 0 1
+tang 3 0 0 0
+solver 20 30 1 29
+notes 2 0 0 0
+rights 2 0 0 0
+michael 2 0 0 0
+solution 4 0 0 0
+tasharrofi 3 0 0 0
+t. 4 0 0 0
+p 31 1 0 2
+excellence 1 0 0 0
+makespan 2 0 2 14
+leone 1 0 0 0
+becker 1 0 0 0
+spirakis 2 0 0 0
+upper 1 0 0 0
+quantifiers 8 0 0 0
+miller 1 0 0 0
+200-215 1 0 0 0
+klieber 3 0 0 0
+boutilier 1 0 0 0
+approximation 0 1 2 1
+go 2 0 0 0
+second 0 0 0 3
+cost 0 0 0 2
+design 2 0 0 0
+perspective 0 1 0 0
+acyc-qbf 1 0 0 0
+dynamics 1 0 0 0
+choices 2 0 0 0
+eds. 2 0 0 0
+ternovska 5 0 0 0
+koenig 3 0 0 0
+appear 2 0 0 0
+frameworks 5 0 0 0
+section 5 0 0 1
+825-885 1 0 0 0
+version 0 4 0 4
+concisely 1 0 0 0
+melo 1 0 0 0
+method 1 0 0 0
+lee 3 0 0 0
+l1 6 0 0 2
+equals 0 0 0 2
+atoms 8 0 0 0
+ranges 5 0 0 0
+refinement 3 0 0 0
+feeding 1 0 0 0
+others 4 0 0 0
+directions 2 0 0 0
+path 16 15 0 11
+botea 2 0 0 0
+mcps 13 0 0 0
+box 0 0 0 2
+search 15 1 0 30
+remarks 2 0 0 0
+institute 2 0 0 0
+lomi 1 0 0 0
+study 0 2 0 0
+intelligence. 1 0 0 0
+approaches 1 0 0 0
+contradiction 2 6 0 0
+queue 0 0 0 3
+acnf 2 0 2 0
+dependencies 2 0 0 2
++ 3 0 0 0
+action 9 11 0 3
+studies 2 0 0 0
+tasks 2 0 0 0
+lpnmr 1 0 0 0
+scales 1 0 0 0
+artif 1 0 0 0
+lu-mapping 0 0 0 4
+giunchiglia 2 0 0 0
+tools 1 0 0 0
+propagators 5 0 0 0
+instantiation 0 0 2 0
+dnf 1 2 0 0
+working 0 0 0 2
+0 28 0 0 0
+probabilities 9 0 0 2
+m. 26 0 0 0
+hoos 1 0 0 0
+two 2 0 0 0
+few 1 0 0 0
+call 1 0 2 2
+chu 1 0 0 0
+6 4 0 0 0
+scope 0 0 0 2
+minor 2 0 0 0
+more 1 0 0 0
+kurniawati 1 0 0 0
+duality 1 0 0 0
+advance 1 0 0 0
+constructs 1 0 0 0
+validity 2 0 0 2
+stuckey 7 0 0 0
+8 3 0 0 0
+cases 2 0 0 0
+hold 0 0 0 1
+effort 1 0 0 0
+states 27 0 0 21
+none 2 0 0 0
+onig 1 0 0 0
+ma 2 0 0 0
+g 4 0 0 0
+f 8 0 0 0
+this 21 0 0 0
+science 1 0 0 0
+equation 3 0 0 0
+work 16 0 0 0
+cav 2 0 0 0
+theories 10 0 0 0
+seidl 2 0 0 0
+labeled 2 0 0 0
+minimum 0 0 0 2
+values 5 0 0 0
+v 5 3 0 0
+following 0 0 0 2
++1 7 0 0 0
+root 2 0 0 0
+example 27 0 2 1
+numbers 6 0 0 4
+computers 1 0 0 0
+zilberstein 2 0 0 0
+wang 1 0 0 0
+figure 12 0 0 0
+process 0 0 0 2
+messages 11 0 0 0
+n.y. 2 0 0 0
+purposes 3 0 0 0
+agent 49 0 11 11
+topic 0 6 0 0
+collision 0 2 2 0
+assumptions 6 0 0 1
+something 2 0 0 0
+sense 1 0 0 3
+f. 3 0 0 0
+schaub 4 0 0 0
+information 8 0 0 0
+end 0 0 0 3
+goal 0 0 0 2
+scharpff 1 0 0 0
+s2 3 0 2 0
+s1 1 2 0 0
+negation 5 0 0 2
+1 121 0 0 0
+maps 2 0 0 0
+s. 11 0 0 0
+alviano 2 0 0 0
+answer 3 0 0 2
+max 3 0 0 1
+hsu 1 0 0 0
+tentrup 4 0 0 0
+blackbox 0 1 0 0
+plans 23 0 0 0
+5.1 1 0 0 0
+specifications 2 0 0 0
+ed. 2 0 0 0
+variant 0 2 0 1
+mapping 1 4 0 0
+applications 22 0 0 0
+warehouse 6 0 0 0
+date 1 0 0 0
+such 3 0 0 0
+engineering 1 0 0 0
+a 1 6 0 0
+runtime 2 2 0 5
+branches 2 1 0 0
+helsinki 2 0 0 0
+light 1 0 0 0
+cat 2 0 0 0
+correspond 1 1 0 0
+ghz 1 0 0 0
+q 12 1 0 2
+complexity 2 4 0 2
+algorithms 3 0 0 0
+op 2 0 0 1
+order 1 6 0 12
+nesting 1 0 0 0
+operations 2 0 0 0
+devriendt 1 0 0 0
+interpretation 17 15 0 3
+hierarchy 1 0 0 2
+bekris 5 0 0 0
+symbols 8 0 0 2
+course 0 0 0 6
+experiments 2 0 0 0
+graph 0 2 0 4
+subsolver 0 0 0 1
+ieee 1 0 0 0
+its 1 0 0 0
+warren 3 0 0 0
+delay 1 1 0 1
+83-99 1 0 0 0
+g-value 2 0 0 4
+probability 2 0 0 1
+solving 3 0 0 0
+lj 24 0 0 3
+, 2 0 0 0
+optimisations 1 0 0 0
+li 55 5 6 10
+choset 2 0 0 0
+lu 6 2 0 0
+rabe 2 0 0 0
+dp 2 0 0 0
+wasp 1 0 0 0
+2015 6 0 0 0
+2014 6 0 0 0
+2017 2 0 0 0
+2016 3 0 0 0
+< 1 0 0 0
+2013 8 0 0 0
+2012 2 0 0 0
+then 6 0 0 0
+them 6 0 0 0
+return 4 0 0 0
+combination 2 2 0 0
+goultiaeva 2 0 0 0
+114-128 1 0 0 0
+frontiers 2 0 0 0
+runs 2 0 0 0
+aho 1 0 0 0
+framework 3 3 0 0
+they 10 0 0 0
+front 0 0 0 1
+\ 1 0 0 0
+association 2 0 0 0
+successor 2 0 0 0
+document 1 0 0 0
+bacchus 4 0 0 0
+commands 2 0 0 0
+university 8 0 0 0
+level 4 1 2 2
+l 38 0 0 0
+formalisation 0 2 0 0
+iff 1 0 0 0
+l2 11 0 0 0
+truth 0 0 0 2
+each 2 0 0 0
+| 5 0 0 0
+mapf-dp 10 2 0 0
+constraints 22 0 0 12
+domain 0 0 0 1
+en 1 0 0 0
+kornhauser 1 0 0 0
+generation 5 0 0 0
+silva 1 0 0 0
+1-10 1 0 0 0
+idea 2 0 2 4
+related 3 0 0 0
+springer-verlag 1 0 0 0
+society 1 0 0 0
+nieuwenhuis 2 0 0 0
+connect 1 0 0 0
+ghostq 3 0 0 0
+clauses 33 0 0 5
+operation 0 0 0 2
+transitions 2 0 0 0
+out 1 0 0 0
+rt 1 0 0 0
+respects 2 0 0 0
+space 0 2 0 3
+research 3 0 0 2
+collisions 19 0 0 0
+rf 3 0 0 0
+7 6 0 0 0
+i0 2 0 0 1
+formula 3 12 1 4
+size 2 0 0 8
+evaluation 1 0 0 0
+red 1 0 0 0
+marek 3 0 0 0
+e. 6 0 0 0
+theory 7 1 1 15
+interactions 4 0 0 0
+mechanisms 2 0 0 0
+standard 0 0 0 2
+reason 1 0 0 0
+qdimacs 5 0 0 0
+advantages 2 0 0 0
+conflicts 11 0 0 0
+which 2 0 0 0
+estimate 0 0 2 0
+earliest 1 0 0 0
+lts 1 0 0 0
+definition 26 0 0 2
+pairs 4 0 0 0
+kaufmann 5 0 0 0
+derivation 2 0 0 0
+language 1 2 2 3
+starts 2 0 0 0
+intelligence 12 0 0 0
+finland 1 0 0 0
+programming 11 0 1 0
+decmdps 1 0 0 0
+fsps 4 0 0 0
+times 4 0 0 0
+thing 0 0 0 2
+length 0 0 0 2
+v3 3 0 0 0
+place 0 0 0 3
+consequence 0 0 0 2
+v4 1 0 0 0
+r. 6 0 0 0
+first 0 0 0 3
+dpll 2 0 0 0
+there 9 0 0 0
+xl 2 0 0 0
+encoding 0 4 2 2
+clause 10 15 0 4
+variables 16 0 0 2
+xf 1 0 0 0
+number 5 12 2 27
+tableaux 2 0 0 0
+one 11 0 0 4
+instances 28 0 0 0
+improvements 3 0 0 0
+files/jtt-aaai-2016.pdf 1 0 0 0
+occurrences 4 0 0 0
+solvers 45 0 0 1
+message 2 3 0 0
+quality 2 0 0 0
+xt 7 0 0 2
+xu 1 0 0 0
+sharon 1 0 0 0
+line 5 0 0 1
+introduction 2 0 0 0
+unknown 1 0 0 0
+top 5 0 0 0
+n.key 1 0 0 2
+priority 2 0 0 0
+returns 7 0 0 2
+2 36 0 0 0
+observations 1 0 0 0
+plan-execution 1 0 0 0
+w. 4 0 0 0
+ijcai 3 0 0 0
+boil 1 0 0 0
+glucose 4 0 0 0
+that 19 0 0 0
+academy 0 0 0 2
+explanation 0 1 4 2
+assumption 3 0 0 4
+seminarov 1 0 0 0
+peled 1 0 0 0
+solver2 1 0 0 0
+authors 0 0 0 2
+july 1 0 0 0
+11 3 0 0 0
+distance 0 0 0 3
+kind 2 0 0 0
+12 1 0 0 0
+15 1 0 0 0
+14 5 0 0 0
+accordance 1 0 0 0
+qbfs 8 1 0 0
+approximations 4 0 0 1
+vocabularies 2 0 0 0
+zero 1 0 0 0
+131-153 1 0 0 0
+r 11 0 0 0
+jelia 1 0 0 0
+4/3 2 0 0 0
+under-approximations 3 0 0 0
+heule 4 0 0 0
+and 2 0 0 0
+generality 3 0 0 0
+hagen 2 0 0 0
+topics 2 0 0 0
+ram 2 0 0 0
+locations 7 0 0 5
+sat-solver 2 6 0 0
+environments 2 0 0 0
+logics 3 0 0 0
+acyclicity 4 0 0 0
+any 0 1 0 0
+sat 128 1 0 3
+paths 9 0 0 7
+strength 0 0 0 2
+1968 1 0 0 0
+ohrimenko 2 0 0 0
+ideas 3 0 0 2
+maxj 4 0 0 0
+instance 6 5 2 6
+janhunen 5 0 0 0
+organizations 0 0 0 1
+finding 2 0 0 0
+performance 3 1 0 0
+= 65 1 2 2
+recursively 0 1 0 0
+calculus 0 0 0 1
+formulas 7 0 0 0
+towards 2 0 0 0
+transactions 2 0 0 0
+track 0 0 0 1
+goldman 1 0 0 0
+mapf 3 0 0 0
+cegar 4 0 0 0
+most 2 0 0 0
+plan 12 13 0 16
+nothing 2 0 0 0
+underapproximations 1 0 0 0
+coin 1 0 0 0
+gallery 3 0 0 0
+volume 9 0 0 0
+reward 0 0 0 2
+observation 0 0 0 1
+consequences 1 0 0 0
+average 0 0 0 1
+popularity 2 0 0 0
+m 19 3 0 1
+vertices 3 0 0 6
+375-398 1 0 0 0
+graphs 2 0 0 0
+proceedings 24 0 0 2
+part 3 0 0 5
+sat-solvers 3 0 0 0
+principle 3 0 0 0
+qbf 29 18 4 5
+specification 1 2 0 0
+fact 2 0 0 6
+d. 1 0 0 0
+selection 4 0 0 0
+violation 0 4 0 0
+text 2 0 0 0
+labels 6 1 0 1
+priorityqueue 1 0 0 0
+planning 1 0 0 0
+relation 2 0 0 2
+marques-silva 9 0 0 0
+range 3 0 0 3
+translation 3 0 0 0
+biere 5 0 0 0
+impact 0 0 0 2
+keys 1 0 0 0
+knowledge 1 0 0 0
+implementation 3 0 0 0
+explain 2 0 0 0
+winner 0 0 0 2
+blue 1 0 0 0
+3 18 0 0 0
+lemma 13 0 0 1
+experiment 7 0 0 0
+qbflib 1 0 0 1
+factor 1 0 0 0
+1319966 1 0 0 0
+aalto 1 0 0 0
+circle 0 4 0 0
+sub-formula 0 1 0 0
+ties 1 0 0 0
+cube 4 6 0 0
+re-expansions 2 0 0 0
+expectation 4 0 0 6
+joint 0 0 0 1
+123 1 0 0 0
+actions 6 0 0 1
+conjunction 0 4 0 0
+procedures 3 0 0 0
+tseitin 3 0 0 0
+restart 1 0 0 0
+areas 2 0 0 0
+liu 1 0 0 0
+processes 12 0 0 0
+f-value 1 0 0 3
+1/t 1 0 0 0
+cells 7 0 0 2
+acknowledgments 2 0 0 0
+sum 0 0 0 2
+xeon 0 0 1 0
+paper 3 0 0 0
+architecture 1 0 0 2
+lowlevelsearch 6 0 0 0
+x 151 1 0 0
+ql 3 0 0 0
+black 1 0 0 0
+makespans 8 0 0 6
+set 2 8 0 0
+aspect 2 0 0 0
+exists 2 0 0 0
+251170 1 0 0 0
+gebser 1 0 0 0
+testing 6 0 0 0
+j1 3 0 0 0
+j2 6 0 0 0
+bounds 2 0 0 0
+j. 8 0 0 0
+result 3 0 0 2
+-rsb- 8 0 0 0
+techniques 5 0 0 3
+parent 2 0 0 0
+under-approximation 1 11 0 3
+ways 2 0 0 0
+artificial 1 0 0 0
+label 1 0 0 0
+state 50 30 0 28
+classes 5 0 0 0
+bureau 2 0 0 0
+si 3 0 0 0
+progress 2 0 0 0
+approach 9 3 0 5
+sapra 2 0 0 0
+counterexample 1 0 0 0
+we 85 0 0 0
+terms 12 0 0 0
+rareqs 4 0 0 0
+649-654 1 0 0 0
+115-125 1 0 0 0
+agencies 1 0 0 0
+efficiency 2 0 0 0
+unsatisfiability 6 0 0 0
+key 4 0 0 2
+interface 0 0 0 4
+20 1 0 0 0
+hundreds 2 0 0 0
+barrett 2 0 0 0
+quantifications 2 0 0 0
+c 5 0 1 0
+cubes 4 0 0 0
+ranjan 2 0 0 0
+many 1 0 0 0
+pertain 2 0 0 0
+propagation 13 0 0 0
+s 38 1 0 2
+ilu 7 0 0 0
+context 1 2 0 7
+logic 4 0 0 0
+contribution 0 0 0 2
+expression 1 0 0 3
+zapiski 1 0 0 0
+cn 3 0 0 0
+point 2 0 0 0
+color 0 0 0 1
+corresponds 2 0 0 0
+d'andrea 1 0 0 0
+expectations 0 0 0 2
+bayless 2 0 0 0
+187:52 2 0 0 0
+agents 76 0 0 3
+learning 13 0 0 0
+dec-mdps 1 0 0 0
+respect 2 0 0 0
+cp 3 0 0 0
+conference 18 0 0 11
+pv 0 1 0 0
+pt 4 0 0 0
+pu 7 0 0 0
+union 0 0 0 4
+equations 2 0 0 0
+three 2 0 0 0
+. 16 0 0 0
+pc 0 2 0 0
+literal 0 2 0 0
+dec-simdps 1 0 0 0
+pf 7 0 0 0
+nadel 3 0 0 0
+pi 11 2 0 0
+pn 1 0 0 0
+seshia 1 0 0 0
+pl 8 0 0 0
+treatment 6 2 0 0
+aj 15 0 0 0
+c. 6 0 0 0
+both 4 0 0 0
+fire 0 0 0 2
+interpretations 5 0 0 0
+gap 0 0 0 2
+gao 2 0 0 0
+policy 1 3 0 0
+g-values 0 0 0 2
+two-valued 1 1 0 0
+ours 1 0 0 0
+nonprenex 0 2 0 0
+root.key 1 0 0 0
+those 4 0 0 0
+mcp 1 0 0 0
+case 18 2 0 6
+p1 3 0 0 0
+cdcl 3 0 0 0
+cbs 8 0 0 0
+these 1 0 0 0
+nski 4 0 0 0
+n 28 1 0 0
+technical 1 0 0 0
+while 3 0 0 0
+suppose 1 0 0 0
+policies 28 0 0 2
+items 0 0 0 2
+property 24 0 0 5
+p. 2 0 0 0
+procedure 0 2 0 0
+remembering 1 0 0 0
+drawbacks 2 0 0 0
+mmdps 5 0 0 0
+it 58 0 0 0
+ii 2 0 0 0
+itself 7 0 0 0
+reports 3 0 0 0
+2015. 1 0 0 0
+different 0 1 0 0
+ing 1 0 0 0
+grant 2 0 0 0
+government 0 0 0 2
+same 1 0 0 2
+qcir 2 0 0 0
+parts 2 0 0 0
+underestimate 0 0 1 0
+several 4 0 0 0
+conflict 3 2 0 6
+practice 5 0 0 0
+i1 4 0 0 0
+assignment 1 1 0 1
+i2 2 0 0 0
+effect 0 0 0 7
+v. 4 0 0 0
+automation 1 0 0 0
+v2 2 0 0 0
+levels 13 0 0 0
+leaps 1 0 0 0
+v5 3 0 0 0
+characters 2 0 0 0
+i. 2 0 0 0
+% 2 0 0 0
+unsatisfiable 3 0 0 0
+task 0 0 0 1
+center 0 0 0 2
+programs 1 0 0 0
+i 106 2 0 3
+changes 4 0 0 0
+obstacles 1 0 0 0
+well 2 0 0 0
+1970 1 0 0 0
+intervals 1 0 0 0
+patterns 2 0 0 0
+edge 0 0 3 2
+command 0 5 0 2
+extensible 0 0 1 0
+21 1 0 0 0
+y 13 0 0 0
+model 1 20 0 2
+paradigm 0 0 0 1
+researchers 1 0 0 0
+bottom 2 0 0 0
+sentence 0 2 0 0
+formalisations 2 0 0 0
+resp 6 0 1 0
+wagner 2 0 0 0
+rest 0 0 0 2
+codish 4 0 0 0
+unassigned 1 0 0 0
+www.aaai.org 1 0 0 0
+tacchella 7 0 0 0
+orensson 2 0 0 0
+maaren 4 0 0 0
+conclusions 0 0 0 2
+advancement 0 0 0 2
+silver 1 0 0 0
+add 2 0 0 0
+tuples 1 0 0 0
+4 9 0 0 0
+versa 0 1 0 0
+theorem 0 0 0 1
+input 2 0 0 4
+violations 2 0 0 0
+letz 3 0 0 0
+transformation 0 0 0 1
+smart 0 1 0 0
+tests 1 0 0 0
+optimizations 2 0 0 0
+aspects 1 0 0 0
+satisfiability 18 0 0 7
+format 1 3 0 7
+rules 0 0 0 1
+advances 4 0 0 0
+ame 26 0 0 0
+exhibition 3 0 0 0
+department 8 0 0 0
+grid 0 2 0 0
+apt 1 0 0 0
+press 4 0 0 0
+-391 1 0 0 0
+execution 30 0 0 18
+narizzano 6 0 0 0
+loss 6 0 0 0
+modifications 1 0 0 0
+necessary 2 0 0 0
+success 2 0 0 0
+l. 4 0 0 0
+sic 1 0 0 0
+steps 10 0 0 4
+t 59 3 0 7
+output 2 0 0 0
+e 5 0 0 0
+terminology 2 0 0 0
+sketch 0 2 0 0
+methods 6 0 0 1
+grids 2 0 0 0
+sequence 0 4 0 0
+the 0 0 0 1
+b. 4 0 0 0
+some 2 0 0 0
+competition 2 0 0 7
+lockstep 1 0 0 0
+garey 1 0 0 0
+connectives 1 0 0 0
+table 4 0 0 0
+-521 1 0 0 0
+o. 2 0 0 0
+scale 3 0 0 0
+literals 6 0 0 0
+mountz 2 0 0 0
+morris 1 0 0 0
+cnfs 2 0 0 0
+cnf 4 7 0 2
+n.plan 12 0 0 0
+preprocessors 1 0 0 0
+cube-learning 2 0 0 0
+measures 0 0 0 1
+minimization 10 0 0 0
+seconds 2 0 0 0
+vertex 9 6 0 24
+predicting 1 0 0 0
+128-142 1 0 0 0
+use 0 0 0 8
+expansion 5 0 0 0
+242-255 1 0 0 0
+pomdps 5 0 0 0
+step 7 0 0 9
+veloso 3 0 0 0
+811-814 1 0 0 0
+n. 6 0 0 0
+i.e. 4 0 0 0
+priorityqueue.insert 3 0 0 0
+properties 4 0 0 1
+limitation 0 1 0 0
+consumption 1 0 0 0
+extension 2 2 4 1
+constraint 2 0 0 9
+theirs 3 0 0 0
+slisenko 1 0 0 0
+location 2 0 0 2
+o 8 0 0 0
+ryvchin 4 0 0 0
+addition 2 0 0 6
+unsat 6 1 0 0
+extensions 8 0 0 0
+horizon 0 0 0 2
+ou 1 0 0 0
+ot 4 0 0 0
+aaai-16 1 0 0 0
+presence 0 0 0 2
+lucose 2 0 0 2
+bound 1 2 0 0
+nsf 1 0 0 0
+phase 5 0 0 0
+luna 2 0 0 0
+h. 5 0 0 0
+40-54 1 0 0 0
+pineau 2 0 0 0
+fast 2 0 0 0
+* 1 0 0 0
+reduction 0 2 0 6
+-lrb- 2 2 0 0
+start 1 0 0 0
+handbook 6 0 0 0
+way 1 3 0 8
+overhead 1 0 0 0
+: 9 0 0 0
+137-151 1 0 0 0
+propagator 2 2 0 0
+mapfment 3 0 0 0
+form 7 2 0 13
+n-1 4 0 0 0
+differences 1 0 0 1
+principles 3 0 0 0
+qbfeval 2 0 0 0
+failure 1 0 0 0
+library 2 0 0 0
+atom 2 0 2 0
+qbfsolver 0 1 0 0
+root.plan 3 0 0 0
+velagapudi 1 0 0 0
+approximateaveragemakespan 1 0 0 0
+lncs 2 0 0 0
+xi 16 0 0 0
+algorithm 5 3 0 5
+objective 2 0 0 5
+j 57 1 0 0
+robustness 0 0 0 2
+maximum 0 0 0 8
+us 7 0 0 0
+89 1 0 0 0
+limit 0 4 0 1
+malik 11 0 0 0
+grasp 2 0 0 0
+problem 0 0 0 19
+optimisation 1 0 0 0
+tautology 1 0 0 0
+-rrb- 5 0 0 0
+ai 23 0 0 0
+minutes 1 0 0 0
+abstract 1 0 0 0
+internals 0 0 0 2
+general 2 0 0 0
+oliveras 2 0 0 0
+as 2 0 0 0
+sakallah 2 0 0 0
+et 2 0 0 0
+h-value 3 0 0 1
+formalism 1 0 0 0
+1/2 3 0 0 0
+fsp 1 0 0 0
+4.1 3 0 0 0
+4.3 2 0 0 0
+ingredients 1 0 0 0
+index 3 4 0 2
+root.constraints 2 0 0 0
+power 0 0 0 4
+field 0 0 0 2
+setting 0 1 0 0
+5 6 0 0 0
+np 3 0 0 0
+f-values 1 0 0 0
+standley 2 0 0 0
+satisfiable 0 1 0 0
+dashes 1 0 0 0
+node 3 0 0 11
+kinds 4 0 0 0
+vocabulary 2 2 2 1
+models 4 0 0 0
+problems 12 0 0 0
+robots 5 0 0 0
+a. 13 0 0 0
+a1 2 0 0 1
+push 3 0 0 0
+a2 2 0 0 1
+intent 0 0 0 2
+qcir-g14 2 0 0 0
+variable 1 0 1 0
+s.t. 0 2 0 0
+disjunction 0 4 0 0
+findconflicts 2 0 0 0
+sides 0 0 0 1
+structure 3 0 0 4
+upwards 2 0 0 0
+searches 1 0 0 1
+260gb 2 0 0 0
+wurman 1 0 0 0
+janota 4 0 0 0
+calls 4 0 0 0
+2qbf 1 0 0 0
+vehicles 2 0 0 0
+2002 3 0 0 0
+2003 1 0 0 0
+depth 1 0 1 1
+u 3 0 0 0
+2004 1 0 0 0
+time 3 0 0 4
+oracle 0 0 2 0
+failures 2 0 0 0
+2009 1 0 0 0
+resolution 3 0 0 0
+cpu 1 0 0 0
+2
+then all 1 0 0 0
+summarise all 1 0 0 0
+for all 1 0 0 0
+be partial 0 1 0 0
+is partial 0 1 0 0
+j partial 0 1 0 0
+with partial 0 0 0 1
+-lrb- partial 1 0 0 0
+-lrb- audemard 1 0 0 0
+-lrb- ganzinger 1 0 0 0
+inside results 0 0 1 0
+to results 1 0 0 0
+which results 1 0 0 0
+combining results 1 0 0 0
+: results 1 0 0 0
+with results 0 0 0 1
+, eds 1 0 0 0
+to prefix 0 0 0 1
+and / 1 0 0 0
+is / 1 0 0 0
+= / 1 0 0 0
+is go 1 0 0 0
+of edges 1 0 0 0
+contains edges 1 0 0 0
+traverses edges 1 0 0 0
+by edges 0 0 0 1
+make contributions 0 0 0 1
+do reasoning 1 0 0 0
+in reasoning 1 0 0 0
+to gi 1 0 0 0
+= gi 1 0 0 0
+, gi 1 0 0 0
+and simon 1 0 0 0
+-lrb- simon 1 0 0 0
+and iii 1 0 0 0
+-lrb- iii 1 0 0 0
+identified iii 1 0 0 0
+to technique 1 0 0 0
+of technique 1 0 0 0
+how technique 1 0 0 0
+: technique 0 1 0 0
+with technique 0 1 0 0
+shaping technique 1 0 0 0
+models environment 0 0 0 1
+of environment 0 0 0 1
+in environment 0 1 0 0
+- to 1 0 0 0
+and swap 1 0 0 0
+thus swap 1 0 0 0
+than swap 1 0 0 0
++ ti 1 0 0 0
+from suite 0 0 0 1
+creates nodes 1 0 0 0
+not presentation 1 0 0 0
+simplifies presentation 0 0 0 1
+-lrb- al. 1 0 0 0
+; al. 1 0 0 0
+et al. 1 0 0 0
+and n.constraints 1 0 0 0
+: n.constraints 1 0 0 0
+in n.constraints 1 0 0 0
+gain advantage 0 0 1 0
+; zhang 1 0 0 0
+of rise 1 0 0 0
+as minisat 1 0 0 0
+and ullman 1 0 0 0
+-lrb- ullman 1 0 0 0
+in deadlocks 1 0 0 0
+of negations 1 0 0 0
+; lynce 1 0 0 0
+, lynce 1 0 0 0
+, g. 1 0 0 0
+is difference 1 0 0 0
+, difference 0 1 0 0
+hence condition 1 0 0 0
+, condition 1 0 0 0
+; tang 1 0 0 0
+, tang 1 0 0 0
+because solver 0 0 0 1
+give solver 0 0 0 1
+is solver 0 1 0 0
+in solver 1 0 0 0
+obtain solver 0 1 0 0
+nested solver 1 0 0 0
+as solver 1 0 0 0
+obliging solver 0 0 0 1
+before solver 0 1 0 0
+use solver 0 1 0 0
+for solver 0 1 0 0
+* solver 0 0 0 1
+when solver 0 0 0 1
+, solver 1 0 0 0
+to solver 0 1 0 0
+behind solver 0 0 0 1
+call solver 0 0 0 1
+: solver 0 1 0 0
+generates solver 1 0 0 0
+fire solver 1 0 0 0
+uses solver 1 0 0 0
+using solver 0 0 1 0
+with solver 0 0 0 1
+than solver 0 0 0 1
+present solver 0 1 0 0
+on solver 1 0 0 0
+presented solver 0 1 0 0
+of solver 0 0 0 1
+evaluated solver 0 0 0 1
+calling solver 0 0 0 1
+hence solver 0 1 0 0
+where solver 0 1 0 0
+of notes 1 0 0 0
+and michael 1 0 0 0
+-lrb- michael 1 0 0 0
+implement solution 1 0 0 0
+`` solution 1 0 0 0
+; tasharrofi 1 0 0 0
+, tasharrofi 1 0 0 0
+and t. 1 0 0 0
+, t. 1 0 0 0
+-lcb- p 1 0 0 0
+for p 1 0 0 0
+from p 1 0 0 0
+replacing p 1 0 0 0
+of p 1 0 0 0
+= p 1 0 0 0
+, p 1 0 0 0
+-lrb- p 1 0 0 0
+watching p 1 0 0 0
+with p 1 0 0 0
+of excellence 1 0 0 0
+to makespan 0 0 0 1
+with makespan 1 0 0 0
+, makespan 0 0 0 1
+using makespan 0 0 1 0
+that makespan 0 0 0 1
+; leone 1 0 0 0
+-lrb- becker 1 0 0 0
+and spirakis 1 0 0 0
+-lrb- spirakis 1 0 0 0
+representing upper 1 0 0 0
+of quantifiers 1 0 0 0
+with quantifiers 1 0 0 0
+treat quantifiers 1 0 0 0
+which quantifiers 1 0 0 0
+, miller 1 0 0 0
+, 200-215 1 0 0 0
+-lrb- klieber 1 0 0 0
+; klieber 1 0 0 0
+-lrb- boutilier 1 0 0 0
+how approximation 0 0 1 0
+interpretations approximation 0 0 0 1
+, approximation 0 1 0 0
+while second 0 0 0 1
+that second 0 0 0 1
+with cost 0 0 0 1
+in design 1 0 0 0
+: perspective 0 1 0 0
+-lrb- acyc-qbf 1 0 0 0
+of dynamics 1 0 0 0
+are choices 1 0 0 0
+, eds. 1 0 0 0
+and ternovska 1 0 0 0
+-lrb- ternovska 1 0 0 0
+by ternovska 1 0 0 0
+, ternovska 1 0 0 0
+and koenig 1 0 0 0
+; koenig 1 0 0 0
+in koenig 1 0 0 0
+to appear 1 0 0 0
+see section 1 0 0 0
+sat section 0 0 0 1
+in section 1 0 0 0
+-lrb- 4 1 0 0 0
+do 4 1 0 0 0
+while version 0 1 0 0
+compared version 0 1 0 0
+with version 0 0 0 1
+to concisely 1 0 0 0
+-lrb- melo 1 0 0 0
+and lee 1 0 0 0
+-lrb- lee 1 0 0 0
+sends atoms 1 0 0 0
+over atoms 1 0 0 0
+maps atoms 1 0 0 0
+which atoms 1 0 0 0
+called atoms 1 0 0 0
+if atoms 1 0 0 0
+randomly ranges 1 0 0 0
+and ranges 1 0 0 0
+: ranges 1 0 0 0
+with ranges 1 0 0 0
+as refinement 1 0 0 0
+when feeding 1 0 0 0
+sends others 1 0 0 0
+and others 1 0 0 0
+among others 1 0 0 0
+in directions 1 0 0 0
+define directions 1 0 0 0
+on path 0 0 0 1
+replaces path 0 0 0 1
+returned path 1 0 0 0
+form path 0 0 0 1
+developed path 1 0 0 0
+find path 0 1 0 0
+replace path 0 0 0 1
+returns path 1 0 0 0
+of path 0 1 0 0
+found path 1 0 0 0
+along path 1 0 0 0
+with path 0 0 0 1
+finds path 0 1 0 0
+and botea 1 0 0 0
+; botea 1 0 0 0
+of box 0 0 0 1
+that box 0 0 0 1
+and search 0 0 0 1
+as search 0 0 0 1
+in search 0 0 0 1
+for search 1 0 0 0
+provide search 1 0 0 0
+since search 0 0 0 1
+when search 0 0 0 1
+, search 1 0 0 0
+restarts search 0 0 0 1
+to search 1 0 0 0
+performs search 0 1 0 0
+: search 0 0 0 1
+shows search 0 0 0 1
+then search 0 0 0 1
+after search 0 0 0 1
+that search 0 0 0 1
+continues search 1 0 0 0
+during search 1 0 0 0
+by search 0 0 0 1
+improve search 0 0 0 1
+on search 1 0 0 0
+branches search 0 0 0 1
+work search 0 0 0 1
+up search 1 0 0 0
+once search 0 0 0 1
+and institute 1 0 0 0
+contains items 0 0 0 1
+of intelligence. 1 0 0 0
+for approaches 1 0 0 0
+is contradiction 0 1 0 0
+by contradiction 1 0 0 0
+when queue 0 0 0 1
+in queue 0 0 0 1
+-lrb- acnf 1 0 0 0
+is acnf 0 0 1 0
+in acnf 1 0 0 0
+on acnf 0 0 1 0
+specifies dependencies 0 0 0 1
+identifying dependencies 1 0 0 0
+x + 1 0 0 0
+= + 1 0 0 0
+and action 0 0 0 1
+on action 1 0 0 0
+execute action 1 0 0 0
+for action 0 1 0 0
+-rrb- action 0 1 0 0
+of action 0 0 0 1
+executes action 1 0 0 0
+or action 1 0 0 0
+: studies 1 0 0 0
+which tasks 1 0 0 0
+, lpnmr 1 0 0 0
+um scales 1 0 0 0
+, hsu 1 0 0 0
+in apt 1 0 0 0
+-lrb- giunchiglia 1 0 0 0
+on tools 1 0 0 0
+via propagators 1 0 0 0
+with propagators 1 0 0 0
+-rrb- propagators 1 0 0 0
+also instantiation 0 0 1 0
+and dnf 0 1 0 0
+-lrb- dnf 1 0 0 0
+is dnf 0 1 0 0
+discuss working 0 0 0 1
+is 0 1 0 0 0
+, 0 1 0 0 0
+li 0 1 0 0 0
+states 0 1 0 0 0
+-lrb- 0 1 0 0 0
+= 0 1 0 0 0
+where probabilities 0 0 0 1
+with probabilities 1 0 0 0
+whose probabilities 1 0 0 0
+and m. 1 0 0 0
+; m. 1 0 0 0
+, m. 1 0 0 0
+; hoos 1 0 0 0
+are two 1 0 0 0
+in few 1 0 0 0
+of call 1 0 0 0
+with call 0 0 1 0
+, call 0 0 0 1
+; chu 1 0 0 0
+-lrb- 6 1 0 0 0
+within scope 0 0 0 1
+- minor 1 0 0 0
+-lrb- more 1 0 0 0
+-lrb- kurniawati 1 0 0 0
+utilizing duality 1 0 0 0
+in advance 1 0 0 0
+with constructs 1 0 0 0
+- validity 1 0 0 0
+check validity 0 0 0 1
+and stuckey 1 0 0 0
+; stuckey 1 0 0 0
+, stuckey 1 0 0 0
+; 8 1 0 0 0
+in cases 1 0 0 0
+suppose hold 0 0 0 1
+with effort 1 0 0 0
+and states 1 0 0 0
+on states 0 0 0 1
+about states 1 0 0 0
+from states 1 0 0 0
+enter states 1 0 0 0
+relate states 0 0 0 1
+maintains states 0 0 0 1
+among states 1 0 0 0
+to states 1 0 0 0
+of states 1 0 0 0
+through states 1 0 0 0
+know states 0 0 0 1
+in states 1 0 0 0
+entered states 1 0 0 0
+with states 1 0 0 0
+between states 1 0 0 0
+left states 1 0 0 0
+-lrb- onig 1 0 0 0
+; ma 1 0 0 0
+of g 1 0 0 0
+in g 1 0 0 0
+-lrb- g 1 0 0 0
+and f 1 0 0 0
+q f 1 0 0 0
+= f 1 0 0 0
+, f 1 0 0 0
+by f 1 0 0 0
+do this 1 0 0 0
+show this 1 0 0 0
+doing this 1 0 0 0
+of this 1 0 0 0
+sometimes this 1 0 0 0
+, this 1 0 0 0
+but this 1 0 0 0
+explains this 1 0 0 0
+in science 1 0 0 0
+to equation 1 0 0 0
+of work 1 0 0 0
+5 work 1 0 0 0
+acknowledgments work 1 0 0 0
+for work 1 0 0 0
+that work 1 0 0 0
+, cav 1 0 0 0
+require theories 1 0 0 0
+modulo theories 1 0 0 0
+satisfiability theories 1 0 0 0
+for theories 1 0 0 0
+in theories 1 0 0 0
+; seidl 1 0 0 0
+-lrb- labeled 1 0 0 0
+to minimum 0 0 0 1
+provide values 1 0 0 0
+to values 1 0 0 0
+on values 1 0 0 0
+on v 0 1 0 0
+unique v 1 0 0 0
+, v 1 0 0 0
+-lrb- v 1 0 0 0
+in following 0 0 0 1
+x +1 1 0 0 0
+we +1 1 0 0 0
+thus +1 1 0 0 0
+-lrb- +1 1 0 0 0
+= root 1 0 0 0
+, root 1 0 0 0
+of example 1 0 0 0
+in example 1 0 0 0
+for example 1 0 0 0
+-lrb- example 1 0 0 0
+to numbers 1 0 0 0
+: numbers 0 0 0 1
+in numbers 0 0 0 1
+under numbers 1 0 0 0
+on computers 1 0 0 0
+and zilberstein 1 0 0 0
+-lrb- zilberstein 1 0 0 0
+; wang 1 0 0 0
+from figure 1 0 0 0
+v5 figure 1 0 0 0
+for figure 1 0 0 0
+-rrb- figure 1 0 0 0
+during process 0 0 0 1
+x messages 1 0 0 0
+for messages 1 0 0 0
+sent messages 1 0 0 0
+receives messages 1 0 0 0
+of messages 1 0 0 0
+, n.y. 1 0 0 0
+serves purposes 1 0 0 0
+for purposes 1 0 0 0
+because agent 0 0 1 0
+from agent 1 0 0 0
+to agent 0 0 1 0
+for agent 1 0 0 0
+that agent 0 0 0 1
+since agent 0 0 1 0
+of agent 1 0 0 0
+exactly agent 1 0 0 0
+-rrb- agent 1 0 0 0
+when agent 1 0 0 0
+, agent 0 0 0 1
+how agent 1 0 0 0
+-lrb- agent 1 0 0 0
+where agent 1 0 0 0
+exists agent 1 0 0 0
+if agent 0 0 0 1
+is topic 0 1 0 0
+that collision 0 1 0 0
+in collision 0 1 0 0
+of assumptions 1 0 0 0
+under assumptions 1 0 0 0
+is something 1 0 0 0
+in sense 0 0 0 1
+and f. 1 0 0 0
+; f. 1 0 0 0
+, f. 1 0 0 0
+and schaub 1 0 0 0
+-lrb- schaub 1 0 0 0
+use information 1 0 0 0
+waste information 1 0 0 0
+, information 1 0 0 0
+present information 1 0 0 0
+thus end 0 0 0 1
+in end 0 0 0 1
+to s2 1 0 0 0
+state s2 1 0 0 0
+with s2 0 0 1 0
+of s1 1 0 0 0
+is s1 0 1 0 0
+and negation 1 0 0 0
+containing negation 1 0 0 0
+or negation 1 0 0 0
+is negation 0 0 0 1
+under negation 1 0 0 0
+is 1 1 0 0 0
+random 1 1 0 0 0
+namely 1 1 0 0 0
+in 1 1 0 0 0
+from 1 1 0 0 0
+for 1 1 0 0 0
++ 1 1 0 0 0
+- 1 1 0 0 0
+, 1 1 0 0 0
+to 1 1 0 0 0
+formula 1 1 0 0 0
+: 1 1 0 0 0
+= 1 1 0 0 0
+`` 1 1 0 0 0
+optimizations 1 1 0 0 0
+let 1 1 0 0 0
+-lrb- 1 1 0 0 0
+by 1 1 0 0 0
+case 1 1 0 0 0
+of 1 1 0 0 0
+labeled 1 1 0 0 0
+l2 1 1 0 0 0
+y 1 1 0 0 0
+x 1 1 0 0 0
+that maps 1 0 0 0
+and s. 1 0 0 0
+, s. 1 0 0 0
+of frontiers 1 0 0 0
+explain answer 1 0 0 0
+explains answer 0 0 0 1
+and max 1 0 0 0
+of max 1 0 0 0
+and tentrup 1 0 0 0
+, tentrup 1 0 0 0
+as blackbox 0 1 0 0
+execute plans 1 0 0 0
+generates plans 1 0 0 0
+for plans 1 0 0 0
+of plans 1 0 0 0
+computes plans 1 0 0 0
+find plans 1 0 0 0
+define plans 1 0 0 0
+example 5.1 1 0 0 0
+, ed. 1 0 0 0
+propose use 0 0 0 1
+of variant 0 0 0 1
+, variant 0 1 0 0
+-lrb- mapping 1 0 0 0
+is mapping 0 1 0 0
+and applications 1 0 0 0
+on applications 1 0 0 0
+for applications 1 0 0 0
+in applications 1 0 0 0
+and warehouse 1 0 0 0
+: warehouse 1 0 0 0
+shows warehouse 1 0 0 0
+-lrb- date 1 0 0 0
+satisfies such 1 0 0 0
+as such 1 0 0 0
+handles types 1 0 0 0
+is a 0 1 0 0
+- a 1 0 0 0
+find a 0 1 0 0
+instance runtime 0 0 0 1
+has runtime 0 1 0 0
+but runtime 0 0 0 1
+keep runtime 1 0 0 0
+and branches 1 0 0 0
+takes branches 0 1 0 0
+, helsinki 1 0 0 0
+shed light 1 0 0 0
+in correspond 0 1 0 0
+at ghz 1 0 0 0
+adding q 0 0 0 1
+-lcb- q 1 0 0 0
+for q 1 0 0 0
+of q 0 1 0 0
+, q 1 0 0 0
+-lrb- q 1 0 0 0
+increase complexity 1 0 0 0
+of complexity 0 1 0 0
+on complexity 0 0 0 1
+of algorithms 1 0 0 0
+exist algorithms 1 0 0 0
+, algorithms 1 0 0 0
+of op 0 0 0 1
+is op 1 0 0 0
+specifies order 0 1 0 0
+of order 0 0 0 1
+express order 0 0 0 1
+to order 0 1 0 0
+in order 0 0 0 1
+defines order 0 1 0 0
+shows order 0 1 0 0
+allowing nesting 1 0 0 0
+uses operations 1 0 0 0
+; devriendt 1 0 0 0
+be interpretation 0 1 0 0
+for interpretation 1 0 0 0
+represents interpretation 0 1 0 0
+of interpretation 1 0 0 0
+is interpretation 0 1 0 0
+- interpretation 1 0 0 0
+, interpretation 0 1 0 0
+m interpretation 0 0 0 1
+invalidates interpretation 0 0 0 1
+input interpretation 0 1 0 0
+if interpretation 1 0 0 0
+defines interpretation 0 1 0 0
+of hierarchy 1 0 0 0
+in hierarchy 0 0 0 1
+and bekris 1 0 0 0
+-lrb- bekris 1 0 0 0
+; bekris 1 0 0 0
+that symbols 0 0 0 1
+of symbols 1 0 0 0
+mapping symbols 1 0 0 0
+as symbols 1 0 0 0
+with symbols 1 0 0 0
+interpret symbols 1 0 0 0
+during course 0 0 0 1
+over course 0 0 0 1
+of paper 1 0 0 0
+of graph 0 0 0 1
+: graph 0 1 0 0
+from graph 0 0 0 1
+, subsolver 0 0 0 1
+2013 ieee 1 0 0 0
+and its 1 0 0 0
+and warren 1 0 0 0
+; warren 1 0 0 0
+and delay 0 1 0 0
+unique delay 1 0 0 0
+, delay 0 0 0 1
+, 83-99 1 0 0 0
+and g-value 1 0 0 0
+of g-value 1 0 0 0
+sets g-value 0 0 0 1
+with probability 0 0 0 1
+for solving 1 0 0 0
+that solving 1 0 0 0
+at lj 1 0 0 0
+= lj 1 0 0 0
+, lj 1 0 0 0
+li lj 1 0 0 0
+-lrb- , 1 0 0 0
+and li 1 0 0 0
+then li 1 0 0 0
+use li 1 0 0 0
+since li 1 0 0 0
+from li 1 0 0 0
+-rrb- li 1 0 0 0
+contains li 0 0 1 0
+lj li 1 0 0 0
+, li 1 0 0 0
+li li 1 0 0 0
+to li 0 1 0 0
+finds li 0 1 0 0
+steps li 1 0 0 0
+time li 1 0 0 0
+in li 1 0 0 0
+plan li 1 0 0 0
+: li 1 0 0 0
+= li 1 0 0 0
+by li 0 1 0 0
+if li 1 0 0 0
+and choset 1 0 0 0
+; choset 1 0 0 0
+let lu 1 0 0 0
+is lu 0 1 0 0
+with lu 1 0 0 0
+than lu 1 0 0 0
+, lu 1 0 0 0
+-lrb- dp 1 0 0 0
+in wasp 1 0 0 0
+al. 2015 1 0 0 0
+-lrb- 2015 1 0 0 0
+; 2015 1 0 0 0
+c 2015 1 0 0 0
+-lrb- 2014 1 0 0 0
+cp 2014 1 0 0 0
+al. 2016 1 0 0 0
+-lrb- 2016 1 0 0 0
+x < 1 0 0 0
+al. 2013 1 0 0 0
+-lrb- 2013 1 0 0 0
+; 2013 1 0 0 0
+, 2013 1 0 0 0
+in 2013 1 0 0 0
+, 2012 1 0 0 0
+, then 1 0 0 0
+obeying them 1 0 0 0
+of them 1 0 0 0
+preceding them 1 0 0 0
+by them 1 0 0 0
+update them 1 0 0 0
+; return 1 0 0 0
+-rrb- return 1 0 0 0
+find combination 0 1 0 0
+that combination 1 0 0 0
+, 114-128 1 0 0 0
+and practice 1 0 0 0
+in practice 1 0 0 0
+over runs 1 0 0 0
+-lrb- aho 1 0 0 0
+are framework 0 1 0 0
+, framework 0 1 0 0
+in framework 1 0 0 0
+: they 1 0 0 0
+when they 1 0 0 0
+, they 1 0 0 0
+since they 1 0 0 0
+that they 1 0 0 0
+in front 0 0 0 1
+in \ 1 0 0 0
+, association 1 0 0 0
+of successor 1 0 0 0
+in document 1 0 0 0
+and bacchus 1 0 0 0
+by bacchus 1 0 0 0
+provide commands 1 0 0 0
+with commands 1 0 0 0
+of university 1 0 0 0
+give level 0 0 0 1
+- level 1 0 0 0
+per level 1 0 0 0
+plus level 1 0 0 0
+at level 0 0 0 1
+in level 0 0 1 0
+and l 1 0 0 0
+vertex l 1 0 0 0
+, l 1 0 0 0
+location l 1 0 0 0
+-lrb- l 1 0 0 0
+with l 1 0 0 0
+if l 1 0 0 0
+present formalisation 0 1 0 0
+in iff 1 0 0 0
+thus l2 1 0 0 0
+= l2 1 0 0 0
+by l2 1 0 0 0
+-rrb- l2 1 0 0 0
+on truth 0 0 0 1
+= l1 1 0 0 0
+i | 1 0 0 0
+with | 1 0 0 0
+-lcb- | 1 0 0 0
+-lrb- | 1 0 0 0
+and mapf-dp 1 0 0 0
+determines mapf-dp 1 0 0 0
+for mapf-dp 1 0 0 0
+-rrb- mapf-dp 0 1 0 0
+of mapf-dp 1 0 0 0
+computes mapf-dp 1 0 0 0
+-lrb- mapf-dp 1 0 0 0
+domain constraints 1 0 0 0
+obey constraints 1 0 0 0
+for constraints 1 0 0 0
+of constraints 1 0 0 0
+contains constraints 1 0 0 0
+by constraints 1 0 0 0
+to constraints 0 0 0 1
+imposes constraints 1 0 0 0
+propagate constraints 1 0 0 0
+obeys constraints 0 0 0 1
+under constraints 0 0 0 1
+called constraints 1 0 0 0
+because domain 0 0 0 1
+-lrb- en 1 0 0 0
+-lrb- kornhauser 1 0 0 0
+via generation 1 0 0 0
+with generation 1 0 0 0
+performs generation 1 0 0 0
+random 1-10 1 0 0 0
+implements idea 1 0 0 0
+since idea 0 0 0 1
+, idea 0 0 1 0
+if findconflicts 1 0 0 0
+; nieuwenhuis 1 0 0 0
+to connect 1 0 0 0
+of ghostq 1 0 0 0
+with ghostq 1 0 0 0
+pull clauses 1 0 0 0
+learns clauses 1 0 0 0
+learnt clauses 1 0 0 0
+since clauses 0 0 0 1
+be clauses 1 0 0 0
+of clauses 1 0 0 0
+- clauses 1 0 0 0
+when clauses 1 0 0 0
+, clauses 1 0 0 0
+remove clauses 1 0 0 0
+to clauses 0 0 0 1
+through clauses 1 0 0 0
+are clauses 1 0 0 0
+learning clauses 1 0 0 0
+learn clauses 1 0 0 0
+where clauses 1 0 0 0
+represent clauses 1 0 0 0
+to transitions 1 0 0 0
+cancel out 1 0 0 0
+, rt 1 0 0 0
+in respects 1 0 0 0
+of space 0 0 0 1
+in space 0 1 0 0
+on research 1 0 0 0
+, research 1 0 0 0
+in research 1 0 0 0
+and collisions 1 0 0 0
+prevent collisions 1 0 0 0
+that collisions 1 0 0 0
+of collisions 1 0 0 0
+, collisions 1 0 0 0
+without collisions 1 0 0 0
+resolves collisions 1 0 0 0
+then rf 1 0 0 0
+-lcb- rf 1 0 0 0
+-lrb- 7 1 0 0 0
+x 7 1 0 0 0
+-lrb- i0 1 0 0 0
+let i0 1 0 0 0
+from i0 0 0 0 1
+be formula 1 0 0 0
+of formula 0 1 0 0
+is formula 0 1 0 0
+which formula 0 0 0 1
+; formula 0 1 0 0
+: formula 0 1 0 0
+with formula 0 0 0 1
+by formula 0 1 0 0
+and size 0 0 0 1
+to size 0 0 0 1
+since size 0 0 0 1
+in size 1 0 0 0
+in evaluation 1 0 0 0
+in red 1 0 0 0
+-lrb- marek 1 0 0 0
+; marek 1 0 0 0
+and e. 1 0 0 0
+, e. 1 0 0 0
+be theory 0 0 0 1
+from theory 0 0 0 1
+for theory 1 0 0 0
+on theory 1 0 0 0
+of theory 0 1 0 0
+obtain theory 0 0 1 0
+to theory 0 0 0 1
+in theory 0 0 0 1
+when interactions 1 0 0 0
+that interactions 1 0 0 0
+adding mechanisms 1 0 0 0
+is standard 0 0 0 1
+for reason 1 0 0 0
+translating qdimacs 1 0 0 0
+that qdimacs 1 0 0 0
+to advantages 1 0 0 0
+of conflicts 1 0 0 0
+when conflicts 1 0 0 0
+called conflicts 1 0 0 0
+no conflicts 1 0 0 0
++ which 1 0 0 0
+is estimate 0 0 1 0
+= earliest 1 0 0 0
+running lts 1 0 0 0
+in definition 1 0 0 0
+plans definition 1 0 0 0
+follows definition 0 0 0 1
+express definition 1 0 0 0
++1 definition 1 0 0 0
+of definition 1 0 0 0
+: definition 1 0 0 0
+to pairs 1 0 0 0
+for pairs 1 0 0 0
+; kaufmann 1 0 0 0
+, kaufmann 1 0 0 0
+of derivation 1 0 0 0
+extended language 0 0 0 1
+uses language 0 0 1 0
+towards language 0 1 0 0
+have language 1 0 0 0
+that language 0 0 0 1
+- starts 1 0 0 0
+on intelligence 1 0 0 0
+of intelligence 1 0 0 0
+in intelligence 1 0 0 0
+of finland 1 0 0 0
+and programming 0 0 1 0
+of programming 1 0 0 0
+using programming 1 0 0 0
+in programming 1 0 0 0
+-lrb- decmdps 1 0 0 0
+-lrb- fsps 1 0 0 0
+running times 1 0 0 0
+-lrb- scharpff 1 0 0 0
+of length 0 0 0 1
+s2 v3 1 0 0 0
+= v3 1 0 0 0
+from v3 1 0 0 0
+in place 0 0 0 1
+is consequence 0 0 0 1
+to v4 1 0 0 0
+; r. 1 0 0 0
+, r. 1 0 0 0
+for first 0 0 0 1
+returning first 0 0 0 1
+iff there 1 0 0 0
+because there 1 0 0 0
+, there 1 0 0 0
+if there 1 0 0 0
+-lrb- xl 1 0 0 0
+ilu xl 1 0 0 0
+to encoding 0 1 0 0
+of encoding 0 0 0 1
+in encoding 0 0 0 1
+adding encoding 0 0 1 0
+and clause 0 0 0 1
+represent clause 0 1 0 0
+learns clause 0 1 0 0
+that clause 0 0 0 1
+whether clause 1 0 0 0
+of clause 1 0 0 0
+create clause 0 1 0 0
+, clause 0 1 0 0
+construct clause 0 1 0 0
+precede clause 0 1 0 0
+to clause 1 0 0 0
+returns clause 0 1 0 0
+which clause 1 0 0 0
+; clause 1 0 0 0
+where clause 1 0 0 0
+learned clause 1 0 0 0
+is clause 0 1 0 0
+introducing variables 1 0 0 0
+use variables 1 0 0 0
+detect variables 1 0 0 0
+that variables 1 0 0 0
+of variables 1 0 0 0
+over variables 1 0 0 0
+when variables 1 0 0 0
+keep variables 1 0 0 0
+as variables 1 0 0 0
+with variables 1 0 0 0
+i xf 1 0 0 0
+and number 1 0 0 0
+received number 0 1 0 0
+has number 0 1 0 0
+for number 0 1 0 0
+-rrb- number 1 0 0 0
+of number 0 0 0 1
+, number 0 0 0 1
+times number 0 0 0 1
+sampling number 0 0 0 1
+to number 0 0 0 1
+resolve number 1 0 0 0
+have number 0 0 1 0
+minimizes number 0 0 0 1
+depicts number 0 0 0 1
+with number 0 1 0 0
+with tableaux 1 0 0 0
+, tableaux 1 0 0 0
+and one 1 0 0 0
+of one 1 0 0 0
+- one 1 0 0 0
+, one 1 0 0 0
+to one 1 0 0 0
+as one 1 0 0 0
+than one 0 0 0 1
+on instances 1 0 0 0
+for instances 1 0 0 0
+with instances 1 0 0 0
+of instances 1 0 0 0
+solving instances 1 0 0 0
+, instances 1 0 0 0
+to instances 1 0 0 0
+solve instances 1 0 0 0
+: instances 1 0 0 0
+representing instances 1 0 0 0
+generate instances 1 0 0 0
+shows instances 1 0 0 0
+transfer improvements 1 0 0 0
+lift improvements 1 0 0 0
+on files/jtt-aaai-2016.pdf 1 0 0 0
+replacing occurrences 1 0 0 0
+extended solvers 1 0 0 0
+for solvers 1 0 0 0
+with solvers 1 0 0 0
+of solvers 1 0 0 0
+combining solvers 1 0 0 0
+, solvers 1 0 0 0
+but solvers 1 0 0 0
+to solvers 1 0 0 0
+learning solvers 1 0 0 0
+in solvers 1 0 0 0
+using solvers 1 0 0 0
+: solvers 1 0 0 0
+where solvers 1 0 0 0
+or solvers 1 0 0 0
+if solvers 1 0 0 0
+sends message 0 1 0 0
+received message 1 0 0 0
+learnt quality 1 0 0 0
+i xt 1 0 0 0
+to xt 1 0 0 0
+execution xt 0 0 0 1
+-lrb- xt 1 0 0 0
+-lrb- xu 1 0 0 0
+-lrb- sharon 1 0 0 0
+performs introduction 1 0 0 0
+to unknown 1 0 0 0
+on top 1 0 0 0
+-lrb- top 1 0 0 0
+, n.key 1 0 0 0
+have priority 1 0 0 0
+encodes priority 1 0 0 0
+if returns 1 0 0 0
+from returns 1 0 0 0
+either returns 1 0 0 0
+, returns 1 0 0 0
+and 2 1 0 0 0
+-rrb- 2 1 0 0 0
+of 2 1 0 0 0
+fewer 2 1 0 0 0
+to 2 1 0 0 0
+-lrb- 2 1 0 0 0
+: 2 1 0 0 0
+with 2 1 0 0 0
+by 2 1 0 0 0
+if 2 1 0 0 0
+of observations 1 0 0 0
+, w. 1 0 0 0
+, ijcai 1 0 0 0
+in ijcai 1 0 0 0
+qbf boil 1 0 0 0
+on glucose 1 0 0 0
+replace glucose 1 0 0 0
+of glucose 1 0 0 0
+implies that 1 0 0 0
+-rrb- that 1 0 0 0
+of that 1 0 0 0
+is that 1 0 0 0
+aj that 1 0 0 0
+watches that 1 0 0 0
+note that 1 0 0 0
+see that 1 0 0 0
+so that 1 0 0 0
+but that 1 0 0 0
+v that 1 0 0 0
+such that 1 0 0 0
+are that 1 0 0 0
+by academy 0 0 0 1
+provide explanation 0 0 1 0
+how explanation 0 0 1 0
+, explanation 0 0 0 1
+for explanation 0 1 0 0
+to assumption 1 0 0 0
+3 assumption 1 0 0 0
+with assumption 0 0 0 1
+nauchnykh seminarov 1 0 0 0
+in peled 1 0 0 0
+principle solver2 1 0 0 0
+of authors 0 0 0 1
+, authors 0 0 0 1
+, july 1 0 0 0
+; 11 1 0 0 0
+times distance 0 0 0 1
+71 kind 1 0 0 0
+then 12 1 0 0 0
+' 15 1 0 0 0
+; 14 1 0 0 0
+constraints 14 1 0 0 0
+in accordance 1 0 0 0
+and qbfs 0 1 0 0
+-lrb- qbfs 1 0 0 0
+- qbfs 1 0 0 0
+for qbfs 1 0 0 0
+to qbfs 1 0 0 0
+to approximations 0 0 0 1
+compute approximations 1 0 0 0
+obtain approximations 1 0 0 0
+to vocabularies 1 0 0 0
+of vocabularies 1 0 0 0
+are zero 1 0 0 0
+-lrb- r 1 0 0 0
+= r 1 0 0 0
+-lcb- r 1 0 0 0
+, r 1 0 0 0
+of r 1 0 0 0
+, jelia 1 0 0 0
+factor 4/3 1 0 0 0
+using under-approximations 1 0 0 0
+obtain under-approximations 1 0 0 0
+; heule 1 0 0 0
+and and 1 0 0 0
+if and 1 0 0 0
+of generality 1 0 0 0
+; hagen 1 0 0 0
+identified topics 1 0 0 0
+of ram 1 0 0 0
+with ram 1 0 0 0
+to locations 1 0 0 0
+from locations 1 0 0 0
+, locations 0 0 0 1
+visits locations 1 0 0 0
+between locations 1 0 0 0
+-lrb- sat-solver 1 0 0 0
+in sat-solver 1 0 0 0
+if sat-solver 0 1 0 0
+nesting sat-solver 0 1 0 0
+calling sat-solver 0 1 0 0
+in logics 1 0 0 0
+: acyclicity 1 0 0 0
+, acyclicity 1 0 0 0
+for acyclicity 1 0 0 0
+is any 0 1 0 0
+since sat 1 0 0 0
+conclude sat 1 0 0 0
+into sat 1 0 0 0
+in sat 1 0 0 0
+beyond sat 1 0 0 0
+from sat 1 0 0 0
+for sat 1 0 0 0
+how sat 1 0 0 0
+* sat 1 0 0 0
+- sat 1 0 0 0
+, sat 0 1 0 0
+to sat 1 0 0 0
+returns sat 1 0 0 0
+= sat 1 0 0 0
+extend sat 1 0 0 0
+nest sat 1 0 0 0
+boost sat 1 0 0 0
+-lrb- sat 1 0 0 0
+with sat 1 0 0 0
+by sat 1 0 0 0
+puts sat 1 0 0 0
+of sat 1 0 0 0
+while sat 1 0 0 0
+the sat 1 0 0 0
+introduced sat 1 0 0 0
+where sat 1 0 0 0
+called sat 1 0 0 0
+traverse paths 1 0 0 0
+plans paths 1 0 0 0
+of paths 1 0 0 0
+, paths 0 0 0 1
+uses paths 0 0 0 1
+finding paths 1 0 0 0
+-lrb- paths 0 0 0 1
+toward paths 1 0 0 0
+with paths 0 0 0 1
+enhance strength 0 0 0 1
+, 1968 1 0 0 0
+-lrb- ohrimenko 1 0 0 0
+using ideas 1 0 0 0
+= maxj 1 0 0 0
+, maxj 1 0 0 0
+now instance 1 0 0 0
+from instance 0 0 0 1
+for instance 0 0 0 1
+that instance 0 0 0 1
+of instance 0 1 0 0
+planning instance 0 1 0 0
+: instance 0 1 0 0
+than instance 0 0 1 0
+shows instance 0 1 0 0
+-lrb- janhunen 1 0 0 0
+; janhunen 1 0 0 0
+with janhunen 1 0 0 0
+of organizations 0 0 0 1
+and xi 1 0 0 0
+... xi 1 0 0 0
+xi xi 1 0 0 0
+with xi 1 0 0 0
+li xi 1 0 0 0
+sets xi 1 0 0 0
+-lrb- xi 1 0 0 0
+= xi 1 0 0 0
+if xi 1 0 0 0
+on performance 1 0 0 0
+- performance 1 0 0 0
+in performance 0 1 0 0
+and = 1 0 0 0
+-rrb- = 1 0 0 0
+is = 1 0 0 0
+in = 1 0 0 0
+if = 1 0 0 0
+paths = 1 0 0 0
+, = 1 0 0 0
+: = 1 0 0 0
+= = 1 0 0 0
+that = 1 0 0 0
+let = 1 0 0 0
+plan = 1 0 0 0
+-lrb- = 1 0 0 0
+with = 0 1 0 0
+by = 0 0 1 0
+of = 0 0 0 1
+ilu = 1 0 0 0
+suppose = 1 0 0 0
+t = 1 0 0 0
+x = 1 0 0 0
+where = 1 0 0 0
+| = 1 0 0 0
+inside recursively 0 1 0 0
+in calculus 0 0 0 1
+to formulas 1 0 0 0
+of formulas 1 0 0 0
+solving formulas 1 0 0 0
+for formulas 1 0 0 0
+arbitrary formulas 1 0 0 0
+maps index 1 0 0 0
+is index 0 1 0 0
+at index 0 0 0 1
+on track 0 0 0 1
+-lrb- goldman 1 0 0 0
+-lrb- mapf 1 0 0 0
+developed mapf 1 0 0 0
+-lrb- cegar 1 0 0 0
+unlike cegar 1 0 0 0
+to cegar 1 0 0 0
+from most 1 0 0 0
+and plan 1 0 0 0
+whose plan 1 0 0 0
+for plan 0 0 0 1
+form plan 0 1 0 0
+that plan 0 0 0 1
+of plan 0 1 0 0
+is plan 0 1 0 0
+v5 plan 0 1 0 0
+in plan 0 0 0 1
+not plan 0 1 0 0
+consider plan 0 1 0 0
+, nothing 1 0 0 0
+of underapproximations 1 0 0 0
+-lrb- coin 1 0 0 0
+on the 0 0 0 1
+of volume 1 0 0 0
+, volume 1 0 0 0
+since reward 0 0 0 1
+from observation 0 0 0 1
+are consequences 1 0 0 0
+on average 0 0 0 1
+is tautology 1 0 0 0
+and m 1 0 0 0
+be m 0 0 0 1
+for m 0 1 0 0
+that m 1 0 0 0
+is m 0 1 0 0
+- m 1 0 0 0
+, m 1 0 0 0
+while m 1 0 0 0
+than m 1 0 0 0
+case vertices 0 0 0 1
+whose vertices 1 0 0 0
+from vertices 0 0 0 1
+, vertices 0 0 0 1
+of vertices 1 0 0 0
+-lrb- velagapudi 1 0 0 0
+, proceedings 1 0 0 0
+in proceedings 1 0 0 0
+and part 0 0 0 1
+as part 1 0 0 0
+currently part 0 0 0 1
+, part 1 0 0 0
+of sat-solvers 1 0 0 0
+that sat-solvers 1 0 0 0
+in principle 1 0 0 0
+and qbf 1 0 0 0
+on qbf 1 0 0 0
+solving qbf 1 0 0 0
+for qbf 1 0 0 0
+be qbf 0 0 0 1
+transforming qbf 0 1 0 0
+is qbf 0 1 0 0
+describe qbf 0 1 0 0
+- qbf 1 0 0 0
+denote qbf 0 0 0 1
+to qbf 1 0 0 0
+in qbf 1 0 0 0
+-lrb- qbf 1 0 0 0
+over qbf 1 0 0 0
+- specification 1 0 0 0
+from specification 0 1 0 0
+, specification 0 1 0 0
+follows fact 0 0 0 1
+from fact 0 0 0 1
+in fact 1 0 0 0
+, d. 1 0 0 0
+of selection 1 0 0 0
+by selection 1 0 0 0
+on selection 1 0 0 0
+is violation 0 1 0 0
+see text 1 0 0 0
+in text 1 0 0 0
+and labels 1 0 0 0
+of labels 0 0 0 1
+returns labels 0 1 0 0
+returned labels 1 0 0 0
+nor labels 1 0 0 0
+8 priorityqueue 1 0 0 0
+: planning 1 0 0 0
+and marques-silva 1 0 0 0
+-lrb- marques-silva 1 0 0 0
+; marques-silva 1 0 0 0
+, marques-silva 1 0 0 0
+and range 1 0 0 0
+with range 1 0 0 0
+: range 1 0 0 0
+from range 0 0 0 1
+of line 1 0 0 0
+n.constraints line 1 0 0 0
+to line 1 0 0 0
+in biere 1 0 0 0
+research impact 0 0 0 1
+-lrb- keys 1 0 0 0
+maps knowledge 1 0 0 0
+, implementation 1 0 0 0
+that implementation 1 0 0 0
+and explain 1 0 0 0
+, explain 1 0 0 0
+, winner 0 0 0 1
+in blue 1 0 0 0
+-lrb- 3 1 0 0 0
+state 3 1 0 0 0
+: 3 1 0 0 0
+; 3 1 0 0 0
+from lemma 1 0 0 0
+extend lemma 1 0 0 0
+-rrb- lemma 1 0 0 0
+, lemma 1 0 0 0
+how lemma 1 0 0 0
+in lemma 1 0 0 0
+apply lemma 0 0 0 1
+also experiment 1 0 0 0
+repeat experiment 1 0 0 0
+-lrb- qbflib 1 0 0 0
+in qbflib 0 0 0 1
+within factor 1 0 0 0
+numbers 1319966 1 0 0 0
+, aalto 1 0 0 0
+and circle 0 1 0 0
+by circle 0 1 0 0
+minimizes ties 1 0 0 0
+that cube 0 1 0 0
+is cube 0 1 0 0
+- cube 1 0 0 0
+, cube 0 1 0 0
+driven cube 1 0 0 0
+with cube 1 0 0 0
+with re-expansions 1 0 0 0
+of expectation 0 0 0 1
+is expectation 0 0 0 1
+in expectation 1 0 0 0
+of joint 0 0 0 1
+- 123 1 0 0 0
+and actions 0 0 0 1
+of actions 1 0 0 0
+execute actions 1 0 0 0
+fewer actions 1 0 0 0
+is conjunction 0 1 0 0
+fast procedures 1 0 0 0
+in procedures 1 0 0 0
+-lrb- tseitin 1 0 0 0
+of restart 1 0 0 0
+in areas 1 0 0 0
+and processes 1 0 0 0
+as processes 1 0 0 0
+, processes 1 0 0 0
+on f-value 1 0 0 0
+with f-value 0 0 0 1
+-rrb- f-value 0 0 0 1
+- 1/t 1 0 0 0
+and cells 1 0 0 0
+randomly cells 1 0 0 0
+with cells 1 0 0 0
+is sum 0 0 0 1
+on xeon 0 0 1 0
+- intervals 1 0 0 0
+use architecture 1 0 0 0
+, architecture 0 0 0 1
+if lowlevelsearch 1 0 0 0
+and x 1 0 0 0
+states x 1 0 0 0
+in x 1 0 0 0
+if x 1 0 0 0
+index x 1 0 0 0
+enters x 1 0 0 0
+from x 1 0 0 0
+for x 1 0 0 0
+lj x 1 0 0 0
+, x 1 0 0 0
+li x 1 0 0 0
+to x 1 0 0 0
+state x 1 0 0 0
+: x 1 0 0 0
+= x 1 0 0 0
+< x 1 0 0 0
+> x 1 0 0 0
+... x 1 0 0 0
+that x 1 0 0 0
+-lrb- x 1 0 0 0
+with x 1 0 0 0
+of x 1 0 0 0
+where x 1 0 0 0
+left x 0 1 0 0
+, ql 1 0 0 0
+in black 1 0 0 0
+and makespans 0 0 0 1
+to makespans 0 0 0 1
+with makespans 1 0 0 0
+in makespans 1 0 0 0
+n.constraints set 1 0 0 0
+of set 0 1 0 0
+is set 0 1 0 0
+, set 0 1 0 0
+in set 1 0 0 0
+with set 0 1 0 0
+of aspect 1 0 0 0
+return exists 1 0 0 0
+grant 251170 1 0 0 0
+-lrb- gebser 1 0 0 0
+of testing 1 0 0 0
+-lrb- j1 1 0 0 0
+* j1 1 0 0 0
+and j2 1 0 0 0
+is j2 1 0 0 0
+* j2 1 0 0 0
+, j2 1 0 0 0
+-lrb- j2 1 0 0 0
+if j2 1 0 0 0
+to bounds 1 0 0 0
+and j. 1 0 0 0
+; j. 1 0 0 0
+, j. 1 0 0 0
+interprets result 1 0 0 0
+explains result 1 0 0 0
+from result 0 0 0 1
+node -rsb- 1 0 0 0
+enters -rsb- 1 0 0 0
+of -rsb- 1 0 0 0
+precedes -rsb- 1 0 0 0
+in -rsb- 1 0 0 0
+line -rsb- 1 0 0 0
+are -rsb- 1 0 0 0
+solving techniques 1 0 0 0
+on techniques 1 0 0 0
+of techniques 0 0 0 1
+implemented techniques 0 0 0 1
+that techniques 1 0 0 0
+with parent 1 0 0 0
+plus parent 1 0 0 0
+-lrb- under-approximation 1 0 0 0
+is under-approximation 0 1 0 0
+of under-approximation 0 0 0 1
+, under-approximation 0 0 0 1
+assuming under-approximation 0 1 0 0
+in ways 1 0 0 0
+with artificial 1 0 0 0
+called label 1 0 0 0
+and state 1 0 0 0
+expands state 1 0 0 0
+reaches state 1 0 0 0
+denote state 0 0 0 1
+connect state 1 0 0 0
+in state 0 0 0 1
+manipulate state 1 0 0 0
+if state 1 0 0 0
+enters state 0 1 0 0
+from state 0 0 0 1
+takes state 0 1 0 0
+for state 1 0 0 0
+, state 0 0 0 1
+to state 0 1 0 0
+expand state 0 1 0 0
+entered state 1 0 0 0
+knows state 1 0 0 0
+extend state 0 0 0 1
+update state 1 0 0 0
+with state 0 0 0 1
+maintaining state 0 1 0 0
+on state 1 0 0 0
+of state 1 0 0 0
+enter state 1 0 0 0
+changes state 1 0 0 0
+precede state 0 0 0 1
+of classes 1 0 0 0
+discuss classes 1 0 0 0
+-lrb- si 1 0 0 0
+= si 1 0 0 0
+hence progress 1 0 0 0
+use approach 0 0 0 1
+that approach 1 0 0 0
+of approach 1 0 0 0
+is approach 0 1 0 0
+, approach 1 0 0 0
+where approach 1 0 0 0
+present approach 0 1 0 0
+; sapra 1 0 0 0
+with counterexample 1 0 0 0
+ensures we 1 0 0 0
+since we 1 0 0 0
+which we 1 0 0 0
+-rrb- we 1 0 0 0
+abstract we 1 0 0 0
+work we 1 0 0 0
+, we 1 0 0 0
+but we 1 0 0 0
+ranges we 1 0 0 0
+experiments we 1 0 0 0
+something we 1 0 0 0
+policies we 1 0 0 0
+solvers we 1 0 0 0
+interface we 1 0 0 0
+; we 1 0 0 0
+where we 1 0 0 0
+than we 1 0 0 0
+t we 1 0 0 0
+in terms 1 0 0 0
+of rareqs 1 0 0 0
+, 649-654 1 0 0 0
+pp. 115-125 1 0 0 0
+, agencies 1 0 0 0
+and efficiency 1 0 0 0
+tackling efficiency 1 0 0 0
+of unsatisfiability 1 0 0 0
+explains unsatisfiability 1 0 0 0
+, key 1 0 0 0
+than key 0 0 0 1
+implements interface 0 0 0 1
+respects interface 0 0 0 1
+respect interface 0 0 0 1
+... 20 1 0 0 0
+for hundreds 1 0 0 0
+on 21 1 0 0 0
+supports quantifications 1 0 0 0
+learned c 1 0 0 0
+: c 1 0 0 0
+since c 1 0 0 0
+improve c 0 0 1 0
+of cubes 1 0 0 0
+learned cubes 1 0 0 0
+- cubes 1 0 0 0
+adds cubes 1 0 0 0
+-lrb- ranjan 1 0 0 0
+in many 1 0 0 0
+that pertain 1 0 0 0
+combines propagation 1 0 0 0
+that propagation 1 0 0 0
+of propagation 1 0 0 0
+after propagation 1 0 0 0
+to propagation 1 0 0 0
+between propagation 1 0 0 0
+and s 1 0 0 0
+case s 1 0 0 0
+use s 1 0 0 0
+whenever s 1 0 0 0
+of s 0 1 0 0
+falsifies s 1 0 0 0
+, s 1 0 0 0
+calling s 1 0 0 0
+to s 0 0 0 1
+state s 1 0 0 0
+in s 1 0 0 0
+-lrb- s 1 0 0 0
+if s 1 0 0 0
+with s 1 0 0 0
+as s 1 0 0 0
+instantiates s 1 0 0 0
+i ilu 1 0 0 0
+as ilu 1 0 0 0
+, ilu 1 0 0 0
+if ilu 1 0 0 0
+on context 0 0 0 1
+where context 1 0 0 0
+nor context 0 0 0 1
+in context 0 1 0 0
+-lrb- logic 1 0 0 0
+for logic 1 0 0 0
+in logic 1 0 0 0
+of expression 0 0 0 1
+use expression 0 0 0 1
+for expression 1 0 0 0
+, zapiski 1 0 0 0
+- cn 1 0 0 0
+in cn 1 0 0 0
+of color 0 0 0 1
+that corresponds 1 0 0 0
+, d'andrea 1 0 0 0
+over expectations 0 0 0 1
+and agents 1 0 0 0
+among agents 1 0 0 0
+given agents 1 0 0 0
+because agents 1 0 0 0
+from agents 1 0 0 0
+for agents 1 0 0 0
+that agents 1 0 0 0
+with agents 1 0 0 0
+of agents 1 0 0 0
+since agents 1 0 0 0
+when agents 1 0 0 0
+, agents 1 0 0 0
+keep agents 1 0 0 0
+stop agents 1 0 0 0
+to agents 1 0 0 0
+-lsb- agents 1 0 0 0
+all agents 1 0 0 0
+between agents 1 0 0 0
+entered agents 1 0 0 0
+where agents 1 0 0 0
+before agents 1 0 0 0
+adding learning 1 0 0 0
+show learning 1 0 0 0
+of learning 1 0 0 0
+to learning 1 0 0 0
+as learning 1 0 0 0
+introduced learning 1 0 0 0
+with learning 1 0 0 0
+in dec-mdps 1 0 0 0
+with respect 1 0 0 0
+- cp 1 0 0 0
+, cp 1 0 0 0
+and conference 1 0 0 0
+of conference 0 0 0 1
+- conference 1 0 0 0
+, conference 1 0 0 0
+14th conference 1 0 0 0
+in conference 1 0 0 0
+25th conference 1 0 0 0
+identify pv 0 1 0 0
+contains pt 1 0 0 0
+-lcb- pt 1 0 0 0
+, pt 1 0 0 0
+-lrb- pu 1 0 0 0
+ilu pu 1 0 0 0
+t pu 1 0 0 0
+by pu 1 0 0 0
+is union 0 0 0 1
+define union 0 0 0 1
+by equations 1 0 0 0
+discuss three 1 0 0 0
+and . 1 0 0 0
+on . 1 0 0 0
+for . 1 0 0 0
+of . 1 0 0 0
+randomly . 1 0 0 0
+: . 1 0 0 0
+with . 1 0 0 0
+on pc 0 1 0 0
+both literal 0 1 0 0
+-lrb- dec-simdps 1 0 0 0
+and pf 1 0 0 0
+-lcb- pf 1 0 0 0
+contains pf 1 0 0 0
+= pf 1 0 0 0
+-lrb- nadel 1 0 0 0
+probabilities pi 1 0 0 0
+- pi 1 0 0 0
+has pi 0 1 0 0
+with pi 1 0 0 0
+... pn 1 0 0 0
+; seshia 1 0 0 0
+-lrb- pl 1 0 0 0
+lu pl 1 0 0 0
+by pl 1 0 0 0
+in exhibition 1 0 0 0
+and aj 1 0 0 0
+from aj 1 0 0 0
+of aj 1 0 0 0
+after aj 1 0 0 0
+when aj 1 0 0 0
+, aj 1 0 0 0
+state aj 1 0 0 0
+-lrb- aj 1 0 0 0
+if aj 1 0 0 0
+and c. 1 0 0 0
+; c. 1 0 0 0
+in c. 1 0 0 0
+, both 1 0 0 0
+generalises both 1 0 0 0
+of fire 0 0 0 1
+to interpretations 1 0 0 0
+2 interpretations 1 0 0 0
+- interpretations 1 0 0 0
+for interpretations 1 0 0 0
+in interpretations 1 0 0 0
+bridging gap 0 0 0 1
+; gao 1 0 0 0
+and policy 0 1 0 0
+of policy 0 1 0 0
+, policy 1 0 0 0
+-rrb- policy 0 1 0 0
+to g-values 0 0 0 1
+and two-valued 0 1 0 0
+- two-valued 1 0 0 0
+to ours 1 0 0 0
+7 root.key 1 0 0 0
+namely those 1 0 0 0
+are those 1 0 0 0
+implement mcp 1 0 0 0
+not case 0 0 0 1
+is case 0 0 0 1
+in case 1 0 0 0
+-lcb- p1 1 0 0 0
+abbreviate p1 1 0 0 0
+-lrb- cdcl 1 0 0 0
+combine cdcl 1 0 0 0
+-lrb- cbs 1 0 0 0
+, cbs 1 0 0 0
+adapted cbs 1 0 0 0
+than cbs 1 0 0 0
+of cbs 1 0 0 0
+of these 1 0 0 0
+and nski 1 0 0 0
+-lrb- nski 1 0 0 0
+; nski 1 0 0 0
+node n 1 0 0 0
+do n 1 0 0 0
+cn n 0 1 0 0
+assume n 1 0 0 0
+of n 1 0 0 0
+, n 1 0 0 0
+to n 1 0 0 0
+while n 1 0 0 0
+in n 1 0 0 0
+-lrb- n 1 0 0 0
+; n 1 0 0 0
+: n 1 0 0 0
+= n 1 0 0 0
+of frameworks 1 0 0 0
+; while 1 0 0 0
+and policies 0 0 0 1
+compute policies 1 0 0 0
+-rrb- policies 1 0 0 0
+of policies 1 0 0 0
+that policies 1 0 0 0
+are policies 1 0 0 0
+representing policies 0 0 0 1
+called policies 1 0 0 0
+of property 1 0 0 0
+to property 1 0 0 0
+have property 0 0 0 1
+in property 1 0 0 0
+-lrb- property 1 0 0 0
+with property 0 0 0 1
+violates property 1 0 0 0
+, p. 1 0 0 0
+is procedure 0 1 0 0
+while remembering 1 0 0 0
+have drawbacks 1 0 0 0
+address drawbacks 1 0 0 0
+-lrb- mmdps 1 0 0 0
+approximating mmdps 1 0 0 0
+with mmdps 1 0 0 0
+feeding it 1 0 0 0
+although it 1 0 0 0
+since it 1 0 0 0
+-rrb- it 1 0 0 0
+whether it 1 0 0 0
+messages it 1 0 0 0
+make it 1 0 0 0
+that it 1 0 0 0
+when it 1 0 0 0
+, it 1 0 0 0
+approximates it 1 0 0 0
+to it 1 0 0 0
+until it 1 0 0 0
+how it 1 0 0 0
+in it 1 0 0 0
+by it 1 0 0 0
+after it 1 0 0 0
+if it 1 0 0 0
+-lrb- ii 1 0 0 0
+ai itself 1 0 0 0
+to itself 1 0 0 0
+in itself 1 0 0 0
+agent itself 1 0 0 0
+solver itself 1 0 0 0
+- reports 1 0 0 0
+, 2015. 1 0 0 0
+to different 0 1 0 0
+under grant 1 0 0 0
+of government 0 0 0 1
+or government 0 0 0 1
+states same 1 0 0 0
+are same 0 0 0 1
+as qcir 1 0 0 0
+pull parts 1 0 0 0
+in underestimate 0 0 1 0
+of several 1 0 0 0
+returned conflict 1 0 0 0
+that conflict 0 0 0 1
+when conflict 0 1 0 0
+preventing conflict 0 0 0 1
+in conflict 1 0 0 0
+finds conflict 0 1 0 0
+14 conflict 1 0 0 0
+-lrb- i1 1 0 0 0
+let i1 1 0 0 0
+chooses i1 1 0 0 0
+p i1 1 0 0 0
+invalidate assignment 0 0 0 1
+falsifies assignment 1 0 0 0
+found assignment 0 1 0 0
+-lrb- i2 1 0 0 0
+chooses i2 1 0 0 0
+investigating effect 0 0 0 1
+has effect 0 0 0 1
+with effect 0 0 0 1
+, v. 1 0 0 0
+, automation 1 0 0 0
+from v2 1 0 0 0
+-rrb- v2 1 0 0 0
+to levels 1 0 0 0
+as levels 1 0 0 0
+on levels 1 0 0 0
+form levels 1 0 0 0
+in levels 1 0 0 0
+made leaps 1 0 0 0
+to v5 1 0 0 0
+v3 v5 1 0 0 0
+, characters 1 0 0 0
+= i. 1 0 0 0
+, i. 1 0 0 0
+with % 1 0 0 0
+become unsatisfiable 1 0 0 0
+- unsatisfiable 1 0 0 0
+solves task 0 0 0 1
+by center 0 0 0 1
+nested programs 1 0 0 0
+and i 1 0 0 0
+set i 1 0 0 0
+interpretation i 1 0 0 0
+exists i 0 1 0 0
+-rrb- i 1 0 0 0
+ai i 1 0 0 0
+when i 1 0 0 0
+is i 1 0 0 0
+assumptions i 1 0 0 0
+are i 1 0 0 0
+in i 1 0 0 0
+xt i 1 0 0 0
+if i 1 0 0 0
+use i 1 0 0 0
+for i 1 0 0 0
+* i 1 0 0 0
+- i 1 0 0 0
+, i 1 0 0 0
+by i 1 0 0 0
+to i 1 0 0 0
+state i 1 0 0 0
+: i 1 0 0 0
+= i 1 0 0 0
+then i 1 0 0 0
+of i 1 0 0 0
+fails i 1 0 0 0
+let i 1 0 0 0
+i. i 1 0 0 0
+-lrb- i 1 0 0 0
+with i 1 0 0 0
+than i 1 0 0 0
+where i 0 0 0 1
+p i 1 0 0 0
+t i 1 0 0 0
+arbitrary i 1 0 0 0
+expression i 1 0 0 0
+ai changes 1 0 0 0
+to changes 1 0 0 0
+and changes 1 0 0 0
+, obstacles 1 0 0 0
+-rrb- well 1 0 0 0
+, 1970 1 0 0 0
+contain patterns 1 0 0 0
+traversing edge 0 0 1 0
+traverse edge 0 0 0 1
+by edge 0 0 1 0
+provide command 0 1 0 0
+provided command 0 1 0 0
+providing command 0 1 0 0
+if command 0 0 0 1
+from y 1 0 0 0
+-rrb- y 1 0 0 0
+leave y 1 0 0 0
+in y 1 0 0 0
+-lrb- y 1 0 0 0
+= y 1 0 0 0
+< y 1 0 0 0
+exists model 0 1 0 0
+is model 0 1 0 0
+finds model 0 1 0 0
+to model 0 1 0 0
+has model 0 1 0 0
+showing model 1 0 0 0
+, paradigm 0 0 0 1
+, researchers 1 0 0 0
+-lrb- bottom 1 0 0 0
+into sentence 0 1 0 0
+called sentence 0 1 0 0
+in formalisations 1 0 0 0
+-lrb- resp 1 0 0 0
+: resp 1 0 0 0
+= resp 1 0 0 0
+of resp 0 0 1 0
+-lrb- wagner 1 0 0 0
+; wagner 1 0 0 0
+for rest 0 0 0 1
+and codish 1 0 0 0
+-lrb- codish 1 0 0 0
+in unassigned 1 0 0 0
+-lrb- www.aaai.org 1 0 0 0
+and tacchella 1 0 0 0
+-lrb- tacchella 1 0 0 0
+in tacchella 1 0 0 0
+and orensson 1 0 0 0
+-lrb- orensson 1 0 0 0
+; maaren 1 0 0 0
+-lrb- liu 1 0 0 0
+for advancement 0 0 0 1
+-lrb- silver 1 0 0 0
+; add 1 0 0 0
+of tuples 1 0 0 0
+and treatment 1 0 0 0
+towards treatment 0 1 0 0
+from treatment 1 0 0 0
+of versa 0 1 0 0
+use theorem 0 0 0 1
+as input 1 0 0 0
+qdimacs input 1 0 0 0
+resolve violations 1 0 0 0
+; letz 1 0 0 0
+by transformation 0 0 0 1
+as smart 0 1 0 0
+lift optimizations 1 0 0 0
+without optimizations 1 0 0 0
+in aspects 1 0 0 0
+for satisfiability 1 0 0 0
+of satisfiability 1 0 0 0
+in satisfiability 1 0 0 0
+-lrb- satisfiability 1 0 0 0
+invalidating satisfiability 1 0 0 0
+explains satisfiability 0 0 0 1
+: format 0 1 0 0
+of format 0 0 0 1
+is format 0 1 0 0
+because format 0 0 0 1
+accept format 1 0 0 0
+using rules 0 0 0 1
+lifting advances 1 0 0 0
+compare ame 1 0 0 0
+for ame 1 0 0 0
+evaluate ame 1 0 0 0
+use ame 1 0 0 0
+, ame 1 0 0 0
+while ame 1 0 0 0
+of ame 1 0 0 0
+-lrb- ame 1 0 0 0
+by ame 1 0 0 0
+of department 1 0 0 0
+with department 1 0 0 0
+for department 1 0 0 0
+on grid 0 1 0 0
+in environments 1 0 0 0
+-rrb- -391 1 0 0 0
+about execution 1 0 0 0
+for execution 0 0 0 1
+assume execution 1 0 0 0
+of execution 1 0 0 0
+after execution 0 0 0 1
+but execution 0 0 0 1
+t execution 0 0 0 1
+under execution 1 0 0 0
+during execution 1 0 0 0
+: execution 1 0 0 0
+with execution 1 0 0 0
+assumes execution 1 0 0 0
+; narizzano 1 0 0 0
+, narizzano 1 0 0 0
+without loss 1 0 0 0
+requires modifications 1 0 0 0
+is necessary 1 0 0 0
+-lrb- success 1 0 0 0
+from l. 1 0 0 0
+, l. 1 0 0 0
+-lrb- sic 1 0 0 0
+perform steps 1 0 0 0
+of steps 1 0 0 0
+update steps 0 0 0 1
+to steps 0 0 0 1
+and t 1 0 0 0
+then t 1 0 0 0
+suppose t 1 0 0 0
+-rrb- t 1 0 0 0
+-lcb- t 1 0 0 0
+for t 1 0 0 0
+that t 1 0 0 0
+of t 0 0 0 1
+= t 1 0 0 0
+- t 1 0 0 0
+introducing t 0 1 0 0
+let t 1 0 0 0
+at t 1 0 0 0
+hence t 1 0 0 0
+-lrb- t 1 0 0 0
+: t 1 0 0 0
+where t 1 0 0 0
+by t 1 0 0 0
+if t 1 0 0 0
+- output 1 0 0 0
+edges e 1 0 0 0
+-rrb- e 1 0 0 0
+, e 1 0 0 0
+connect e 1 0 0 0
+need terminology 1 0 0 0
+provide sketch 0 1 0 0
+and methods 1 0 0 0
+using methods 0 0 0 1
+support methods 1 0 0 0
+with methods 1 0 0 0
+on methods 1 0 0 0
+in grids 1 0 0 0
+is sequence 0 1 0 0
+by sequence 0 1 0 0
+; b. 1 0 0 0
+, b. 1 0 0 0
+from some 1 0 0 0
+of competition 0 0 0 1
+from competition 0 0 0 1
+-lrb- competition 1 0 0 0
+in competition 0 0 0 1
+in lockstep 1 0 0 0
+, garey 1 0 0 0
+using connectives 1 0 0 0
+to table 1 0 0 0
+-rrb- -521 1 0 0 0
+-lrb- 5 1 0 0 0
+finding scale 1 0 0 0
+solvers scale 1 0 0 0
+of literals 1 0 0 0
+used literals 1 0 0 0
+and mountz 1 0 0 0
+-lrb- mountz 1 0 0 0
+-lrb- morris 1 0 0 0
+- cnfs 1 0 0 0
+be cnf 0 1 0 0
+for cnf 0 1 0 0
+is cnf 0 1 0 0
+since cnf 1 0 0 0
+- cnf 1 0 0 0
+introduced cnf 1 0 0 0
+return n.plan 1 0 0 0
+of n.plan 1 0 0 0
+plan n.plan 1 0 0 0
+in n.plan 1 0 0 0
+-lrb- n.plan 1 0 0 0
+: n.plan 1 0 0 0
+approximateaveragemakespan n.plan 1 0 0 0
+with preprocessors 1 0 0 0
+, cube-learning 1 0 0 0
+reports measures 0 0 0 1
+called minimization 1 0 0 0
+for minimization 1 0 0 0
+-rrb- minimization 1 0 0 0
+of seconds 1 0 0 0
+case vertex 0 0 0 1
+and vertex 0 0 0 1
+from vertex 1 0 0 0
+that vertex 0 0 0 1
+occupy vertex 0 0 0 1
+of vertex 1 0 0 0
+enter vertex 0 0 0 1
+, vertex 0 0 0 1
+leave vertex 0 0 0 1
+to vertex 1 0 0 0
+as vertex 0 0 0 1
+state vertex 1 0 0 0
+in vertex 1 0 0 0
+with vertex 0 1 0 0
+, 128-142 1 0 0 0
+-lrb- silva 1 0 0 0
+enables expansion 1 0 0 0
+, 242-255 1 0 0 0
+-lrb- pomdps 1 0 0 0
+with pomdps 1 0 0 0
+than pomdps 1 0 0 0
+for pomdps 1 0 0 0
+of step 1 0 0 0
+is step 0 0 0 1
+at step 1 0 0 0
+, step 0 0 0 1
+and veloso 1 0 0 0
+-lrb- veloso 1 0 0 0
+, 811-814 1 0 0 0
+; n. 1 0 0 0
+, n. 1 0 0 0
+-lrb- i.e. 1 0 0 0
+, i.e. 1 0 0 0
+; priorityqueue.insert 1 0 0 0
+as properties 1 0 0 0
+with properties 1 0 0 0
+by properties 0 0 0 1
+circumvent limitation 0 1 0 0
+on consumption 1 0 0 0
+: extension 1 0 0 0
+introduced extension 0 1 0 0
+for extension 0 0 0 1
+and constraint 0 0 0 1
+to constraint 0 0 0 1
+add constraint 1 0 0 0
+adds constraint 0 0 0 1
+from theirs 1 0 0 0
+, slisenko 1 0 0 0
+from location 1 0 0 0
+visit location 0 0 0 1
+and o 1 0 0 0
+: o 1 0 0 0
+in o 1 0 0 0
+watching o 1 0 0 0
+and ryvchin 1 0 0 0
+-lrb- ryvchin 1 0 0 0
+since addition 0 0 0 1
+in addition 0 0 0 1
+-lrb- unsat 1 0 0 0
+returns unsat 0 1 0 0
+outputs unsat 1 0 0 0
+to extensions 1 0 0 0
+lift extensions 1 0 0 0
+with extensions 1 0 0 0
+of horizon 0 0 0 1
+, ou 1 0 0 0
+-lcb- ot 1 0 0 0
+, ot 1 0 0 0
+-lrb- aaai-16 1 0 0 0
+in presence 0 0 0 1
+on lucose 0 0 0 1
+, lucose 1 0 0 0
+is bound 0 1 0 0
+-rrb- bound 1 0 0 0
+by nsf 1 0 0 0
+after phase 1 0 0 0
+in phase 1 0 0 0
+-lrb- luna 1 0 0 0
+; luna 1 0 0 0
+, h. 1 0 0 0
+, 40-54 1 0 0 0
+and pineau 1 0 0 0
+; pineau 1 0 0 0
+: fast 1 0 0 0
+: * 1 0 0 0
+: reduction 0 0 0 1
+since reduction 0 0 0 1
+shows reduction 0 0 0 1
+if reduction 0 0 0 1
+use -lrb- 1 0 0 0
+= -lrb- 1 0 0 0
+is -lrb- 0 1 0 0
+with start 1 0 0 0
+and handbook 1 0 0 0
+in handbook 1 0 0 0
+, way 0 0 0 1
+provides way 0 1 0 0
+in way 0 1 0 0
+without overhead 1 0 0 0
+-lrb- : 1 0 0 0
+: : 1 0 0 0
+p : 1 0 0 0
+, 137-151 1 0 0 0
+as propagator 1 0 0 0
+or propagator 1 0 0 0
+for mapfment 1 0 0 0
+each mapfment 1 0 0 0
+of form 1 0 0 0
+as form 0 1 0 0
+= form 1 0 0 0
+uses form 1 0 0 0
+in form 0 0 0 1
+... n-1 1 0 0 0
+minor differences 1 0 0 0
+out differences 0 0 0 1
+in principles 1 0 0 0
+-lrb- qbfeval 1 0 0 0
+-lrb- failure 1 0 0 0
+is atom 0 0 1 0
+with atom 1 0 0 0
+to qbfsolver 0 1 0 0
+to root.plan 1 0 0 0
+2 root.plan 1 0 0 0
+= root.plan 1 0 0 0
+of approximateaveragemakespan 1 0 0 0
+of lncs 1 0 0 0
+-lrb- mcps 1 0 0 0
+mcps mcps 1 0 0 0
+of mcps 1 0 0 0
+with mcps 1 0 0 0
+in mcps 1 0 0 0
+use algorithm 0 0 0 1
+from algorithm 1 0 0 0
++ algorithm 1 0 0 0
+, algorithm 0 0 0 1
+in algorithm 0 1 0 0
+: algorithm 0 1 0 0
+i objective 1 0 0 0
+of objective 0 0 0 1
+and j 1 0 0 0
+often j 0 1 0 0
+-rrb- j 1 0 0 0
+is j 1 0 0 0
+as j 1 0 0 0
+in j 1 0 0 0
+invalidating j 1 0 0 0
+if j 1 0 0 0
+- j 1 0 0 0
+, j 1 0 0 0
+generate j 1 0 0 0
+: j 1 0 0 0
+= j 1 0 0 0
+< j 1 0 0 0
+be j 1 0 0 0
+that j 1 0 0 0
+let j 1 0 0 0
+-lrb- j 1 0 0 0
+with j 1 0 0 0
+than j 1 0 0 0
+of j 1 0 0 0
+where j 1 0 0 0
+for robustness 0 0 0 1
+of maximum 0 0 0 1
+with maximum 0 0 0 1
+let us 1 0 0 0
+require us 1 0 0 0
+allows us 1 0 0 0
+allow us 1 0 0 0
+- 89 1 0 0 0
+within limit 0 1 0 0
+with limit 0 1 0 0
+and malik 1 0 0 0
+-lrb- malik 1 0 0 0
+; malik 1 0 0 0
+from malik 1 0 0 0
+solves problem 0 0 0 1
+is problem 0 0 0 1
+work problem 0 0 0 1
+, problem 0 0 0 1
+solve problem 0 0 0 1
+formalize problem 0 0 0 1
+-rrb- optimisation 1 0 0 0
+: popularity 1 0 0 0
+: -rrb- 1 0 0 0
+, -rrb- 1 0 0 0
+then ai 1 0 0 0
+from ai 1 0 0 0
+for ai 1 0 0 0
+-rrb- ai 1 0 0 0
+of ai 1 0 0 0
+when ai 1 0 0 0
+-lsb- ai 1 0 0 0
+-lrb- ai 1 0 0 0
+of minutes 1 0 0 0
+, abstract 1 0 0 0
+modify internals 0 0 0 1
+in general 1 0 0 0
+; oliveras 1 0 0 0
+, as 1 0 0 0
+and sakallah 1 0 0 0
+-lrb- sakallah 1 0 0 0
+-lrb- et 1 0 0 0
+and h-value 1 0 0 0
+on h-value 1 0 0 0
+where h-value 0 0 0 1
+of formalism 1 0 0 0
+, 1/2 1 0 0 0
+implement fsp 1 0 0 0
+theorem 4.1 1 0 0 0
+with 4.3 1 0 0 0
+theorem 4.3 1 0 0 0
+obtain ingredients 1 0 0 0
+to power 0 0 0 1
+in field 0 0 0 1
+in setting 0 1 0 0
+, remarks 1 0 0 0
+than np 1 0 0 0
+in np 1 0 0 0
+whose f-values 1 0 0 0
+-lrb- standley 1 0 0 0
+call satisfiable 0 1 0 0
+of node 1 0 0 0
+; node 0 0 0 1
+: node 1 0 0 0
+in node 0 0 0 1
+study kinds 1 0 0 0
+are kinds 1 0 0 0
+and vocabulary 0 0 1 0
+of vocabulary 1 0 0 0
+is vocabulary 0 1 0 0
+, vocabulary 0 0 1 0
+in vocabulary 0 0 0 1
+-lrb- models 1 0 0 0
+find models 1 0 0 0
+tackle problems 1 0 0 0
+solve problems 1 0 0 0
+qbf problems 1 0 0 0
+solves problems 1 0 0 0
+tackling problems 1 0 0 0
+and robots 1 0 0 0
+, robots 1 0 0 0
+for robots 1 0 0 0
+and a. 1 0 0 0
+, a. 1 0 0 0
+from a1 1 0 0 0
+where a1 0 0 0 1
+while push 1 0 0 0
+thus push 1 0 0 0
+and a2 0 0 0 1
+let a2 1 0 0 0
+that a2 1 0 0 0
+with intent 0 0 0 1
+introducing variable 0 0 1 0
+that variable 1 0 0 0
+m s.t. 0 1 0 0
+is disjunction 0 1 0 0
+on sides 0 0 0 1
+'' structure 1 0 0 0
+exploiting structure 0 0 0 1
+neither structure 0 0 0 1
+without structure 1 0 0 0
+pass upwards 1 0 0 0
+runs searches 1 0 0 0
+for searches 0 0 0 1
+with 260gb 1 0 0 0
+-lrb- wurman 1 0 0 0
+-lrb- janota 1 0 0 0
+avoid calls 1 0 0 0
+from calls 1 0 0 0
+to 2qbf 1 0 0 0
+for vehicles 1 0 0 0
+-lrb- 2002 1 0 0 0
+apt 2003 1 0 0 0
+with depth 0 0 1 0
+of depth 1 0 0 0
+reduce depth 0 0 0 1
+to u 1 0 0 0
+where u 1 0 0 0
+, u 1 0 0 0
+-lrb- 2004 1 0 0 0
+and time 0 0 0 1
+save time 1 0 0 0
+: time 1 0 0 0
+at time 0 0 0 1
+represent time 0 0 0 1
+using oracle 0 0 1 0
+as oracle 0 0 1 0
+to failures 1 0 0 0
+reduce failures 1 0 0 0
+al. 2009 1 0 0 0
+on resolution 1 0 0 0
+from resolution 1 0 0 0
+c cpu 1 0 0 0
+3
+and all 1 0 0 0
+prevent all 1 0 0 0
+since all 1 0 0 0
+among all 1 0 0 0
+sends all 1 0 0 0
+obtain all 1 0 0 0
+through all 1 0 0 0
+before all 1 0 0 0
+for all 1 0 0 0
+maps all 1 0 0 0
+contains all 1 0 0 0
+when all 1 0 0 0
+, all 1 0 0 0
+to all 1 0 0 0
+which all 1 0 0 0
+then all 1 0 0 0
+mapping all 1 0 0 0
+lift all 1 0 0 0
+of all 1 0 0 0
+remove all 1 0 0 0
+keep all 1 0 0 0
+where all 1 0 0 0
+summarise all 1 0 0 0
+left all 1 0 0 0
+specifies partial 0 1 0 0
+be partial 0 1 0 0
+from partial 0 0 0 1
+represents partial 0 1 0 0
+of partial 0 1 0 0
+is partial 0 1 0 0
+express partial 0 0 0 1
+to partial 1 0 0 0
+identify partial 0 1 0 0
+in partial 0 1 0 0
+-lrb- partial 1 0 0 0
+utilizing partial 1 0 0 0
+with partial 0 0 0 1
+defines partial 0 1 0 0
+of twenty-ninth 0 0 0 1
+-lrb- audemard 1 0 0 0
+-lrb- ganzinger 1 0 0 0
+: results 1 0 0 0
+with results 0 0 0 1
+which results 1 0 0 0
+using existing 0 0 0 1
+, eds 1 0 0 0
+transforming prenex 0 1 0 0
+describe prenex 0 1 0 0
+in prenex 1 0 0 0
+provide go 1 0 0 0
+provided go 0 1 0 0
+is go 1 0 0 0
+providing go 0 1 0 0
+with go 1 0 0 0
+= gi 1 0 0 0
+, gi 1 0 0 0
+and simon 1 0 0 0
+with analytic 1 0 0 0
+instance runtime 0 0 0 1
+within runtime 0 1 0 0
+but runtime 0 0 0 1
+as graph 1 0 0 0
+in graph 1 0 0 0
+to technique 0 0 0 1
+: technique 0 1 0 0
+shaping technique 1 0 0 0
+performs focal 0 1 0 0
+is de-facto 0 0 0 1
+models environment 0 0 0 1
+of environment 0 0 0 1
+in environment 0 0 0 1
+- to 1 0 0 0
+-lrb- n.plan 1 0 0 0
+plan n.plan 1 0 0 0
+in n.plan 1 0 0 0
+and swap 1 0 0 0
++ ti 1 0 0 0
+by undirected 0 0 1 0
+simplifies presentation 0 0 0 1
+et al. 1 0 0 0
+and random 1 0 0 0
+of random 1 0 0 0
+`` random 1 0 0 0
+with random 1 0 0 0
+- seventh 0 0 0 1
+and n.constraints 1 0 0 0
+in n.constraints 1 0 0 0
+v3 g1 1 0 0 0
+-lrb- zhang 1 0 0 0
+; zhang 1 0 0 0
+for very 1 0 0 0
+in very 1 0 0 0
+as minisat 1 0 0 0
+and ullman 1 0 0 0
+: every 1 0 0 0
+of nesting 1 0 0 0
+since nesting 0 0 0 1
+reduce nesting 0 0 0 1
+for nesting 1 0 0 0
+in nesting 0 0 0 1
+of lecture 1 0 0 0
+; lynce 1 0 0 0
+, lynce 1 0 0 0
+, g. 1 0 0 0
+, difference 0 1 0 0
+investigating exact 0 0 0 1
+hence condition 1 0 0 0
+takes non-conflicting 0 1 0 0
+; tang 1 0 0 0
+, tang 1 0 0 0
+of approximateaveragemakespan 1 0 0 0
+= approximateaveragemakespan 1 0 0 0
+of hamiltonian 1 0 0 0
+and michael 1 0 0 0
+implement solution 1 0 0 0
+`` solution 1 0 0 0
+; tasharrofi 1 0 0 0
+, tasharrofi 1 0 0 0
+, t. 1 0 0 0
+-lcb- p 1 0 0 0
+for p 1 0 0 0
+= p 1 0 0 0
+, p 1 0 0 0
+of p 1 0 0 0
+-lrb- p 1 0 0 0
+with p 1 0 0 0
+< p 1 0 0 0
+of excellence 1 0 0 0
+for makespan 1 0 0 0
+has small 0 1 0 0
+with small 1 0 0 0
+in small 1 0 0 0
+; leone 1 0 0 0
+-lrb- becker 1 0 0 0
+and spirakis 1 0 0 0
+using upper 0 0 1 0
+representing upper 1 0 0 0
+to upper 1 0 0 0
+-lrb- smaller 1 0 0 0
+with smaller 1 0 0 0
+of quantifiers 1 0 0 0
+, miller 1 0 0 0
+, 200-215 1 0 0 0
+to direct 0 1 0 0
+-lrb- boutilier 1 0 0 0
+in boutilier 1 0 0 0
+and approximation 0 0 1 0
+how approximation 0 0 1 0
+interpretations approximation 0 0 0 1
+and second 0 0 0 1
+of second 0 0 0 1
+while second 0 0 0 1
+; second 0 0 0 1
+that second 0 0 0 1
+with cost 0 0 0 1
+in design 1 0 0 0
+-lrb- acyc-qbf 1 0 0 0
+: 25-year 0 1 0 0
+of dynamics 1 0 0 0
+have odd 0 0 1 0
+in odd 1 0 0 0
+with returned 0 0 0 1
+in linear 1 0 0 0
+and ternovska 1 0 0 0
+and koenig 1 0 0 0
+to appear 1 0 0 0
+see section 1 0 0 0
+in section 1 0 0 0
+invalidate current 0 0 0 1
+extend current 0 0 0 1
+for current 0 0 0 1
+but current 1 0 0 0
+as current 0 0 0 1
+in current 0 0 0 1
+invalidates current 0 0 0 1
+while version 0 1 0 0
+to concisely 1 0 0 0
+-lrb- melo 1 0 0 0
+of above 0 0 0 1
+introducing new 1 0 0 0
+shed new 1 0 0 0
+enters new 0 1 0 0
+for new 0 0 0 1
+introduced new 0 1 0 0
+with new 1 0 0 0
+finds new 0 1 0 0
+present new 0 1 0 0
+to learned 1 0 0 0
+, learned 0 1 0 0
+in experimax 1 0 0 0
+traversing outgoing 0 0 1 0
+and lee 1 0 0 0
+-lrb- wurman 1 0 0 0
+to state-of-the 1 0 0 0
+called atoms 1 0 0 0
+as clause-learning 1 0 0 0
+when feeding 1 0 0 0
+running ubuntu 1 0 0 0
+; bayless 1 0 0 0
+replaces path 0 0 0 1
+returned path 1 0 0 0
+form path 0 0 0 1
+of path 0 1 0 0
+contains path 0 1 0 0
+replace path 0 0 0 1
+returns path 0 1 0 0
+finds path 0 1 0 0
+found path 1 0 0 0
+find path 0 1 0 0
+and botea 1 0 0 0
+of wait 1 0 0 0
+execute wait 0 1 0 0
+executes wait 0 1 0 0
+for wait 0 1 0 0
+of box 0 0 0 1
+by solid 0 1 0 0
+branches search 0 0 0 1
+continues search 1 0 0 0
+up search 1 0 0 0
+restarts search 0 0 0 1
+during search 1 0 0 0
+: search 0 1 0 0
+of incoming 1 0 0 0
+, root 1 0 0 0
+pull larger 1 0 0 0
+solve larger 1 0 0 0
+to larger 1 0 0 0
+is contradiction 0 1 0 0
+by contradiction 1 0 0 0
+of resulting 0 0 0 1
+that resulting 0 0 0 1
+evaluated resulting 0 0 0 1
+shows resulting 0 0 0 1
+and action 0 0 0 1
+of action 0 0 0 1
+provide proof 0 1 0 0
+: studies 1 0 0 0
+which tasks 1 0 0 0
+, lpnmr 1 0 0 0
+introducing extra 0 0 1 0
+in apt 1 0 0 0
+, fi-00076 1 0 0 0
+-lrb- giunchiglia 1 0 0 0
+in giunchiglia 1 0 0 0
+representing official 0 0 0 1
+defines total 0 1 0 0
+on tools 1 0 0 0
+remove tautological 1 0 0 0
+combines unit 1 0 0 0
+also instantiation 0 0 1 0
+and dnf 0 1 0 0
+-lrb- dnf 1 0 0 0
+discuss working 0 0 0 1
+states 0 1 0 0 0
+-lrb- 0 1 0 0 0
+is 0 1 0 0 0
+= 0 1 0 0 0
+, 0 1 0 0 0
+of decentralized 1 0 0 0
+, decentralized 1 0 0 0
+for decentralized 1 0 0 0
+, m. 1 0 0 0
+; hoos 1 0 0 0
+because two 1 0 0 0
+for two 1 0 0 0
+perform two 1 0 0 0
+of two 1 0 0 0
+, two 1 0 0 0
+serves two 1 0 0 0
+-lsb- two 1 0 0 0
+are two 1 0 0 0
+in two 1 0 0 0
+: two 1 0 0 0
+shows two 1 0 0 0
+by two 0 0 0 1
+instantiates two 1 0 0 0
+of next 0 0 0 1
+in few 1 0 0 0
+shows sample 0 1 0 0
+, call 0 0 0 1
+; chu 1 0 0 0
+-lrb- 6 1 0 0 0
+; 6 1 0 0 0
+with 6 1 0 0 0
+within scope 0 0 0 1
+; goldenberg 1 0 0 0
+requires minor 1 0 0 0
+provide more 1 0 0 0
+to more 1 0 0 0
+with more 1 0 0 0
+pass more 1 0 0 0
+-lrb- kurniawati 1 0 0 0
+labeled `` 1 0 0 0
+that `` 0 0 0 1
+return `` 1 0 0 0
+at `` 0 0 0 1
+define `` 0 0 0 1
+do clever 1 0 0 0
+into non-prenex 0 1 0 0
+: non-prenex 0 1 0 0
+accept non-prenex 1 0 0 0
+, 1/2 1 0 0 0
+in advance 1 0 0 0
+t successful 0 0 0 1
+for successful 0 0 0 1
+solve validity 0 0 0 1
+check validity 0 0 0 1
+qbf validity 1 0 0 0
+and stuckey 1 0 0 0
+; stuckey 1 0 0 0
+, stuckey 1 0 0 0
+; 8 1 0 0 0
+in computer-aided 1 0 0 0
+-lrb- iii 1 0 0 0
+maintains states 0 0 0 1
+in states 0 0 0 1
+in deadlocks 1 0 0 0
+of eighteenth 0 0 0 1
+on left 0 0 0 1
+and f 1 0 0 0
+q f 1 0 0 0
+= f 1 0 0 0
+, f 1 0 0 0
+by f 1 0 0 0
+show this 1 0 0 0
+doing this 1 0 0 0
+in this 1 0 0 0
+use this 1 0 0 0
+for this 1 0 0 0
+how this 1 0 0 0
+, this 1 0 0 0
+maps this 1 0 0 0
+3 this 1 0 0 0
+which this 1 0 0 0
+; this 1 0 0 0
+explains this 1 0 0 0
+acknowledgments this 1 0 0 0
+interprets this 1 0 0 0
+do this 1 0 0 0
+express this 1 0 0 0
+but this 1 0 0 0
+with this 1 0 0 0
+present this 1 0 0 0
+implements this 1 0 0 0
+of this 1 0 0 0
+sometimes this 1 0 0 0
+to equation 1 0 0 0
+require theories 1 0 0 0
+for theories 1 0 0 0
+; seidl 1 0 0 0
+-lrb- labeled 1 0 0 0
+to minimum 0 0 0 1
+-lrb- v 1 0 0 0
+, v 1 0 0 0
+be following 0 0 0 1
+use following 0 0 0 1
+from following 0 0 0 1
+of following 0 0 0 1
+make following 0 0 0 1
+contains following 0 0 0 1
+suppose following 0 0 0 1
+in following 0 0 0 1
+apply following 0 0 0 1
+by following 0 0 0 1
+x +1 1 0 0 0
+we +1 1 0 0 0
+thus +1 1 0 0 0
+via specialized 1 0 0 0
+of example 1 0 0 0
+in example 1 0 0 0
+for example 1 0 0 0
+-lrb- example 1 0 0 0
+: numbers 0 0 0 1
+in numbers 0 0 0 1
+with dedicated 1 0 0 0
+on computers 1 0 0 0
+and zilberstein 1 0 0 0
+; wang 1 0 0 0
+from figure 1 0 0 0
+v5 figure 1 0 0 0
+for figure 1 0 0 0
+-rrb- figure 1 0 0 0
+and agent 1 0 0 0
+then agent 1 0 0 0
+because agent 0 0 1 0
+from agent 1 0 0 0
+since agent 0 0 1 0
+for agent 1 0 0 0
+that agent 0 0 0 1
+of agent 1 0 0 0
+after agent 1 0 0 0
+when agent 1 0 0 0
+, agent 0 0 0 1
+to agent 0 0 1 0
+let agent 1 0 0 0
+-lsb- agent 1 0 0 0
+if agent 0 0 0 1
+is topic 0 1 0 0
+-rrb- :506 1 0 0 0
+of assumptions 0 0 0 1
+with assumptions 1 0 0 0
+under assumptions 1 0 0 0
+and walsh 1 0 0 0
+is something 1 0 0 0
+in sense 0 0 0 1
+, f. 1 0 0 0
+in bonet 1 0 0 0
+and schaub 1 0 0 0
+for information 1 0 0 0
+thus end 0 0 0 1
+in end 0 0 0 1
+to s2 1 0 0 0
+of s1 1 0 0 0
+s2 s1 1 0 0 0
+is negation 0 0 0 1
+under negation 1 0 0 0
+and 1 1 0 0 0
+case 1 1 0 0 0
+execute 1 1 0 0 0
+optimizations 1 1 0 0 0
+for 1 1 0 0 0
+to 1 1 0 0 0
+of 1 1 0 0 0
++ 1 1 0 0 0
+random 1 1 0 0 0
+- 1 1 0 0 0
+, 1 1 0 0 0
+where 1 1 0 0 0
+namely 1 1 0 0 0
+let 1 1 0 0 0
+formula 1 1 0 0 0
+-lrb- 1 1 0 0 0
+on 1 1 0 0 0
+: 1 1 0 0 0
+= 1 1 0 0 0
+by 1 1 0 0 0
+is 1 1 0 0 0
+that maps 1 0 0 0
+not vital 1 0 0 0
+, s. 1 0 0 0
+in opposite 1 0 0 0
+; alviano 1 0 0 0
+explains answer 0 0 0 1
+in answer 1 0 0 0
+and tentrup 1 0 0 0
+as blackbox 0 1 0 0
+made huge 1 0 0 0
+, ed. 1 0 0 0
+propose use 0 0 0 1
+of southern 1 0 0 0
+is mapping 0 1 0 0
+is consequence 0 0 0 1
+of preprocessing 0 0 0 1
+-lrb- date 1 0 0 0
+-rrb- such 1 0 0 0
+of such 1 0 0 0
+identifying such 1 0 0 0
+as such 1 0 0 0
+allowing such 1 0 0 0
+v such 1 0 0 0
+satisfies such 1 0 0 0
+on 30x30 0 1 0 0
+in 30x30 1 0 0 0
+that mapfdp 0 0 0 1
+solve mapfdp 0 0 0 1
+find mapfdp 1 0 0 0
+for mapfdp 1 0 0 0
+in mapfdp 0 0 0 1
+of 30th 1 0 0 0
+-lrb- aj 1 0 0 0
+: transitive 0 0 0 1
+since transitive 0 0 0 1
+if transitive 0 0 0 1
+and branches 1 0 0 0
+in collision 0 1 0 0
+in third 0 0 0 1
+, helsinki 1 0 0 0
+and tinelli 1 0 0 0
+on lines 1 0 0 0
+finding collision-free 1 0 0 0
+-lrb- q 1 0 0 0
+-lcb- q 1 0 0 0
+, q 1 0 0 0
+increase complexity 1 0 0 0
+of complexity 0 1 0 0
+on complexity 0 0 0 1
+for flowtime 1 0 0 0
+to frequent 1 0 0 0
+reduce frequent 1 0 0 0
+and clarke 1 0 0 0
+of negations 1 0 0 0
+uses operations 1 0 0 0
+; devriendt 1 0 0 0
+- interpretation 1 0 0 0
+, office 1 0 0 0
+in hierarchy 0 0 0 1
+enables gradual 1 0 0 0
+and bekris 1 0 0 0
+of move 1 0 0 0
+execute move 0 1 0 0
+executes move 0 1 0 0
+for move 0 1 0 0
+-rrb- move 0 1 0 0
+of symbols 1 0 0 0
+interpret symbols 1 0 0 0
+during course 0 0 0 1
+over course 0 0 0 1
+and xi 1 0 0 0
+... xi 1 0 0 0
+sets xi 1 0 0 0
+-lrb- xi 1 0 0 0
+= xi 1 0 0 0
+if xi 1 0 0 0
+random 1-10 1 0 0 0
+, subsolver 0 0 0 1
+on innovative 1 0 0 0
+on 2.50 0 1 0 0
+introduced solution-driven 1 0 0 0
+with solution-driven 1 0 0 0
+2013 ieee 1 0 0 0
+and its 1 0 0 0
+in its 1 0 0 0
+manipulate its 1 0 0 0
+if its 1 0 0 0
+enters its 1 0 0 0
+from its 1 0 0 0
+for its 1 0 0 0
+, its 1 0 0 0
+to its 1 0 0 0
+entered its 1 0 0 0
+knows its 1 0 0 0
+update its 1 0 0 0
+encodes its 1 0 0 0
+visits its 1 0 0 0
+along its 1 0 0 0
+nor its 1 0 0 0
+on its 1 0 0 0
+of its 1 0 0 0
+keep its 1 0 0 0
+plus its 1 0 0 0
+implement its 1 0 0 0
+changes its 1 0 0 0
+or its 1 0 0 0
+and warren 1 0 0 0
+assume perfect 1 0 0 0
+assumes perfect 1 0 0 0
+under perfect 1 0 0 0
+and delay 0 1 0 0
+whose delay 1 0 0 0
+from delay 0 0 0 1
+with delay 1 0 0 0
+, delay 0 0 0 1
+: delay 1 0 0 0
+where delay 0 0 0 1
+, video 1 0 0 0
+, 83-99 1 0 0 0
+sets g-value 0 0 0 1
+with probability 1 0 0 0
+; 23 1 0 0 0
+: c 1 0 0 0
+with c 1 0 0 0
+since c 1 0 0 0
+: lj 1 0 0 0
+= lj 1 0 0 0
+-lrb- , 1 0 0 0
+and li 1 0 0 0
+use li 1 0 0 0
+-rrb- li 1 0 0 0
+since li 1 0 0 0
+, li 1 0 0 0
+steps li 1 0 0 0
+: li 1 0 0 0
+= li 1 0 0 0
+generate better 1 0 0 0
+obtain better 1 0 0 0
+and choset 1 0 0 0
+be lu 0 0 0 1
+is lu 1 0 0 0
+let lu 1 0 0 0
+, lu 1 0 0 0
+, rabe 1 0 0 0
+in wasp 1 0 0 0
+-lrb- 2015 1 0 0 0
+c 2015 1 0 0 0
+cp 2014 1 0 0 0
+al. 2016 1 0 0 0
+-lrb- 2016 1 0 0 0
+x < 1 0 0 0
+al. 2013 1 0 0 0
+-lrb- 2013 1 0 0 0
+; 2013 1 0 0 0
+, 2013 1 0 0 0
+in 2013 1 0 0 0
+, 2012 1 0 0 0
+, then 1 0 0 0
+-rrb- then 1 0 0 0
+obeying them 1 0 0 0
+of them 1 0 0 0
+preceding them 1 0 0 0
+by them 1 0 0 0
+update them 1 0 0 0
+learns good 1 0 0 0
+obtain good 1 0 0 0
+find combination 0 1 0 0
+; goultiaeva 1 0 0 0
+by goultiaeva 1 0 0 0
+, 114-128 1 0 0 0
+of frontiers 1 0 0 0
+as innermost 1 0 0 0
+in innermost 0 0 0 1
+-lrb- aho 1 0 0 0
+, framework 0 1 0 0
+: they 1 0 0 0
+when they 1 0 0 0
+, they 1 0 0 0
+since they 1 0 0 0
+that they 1 0 0 0
+is st 1 0 0 0
+in front 0 0 0 1
+use nested 0 0 0 1
+because nested 0 0 0 1
+that nested 1 0 0 0
+, nested 1 0 0 0
+calling nested 0 0 0 1
+to nested 0 0 0 1
+call nested 0 0 0 1
+obliging nested 0 0 0 1
+using nested 1 0 0 0
+with nested 1 0 0 0
+in \ 1 0 0 0
+, association 1 0 0 0
+are several 1 0 0 0
+identified several 1 0 0 0
+, l. 1 0 0 0
+called fully 1 0 0 0
+-rrb- fully 1 0 0 0
+with reasonably 0 1 0 0
+on solver 1 0 0 0
+of solver 0 0 0 1
+* solver 0 0 0 1
+, solver 1 0 0 0
+nested solver 1 0 0 0
+in solver 0 1 0 0
+before solver 0 1 0 0
+and l 1 0 0 0
+with l 1 0 0 0
+vertex l 1 0 0 0
+, l 1 0 0 0
+location l 1 0 0 0
+-lrb- l 1 0 0 0
+= l 1 0 0 0
+if l 1 0 0 0
+present formalisation 0 1 0 0
+-lrb- morris 1 0 0 0
+node -lsb- 1 0 0 0
+n.constraints -lsb- 1 0 0 0
+-rrb- -lsb- 1 0 0 0
+on truth 1 0 0 0
+and each 1 0 0 0
+from each 1 0 0 0
+to each 1 0 0 0
+for each 1 0 0 0
+maps each 1 0 0 0
+replacing each 1 0 0 0
+where each 1 0 0 0
+after each 1 0 0 0
+, each 1 0 0 0
+how each 1 0 0 0
+that each 1 0 0 0
+at each 1 0 0 0
+which each 1 0 0 0
+of each 1 0 0 0
+cancel each 1 0 0 0
+with each 1 0 0 0
+if each 1 0 0 0
+on found 0 0 0 1
+14th european 1 0 0 0
+i | 1 0 0 0
+-lrb- | 1 0 0 0
+ilu | 1 0 0 0
+whose mapf-dp 1 0 0 0
+from mapf-dp 0 0 0 1
+for mapf-dp 1 0 0 0
+-rrb- mapf-dp 0 1 0 0
+of mapf-dp 0 1 0 0
+, mapf-dp 0 0 0 1
+to mapf-dp 1 0 0 0
+planning mapf-dp 0 1 0 0
+in mapf-dp 1 0 0 0
+formalize mapf-dp 0 0 0 1
+-lrb- mapf-dp 1 0 0 0
+: mapf-dp 0 1 0 0
+find mapf-dp 1 0 0 0
+present mapf-dp 0 1 0 0
+of constraints 1 0 0 0
+called constraints 1 0 0 0
+to constraints 0 0 0 1
+imposes constraints 1 0 0 0
+obeys constraints 0 0 0 1
+under constraints 0 0 0 1
+by constraints 1 0 0 0
+-lrb- cbs 1 0 0 0
+adapted cbs 1 0 0 0
+, cbs 0 1 0 0
+of cbs 1 0 0 0
+-lrb- kornhauser 1 0 0 0
+also experiment 1 0 0 0
+repeat experiment 1 0 0 0
+in experiment 1 0 0 0
+learning stronger 1 0 0 0
+and related 1 0 0 0
+if findconflicts 1 0 0 0
+; nieuwenhuis 1 0 0 0
+thus fewer 1 0 0 0
+of ghostq 1 0 0 0
+with ghostq 1 0 0 0
+learnt clauses 1 0 0 0
+of clauses 1 0 0 0
+since clauses 0 0 0 1
+, clauses 1 0 0 0
+through clauses 1 0 0 0
+are clauses 1 0 0 0
+learn clauses 1 0 0 0
+where clauses 1 0 0 0
+in principled 0 1 0 0
+to transitions 1 0 0 0
+is special 0 1 0 0
+and nonmonotonic 1 0 0 0
+in principles 1 0 0 0
+to large 1 0 0 0
+in large 1 0 0 0
+-lrb- decmdps 1 0 0 0
+, research 1 0 0 0
+prevent collisions 1 0 0 0
+of collisions 1 0 0 0
+resolves collisions 1 0 0 0
+-lcb- rf 1 0 0 0
+-lrb- 7 1 0 0 0
+x 7 1 0 0 0
+and max 1 0 0 0
+of formula 0 1 0 0
+; formula 0 1 0 0
+: formula 0 1 0 0
+be formula 0 1 0 0
+and size 0 0 0 1
+to size 0 0 0 1
+since size 0 0 0 1
+5 evaluation 1 0 0 0
+and red 0 0 0 1
+in red 1 0 0 0
+-lrb- marek 1 0 0 0
+; marek 1 0 0 0
+is numerical 0 1 0 0
+of theory 0 0 0 1
+on theory 1 0 0 0
+from theory 0 0 0 1
+in theory 0 0 0 1
+when interactions 1 0 0 0
+that interactions 1 0 0 0
+or u.s. 0 0 0 1
+- confidence 1 0 0 0
+adding mechanisms 1 0 0 0
+with free 1 0 0 0
+that free 0 0 0 1
+in standard 0 0 0 1
+, eds. 1 0 0 0
+translating qdimacs 1 0 0 0
+to qdimacs 1 0 0 0
+from qdimacs 0 1 0 0
+, qdimacs 0 1 0 0
+that qdimacs 1 0 0 0
+, 8th 1 0 0 0
+of conflicts 1 0 0 0
+when conflicts 1 0 0 0
+called conflicts 1 0 0 0
+no conflicts 1 0 0 0
+= earliest 1 0 0 0
+that earliest 0 0 0 1
+follows definition 0 0 0 1
+of definition 1 0 0 0
+: definition 1 0 0 0
+plans definition 1 0 0 0
+in definition 1 0 0 0
+to pairs 1 0 0 0
+; kaufmann 1 0 0 0
+, kaufmann 1 0 0 0
+of derivation 1 0 0 0
+-lrb- g 1 0 0 0
+, g 1 0 0 0
+and applications 1 0 0 0
+for applications 1 0 0 0
+of finland 1 0 0 0
+, finland 1 0 0 0
+x messages 1 0 0 0
+for messages 1 0 0 0
+sent messages 1 0 0 0
+receives messages 1 0 0 0
+of messages 1 0 0 0
+-lrb- success 1 0 0 0
+-lrb- fsps 1 0 0 0
+of fsps 1 0 0 0
+running times 1 0 0 0
+-lrb- scharpff 1 0 0 0
+of length 0 0 0 1
+of edges 1 0 0 0
+traverses edges 1 0 0 0
+be exponentially 1 0 0 0
+fire hence 1 0 0 0
+, hence 1 0 0 0
+of existential 1 0 0 0
+supports existential 1 0 0 0
+treat existential 1 0 0 0
+, r. 1 0 0 0
+and rintanen 1 0 0 0
+of first 0 0 0 1
+returning first 0 0 0 1
+in first 0 0 0 1
+for first 0 0 0 1
+that first 0 0 0 1
+of dpll 1 0 0 0
+arbitrary formulas 1 0 0 0
+um * 1 0 0 0
+-lrb- xl 1 0 0 0
+adding encoding 0 0 1 0
+in encoding 0 0 0 1
+of encoding 0 0 0 1
+and clause 0 0 0 1
+adding clause 0 0 0 1
+learns clause 0 1 0 0
+on clause 1 0 0 0
+of clause 0 1 0 0
+create clause 0 1 0 0
+, clause 0 1 0 0
+by clause 1 0 0 0
+to clause 1 0 0 0
+as clause 1 0 0 0
+learned clause 1 0 0 0
+precede clause 0 1 0 0
+is clause 0 1 0 0
+pull variables 1 0 0 0
+of variables 1 0 0 0
+when variables 1 0 0 0
+with variables 1 0 0 0
+that variables 1 0 0 0
+numbers 1409987 1 0 0 0
+and number 0 0 0 1
+received number 0 1 0 0
+-rrb- number 1 0 0 0
+of number 0 0 0 1
+to number 0 0 0 1
+minimizes number 0 0 0 1
+depicts number 0 0 0 1
+, tableaux 1 0 0 0
+received one 1 0 0 0
+execute one 1 0 0 0
+exactly one 1 0 0 0
+-rrb- one 1 0 0 0
+that one 1 0 0 0
+add one 1 0 0 0
+to one 1 0 0 0
+as one 1 0 0 0
+uses one 1 0 0 0
+-lrb- one 1 0 0 0
+than one 0 0 0 1
+of instances 1 0 0 0
+transfer improvements 1 0 0 0
+: fast 1 0 0 0
+to another 1 0 0 0
+now another 1 0 0 0
+in another 1 0 0 0
+to solvers 1 0 0 0
+or solvers 1 0 0 0
+of solvers 1 0 0 0
+sends message 0 1 0 0
+-lrb- xt 1 0 0 0
+if xt 1 0 0 0
+= xt 1 0 0 0
+to xt 1 0 0 0
+-lrb- xu 1 0 0 0
+, idea 0 0 1 0
+-lrb- sharon 1 0 0 0
+; sharon 1 0 0 0
+of given 0 0 0 1
+with given 0 0 0 1
+for given 0 1 0 0
+in given 0 1 0 0
+and cnf-based 1 0 0 0
+to unknown 1 0 0 0
+on top 1 0 0 0
+-lrb- top 1 0 0 0
+to top 0 0 0 1
+, n.key 1 0 0 0
+when priority 0 0 0 1
+in priority 0 0 0 1
+and their 1 0 0 0
+execute their 1 0 0 0
+from their 1 0 0 0
+that their 1 0 0 0
+explain their 1 0 0 0
+enter their 1 0 0 0
+traverse their 1 0 0 0
+to their 1 0 0 0
+in their 1 0 0 0
+about their 1 0 0 0
+entered their 1 0 0 0
+: their 1 0 0 0
+either returns 1 0 0 0
+and 2 1 0 0 0
+on 2 1 0 0 0
+-rrb- 2 1 0 0 0
+with 2 1 0 0 0
+study 2 1 0 0 0
+, 2 1 0 0 0
+or 2 1 0 0 0
+creates 2 1 0 0 0
+to 2 1 0 0 0
+are 2 1 0 0 0
+have 2 1 0 0 0
+-lrb- 2 1 0 0 0
+: 2 1 0 0 0
+where 2 1 0 0 0
+discuss 2 1 0 0 0
+if 2 1 0 0 0
+and shahab 1 0 0 0
+and plan-execution 0 1 0 0
+are plan-execution 1 0 0 0
+-rrb- plan-execution 0 1 0 0
+, ijcai 1 0 0 0
+in ijcai 1 0 0 0
+, jelia 1 0 0 0
+of glucose 0 0 0 1
+replace glucose 1 0 0 0
+during imperfect 0 0 0 1
+about imperfect 1 0 0 0
+with imperfect 1 0 0 0
+under imperfect 1 0 0 0
+states that 1 0 0 0
+aj that 1 0 0 0
+implies that 1 0 0 0
+-rrb- that 1 0 0 0
+conclude that 1 0 0 0
+assume that 1 0 0 0
+of that 1 0 0 0
+is that 1 0 0 0
+show that 1 0 0 0
+so that 1 0 0 0
+watches that 1 0 0 0
+note that 1 0 0 0
+whether that 1 0 0 0
+see that 1 0 0 0
+suppose that 1 0 0 0
+but that 1 0 0 0
+in that 1 0 0 0
+such that 1 0 0 0
+-lrb- that 1 0 0 0
+by academy 0 0 0 1
+provide explanation 0 0 1 0
+how explanation 0 0 1 0
+, explanation 0 0 0 1
+-lrb- klieber 1 0 0 0
+; klieber 1 0 0 0
+, assumption 0 0 1 0
+nauchnykh seminarov 1 0 0 0
+of authors 0 0 0 1
+, authors 0 0 0 1
+set x0 1 0 0 0
+; 11 1 0 0 0
+times distance 0 0 0 1
+; 13 1 0 0 0
+then 12 1 0 0 0
+14 15 1 0 0 0
+' 15 1 0 0 0
+constraints 14 1 0 0 0
+line 17 1 0 0 0
+in accordance 1 0 0 0
+-lrb- qbfs 1 0 0 0
+for qbfs 1 0 0 0
+to qbfs 1 0 0 0
+to vocabularies 1 0 0 0
+towards richer 0 1 0 0
+= r 1 0 0 0
+-lcb- r 1 0 0 0
+, r 1 0 0 0
+-lrb- r 1 0 0 0
+, contrary 1 0 0 0
+and denecker 1 0 0 0
+using under-approximations 1 0 0 0
+obtain under-approximations 1 0 0 0
+; heule 1 0 0 0
+and and 1 0 0 0
+of and 1 0 0 0
+= and 1 0 0 0
+if and 1 0 0 0
+on 276 1 0 0 0
+of generality 1 0 0 0
+; hagen 1 0 0 0
+; cohen 1 0 0 0
+of ram 1 0 0 0
+to locations 1 0 0 0
+, locations 0 0 0 1
+between locations 1 0 0 0
+inside sat-solver 0 1 0 0
+, sat-solver 0 0 0 1
+calling sat-solver 0 1 0 0
+nesting sat-solver 0 1 0 0
+-lrb- sat-solver 1 0 0 0
+if sat-solver 0 1 0 0
+, 13th 1 0 0 0
+and fourteenth 1 0 0 0
+is disjoint 0 0 0 1
+: acyclicity 1 0 0 0
+, acyclicity 1 0 0 0
+, 1970 1 0 0 0
+be any 1 0 0 0
+that any 1 0 0 0
+of any 1 0 0 0
+is any 1 0 0 0
+within any 1 0 0 0
+when any 1 0 0 0
+, any 1 0 0 0
+to any 1 0 0 0
+without any 1 0 0 0
+principle any 1 0 0 0
+in any 1 0 0 0
+with any 1 0 0 0
+or any 1 0 0 0
+at any 1 0 0 0
+-rrb- relatively 1 0 0 0
+plans paths 1 0 0 0
+, paths 0 0 0 1
+uses paths 0 0 0 1
+-lrb- paths 0 0 0 1
+toward paths 1 0 0 0
+with paths 0 0 0 1
+enhance strength 0 0 0 1
+-lrb- ohrimenko 1 0 0 0
+are zero 1 0 0 0
+at 2.70 1 0 0 0
+and - 0 1 0 0
+be - 0 1 0 0
+exists - 0 1 0 0
+is - 0 1 0 0
+assuming - 0 1 0 0
+m - 0 0 0 1
+call - 0 1 0 0
+-lrb- - 1 0 0 0
+input - 0 1 0 0
+using ideas 1 0 0 0
+= maxj 1 0 0 0
+, maxj 1 0 0 0
+hence also 1 0 0 0
+is 2-valued 0 1 0 0
+m 2-valued 0 1 0 0
+and internal 0 0 1 0
+because internal 0 0 0 1
+for internal 0 0 0 1
+of internal 0 0 0 1
+when internal 0 0 0 1
+using internal 0 0 1 0
+-lrb- janhunen 1 0 0 0
+; janhunen 1 0 0 0
+by janhunen 1 0 0 0
+, janhunen 1 0 0 0
+, online 1 0 0 0
+of objective 0 0 0 1
+, = 1 0 0 0
+let = 1 0 0 0
+t = 1 0 0 0
+x = 1 0 0 0
+: = 1 0 0 0
+| = 1 0 0 0
+; boyarski 1 0 0 0
+of belief 0 0 0 1
+of even 0 0 1 0
+, even 0 0 0 1
+in even 1 0 0 0
+with added 1 0 0 0
+be multiple 1 0 0 0
+-rrb- :357 1 0 0 0
+example 5.1 1 0 0 0
+, n.y. 1 0 0 0
+-lrb- goldman 1 0 0 0
+for mapf 1 0 0 0
+developed mapf 1 0 0 0
+work mapf 0 0 0 1
+, mapf 0 1 0 0
+solve mapf 0 0 0 1
+of mapf 0 1 0 0
+formalize mapf 0 0 0 1
+-lrb- mapf 1 0 0 0
+: mapf 1 0 0 0
+-lrb- cegar 1 0 0 0
+of cegar 0 0 0 1
+unlike cegar 1 0 0 0
+to cegar 1 0 0 0
+, state-of-the-art 1 0 0 0
+during plan 1 0 0 0
+is plan 0 1 0 0
+: plan 1 0 0 0
+but plan 0 0 0 1
+of plan 1 0 0 0
+, nothing 1 0 0 0
+of underapproximations 1 0 0 0
+-lrb- coin 1 0 0 0
+of probabilistic 1 0 0 0
+of so-called 1 0 0 0
+of average 0 0 0 1
+is average 0 0 0 1
+sampling average 0 0 0 1
+, average 0 0 0 1
+to average 0 0 0 1
+and m 1 0 0 0
+then m 1 0 0 0
+given m 1 0 0 0
+, m 1 0 0 0
+while m 1 0 0 0
+-lrb- m 1 0 0 0
+case vertices 0 0 0 1
+whose vertices 1 0 0 0
+from vertices 0 0 0 1
+, vertices 0 0 0 1
+of vertices 1 0 0 0
+over 1,000 1 0 0 0
+propagate reachability 1 0 0 0
+, proceedings 1 0 0 0
+in proceedings 1 0 0 0
+as part 1 0 0 0
+, part 1 0 0 0
+of sat-solvers 1 0 0 0
+in principle 1 0 0 0
+on qbf 1 0 0 0
+solves qbf 1 0 0 0
+for qbf 1 0 0 0
+be qbf 0 0 0 1
+with qbf 1 0 0 0
+of qbf 0 1 0 0
+is qbf 0 1 0 0
+solving qbf 1 0 0 0
+- qbf 1 0 0 0
+obtain qbf 0 1 0 0
+denote qbf 0 0 0 1
+to qbf 1 0 0 0
+solve qbf 1 0 0 0
+where qbf 0 1 0 0
+in qbf 1 0 0 0
+-lrb- qbf 1 0 0 0
+presented qbf 0 1 0 0
+representing qbf 1 0 0 0
+called qbf 0 1 0 0
+currently weakest 0 0 0 1
+y + 1 0 0 0
+x + 1 0 0 0
+-rrb- + 1 0 0 0
+follows fact 0 0 0 1
+from fact 0 0 0 1
+in fact 1 0 0 0
+, d. 1 0 0 0
+from directed 0 0 0 1
+: directed 0 1 0 0
+with directed 0 1 0 0
+of directed 0 0 0 1
+is violation 0 1 0 0
+in automated 1 0 0 0
+of centralized 1 0 0 0
+with game-state 1 0 0 0
+of planning 0 0 0 1
+: planning 1 0 0 0
+and marques-silva 1 0 0 0
+-lrb- marques-silva 1 0 0 0
+; marques-silva 1 0 0 0
+with 95 1 0 0 0
+and high-level 0 0 0 1
+then high-level 0 0 0 1
+that high-level 0 0 0 1
+of high-level 1 0 0 0
+since high-level 0 0 0 1
+to high-level 0 0 0 1
+in high-level 0 0 0 1
+: high-level 0 0 0 1
+by high-level 0 0 0 1
+shows high-level 0 0 0 1
+of line 1 0 0 0
+and biere 1 0 0 0
+in biere 1 0 0 0
+research impact 0 0 0 1
+is 2-level 0 1 0 0
+present 2-level 0 1 0 0
+-lrb- acnf 1 0 0 0
+is acnf 0 0 1 0
+in acnf 1 0 0 0
+on acnf 0 0 1 0
+, winner 0 0 0 1
+where blue 0 0 0 1
+in blue 1 0 0 0
+-lrb- 3 1 0 0 0
+state 3 1 0 0 0
+: 3 1 0 0 0
+; 3 1 0 0 0
+of 3 0 0 0 1
+how lemma 1 0 0 0
+-rrb- lemma 1 0 0 0
+from lemma 1 0 0 0
+extend lemma 1 0 0 0
+in lemma 1 0 0 0
+and only 1 0 0 0
+resolve only 1 0 0 0
+, only 0 0 0 1
+generates only 1 0 0 0
+on smallest 0 0 0 1
+with smallest 0 0 0 1
+on qbflib 0 0 0 1
+from qbflib 0 0 0 1
+-lrb- qbflib 1 0 0 0
+in qbflib 0 0 0 1
+, n. 1 0 0 0
+and multi-agent 1 0 0 0
+developed multi-agent 1 0 0 0
+; bogaerts 1 0 0 0
+and local 1 0 0 0
+on local 0 0 0 1
+enters local 0 1 0 0
+from local 1 0 0 0
+enter local 1 0 0 0
+relate local 0 0 0 1
+between local 1 0 0 0
+, local 0 0 0 1
+reaches local 1 0 0 0
+precedes local 1 0 0 0
+to local 1 0 0 0
+after local 0 0 0 1
+know local 0 0 0 1
+in local 0 1 0 0
+entered local 1 0 0 0
+execution local 0 0 0 1
+precede local 0 0 0 1
+leave local 1 0 0 0
+left local 0 1 0 0
+on conflict-based 1 0 0 0
+of lncs 1 0 0 0
+driven cube 1 0 0 0
+is cube 0 1 0 0
+- cube 1 0 0 0
+, cube 0 1 0 0
+that cube 0 1 0 0
+with re-expansions 1 0 0 0
+; de 1 0 0 0
+of quantified 1 0 0 0
+solving quantified 1 0 0 0
+for quantified 1 0 0 0
+in quantified 1 0 0 0
+of expectation 0 0 0 1
+is expectation 0 0 0 1
+in expectation 1 0 0 0
+to generalise 1 0 0 0
+and actions 0 0 0 1
+fewer actions 1 0 0 0
+implemented aforementioned 0 0 0 1
+represent negated 0 1 0 0
+to quantifier 0 0 0 1
+per quantifier 1 0 0 0
+is conjunction 0 1 0 0
+-lrb- tseitin 1 0 0 0
+detect tseitin 1 0 0 0
+-lrb- liu 1 0 0 0
+-rrb- f-value 0 0 0 1
+-lrb- h 1 0 0 0
+line 16 1 0 0 0
+is sum 0 0 0 1
+with 19 1 0 0 0
+circumvent common 0 1 0 0
+in disjunctive 1 0 0 0
+and x 1 0 0 0
+index x 1 0 0 0
+from x 1 0 0 0
+for x 1 0 0 0
+... x 1 0 0 0
+with x 1 0 0 0
+= x 1 0 0 0
+that x 1 0 0 0
+, x 1 0 0 0
+states x 1 0 0 0
+to x 1 0 0 0
+state x 1 0 0 0
+of x 1 0 0 0
+-lrb- x 1 0 0 0
+: x 1 0 0 0
+where x 1 0 0 0
+< x 1 0 0 0
+> x 1 0 0 0
+if x 1 0 0 0
+execute valid 1 0 0 0
+determines valid 1 0 0 0
+generates valid 1 0 0 0
+form valid 0 1 0 0
+of valid 1 0 0 0
+for valid 1 0 0 0
+computes valid 1 0 0 0
+v5 valid 0 1 0 0
+not valid 0 1 0 0
+define valid 1 0 0 0
+consider valid 0 1 0 0
+are valid 1 0 0 0
+in black 1 0 0 0
+in europe 1 0 0 0
+of set 0 1 0 0
+is set 0 1 0 0
+with set 0 1 0 0
+, set 0 1 0 0
+satisfiability modulo 1 0 0 0
+, w. 1 0 0 0
+-lrb- gebser 1 0 0 0
+-lrb- j1 1 0 0 0
+* j1 1 0 0 0
+if j1 1 0 0 0
+and j2 1 0 0 0
+-lrb- j2 1 0 0 0
+is j2 1 0 0 0
+* j2 1 0 0 0
+, j2 1 0 0 0
+and ricca 1 0 0 0
+, j. 1 0 0 0
+of computer 1 0 0 0
+in computer 1 0 0 0
+from result 0 0 0 1
+, close 0 1 0 0
+if lowlevelsearch 1 0 0 0
+= priorityqueue.pop 1 0 0 0
+behind best 0 0 0 1
+than best 0 0 0 1
+on techniques 1 0 0 0
+solving techniques 1 0 0 0
+grant # 1 0 0 0
+to learnt 0 0 0 1
+with parent 1 0 0 0
+in parent 0 0 0 1
+of under-approximation 0 0 0 1
+, under-approximation 0 0 0 1
+-lrb- velagapudi 1 0 0 0
+than adapted 1 0 0 0
+, adapted 1 0 0 0
+on artificial 1 0 0 0
+of artificial 1 0 0 0
+with artificial 1 0 0 0
+in artificial 1 0 0 0
+called label 1 0 0 0
+towards symmetric 0 1 0 0
+takes state 0 1 0 0
+of state 0 0 0 1
+expands state 1 0 0 0
+denote state 0 0 0 1
+to state 0 0 0 1
+connect state 1 0 0 0
+in state 0 1 0 0
+expand state 0 1 0 0
+-lrb- state 1 0 0 0
+with state 0 0 0 1
+maintaining state 0 1 0 0
+for future 1 0 0 0
+that future 1 0 0 0
+-lrb- si 1 0 0 0
+= si 1 0 0 0
+hence progress 1 0 0 0
+where neither 1 0 0 0
+randomly blocked 1 0 0 0
+; sapra 1 0 0 0
+of 15th 0 0 0 1
+- 15th 1 0 0 0
+as counterexample 1 0 0 0
+with counterexample 1 0 0 0
+via lazy 1 0 0 0
+with lazy 1 0 0 0
+performs lazy 1 0 0 0
+in terms 1 0 0 0
+of rareqs 1 0 0 0
+, 649-654 1 0 0 0
+without second-order 1 0 0 0
+pp. 115-125 1 0 0 0
+, agencies 1 0 0 0
+in qdpll 0 1 0 0
+tackling real-life 1 0 0 0
+, key 1 0 0 0
+than key 1 0 0 0
+implements interface 0 0 0 1
+respects interface 0 0 0 1
+respect interface 0 0 0 1
+... 20 1 0 0 0
+save precious 1 0 0 0
+for hundreds 1 0 0 0
+-lrb- barrett 1 0 0 0
+containing both 1 0 0 0
+mcps both 1 0 0 0
+for both 1 0 0 0
+in both 1 0 0 0
+, both 1 0 0 0
+qbf both 1 0 0 0
+generalises both 1 0 0 0
+- interpretations 1 0 0 0
+of cubes 1 0 0 0
+learned cubes 1 0 0 0
+adds cubes 1 0 0 0
+is modular 0 1 0 0
+-lrb- ranjan 1 0 0 0
+from ranjan 1 0 0 0
+represent many 1 0 0 0
+runs many 1 0 0 0
+compute many 1 0 0 0
+over many 1 0 0 0
+, many 1 0 0 0
+to many 0 0 0 1
+exist many 1 0 0 0
+in many 1 0 0 0
+that pertain 1 0 0 0
+of unsatisfiability 1 0 0 0
+explains unsatisfiability 1 0 0 0
+of propagation 1 0 0 0
+and s 1 0 0 0
+case s 1 0 0 0
+use s 1 0 0 0
+whenever s 1 0 0 0
+of s 1 0 0 0
+falsifies s 1 0 0 0
+as s 1 0 0 0
+calling s 1 0 0 0
+state s 1 0 0 0
+in s 1 0 0 0
+-lrb- s 1 0 0 0
+if s 1 0 0 0
+and ilu 1 0 0 0
+, ilu 1 0 0 0
+as ilu 1 0 0 0
+t ilu 1 0 0 0
+in ilu 1 0 0 0
+if ilu 1 0 0 0
+on context 0 0 0 1
+nor context 0 0 0 1
+in context 0 0 0 1
+, logic 0 0 0 1
+in logic 1 0 0 0
+use expression 0 0 0 1
+, zapiski 1 0 0 0
+for detailed 0 1 0 0
+to simple 0 1 0 0
+among others 1 0 0 0
+that corresponds 1 0 0 0
+, d'andrea 1 0 0 0
+over expectations 0 0 0 1
+of satisfaction 1 0 0 0
+among agents 1 0 0 0
+for agents 1 0 0 0
+of agents 1 0 0 0
+stop agents 1 0 0 0
+, agents 1 0 0 0
+between agents 1 0 0 0
+of learning 1 0 0 0
+of polynomial 1 0 0 0
+with respect 1 0 0 0
+- cp 1 0 0 0
+, cp 1 0 0 0
+from most 1 0 0 0
+, most 0 0 0 1
+-lrb- i.e. 1 0 0 0
+, i.e. 1 0 0 0
+-lcb- pt 1 0 0 0
+, pt 1 0 0 0
+-lrb- pu 1 0 0 0
+-lcb- pu 1 0 0 0
+by pu 1 0 0 0
+since addition 0 0 0 1
+in addition 0 0 0 1
+; dodaro 1 0 0 0
+then maxi 1 0 0 0
+minimizes maxi 1 0 0 0
+= maxi 1 0 0 0
+inside np-solver 0 0 1 0
+discuss three 1 0 0 0
+in three 1 0 0 0
+by equations 1 0 0 0
+both literal 0 1 0 0
+-lrb- dec-simdps 1 0 0 0
+and pf 1 0 0 0
+-lcb- pf 1 0 0 0
+of combined 0 0 0 1
+-lrb- nadel 1 0 0 0
+modulo monotonic 1 0 0 0
+probabilities pi 1 0 0 0
+- pi 1 0 0 0
+... pn 1 0 0 0
+; seshia 1 0 0 0
+-lrb- pl 1 0 0 0
+-lcb- pl 1 0 0 0
+by pl 1 0 0 0
+to location 1 0 0 0
+from location 1 0 0 0
+in modern 1 0 0 0
+to corresponding 0 0 0 1
+in corresponding 0 0 0 1
+, c. 1 0 0 0
+- 1/t 1 0 0 0
+of 900 1 0 0 0
+bridging gap 0 0 0 1
+; gao 1 0 0 0
+and two-valued 0 1 0 0
+is two-valued 0 1 0 0
+in two-valued 1 0 0 0
+provides systematic 0 1 0 0
+to ours 1 0 0 0
+, consecutive 1 0 0 0
+7 root.key 1 0 0 0
+of those 1 0 0 0
+namely those 1 0 0 0
+are those 1 0 0 0
+for those 1 0 0 0
+not case 0 0 0 1
+to case 0 0 0 1
+is case 0 0 0 1
+in case 1 0 0 0
+-lcb- p1 1 0 0 0
+abbreviate p1 1 0 0 0
+-lrb- cdcl 1 0 0 0
+combine cdcl 1 0 0 0
+; oliveras 1 0 0 0
+obey these 1 0 0 0
+that these 1 0 0 0
+of these 1 0 0 0
+over these 1 0 0 0
+address these 1 0 0 0
+71 these 1 0 0 0
+combining these 1 0 0 0
+compared plain 0 1 0 0
+with plain 0 0 0 1
+gain engineering 0 0 1 0
+node n 1 0 0 0
+do n 1 0 0 0
+cn n 0 1 0 0
+, n 1 0 0 0
+to n 1 0 0 0
+in n 1 0 0 0
+-lrb- n 1 0 0 0
+; n 1 0 0 0
+: n 1 0 0 0
+on https://www.cs.sfu.ca/sta44/personal/ 1 0 0 0
+in alur 1 0 0 0
+compute policies 1 0 0 0
+and truszczy 1 0 0 0
+; truszczy 1 0 0 0
+to property 1 0 0 0
+of property 1 0 0 0
+violates property 1 0 0 0
+have property 0 0 0 1
+in property 1 0 0 0
+of p. 1 0 0 0
+, p. 1 0 0 0
+is procedure 0 1 0 0
+while remembering 1 0 0 0
+-lrb- mmdps 1 0 0 0
+approximating mmdps 1 0 0 0
+feeding it 1 0 0 0
+from it 1 0 0 0
+although it 1 0 0 0
+since it 1 0 0 0
+-rrb- it 1 0 0 0
+whether it 1 0 0 0
+messages it 1 0 0 0
+make it 1 0 0 0
+that it 1 0 0 0
+when it 1 0 0 0
+, it 1 0 0 0
+approximates it 1 0 0 0
+to it 1 0 0 0
+until it 1 0 0 0
+how it 1 0 0 0
+in it 1 0 0 0
+by it 1 0 0 0
+after it 1 0 0 0
+if it 1 0 0 0
+of conflict-driven 1 0 0 0
+use conflict-driven 0 0 0 1
+, conflict-driven 1 0 0 0
+to conflict-driven 1 0 0 0
+-lrb- ii 1 0 0 0
+ai itself 1 0 0 0
+to itself 1 0 0 0
+in itself 1 0 0 0
+agent itself 1 0 0 0
+solver itself 1 0 0 0
+is optimistic 0 0 1 0
+between dual 1 0 0 0
+that dual 1 0 0 0
+with in 1 0 0 0
+, 2015. 1 0 0 0
+and different 1 0 0 0
+of different 1 0 0 0
+to different 0 1 0 0
+handles different 1 0 0 0
+are different 1 0 0 0
+invalidating different 1 0 0 0
+with different 1 0 0 0
+under grant 1 0 0 0
+, generic 0 0 0 1
+use same 0 0 0 1
+of same 0 0 0 1
+visit same 0 0 0 1
+traverse same 0 0 0 1
+reports same 0 0 0 1
+leave same 0 0 0 1
+occupy same 0 0 0 1
+at same 0 0 0 1
+in same 0 0 0 1
+using same 0 0 0 1
+has same 0 0 0 1
+are same 0 0 0 1
+as qcir 1 0 0 0
+in underestimate 0 0 1 0
+lifting advances 1 0 0 0
+; 9 1 0 0 0
+since sat 1 0 0 0
+is sat 0 1 0 0
+in sat 1 0 0 0
+learning sat 1 0 0 0
+combining sat 1 0 0 0
+beyond sat 1 0 0 0
+if sat 1 0 0 0
+use sat 0 1 0 0
+from sat 1 0 0 0
+for sat 0 1 0 0
+to sat 0 1 0 0
+* sat 1 0 0 0
+- sat 1 0 0 0
+, sat 0 1 0 0
+how sat 1 0 0 0
+returns sat 1 0 0 0
+boost sat 1 0 0 0
+into sat 1 0 0 0
+extended sat 0 0 0 1
+extend sat 1 0 0 0
+outputs sat 1 0 0 0
+nest sat 1 0 0 0
+-lrb- sat 1 0 0 0
+with sat 1 0 0 0
+by sat 1 0 0 0
+puts sat 1 0 0 0
+of sat 1 0 0 0
+while sat 1 0 0 0
+hence sat 0 1 0 0
+the sat 1 0 0 0
+introduced sat 1 0 0 0
+called sat 1 0 0 0
+returned conflict 1 0 0 0
+when conflict 0 1 0 0
+, conflict 0 1 0 0
+construct conflict 0 1 0 0
+preventing conflict 0 0 0 1
+returns conflict 0 1 0 0
+in conflict 1 0 0 0
+finds conflict 0 1 0 0
+of higher 0 1 0 0
+have higher 1 0 0 0
+form higher 1 0 0 0
+to higher 1 0 0 0
+takes conflicting 0 1 0 0
+uses extended 0 0 1 0
+on extended 1 0 0 0
+from extended 1 0 0 0
+that extended 0 0 0 1
+-lrb- i1 1 0 0 0
+let i1 1 0 0 0
+chooses i1 1 0 0 0
+p i1 1 0 0 0
+-lrb- i0 1 0 0 0
+let i0 1 0 0 0
+to nest 1 0 0 0
+-lrb- i2 1 0 0 0
+chooses i2 1 0 0 0
+has effect 0 0 0 1
+with effect 0 0 0 1
+, v. 1 0 0 0
+, automation 1 0 0 0
+state v1 1 0 0 0
+= v2 1 0 0 0
+-rrb- v2 1 0 0 0
+: declarative 1 0 0 0
+, i. 1 0 0 0
+i -lcb- 1 0 0 0
+= -lcb- 1 0 0 0
+, -lcb- 1 0 0 0
+of single 1 0 0 0
+for single 1 0 0 0
+become unsatisfiable 1 0 0 0
+- unsatisfiable 1 0 0 0
+is lower 0 1 0 0
+in lower 1 0 0 0
+and i 1 0 0 0
+interpretation i 1 0 0 0
+-rrb- i 1 0 0 0
+ai i 1 0 0 0
+is i 1 0 0 0
+as i 1 0 0 0
+assumptions i 1 0 0 0
+are i 1 0 0 0
+in i 1 0 0 0
+xt i 1 0 0 0
+if i 1 0 0 0
+use i 1 0 0 0
+* i 1 0 0 0
+when i 1 0 0 0
+, i 1 0 0 0
+by i 1 0 0 0
+to i 1 0 0 0
+state i 1 0 0 0
+: i 1 0 0 0
+= i 1 0 0 0
+then i 1 0 0 0
+that i 1 0 0 0
+fails i 1 0 0 0
+let i 1 0 0 0
+i. i 1 0 0 0
+-lrb- i 1 0 0 0
+with i 1 0 0 0
+than i 1 0 0 0
+where i 0 0 0 1
+p i 1 0 0 0
+t i 1 0 0 0
+of i 1 0 0 0
+expression i 1 0 0 0
+ai changes 1 0 0 0
+- 16th 1 0 0 0
+contain patterns 1 0 0 0
+of observations 1 0 0 0
+and edge 1 0 0 0
+that edge 0 0 1 0
+contains edge 0 0 1 0
+without edge 1 0 0 0
+traversing edge 0 0 0 1
+with edge 0 0 0 1
+by edge 0 0 1 0
+if command 0 0 0 1
+in simulated 0 1 0 0
+-lrb- y 1 0 0 0
+= y 1 0 0 0
+from y 1 0 0 0
+< y 1 0 0 0
+-rrb- y 1 0 0 0
+exists model 0 1 0 0
+is model 0 1 0 0
+finds model 0 1 0 0
+to model 0 1 0 0
+returns model 0 1 0 0
+has model 0 1 0 0
+find model 0 1 0 0
+since reward 0 0 0 1
+, non-clausal 1 0 0 0
+, researchers 1 0 0 0
+from latest 0 0 0 1
+in latest 0 0 0 1
+to less 0 1 0 0
+factor less 1 0 0 0
+in formalisations 1 0 0 0
+-lrb- resp 1 0 0 0
+-lrb- wagner 1 0 0 0
+; wagner 1 0 0 0
+for rest 0 0 0 1
+, k. 1 0 0 0
+and codish 1 0 0 0
+with underlying 0 0 0 1
+-lrb- www.aaai.org 1 0 0 0
+and tacchella 1 0 0 0
+in immediately 0 0 0 1
+and alternative 0 0 1 0
+and low-level 0 0 0 1
+on low-level 0 0 0 1
+of low-level 0 0 0 1
+work low-level 0 0 0 1
+when low-level 0 0 0 1
+once low-level 0 0 0 1
+improve low-level 0 0 0 1
+sat previous 0 0 0 1
+of execution 0 0 0 1
+after execution 0 0 0 1
+-lrb- ma 1 0 0 0
+; ma 1 0 0 0
+than instance 0 0 1 0
+and practice 1 0 0 0
+for advancement 0 0 0 1
+-lrb- silver 1 0 0 0
+of tuples 1 0 0 0
+-lrb- 4 1 0 0 0
+do 4 1 0 0 0
+as input 1 0 0 0
+because input 0 0 0 1
+qdimacs input 1 0 0 0
+resolve violations 1 0 0 0
+; letz 1 0 0 0
+of remaining 1 0 0 0
+as smart 0 1 0 0
+support smart 1 0 0 0
+; sebastiani 1 0 0 0
+with identical 1 0 0 0
+explains satisfiability 0 0 0 1
+solve satisfiability 1 0 0 0
+solves satisfiability 0 0 0 1
+of satisfiability 1 0 0 0
+to outermost 0 0 0 1
+give outermost 0 0 0 1
+in outermost 0 0 0 1
+compare ame 1 0 0 0
+for ame 1 0 0 0
+evaluate ame 1 0 0 0
+use ame 1 0 0 0
+, ame 1 0 0 0
+while ame 1 0 0 0
+of ame 1 0 0 0
+-lrb- ame 1 0 0 0
+by ame 1 0 0 0
+and warehouse 1 0 0 0
+2 background 1 0 0 0
+as integer 1 0 0 0
+has unique 0 1 0 0
+, unique 0 1 0 0
+; narizzano 1 0 0 0
+, narizzano 1 0 0 0
+on formal 1 0 0 0
+without loss 1 0 0 0
+is necessary 1 0 0 0
+on intel 0 0 1 0
+by finnish 0 0 0 1
+avoid unnecessary 1 0 0 0
+domain specific 1 0 0 0
+and bacchus 1 0 0 0
+-lrb- sic 1 0 0 0
+and t 1 0 0 0
+then t 1 0 0 0
+xi t 1 0 0 0
+-lcb- t 1 0 0 0
+for t 1 0 0 0
+that t 1 0 0 0
+of t 1 0 0 0
++ t 1 0 0 0
+= t 1 0 0 0
+suppose t 1 0 0 0
+let t 1 0 0 0
+-lrb- t 1 0 0 0
+: t 1 0 0 0
+where t 1 0 0 0
+if t 1 0 0 0
+is arbitrary 0 0 1 0
+with arbitrary 0 0 1 0
+on popular 0 0 0 1
+, often 1 0 0 0
+-lrb- namely 1 0 0 0
+, namely 1 0 0 0
+is sequence 0 1 0 0
+by sequence 0 1 0 0
+, b. 1 0 0 0
+need some 1 0 0 0
+of some 1 0 0 0
+from some 1 0 0 0
+, some 1 0 0 0
+for some 1 0 0 0
+of competition 0 0 0 1
+-lrb- competition 1 0 0 0
+in lockstep 1 0 0 0
+, garey 1 0 0 0
+using connectives 1 0 0 0
+to ideal 0 0 0 1
+solvers scale 1 0 0 0
+of literals 1 0 0 0
+watching literals 1 0 0 0
+and mountz 1 0 0 0
+fast decision 1 0 0 0
+in decision 1 0 0 0
+represent normal 0 1 0 0
+- cnfs 1 0 0 0
+of twenty-fourth 0 0 0 1
+is cnf 0 1 0 0
+since cnf 1 0 0 0
+- cnf 1 0 0 0
+for cnf 0 1 0 0
+with 35 1 0 0 0
+for 35 1 0 0 0
+specifies critical 0 0 0 1
+of sponsoring 0 0 0 1
+of 23rd 0 0 0 1
+and l2 1 0 0 0
+and either 1 0 0 0
+to power 0 0 0 1
+case vertex 0 0 0 1
+and vertex 0 0 0 1
+from vertex 1 0 0 0
+that vertex 0 0 0 1
+in vertex 1 0 0 0
+, vertex 0 0 0 1
+to vertex 0 1 0 0
+as vertex 0 0 0 1
+without vertex 1 0 0 0
+enter vertex 0 0 0 1
+with vertex 0 1 0 0
+obtain equivalent 0 0 1 0
+paths l1 1 0 0 0
+= l1 1 0 0 0
+plan l1 1 0 0 0
+by l1 1 0 0 0
+, 128-142 1 0 0 0
+-lrb- silva 1 0 0 0
+in constructive 1 0 0 0
+, 242-255 1 0 0 0
+-lrb- pomdps 1 0 0 0
+with pomdps 1 0 0 0
+than pomdps 1 0 0 0
+time step 1 0 0 0
+and veloso 1 0 0 0
+-lrb- veloso 1 0 0 0
+, 811-814 1 0 0 0
+, hsu 1 0 0 0
+over propositional 1 0 0 0
+from propositional 1 0 0 0
+for propositional 1 0 0 0
+of propositional 1 0 0 0
+is propositional 0 1 0 0
+which propositional 0 0 0 1
+in propositional 0 0 0 1
+-lrb- propositional 1 0 0 0
+by propositional 0 1 0 0
+of properties 1 0 0 0
+to properties 1 0 0 0
+introduced extension 0 0 1 0
+and constraint 0 0 0 1
+of constraint 1 0 0 0
+adds constraint 0 0 0 1
+using constraint 1 0 0 0
+nested constraint 1 0 0 0
+from theirs 1 0 0 0
+with theorems 1 0 0 0
+8 priorityqueue 1 0 0 0
+while priorityqueue 1 0 0 0
+-lrb- lowerbound/upperbound 1 0 0 0
+and o 1 0 0 0
+-lrb- o 1 0 0 0
+: o 1 0 0 0
+-lcb- o 1 0 0 0
+and ryvchin 1 0 0 0
+-lrb- unsat 1 0 0 0
+returns unsat 1 0 0 0
+lift extensions 1 0 0 0
+c e5-4652 1 0 0 0
+-lrb- ou 1 0 0 0
+, ou 1 0 0 0
+-lcb- ot 1 0 0 0
+, ot 1 0 0 0
+in slightly 0 1 0 0
+-lrb- aaai-16 1 0 0 0
+in computational 1 0 0 0
+in presence 0 0 0 1
+-rrb- bound 1 0 0 0
+by nsf 1 0 0 0
+to phase 1 0 0 0
+in phase 1 0 0 0
+-lrb- luna 1 0 0 0
+; luna 1 0 0 0
+, h. 1 0 0 0
+: certifying 0 1 0 0
+, 40-54 1 0 0 0
+and pineau 1 0 0 0
+in o'sullivan 1 0 0 0
+of robust 1 0 0 0
+are robust 1 0 0 0
+that robust 1 0 0 0
+in logics 1 0 0 0
+; van 1 0 0 0
+lift sat-related 1 0 0 0
+iff there 1 0 0 0
+because there 1 0 0 0
+, there 1 0 0 0
+if there 1 0 0 0
+and approximate 0 0 0 1
+that approximate 0 0 0 1
+update approximate 0 0 0 1
+-rrb- approximate 1 0 0 0
+, approximate 0 0 0 1
+than approximate 0 0 0 1
+to approximate 0 0 0 1
+at approximate 1 0 0 0
+called approximate 1 0 0 0
+and -lrb- 1 0 0 0
+-rrb- -lrb- 1 0 0 0
+is -lrb- 0 1 0 0
+if -lrb- 1 0 0 0
+use -lrb- 1 0 0 0
+from -lrb- 1 0 0 0
+lj -lrb- 1 0 0 0
+, -lrb- 0 1 0 0
+li -lrb- 1 0 0 0
+lu -lrb- 1 0 0 0
+finding -lrb- 1 0 0 0
+: -lrb- 1 0 0 0
+be -lrb- 0 1 0 0
+that -lrb- 1 0 0 0
+-lrb- -lrb- 1 0 0 0
+than -lrb- 1 0 0 0
+approximateaveragemakespan -lrb- 1 0 0 0
+i -lrb- 1 0 0 0
+of -lrb- 1 0 0 0
+j -lrb- 0 1 0 0
+ilu -lrb- 1 0 0 0
+l2 -lrb- 1 0 0 0
+unique start 1 0 0 0
+from start 0 0 0 1
+to u. 1 0 0 0
+with low 1 0 0 0
+to .1 1 0 0 0
+-lrb- : 1 0 0 0
+: : 1 0 0 0
+p : 1 0 0 0
+, 137-151 1 0 0 0
+as propagator 0 1 0 0
+of function 1 0 0 0
+by function 0 1 0 0
+each mapfment 1 0 0 0
+found complete 0 1 0 0
+of form 0 0 0 1
+as form 0 1 0 0
+in form 0 0 0 1
+... n-1 1 0 0 0
+for aircraft 1 0 0 0
+to 30t 1 0 0 0
+out differences 0 0 0 1
+of commands 0 0 0 1
+and hu 1 0 0 0
+-lrb- qbfeval 1 0 0 0
+-lrb- failure 1 0 0 0
+is atom 0 0 1 0
+to qbfsolver 0 1 0 0
+to root.plan 1 0 0 0
+2 root.plan 1 0 0 0
+, utilizing 1 0 0 0
+improve encodcopyright 0 0 1 0
+to faster 1 0 0 0
+for faster 1 0 0 0
+, volume 1 0 0 0
+-lrb- mcps 1 0 0 0
+with mcps 1 0 0 0
+of mcps 1 0 0 0
+from calls 1 0 0 0
+and j 1 0 0 0
+often j 0 1 0 0
+that j 1 0 0 0
+with j 1 0 0 0
+is j 1 0 0 0
+= j 1 0 0 0
+, j 1 0 0 0
+as j 1 0 0 0
+let j 1 0 0 0
+in j 1 0 0 0
+-lrb- j 1 0 0 0
+where j 1 0 0 0
+than j 1 0 0 0
+for robustness 0 0 0 1
+of maximum 0 0 0 1
+with maximum 0 0 0 1
+let us 1 0 0 0
+require us 1 0 0 0
+allows us 1 0 0 0
+allow us 1 0 0 0
+- 89 1 0 0 0
+see main 1 0 0 0
+and malik 1 0 0 0
+'' problem 1 0 0 0
+exploiting problem 0 0 0 1
+is problem 0 0 0 1
++1 problem 1 0 0 0
+solves problem 0 0 0 1
+in strongly 0 1 0 0
+and labels 0 0 0 1
+-lrb- -rrb- 1 0 0 0
+, -rrb- 1 0 0 0
+-lrb- ai 1 0 0 0
+use certain 1 0 0 0
+when certain 1 0 0 0
+at certain 0 1 0 0
+supports universal 1 0 0 0
+modify internals 0 0 0 1
+of watches 0 0 0 1
+to general 1 0 0 0
+are general 0 1 0 0
+for general 1 0 0 0
+in general 1 0 0 0
+per quantification 1 0 0 0
+used as 1 0 0 0
+, as 1 0 0 0
+and sakallah 1 0 0 0
+in well-defined 1 0 0 0
+exists at 1 0 0 0
+and our 1 0 0 0
+on our 1 0 0 0
+from our 1 0 0 0
+for our 1 0 0 0
+that our 1 0 0 0
+i our 1 0 0 0
+of our 1 0 0 0
+, our 1 0 0 0
+to our 1 0 0 0
+in our 1 0 0 0
+where our 1 0 0 0
+define our 1 0 0 0
+where h-value 0 0 0 1
+and hollow 0 1 0 0
+theorem 4.1 1 0 0 0
+theorem 4.3 1 0 0 0
+`` no 1 0 0 0
+contains no 1 0 0 0
+performs no 1 0 0 0
+-rrb- no 1 0 0 0
+showing no 1 0 0 0
+that no 1 0 0 0
+returns no 1 0 0 0
+executes no 1 0 0 0
+have no 1 0 0 0
+is no 1 0 0 0
+if no 1 0 0 0
+contains not 1 0 0 0
+thus v3 1 0 0 0
+= v3 1 0 0 0
+in field 0 0 0 1
+all other 1 0 0 0
+from other 1 0 0 0
+for other 1 0 0 0
+of other 1 0 0 0
+, other 1 0 0 0
+to other 1 0 0 0
+with other 1 0 0 0
+by other 0 0 0 1
+-lrb- 5 1 0 0 0
+of 5 1 0 0 0
+as transition-independent 1 0 0 0
+with transition-independent 1 0 0 0
+in transition-independent 1 0 0 0
+using np 0 0 1 0
+than np 1 0 0 0
+in np 1 0 0 0
+whose f-values 1 0 0 0
+-lrb- standley 1 0 0 0
+of satisfiable 1 0 0 0
+with 10 1 0 0 0
+generate 10 1 0 0 0
+of node 1 0 0 0
+in node 1 0 0 0
+-lrb- explaining 1 0 0 0
+of vocabulary 1 0 0 0
+is vocabulary 0 1 0 0
+in vocabulary 0 0 0 1
+find models 1 0 0 0
+tackle problems 1 0 0 0
+solve problems 1 0 0 0
+, a. 1 0 0 0
+and push 1 0 0 0
+than push 1 0 0 0
+with intent 0 0 0 1
+on variable 0 1 0 0
+introducing variable 0 1 0 0
+is disjunction 0 1 0 0
+neither structure 0 0 0 1
+with 260gb 1 0 0 0
+-lrb- e 1 0 0 0
+edges e 1 0 0 0
+, e 1 0 0 0
+-rrb- e 1 0 0 0
+-lrb- janota 1 0 0 0
+, janota 1 0 0 0
+minor syntactical 1 0 0 0
+to 2qbf 1 0 0 0
+of 2qbf 1 0 0 0
+ensures we 1 0 0 0
+since we 1 0 0 0
+which we 1 0 0 0
+-rrb- we 1 0 0 0
+abstract we 1 0 0 0
+work we 1 0 0 0
+, we 1 0 0 0
+but we 1 0 0 0
+ranges we 1 0 0 0
+experiments we 1 0 0 0
+something we 1 0 0 0
+policies we 1 0 0 0
+solvers we 1 0 0 0
+interface we 1 0 0 0
+; we 1 0 0 0
+where we 1 0 0 0
+than we 1 0 0 0
+t we 1 0 0 0
+-lrb- bottom 1 0 0 0
+-lrb- 2002 1 0 0 0
+apt 2003 1 0 0 0
+to u 1 0 0 0
+where u 1 0 0 0
+, u 1 0 0 0
+by u 1 0 0 0
+-lrb- 2004 1 0 0 0
+on time 1 0 0 0
+represent time 0 0 0 1
+of time 1 0 0 0
+is time 0 1 0 0
+at time 0 0 0 1
+in time 1 0 0 0
+waste time 1 0 0 0
+with time 0 1 0 0
+as oracle 0 0 1 0
+with oracle 0 0 1 0
+25th international 1 0 0 0
+, international 1 0 0 0
+al. 2009 1 0 0 0
+; priorityqueue.insert 1 0 0 0
+of original 0 0 0 1
+with original 0 0 0 1
+introduced augmented 1 0 0 0
