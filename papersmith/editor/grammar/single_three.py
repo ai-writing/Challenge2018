@@ -89,8 +89,7 @@ def fit_single_v(vp):#检查是否是第三人称，一般现在时，现在进�
 
 
 def Verb_third_singular(num,content):
-    content=SplitPargraph(content)
-    c=word_callout(content[2])
+    c=word_callout(content)
     cp=nltk.RegexpParser(g1)
     result=cp.parse(c)
     l=len(result)
@@ -119,7 +118,7 @@ def Verb_third_singular(num,content):
 if __name__=='__main__':
     scentence=SplitPargraph(scentence)
     result=[]
-    for s in scentence:
-        result.append(Verb_third_singular(s))
+    for s in range(len(scentence)):
+        result.append(Verb_third_singular(s,scentence[s]))
         pass;
     print(result)
