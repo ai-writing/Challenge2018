@@ -56,10 +56,6 @@ def check():
         if issue.itype == 1:   spelling_issues['err'].append(issue.export(counter))
         elif issue.itype == 2: spelling_issues['sug'].append(issue.export(counter))
 
-
-    for issue in spelling_results:
-       spelling_issues['err'].append(issue.export())
-
     total_issues = len(spelling_issues['err']) + len(grammar_issues['err']) \
         + len(semantic_issues['err']) + len(structure_issues['err']) \
         + len(spelling_issues['sug']) + len(grammar_issues['sug']) \
