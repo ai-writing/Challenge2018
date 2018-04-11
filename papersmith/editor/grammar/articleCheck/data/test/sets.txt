@@ -1,7 +1,0 @@
-i have an english class on the friday . 
-
-this is a test sentence.
-
-['i', 'have', 'an', 'english', 'class', 'on', 'the', 'friday', '.']
-[2, -1, -1, -1, -1, -1, -1, -1, 23]
-[(-1, 23, ' Friday')]

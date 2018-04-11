@@ -1,1 +1,0 @@
-(ROOT(S(NP(PRP(1)))(VP(VBP(2))(NP(NP(DT(3))(JJ(4))(NN(5)))(PP(IN(6))(NP(DT(7))(NNP(8))))))(.(9))))
