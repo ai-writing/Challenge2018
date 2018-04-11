@@ -144,4 +144,4 @@ def check(content):#content[num]是这里面的值
     return result
 
 if __name__=='__main__':
-    check(scentence)
+    print(check(scentence))
