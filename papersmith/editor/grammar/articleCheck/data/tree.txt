@@ -1,0 +1,5 @@
+(ROOT(S(SBAR(WHADVP(WRB(1)))(S(NP(JJS(2))(NNS(3)))(VP(VP(VB(4))(PP(TO(5))(NP(NN(6)))))(CC(7))(VP(VB(8))(NP(DT(9))(NN(10)))))))(,(11))(NP(JJ(12))(JJ(13))(NNS(14)))(VP(VBP(15))(VP(VBN(16))(NP(PRP$(17))(NN(18)))))(.(19))))
+(ROOT(S(NP(NP(JJ(1))(NN(2)))(PP(IN(3))(NP(NNP(4)))))(VP(VBZ(5))(NP(DT(6))(JJ(7))(NN(8)))(PP(IN(9))(S(VP(VBG(10))(NP(DT(11))(JJ(12))(NNS(13)))))))(.(14))))
+(ROOT(S(NP(PRP(1)))(VP(VBZ(2))(NP(DT(3))(JJS(4))(NN(5))))(.(6))))
+(ROOT(S(S(NP(PRP(1)))(VP(VBZ(2))(NP(DT(3))(NN(4)))))(CC(5))(RB(6))(S(NP(JJ(7))(NNS(8)))(VP(VBP(9))(S(VP(TO(10))(VP(VB(11))(NP(PDT(12))(DT(13))(NN(14))))))))(.(15))))
+(ROOT(S(SBAR(IN(1))(S(NP(PRP(2)))(VP(VBP(3))(RB(4))(ADJP(RB(5))(JJ(6))))))(,(7))(NP(PRP(8)))(ADVP(RB(9)))(VP(MD(10))(VP(VB(11))(ADJP(JJ(12))(S(VP(TO(13))(VP(VB(14))(NP(PRP$(15))(NNS(16)))))))))(.(17))))

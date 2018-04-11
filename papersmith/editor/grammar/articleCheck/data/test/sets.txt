@@ -1,0 +1,7 @@
+i have an english class on the friday . 
+
+I have an English class on the Friday.
+
+['i', 'have', 'an', 'english', 'class', 'on', 'the', 'friday', '.']
+[0, 2, 7, 10, 18, 24, 27, 31, 37]
+[(27, 37, ' Friday')]
