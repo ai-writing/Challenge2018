@@ -1,4 +1,4 @@
-在pathsmith/editor/grammar/articleCheck/src文件夹中需包含以下文件：  
+在papersmith/editor/grammar/articleCheck/src文件夹中需包含以下文件：  
 --Parser_lib  
 ----slf4j-api-1.7.12-sources.jar  
 ----slf4j-api.jar  
