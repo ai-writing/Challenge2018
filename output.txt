@@ -1,0 +1,19 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (NP
+        (NP (DT an) (JJ English) (NN class))
+        (PP (IN on)
+          (NP (DT the) (NNP Friday)))))
+    (. .)))
+
+nsubj(have-2, I-1)
+root(ROOT-0, have-2)
+det(class-5, an-3)
+amod(class-5, English-4)
+dobj(have-2, class-5)
+case(Friday-8, on-6)
+det(Friday-8, the-7)
+nmod:on(class-5, Friday-8)
+

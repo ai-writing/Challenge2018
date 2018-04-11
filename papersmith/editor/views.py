@@ -15,8 +15,8 @@ import json
 from . import issue
 
 from papersmith.editor.grammar import grammar
-from papersmith.editor.spelling import capital
 from papersmith.editor.spelling import spelling
+from papersmith.editor.spelling import capital
 from papersmith.editor.spelling.correction import gen_trie
 
 blueprint = Blueprint('editor', __name__, static_folder='../static', template_folder='../templates/editor')
@@ -56,6 +56,9 @@ def check():
         if issue.itype == 1:   spelling_issues['err'].append(issue.export(counter))
         elif issue.itype == 2: spelling_issues['sug'].append(issue.export(counter))
 
+
+    for issue in spelling_results:
+       spelling_issues['err'].append(issue.export())
 
     total_issues = len(spelling_issues['err']) + len(grammar_issues['err']) \
         + len(semantic_issues['err']) + len(structure_issues['err']) \
