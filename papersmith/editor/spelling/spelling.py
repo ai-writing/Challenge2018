@@ -5,6 +5,8 @@ from papersmith.editor.spelling.correction import edit_distance
 
 def check(content):
     proper_noun=eval(open("papersmith/editor/spelling/proper_nouns.txt").read())
+    irregular_plurals=eval(open('papersmith/editor/spelling/irregular_plurals.txt').read())
+    uncountable_nouns=eval(open('papersmith/editor/spelling/uncountable_nouns.txt').read())
     issues=[]
     pos=0
     w=''
@@ -25,7 +27,19 @@ def check(content):
         elif w[-2:]=="'s":
             w=w[:-2]
             extra_len=2
-        if w in proper_noun:
+        if w.lower() in uncountable_nouns:
+            if ord(w[0])>96 and ord(w[0])<123:
+                issue = Issue(1, 1, [pos], [pos+len(w)], uncountable_nouns[w.lower()], 0)
+            else:
+                issue = Issue(1, 1, [pos], [pos+len(w)], uncountable_nouns[w.lower()].title(), 0)
+            issues.append(issue)
+        elif w.lower() in irregular_plurals:
+            if ord(w[0])>96 and ord(w[0])<123 and w!='chineses' and w!='japaneses' and w!='swisses'and w!='germen'and w!='frenchmans' and w!='englishmans':
+                issue = Issue(1, 1, [pos], [pos+len(w)], irregular_plurals[w.lower()], 0)
+            else:
+                issue = Issue(1, 1, [pos], [pos+len(w)], irregular_plurals[w.lower()].title(), 0)
+            issues.append(issue)
+        elif w in proper_noun:
             if ord(w[0])>96 and ord(w[0])<123:
                 issue = Issue(1, 1, [pos], [pos+len(w)], chr(ord(w[0])-32)+w[1:].lower(), 0)
                 issues.append(issue)
