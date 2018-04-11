@@ -44,6 +44,7 @@ docs/_build
 
 # Virtualenvs
 env/
+venv/
 
 # npm
 /node_modules/
@@ -52,8 +53,11 @@ env/
 /papersmith/static/build/
 /papersmith/webpack/manifest.json
 
-# editor
-/papersmith/static/css/
-/papersmith/static/img/
-/papersmith/static/js/
-/papersmith/templates/editor/index.html
+# other
+py3/
+
+papersmith/editor/grammar/articleCheck/src/Parser_lib/stanford-parser-3.8.0-models.jar
+
+papersmith/editor/grammar/articleCheck/data/test/
+papersmith/editor/grammar/articleCheck/data/text.txt
+output.txt

@@ -48,7 +48,7 @@ Back-end Development
 
 对于每个发现的问题，封装成 ``Issue`` 格式 (``papersmith/editor/issue.py``) ::
 
-    category:       1语法/2语义/3句式
+    category:       1拼写/2语法/3语义/4句式
     itype:          issue 类型：1错误/2建议/3普通；
     start:          起始下标，列表
     end:            终止下标，列表
