@@ -1,0 +1,13 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP do) (RB n't)
+      (VP (VB like)
+        (NP (PRP it))))
+    (. .)))
+
+nsubj(like-4, I-1)
+aux(like-4, do-2)
+neg(like-4, n't-3)
+root(ROOT-0, like-4)
+dobj(like-4, it-5)

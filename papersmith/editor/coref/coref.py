@@ -1,5 +1,7 @@
 # -*- coding: UTF-8 -*-
-
+'''
+	by He Lingfei
+'''
 from neuralcoref import Coref
 import os
 import json

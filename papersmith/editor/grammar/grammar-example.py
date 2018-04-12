@@ -19,5 +19,4 @@ def check(content):
         # Issue(category, itype, start(list), end(list), replacement, exp_id), 参见 ../issue.py
 
     print(issues)
-
     return issues # List of issues
