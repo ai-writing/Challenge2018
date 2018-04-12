@@ -17,7 +17,6 @@ def check(content):
             pos+=1
             continue
         if w.lower() in preposition:
-            print(w)
             for j in range(100):
                 if i+j+1>=len(content):
                     break
@@ -29,7 +28,6 @@ def check(content):
                         p+=content[i+j+k+1]
                         if not(ord(content[i+j+k+2])>96 and ord(content[i+j+k+2])<123):
                             break
-                    print(p)
                     for k in PRPlist:
                         if p in k and p!=k[1] and p!=k[3]:
                             if p ==k[0]:
