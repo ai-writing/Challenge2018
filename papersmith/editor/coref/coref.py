@@ -6,7 +6,7 @@ import json
 import sys, getopt
 import spacy
 
-# from papersmith.editor.issue import Issue
+from papersmith.editor.issue import Issue
 
 pronoun = ["I", "me", "my", "mine", "myself", "you", "your", "yours", "yourself", "we", "us", "our", "ours",
            "ourselves", "yourselves",
@@ -16,19 +16,17 @@ pronoun = ["I", "me", "my", "mine", "myself", "you", "your", "yours", "yourself"
 
 notpro = []
 
+print("Loading spacy model")
+try:
+	spacy.info('en_core_web_sm')
+	model = 'en_core_web_sm'
+except IOError:
+	print("No spacy 2 model detected, using spacy1 'en' model")
+	model = 'en'
+nlp = spacy.load(model)
 
-def coref(_content, nlp=None):
+def coref(_content):
 	import re
-
-	if nlp is None:
-		print("Loading spacy model")
-		try:
-			spacy.info('en_core_web_sm')
-			model = 'en_core_web_sm'
-		except IOError:
-			print("No spacy 2 model detected, using spacy1 'en' model")
-			model = 'en'
-		nlp = spacy.load(model)
 
 	coref = Coref(nlp)
 	content = _content.replace("\n", '')
@@ -126,25 +124,23 @@ def coref(_content, nlp=None):
 		if id not in results:
 			results.append(id)
 	print(results)
-
-
-# startlist = []
-# endlist = []
-# issues = []
-# for lists in results:
-# 	for cor in lists:
-# 		startlist.append(cor[0])
-# 		endlist.append(cor[1])
-# 	issue = Issue(1, 1, startlist, endlist, 'wrong', 0)
-# 	issues.append(issue)
-# 	startlist = []
-# 	endlist = []
-# return issues
+	startlist = []
+	endlist = []
+	issues = []
+	for lists in results:
+		for cor in lists:
+			startlist.append(cor[0])
+			endlist.append(cor[1])
+		issue = Issue(2, 2, startlist, endlist, 'ambiguous pronouns', 0)
+		issues.append(issue)
+		startlist = []
+		endlist = []
+	return issues
 
 
 if __name__ == "__main__":
 	coref(
-		"Various implementations have been available, currently S-PLUS, a commercial system from the Insightful Corporation1 in Seattle, and R,2 an Open Source system written by a team of volunteers. Both can be run on Windows and a range of UNIX / Linux operating systems: R also runs on Macintoshes. It became the statistician's calculator for the 1990s, allowing easy access to the computing power and graphical capabilities of modern workstations and personal computers. This is the fourth edition of a book which first appeared in 1994, and the S environment has grown rapidly since. This book concentrates on using the current systems to do statistics; there is a companion volume  which discusses programming in the S language in much greater depth. Some of the more specialized functionality of the S environment is covered in on-line complements, additional sections and chapters which are available on the World Wide Web. The datasets and S functions that we use are supplied with most S environments and are also available on-line. This is not a text in statistical theory, but does cover modern statistical methodology.")
+		"They like Bill and Jack. He is very tall. He is handsome. He saw Jack, the younger child, who is a singer. What is that? It is her friend who loves a dog. Its name is Mike.")
 
 # They like Bill and Jack. He is very tall. He is handsome. He saw Jack, the younger child, who is a singer. What is that? It is her friend who loves a dog. Its name is Mike.
 # It became the statistician's calculator for the 1990s, allowing easy access to the computing power and graphical capabilities of modern workstations and personal computers. Various implementations have been available, currently S-PLUS, a commercial system from the Insightful Corporation1 in Seattle, and R,2 an Open Source system written by a team of volunteers. Both can be run on Windows and a range of UNIX / Linux operating systems: R also runs on Macintoshes. This is the fourth edition of a book which first appeared in 1994, and the S environment has grown rapidly since. This book concentrates on using the current systems to do statistics; there is a companion volume  which discusses programming in the S language in much greater depth. Some of the more specialized functionality of the S environment is covered in on-line complements, additional sections and chapters which are available on the World Wide Web. The datasets and S functions that we use are supplied with most S environments and are also available on-line. This is not a text in statistical theory, but does cover modern statistical methodology.

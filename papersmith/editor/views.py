@@ -47,15 +47,9 @@ def check():
     counter = 0
 
     for issue in grammar_results:
-<<<<<<< HEAD
-        print(issue)
-        if issue.itype == 1:   grammar_issues['err'].append(issue.export())
-        elif issue.itype == 2: grammar_issues['sug'].append(issue.export())
-=======
         counter += 1
         if issue.itype == 1:   grammar_issues['err'].append(issue.export(counter))
         elif issue.itype == 2: grammar_issues['sug'].append(issue.export(counter))
->>>>>>> master
 
     for issue in spelling_results:
         counter += 1
