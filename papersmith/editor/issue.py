@@ -36,7 +36,7 @@ class Issue:
         print(self.replacement, end = ', ')
         print(self.exp_id)
 
-    def export(self):
+    def export(self, index=None):
         '生成字典，用于输出 JSON'
         obj = {
             'cat': self.category,
@@ -46,4 +46,6 @@ class Issue:
             'rep': self.replacement,
             'eid': self.exp_id
         }
+        if index is not None:
+            obj['id'] = index
         return obj
