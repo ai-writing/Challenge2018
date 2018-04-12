@@ -59,6 +59,5 @@ def check(content):
                         for k in range(len(w)-1):
                             string+=content[i+j+k+2]
                         issues.append(Issue(1,1,[i+j+1],[i+j+len(w)+1],string,0))
-                    break
                 break
     return issues # List of issues
