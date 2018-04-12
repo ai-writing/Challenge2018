@@ -15,6 +15,8 @@ import json
 from . import issue
 
 from papersmith.editor.grammar import grammar
+from papersmith.editor.grammar import PersonalPronoun
+from papersmith.editor.spelling import capital
 from papersmith.editor.spelling import spelling
 from papersmith.editor.spelling import capital
 from papersmith.editor.spelling.correction import gen_trie
@@ -37,6 +39,7 @@ def check():
     grammar_results = grammar.check(content)
     spelling_results = spelling.check(content)
     spelling_results += capital.check(content)
+    grammar_results += PersonalPronoun.check(content)
 
     spelling_issues = {'err':[], 'sug': []}
     grammar_issues = {'err':[], 'sug': []}
