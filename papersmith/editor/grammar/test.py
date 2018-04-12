@@ -8,4 +8,4 @@ def check(content):
 	tree = nltk.RegexpParser(grammar).parse(sentence_tag)
 	print(tree)
 
-check("I with my dog went to my father theater.")
+check("I with me dog went to I father theater.")
