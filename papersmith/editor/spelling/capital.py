@@ -2,6 +2,7 @@
 
 from papersmith.editor.issue import Issue
 
+#capitalize_list=[]
 def check(content):
     s=eval(open("papersmith/editor/spelling/say.txt").read())
     issues = []
@@ -53,6 +54,7 @@ def check(content):
                         else:
                             break
                     if yinhao==0 or huanhang==1 or yinhao_num%2==1 or not ( w in s or ww in s):
+#                        capitalize_list.append([i+j+1,i+j+1+len(w)])
                         string=chr(ord(content[i+j+1])-32)
                         for k in range(len(w)-1):
                             string+=content[i+j+k+2]
