@@ -14,7 +14,7 @@ def checkArticle(content):
         ri = int(each[1])
         str = each[2]
         #issue = Issue(1, 1, [15], [19], 'replacement', 3)
-        issue = Issue(1, 1, [le], [ri], str, 3)
+        issue = Issue(2, 1, [le], [ri], str, 3)
         issuesOfArticle.append(issue)
     return issuesOfArticle
     return []
@@ -29,7 +29,7 @@ def checkThirdPersonSingular(content):
             le = entry[0]
             ri = entry[1]
             rep = entry[2]
-            issue = Issue(1, 1, [le], [ri], rep, 4)
+            issue = Issue(2, 1, [le], [ri], rep, 4)
             issues.append(issue)
     return issues
 
@@ -38,8 +38,14 @@ def check(content):
     '检查内容中的语法错误'
 
     issues = []
-    issues += checkArticle(content)
-    issues += checkThirdPersonSingular(content)
+    articleIssues = checkArticle(content)
+    print("article results: ")
+    for i in articleIssues: i.print()
+    tpsIssues = checkThirdPersonSingular(content)
+    print("third-person singular results: ")
+    for i in tpsIssues: i.print()
+
+    issues = articleIssues + tpsIssues
     # Issue(category, itype, start(list), end(list), replacement, exp_id), 参见 ../issue.py
 
     #issues = [issue]
