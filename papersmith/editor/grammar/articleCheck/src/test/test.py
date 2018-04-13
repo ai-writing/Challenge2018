@@ -44,8 +44,9 @@ def articleChoose(pos,art):
     now_word = owords[pos]
     if pos==0:
         if (now_word[1:].islower() and now_word[0].isupper()):
-            art=art[0].upper()+art[1:]
             now_word=now_word[0].lower()+now_word[1:]
+        if len(art)>0:
+            art=art[0].upper()+art[1:]
     if art.lower()=='the':
         art = '('+art+')'
     le.append(total_len+L)
@@ -72,12 +73,14 @@ fan = open(os_path+"articleCheck/data/train/an.txt","r")
 fu = open(os_path+"articleCheck/data/train/conalpha.txt","r")
 fnon = open(os_path+"articleCheck/data/train/nonarticle.txt","r")
 fbody = open(os_path+"articleCheck/data/train/body.txt","r")
+fphrase = open(os_path+"articleCheck/data/train/phrase.txt","r")
 uc_words = []
 a_words = []
 an_words = []
 con_alph = []
 non_art = []
 body = []
+phrases = []
 Dict_W = {'~':{5:0}}
 Dict_WW = {'~':{'~':{5:0}}}
 Dict_WH = {'~':{'~':{5:0}}}
@@ -100,6 +103,8 @@ for each in fnon.readlines():
     non_art.append(each[:-1])
 for each in fbody.readlines():
     body.append(each[:-1])
+for each in fphrase.readlines():
+    phrases.append(each[:-1])
 PART = 0
 for each in fngram.readlines():
     if each.find(' ')==-1:
@@ -279,6 +284,15 @@ while True:
             if begin in non_art:
                 Article[pos][0] = Article[pos][1] = Article[pos][2] = 0
                 continue
+            if begin=='breakfast' or begin=='lunch' or begin=='dinner' or begin=='supper':
+                if pos>0:
+                    lpos = pos-1
+                    if words[lpos]=='the' or words[lpos]=='a' or words[lpos]=='an':
+                        lpos -= 1
+                    if lpos>=0:
+                        if POS[lpos]=='VBP' or POS[lpos]=='VBZ' or POS[lpos]=='VBD' or POS[lpos]=='TO' or POS[lpos]=='IN':
+                            Article[i][3]=1
+                            continue
             if begin == 'most' or begin == 'much':
                 Article[i][3] = 1
                 continue
@@ -328,6 +342,7 @@ while True:
             begin =words[pos].lower()
         posh = int(sets[2])-1
         head = words[ posh ].lower()
+        len_of_phrase = int(sets[1])-int(sets[0])+1
         for k in range(4):
             if words[pos] in Dict_W:
                 value[pos][k] += Dict_W[words[pos]][k]*H_VALUE
@@ -342,6 +357,17 @@ while True:
             continue
         for j in range(4):
             Article[pos][j] = 1
+        if len_of_phrase>=2:
+            if (words[lpos]+' '+words[lpos+1]) in phrases:
+                for i in range(4):
+                    Article[pos][i] = 0
+                if words[lpos]=='a':
+                    Article[pos][0] = 1
+                if words[lpos]=='an':
+                    Article[pos][0] = 1
+                if words[lpos]=='the':
+                    Article[pos][0] = 1
+                continue
         if (head in non_art) and POS[posh-1]!='JJ' and POS[posh-1]!='JJR' and POS[posh-1]!='JJS':
             Article[pos][0] = Article[pos][1] = Article[pos][2] = 0
             continue
@@ -365,6 +391,14 @@ while True:
             else:
                 if POS[pos+1]=='JJ':
                     Article[pos][0] = Article[pos][1] = Article[pos][3] = 0
+                    continue
+        if (head=='breakfast' or head=='lunch' or head=='dinner' or head=='supper'):
+            poshb = posh - 1
+            if words[poshb]=='the' or words[poshb]=='a' or words[poshb]=='an':
+                poshb -= 1
+            if poshb>=0:
+                if POS[poshb]=='VBP' or POS[poshb]=='VBZ' or POS[poshb]=='VBD' or POS[poshb]=='TO' or POS[poshb]=='IN':
+                    Article[pos][0]=Article[pos][1]=Article[pos][2]=0
                     continue
         #rank
         len_of_begin = len(begin)

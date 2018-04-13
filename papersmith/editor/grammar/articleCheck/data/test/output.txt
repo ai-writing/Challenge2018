@@ -1,272 +1,1529 @@
 (ROOT
    (S
-     (PP (IN In)
-       (NP (CD 2014)))
-     (, ,)
-     (NP (PRP he))
-     (VP (VBP say)
-       (NP
-         (NP (DT the) (JJ first) (NN workshop))
-         (PP (IN about)
-           (NP (DT the) (JJ creative) (NN community)))))
+     (NP (JJ last) (NN week))
+     (NP (PRP I))
+     (VP (VBD went)
+       (PP (TO to)
+         (NP (DT the) (NN theate))))
      (. .)))
  
- case(2014-2, In-1)
- nmod:in(say-5, 2014-2)
- nsubj(say-5, he-4)
- root(ROOT-0, say-5)
- det(workshop-8, the-6)
- amod(workshop-8, first-7)
- dobj(say-5, workshop-8)
- case(community-12, about-9)
- det(community-12, the-10)
- amod(community-12, creative-11)
- nmod:about(workshop-8, community-12)
+ amod(week-2, last-1)
+ nmod:tmod(went-4, week-2)
+ nsubj(went-4, I-3)
+ root(ROOT-0, went-4)
+ case(theate-7, to-5)
+ det(theate-7, the-6)
+ nmod:to(went-4, theate-7)
+ 
+ (ROOT
+   (S
+     (NP (PRP I))
+     (VP (VBD had)
+       (NP (DT a)
+         (ADJP (RB very) (JJ good))
+         (NN seat)))
+     (. .)))
+ 
+ nsubj(had-2, I-1)
+ root(ROOT-0, had-2)
+ det(seat-6, a-3)
+ advmod(good-5, very-4)
+ amod(seat-6, good-5)
+ dobj(had-2, seat-6)
+ 
+ (ROOT
+   (S
+     (NP (DT The) (NN play))
+     (VP (VBD was)
+       (ADJP (RB very) (JJ interesting)))
+     (. .)))
+ 
+ det(play-2, The-1)
+ nsubj(interesting-5, play-2)
+ cop(interesting-5, was-3)
+ advmod(interesting-5, very-4)
+ root(ROOT-0, interesting-5)
+ 
+ (ROOT
+   (S
+     (NP (PRP I))
+     (VP (VBD did) (RB not)
+       (VP (VB enjoy)
+         (NP (PRP it))))
+     (. .)))
+ 
+ nsubj(enjoy-4, I-1)
+ aux(enjoy-4, did-2)
+ neg(enjoy-4, not-3)
+ root(ROOT-0, enjoy-4)
+ dobj(enjoy-4, it-5)
+ 
+ (ROOT
+   (S
+     (NP
+       (NP (DT A) (JJ young) (NN man))
+       (CC and)
+       (NP (DT a) (JJ young) (NN woman)))
+     (VP (VBD were)
+       (VP (VBG sitting)
+         (PP (IN behind)
+           (NP (PRP me)))))
+     (. .)))
+ 
+ det(man-3, A-1)
+ amod(man-3, young-2)
+ nsubj(sitting-9, man-3)
+ cc(man-3, and-4)
+ det(woman-7, a-5)
+ amod(woman-7, young-6)
+ conj:and(man-3, woman-7)
+ nsubj(sitting-9, woman-7)
+ aux(sitting-9, were-8)
+ root(ROOT-0, sitting-9)
+ case(me-11, behind-10)
+ nmod:behind(sitting-9, me-11)
+ 
+ (ROOT
+   (S
+     (NP (PRP They))
+     (VP (VBD were)
+       (VP (VBG talking)
+         (NP (NNS loudly))))
+     (. .)))
+ 
+ nsubj(talking-3, They-1)
+ aux(talking-3, were-2)
+ root(ROOT-0, talking-3)
+ dobj(talking-3, loudly-4)
+ 
+ (ROOT
+   (S
+     (NP (PRP I))
+     (VP (VBD got)
+       (ADJP (RB very) (JJ angry)))
+     (. .)))
+ 
+ nsubj(got-2, I-1)
+ root(ROOT-0, got-2)
+ advmod(angry-4, very-3)
+ xcomp(got-2, angry-4)
+ 
+ (ROOT
+   (S
+     (NP (PRP I))
+     (VP (MD could) (RB not)
+       (VP (VB hear)
+         (NP (DT the) (NNS actors))))
+     (. .)))
+ 
+ nsubj(hear-4, I-1)
+ aux(hear-4, could-2)
+ neg(hear-4, not-3)
+ root(ROOT-0, hear-4)
+ det(actors-6, the-5)
+ dobj(hear-4, actors-6)
+ 
+ (ROOT
+   (S
+     (NP (PRP I))
+     (VP (VBD turned)
+       (NP (NN round)))
+     (. .)))
+ 
+ nsubj(turned-2, I-1)
+ root(ROOT-0, turned-2)
+ dobj(turned-2, round-3)
+ 
+ (ROOT
+   (S
+     (NP (PRP I))
+     (VP (VBD looked)
+       (PP (IN at)
+         (NP
+           (NP (DT the) (NN man))
+           (CC and)
+           (NP (DT the) (NN woman))))
+       (ADVP (RB angrily)))
+     (. .)))
+ 
+ nsubj(looked-2, I-1)
+ root(ROOT-0, looked-2)
+ case(man-5, at-3)
+ det(man-5, the-4)
+ nmod:at(looked-2, man-5)
+ cc(man-5, and-6)
+ det(woman-8, the-7)
+ nmod:at(looked-2, woman-8)
+ conj:and(man-5, woman-8)
+ advmod(looked-2, angrily-9)
+ 
+ (ROOT
+   (S
+     (NP (PRP They))
+     (VP (VBD did) (RB not)
+       (VP (VB pay)
+         (NP (DT any) (NN attention))))
+     (. .)))
+ 
+ nsubj(pay-4, They-1)
+ aux(pay-4, did-2)
+ neg(pay-4, not-3)
+ root(ROOT-0, pay-4)
+ det(attention-6, any-5)
+ dobj(pay-4, attention-6)
+ 
+ (ROOT
+   (S
+     (PP (IN In)
+       (NP (DT the) (NN end)))
+     (, ,)
+     (NP (PRP I))
+     (VP (MD could) (RB not)
+       (VP (VB bear)
+         (NP (PRP it))))
+     (. .)))
+ 
+ case(end-3, In-1)
+ det(end-3, the-2)
+ nmod:in(bear-8, end-3)
+ nsubj(bear-8, I-5)
+ aux(bear-8, could-6)
+ neg(bear-8, not-7)
+ root(ROOT-0, bear-8)
+ dobj(bear-8, it-9)
+ 
+ (ROOT
+   (S
+     (NP (PRP I))
+     (VP (VBD turned)
+       (ADVP (RB round) (RB again)))
+     (. .) ('' ')))
+ 
+ nsubj(turned-2, I-1)
+ root(ROOT-0, turned-2)
+ advmod(again-4, round-3)
+ advmod(turned-2, again-4)
+ 
+ (ROOT
+   (S
+     (NP (PRP I))
+     (VP (MD ca) (RB n't)
+       (VP (VB hear)
+         (NP (DT a) (NN word))))
+     (. !) ('' ')))
+ 
+ nsubj(hear-4, I-1)
+ aux(hear-4, ca-2)
+ neg(hear-4, n't-3)
+ root(ROOT-0, hear-4)
+ det(word-6, a-5)
+ dobj(hear-4, word-6)
+ 
+ (ROOT
+   (S
+     (NP (PRP I))
+     (VP (VBD said)
+       (ADVP (RB angrily)))
+     (. .)))
+ 
+ nsubj(said-2, I-1)
+ root(ROOT-0, said-2)
+ advmod(said-2, angrily-3)
+ 
+ (ROOT
+   (S (`` `)
+     (S
+       (NP (PRP It))
+       (VP (VBZ 's)
+         (NP
+           (NP (NN none))
+           (PP (IN of)
+             (NP (PRP$ your) (NN business))))))
+     (, ,) ('' ')
+     (NP (DT the) (JJ young) (NN man))
+     (VP (VBD said)
+       (ADVP (RB rudely)))
+     (. .)))
+ 
+ nsubj(none-4, It-2)
+ cop(none-4, 's-3)
+ ccomp(said-13, none-4)
+ case(business-7, of-5)
+ nmod:poss(business-7, your-6)
+ nmod:of(none-4, business-7)
+ det(man-12, the-10)
+ amod(man-12, young-11)
+ nsubj(said-13, man-12)
+ root(ROOT-0, said-13)
+ advmod(said-13, rudely-14)
+ 
+ (ROOT
+   (S (`` `)
+     (NP (DT This))
+     (VP (VBZ is)
+       (NP (DT a) (JJ private) (NN conversation)))
+     (. !) ('' ')))
+ 
+ nsubj(conversation-6, This-2)
+ cop(conversation-6, is-3)
+ det(conversation-6, a-4)
+ amod(conversation-6, private-5)
+ root(ROOT-0, conversation-6)
  
  (ROOT
    (S
      (NP (PRP It))
-     (VP (VBD had)
-       (VP (VBN attracted)
-         (NP
-           (NP
-             (QP (JJR more) (IN than) (CD 40))
-             (NNS people))
-           (PP (IN from)
-             (NP
-               (NP (NN government) (NNS agencies))
-               (, ,)
-               (NP (JJ social) (NNS organizations))
-               (, ,)
-               (NP (NN business) (NNS circles))
-               (, ,)
-               (NP (JJ IT) (NNS experts))
-               (CC and)
-               (NP (NN design) (JJ professional) (NNS teachers)
-                 (CC and)
-                 (NNS students)))))
+     (VP (VBD was)
+       (NP (NNP sunday)))
+     (. .)))
+ 
+ nsubj(sunday-3, It-1)
+ cop(sunday-3, was-2)
+ root(ROOT-0, sunday-3)
+ 
+ (ROOT
+   (S
+     (NP (PRP I))
+     (ADVP (RB never))
+     (VP (VBP get)
+       (ADVP (RB up) (RB early))
+       (PP (IN on)
+         (NP (NNP Sundays))))
+     (. .)))
+ 
+ nsubj(get-3, I-1)
+ neg(get-3, never-2)
+ root(ROOT-0, get-3)
+ advmod(early-5, up-4)
+ advmod(get-3, early-5)
+ case(Sundays-7, on-6)
+ nmod:on(get-3, Sundays-7)
+ 
+ (ROOT
+   (S
+     (NP (PRP I))
+     (ADVP (RB sometimes))
+     (VP (VBP stay)
+       (PP (IN in)
+         (NP (NN bed)))
+       (PP (IN until)
+         (NP (NN lunchtime))))
+     (. .)))
+ 
+ nsubj(stay-3, I-1)
+ advmod(stay-3, sometimes-2)
+ root(ROOT-0, stay-3)
+ case(bed-5, in-4)
+ nmod:in(stay-3, bed-5)
+ case(lunchtime-7, until-6)
+ nmod:until(stay-3, lunchtime-7)
+ 
+ (ROOT
+   (S
+     (NP (JJ Last) (NNP Sunday))
+     (NP (PRP I))
+     (VP (VBD got)
+       (PRT (RP up))
+       (ADVP (RB very) (RB late)))
+     (. .)))
+ 
+ amod(Sunday-2, Last-1)
+ nmod:tmod(got-4, Sunday-2)
+ nsubj(got-4, I-3)
+ root(ROOT-0, got-4)
+ compound:prt(got-4, up-5)
+ advmod(late-7, very-6)
+ advmod(got-4, late-7)
+ 
+ (ROOT
+   (S
+     (NP (PRP I))
+     (VP (VBD looked)
+       (PRT (RP out))
+       (PP (IN of)
+         (NP (DT the) (NN window))))
+     (. .)))
+ 
+ nsubj(looked-2, I-1)
+ root(ROOT-0, looked-2)
+ compound:prt(looked-2, out-3)
+ case(window-6, of-4)
+ det(window-6, the-5)
+ nmod:of(looked-2, window-6)
+ 
+ (ROOT
+   (S
+     (NP (PRP It))
+     (VP (VBD was)
+       (ADJP (JJ dark)
+         (PP (IN outside))))
+     (. .)))
+ 
+ nsubj(dark-3, It-1)
+ cop(dark-3, was-2)
+ root(ROOT-0, dark-3)
+ nmod(dark-3, outside-4)
+ 
+ (ROOT
+   (SBARQ (`` `)
+     (WHNP (WP What))
+     (SQ
+       (NP (DT a) (NN day))
+       (VP (VB !) ('' ')))))
+ 
+ dobj(!-5, What-2)
+ det(day-4, a-3)
+ nsubj(!-5, day-4)
+ root(ROOT-0, !-5)
+ 
+ (ROOT
+   (S
+     (NP (PRP I))
+     (VP (VBD thought))
+     (. .)))
+ 
+ nsubj(thought-2, I-1)
+ root(ROOT-0, thought-2)
+ 
+ (ROOT
+   (S (`` `)
+     (NP (PRP It))
+     (VP (VBZ 's)
+       (VP (VBG raining)
+         (ADVP (RB again))))
+     (. .) ('' ')))
+ 
+ nsubj(raining-4, It-2)
+ aux(raining-4, 's-3)
+ root(ROOT-0, raining-4)
+ advmod(raining-4, again-5)
+ 
+ (ROOT
+   (S
+     (ADVP (RB Just))
+     (ADVP (RB then))
+     (, ,)
+     (NP (DT the) (NN telephone))
+     (VP (VBD rang))
+     (. .)))
+ 
+ advmod(rang-6, Just-1)
+ advmod(rang-6, then-2)
+ det(telephone-5, the-4)
+ nsubj(rang-6, telephone-5)
+ root(ROOT-0, rang-6)
+ 
+ (ROOT
+   (S
+     (NP (PRP It))
+     (VP (VBD was)
+       (NP (PRP$ my) (NN aunt) (NNP Lucy)))
+     (. .)))
+ 
+ nsubj(Lucy-5, It-1)
+ cop(Lucy-5, was-2)
+ nmod:poss(Lucy-5, my-3)
+ compound(Lucy-5, aunt-4)
+ root(ROOT-0, Lucy-5)
+ 
+ (ROOT
+   (S (`` `)
+     (S
+       (NP (PRP I))
+       (VP (VBP 've)
+         (ADVP (RB just))
+         (VP (VBN arrived)
+           (PP (IN by)
+             (NP (NN train))))))
+     (, ,) ('' ')
+     (NP (PRP she))
+     (VP (VBD said))
+     (. .)))
+ 
+ nsubj(arrived-5, I-2)
+ aux(arrived-5, 've-3)
+ advmod(arrived-5, just-4)
+ ccomp(said-11, arrived-5)
+ case(train-7, by-6)
+ nmod:by(arrived-5, train-7)
+ nsubj(said-11, she-10)
+ root(ROOT-0, said-11)
+ 
+ (ROOT
+   (S (`` `)
+     (NP (PRP I))
+     (VP (VBP 'm)
+       (VP (VBG coming)
          (S
            (VP (TO to)
-             (VP (VB participate))))))
+             (VP (VB see)
+               (NP (PRP you)))))))
+     (. .) ('' ')))
+ 
+ nsubj(coming-4, I-2)
+ nsubj:xsubj(see-6, I-2)
+ aux(coming-4, 'm-3)
+ root(ROOT-0, coming-4)
+ mark(see-6, to-5)
+ xcomp(coming-4, see-6)
+ dobj(see-6, you-7)
+ 
+ (ROOT
+   (S (`` `)
+     (S (CC But)
+       (NP (PRP I))
+       (VP (VBP 'm)
+         (VP
+           (ADVP (RB still))
+           (VBG having)
+           (NP (NN breakfast)))))
+     (, ,) ('' ')
+     (NP (PRP I))
+     (VP (VBD said))
      (. .)))
  
- nsubj(attracted-3, It-1)
- aux(attracted-3, had-2)
- root(ROOT-0, attracted-3)
- advmod(40-6, more-4)
- mwe(more-4, than-5)
- nummod(people-7, 40-6)
- dobj(attracted-3, people-7)
- case(agencies-10, from-8)
- compound(agencies-10, government-9)
- nmod:from(people-7, agencies-10)
- amod(organizations-13, social-12)
- nmod:from(people-7, organizations-13)
- conj:and(agencies-10, organizations-13)
- compound(circles-16, business-15)
- nmod:from(people-7, circles-16)
- conj:and(agencies-10, circles-16)
- amod(experts-19, IT-18)
- nmod:from(people-7, experts-19)
- conj:and(agencies-10, experts-19)
- cc(agencies-10, and-20)
- compound(teachers-23, design-21)
- amod(teachers-23, professional-22)
- nmod:from(people-7, teachers-23)
- conj:and(agencies-10, teachers-23)
- cc(teachers-23, and-24)
- conj:and(agencies-10, students-25)
- conj:and(teachers-23, students-25)
- mark(participate-27, to-26)
- advcl(attracted-3, participate-27)
+ cc(having-6, But-2)
+ nsubj(having-6, I-3)
+ aux(having-6, 'm-4)
+ advmod(having-6, still-5)
+ ccomp(said-11, having-6)
+ dobj(having-6, breakfast-7)
+ nsubj(said-11, I-10)
+ root(ROOT-0, said-11)
+ 
+ (ROOT
+   (SBARQ (`` `)
+     (WHNP (WP What))
+     (SQ (VBP are)
+       (NP (PRP you))
+       (VP (VBG doing)))
+     (. ?) ('' ')))
+ 
+ dobj(doing-5, What-2)
+ aux(doing-5, are-3)
+ nsubj(doing-5, you-4)
+ root(ROOT-0, doing-5)
  
  (ROOT
    (S
-     (NP
-       (NP (DT The) (NN design))
-       (PP (IN of)
-         (NP (DT the) (CD six) (NNS teams))))
-     (VP (VBP are)
-       (VP (VBN based)
-         (PP (IN on)
-           (NP (NN Internet)))))
+     (NP (PRP she))
+     (VP (VBD asked))
      (. .)))
  
- det(design-2, The-1)
- nsubjpass(based-8, design-2)
- case(teams-6, of-3)
- det(teams-6, the-4)
- nummod(teams-6, six-5)
- nmod:of(design-2, teams-6)
- auxpass(based-8, are-7)
- root(ROOT-0, based-8)
- case(Internet-10, on-9)
- nmod:on(based-8, Internet-10)
+ nsubj(asked-2, she-1)
+ root(ROOT-0, asked-2)
  
  (ROOT
-   (S
-     (NP
-       (NP (NNP Communication) (NN technology))
-       (PP (JJ such) (IN as)
-         (NP
-           (NP (NN Internet))
-           (PP (IN of)
-             (NP (NNS things)))))
-       (, ,)
-       (UCP
-         (NP (NN sensor) (NN network))
-         (CC and)
-         (ADVP (RB so) (RB on)))
-       (, ,))
+   (S (`` `)
      (S
-       (ADVP (RB so) (RB as))
-       (VP (TO to)
-         (VP (VB form)
-           (NP (DT a) (JJ new) (NN management) (NN form) (NN community))
-           (PP (VBN based)
-             (PP (IN on)
-               (NP (JJ large-scale) (NN information) (JJ intelligent) (NN processing.Six) (NNS teams) (NNS results)))))))
-     (VP (VBD varied) (, ,)
-       (ADVP (RB respectively))
-       (: :)
-       (NP
-         (NP
-           (NP (DT the) (NN design))
-           (PP (IN of)
-             (NP (JJ electronic) (NN waste) (NN recycling) (NN platform))))
-         (, ,)
-         (NP
-           (NP (DT the) (NN prototype) (NN design))
-           (PP (IN of)
-             (NP (NN community) (JJ old-age) (NN self-help))))
-         (, ,)
-         (NP
-           (NP (DT the) (NN design))
-           (PP (IN of)
-             (NP (JJ remote) (NN control) (NN robot))))
-         (, ,)
-         (NP
-           (NP (NNP Babel) (NNP Tower) (NNP breaker) (NNP Bracelet))
-           (NP (NN design)))
-         (, ,)
-         (NP
-           (NP (DT the) (NN design))
-           (PP (IN of)
-             (NP
-               (NP (DT the) (JJ joint) (NN office))
-               (, ,)
-               (NP (JJ commercial) (NN exhibition))
-               (CC and)
-               (NP (JJ creative) (NN communication) (NN space) (NN design)))))
-         (CC and)
-         (NP
-           (NP
-             (NP (DT the) (NN design))
-             (PP (IN of)
-               (NP (NNP City))))
-           (NP (JJ pet) (NN dog) (NN intelligence) (NN community)))))
+       (NP (PRP I))
+       (VP (VBP 'm)
+         (VP (VBG having)
+           (NP (NN breakfast)))))
+     (, ,) ('' ')
+     (NP (PRP I))
+     (VP (VBD repeated))
      (. .)))
  
- compound(technology-2, Communication-1)
- nsubj(varied-32, technology-2)
- case(Internet-5, such-3)
- mwe(such-3, as-4)
- nmod:such_as(technology-2, Internet-5)
- case(things-7, of-6)
- nmod:of(Internet-5, things-7)
- compound(network-10, sensor-9)
- appos(technology-2, network-10)
- cc(network-10, and-11)
- advmod(on-13, so-12)
- advmod(network-10, on-13)
- advmod(as-16, so-15)
- advmod(form-18, as-16)
- mark(form-18, to-17)
- dep(varied-32, form-18)
- det(community-23, a-19)
- amod(community-23, new-20)
- compound(community-23, management-21)
- compound(community-23, form-22)
- dobj(form-18, community-23)
- case(results-31, based-24)
- mwe(based-24, on-25)
- amod(results-31, large-scale-26)
- compound(results-31, information-27)
- amod(results-31, intelligent-28)
- compound(results-31, processing.Six-29)
- compound(results-31, teams-30)
- advcl(form-18, results-31)
- root(ROOT-0, varied-32)
- advmod(varied-32, respectively-34)
- det(design-37, the-36)
- dobj(varied-32, design-37)
- case(platform-42, of-38)
- amod(platform-42, electronic-39)
- compound(platform-42, waste-40)
- compound(platform-42, recycling-41)
- nmod:of(design-37, platform-42)
- det(design-46, the-44)
- compound(design-46, prototype-45)
- dobj(varied-32, design-46)
- conj:and(design-37, design-46)
- case(self-help-50, of-47)
- compound(self-help-50, community-48)
- amod(self-help-50, old-age-49)
- nmod:of(design-46, self-help-50)
- det(design-53, the-52)
- dobj(varied-32, design-53)
- conj:and(design-37, design-53)
- case(robot-57, of-54)
- amod(robot-57, remote-55)
- compound(robot-57, control-56)
- nmod:of(design-53, robot-57)
- compound(Bracelet-62, Babel-59)
- compound(Bracelet-62, Tower-60)
- compound(Bracelet-62, breaker-61)
- dobj(varied-32, Bracelet-62)
- conj:and(design-37, Bracelet-62)
- dep(Bracelet-62, design-63)
- det(design-66, the-65)
- dobj(varied-32, design-66)
- conj:and(design-37, design-66)
- case(office-70, of-67)
- det(office-70, the-68)
- amod(office-70, joint-69)
- nmod:of(design-66, office-70)
- amod(exhibition-73, commercial-72)
- nmod:of(design-66, exhibition-73)
- conj:and(office-70, exhibition-73)
- cc(office-70, and-74)
- amod(design-78, creative-75)
- compound(design-78, communication-76)
- compound(design-78, space-77)
- nmod:of(design-66, design-78)
- conj:and(office-70, design-78)
- cc(design-37, and-79)
- det(design-81, the-80)
- dobj(varied-32, design-81)
- conj:and(design-37, design-81)
- case(City-83, of-82)
- nmod:of(design-81, City-83)
- amod(community-87, pet-84)
- compound(community-87, dog-85)
- compound(community-87, intelligence-86)
- dep(design-81, community-87)
+ nsubj(having-4, I-2)
+ aux(having-4, 'm-3)
+ ccomp(repeated-9, having-4)
+ dobj(having-4, breakfast-5)
+ nsubj(repeated-9, I-8)
+ root(ROOT-0, repeated-9)
+ 
+ (ROOT
+   (S (`` `)
+     (S
+       (VP (VBG Dear)
+         (NP (PRP me))))
+     (, ,) ('' ')
+     (NP (PRP she))
+     (VP (VBD said))
+     (. .)))
+ 
+ dep(said-7, Dear-2)
+ dobj(Dear-2, me-3)
+ nsubj(said-7, she-6)
+ root(ROOT-0, said-7)
+ 
+ (ROOT
+   (SQ (`` `) (VBP Do)
+     (NP (PRP you))
+     (ADVP (RB always))
+     (VP (VB get)
+       (PRT (RP up))
+       (ADVP (RB so) (RB late)))
+     (. ?)))
+ 
+ aux(get-5, Do-2)
+ nsubj(get-5, you-3)
+ advmod(get-5, always-4)
+ root(ROOT-0, get-5)
+ compound:prt(get-5, up-6)
+ advmod(late-8, so-7)
+ advmod(get-5, late-8)
  
  (ROOT
    (S
-     (NP (PRP We))
-     (VP (MD can)
-       (VP (VB do)
-         (NP (PRP it))
-         (ADVP (RB very) (RB well))))
+     (NP (PRP It))
+     (VP (VBZ 's)
+       (NP (CD one) (NNS o'clock)))
+     (. !) ('' ')))
+ 
+ nsubj(o'clock-4, It-1)
+ cop(o'clock-4, 's-2)
+ nummod(o'clock-4, one-3)
+ root(ROOT-0, o'clock-4)
+ 
+ (ROOT
+   (S
+     (NP (NNS Postcards))
+     (ADVP (RB always))
+     (VP (VBP spoil)
+       (NP (PRP$ my) (NNS holidays)))
      (. .)))
  
- nsubj(do-3, We-1)
- aux(do-3, can-2)
- root(ROOT-0, do-3)
- dobj(do-3, it-4)
- advmod(well-6, very-5)
- advmod(do-3, well-6)
+ nsubj(spoil-3, Postcards-1)
+ advmod(spoil-3, always-2)
+ root(ROOT-0, spoil-3)
+ nmod:poss(holidays-5, my-4)
+ dobj(spoil-3, holidays-5)
  
+ (ROOT
+   (S
+     (NP (JJ Last) (NN summer))
+     (, ,)
+     (NP (PRP I))
+     (VP (VBD went)
+       (PP (TO to)
+         (NP (NNP Italy))))
+     (. .)))
+ 
+ amod(summer-2, Last-1)
+ nmod:tmod(went-5, summer-2)
+ nsubj(went-5, I-4)
+ root(ROOT-0, went-5)
+ case(Italy-7, to-6)
+ nmod:to(went-5, Italy-7)
+ 
+ (ROOT
+   (S
+     (NP (PRP I))
+     (VP
+       (VP (VBD visited)
+         (NP (NNS museums)))
+       (CC and)
+       (VP (VBD sat)
+         (PP (IN in)
+           (NP (JJ public) (NNS gardens)))))
+     (. .)))
+ 
+ nsubj(visited-2, I-1)
+ nsubj(sat-5, I-1)
+ root(ROOT-0, visited-2)
+ dobj(visited-2, museums-3)
+ cc(visited-2, and-4)
+ conj:and(visited-2, sat-5)
+ case(gardens-8, in-6)
+ amod(gardens-8, public-7)
+ nmod:in(sat-5, gardens-8)
+ 
+ (ROOT
+   (S
+     (NP (DT A) (JJ friendly) (NN waiter))
+     (VP (VBD taught)
+       (S
+         (NP (PRP me))
+         (NP
+           (NP (DT a) (JJ few) (NNS words))
+           (PP (IN of)
+             (NP (NNP italian))))))
+     (. .)))
+ 
+ det(waiter-3, A-1)
+ amod(waiter-3, friendly-2)
+ nsubj(taught-4, waiter-3)
+ root(ROOT-0, taught-4)
+ nsubj(words-8, me-5)
+ det(words-8, a-6)
+ amod(words-8, few-7)
+ xcomp(taught-4, words-8)
+ case(italian-10, of-9)
+ nmod:of(words-8, italian-10)
+ 
+ (ROOT
+   (S (RB Then)
+     (NP (PRP he))
+     (VP (VBD lent)
+       (NP (PRP me))
+       (NP (DT a) (NN book)))
+     (. .)))
+ 
+ advmod(lent-3, Then-1)
+ nsubj(lent-3, he-2)
+ root(ROOT-0, lent-3)
+ iobj(lent-3, me-4)
+ det(book-6, a-5)
+ dobj(lent-3, book-6)
+ 
+ (ROOT
+   (S
+     (S
+       (NP (PRP I))
+       (VP (VBP read)
+         (NP (DT a) (JJ few) (NNS lines))))
+     (, ,)
+     (CC but)
+     (S
+       (NP (PRP I))
+       (VP (VBD did) (RB not)
+         (VP (VB understand)
+           (NP (DT a) (NN word)))))
+     (. .)))
+ 
+ nsubj(read-2, I-1)
+ root(ROOT-0, read-2)
+ det(lines-5, a-3)
+ amod(lines-5, few-4)
+ dobj(read-2, lines-5)
+ cc(read-2, but-7)
+ nsubj(understand-11, I-8)
+ aux(understand-11, did-9)
+ neg(understand-11, not-10)
+ conj:but(read-2, understand-11)
+ det(word-13, a-12)
+ dobj(understand-11, word-13)
+ 
+ (ROOT
+   (S
+     (ADVP (RB Everyday))
+     (NP (PRP I))
+     (VP (VBD thought)
+       (PP (IN about)
+         (NP (NNS postcards))))
+     (. .)))
+ 
+ advmod(thought-3, Everyday-1)
+ nsubj(thought-3, I-2)
+ root(ROOT-0, thought-3)
+ case(postcards-5, about-4)
+ nmod:about(thought-3, postcards-5)
+ 
+ (ROOT
+   (S
+     (S
+       (NP (PRP$ My) (NNS holidays))
+       (VP (VBD passed)
+         (ADVP (RB quickly))))
+     (, ,)
+     (CC but)
+     (S
+       (NP (PRP I))
+       (VP (VBD did) (RB not)
+         (VP (VB send)
+           (NP (NNS cards))
+           (PP (TO to)
+             (NP (PRP$ my) (NNS friends))))))
+     (. .)))
+ 
+ nmod:poss(holidays-2, My-1)
+ nsubj(passed-3, holidays-2)
+ root(ROOT-0, passed-3)
+ advmod(passed-3, quickly-4)
+ cc(passed-3, but-6)
+ nsubj(send-10, I-7)
+ aux(send-10, did-8)
+ neg(send-10, not-9)
+ conj:but(passed-3, send-10)
+ dobj(send-10, cards-11)
+ case(friends-14, to-12)
+ nmod:poss(friends-14, my-13)
+ nmod:to(send-10, friends-14)
+ 
+ (ROOT
+   (S
+     (PP (IN On)
+       (NP (DT the) (JJ last) (NN day)))
+     (NP (PRP I))
+     (VP (VBD made)
+       (NP (DT a) (JJ big) (NN decision)))
+     (. .)))
+ 
+ case(day-4, On-1)
+ det(day-4, the-2)
+ amod(day-4, last-3)
+ nmod:on(made-6, day-4)
+ nsubj(made-6, I-5)
+ root(ROOT-0, made-6)
+ det(decision-9, a-7)
+ amod(decision-9, big-8)
+ dobj(made-6, decision-9)
+ 
+ (ROOT
+   (S
+     (NP (PRP I))
+     (VP
+       (VP (VBD got)
+         (ADVP (RB up) (RB early)))
+       (CC and)
+       (VP (VBD bought)
+         (NP (JJ thirty-seven) (NNS cards))))
+     (. .)))
+ 
+ nsubj(got-2, I-1)
+ nsubj(bought-6, I-1)
+ root(ROOT-0, got-2)
+ advmod(early-4, up-3)
+ advmod(got-2, early-4)
+ cc(got-2, and-5)
+ conj:and(got-2, bought-6)
+ amod(cards-8, thirty-seven-7)
+ dobj(bought-6, cards-8)
+ 
+ (ROOT
+   (S
+     (S
+       (NP (PRP I))
+       (VP (VBD spent)
+         (NP (DT the) (JJ whole) (NN day))
+         (PP (IN in)
+           (NP (PRP$ my) (NN room)))))
+     (, ,)
+     (CC but)
+     (S
+       (NP (PRP I))
+       (VP (VBD did) (RB not)
+         (VP (VB write)
+           (NP (DT a) (JJ single) (NN card)))))
+     (. !)))
+ 
+ nsubj(spent-2, I-1)
+ root(ROOT-0, spent-2)
+ det(day-5, the-3)
+ amod(day-5, whole-4)
+ nmod:tmod(spent-2, day-5)
+ case(room-8, in-6)
+ nmod:poss(room-8, my-7)
+ nmod:in(spent-2, room-8)
+ cc(spent-2, but-10)
+ nsubj(write-14, I-11)
+ aux(write-14, did-12)
+ neg(write-14, not-13)
+ conj:but(spent-2, write-14)
+ det(card-17, a-15)
+ amod(card-17, single-16)
+ dobj(write-14, card-17)
+ 
+ (ROOT
+   (S
+     (NP (PRP I))
+     (VP (VBP have)
+       (ADVP (RB just))
+       (VP (VBN received)
+         (NP (DT a) (NN letter))
+         (PP (IN from)
+           (NP
+             (NP (PRP$ my) (NN brother))
+             (, ,)
+             (NP (NNP Tim))))))
+     (. .)))
+ 
+ nsubj(received-4, I-1)
+ aux(received-4, have-2)
+ advmod(received-4, just-3)
+ root(ROOT-0, received-4)
+ det(letter-6, a-5)
+ dobj(received-4, letter-6)
+ case(brother-9, from-7)
+ nmod:poss(brother-9, my-8)
+ nmod:from(received-4, brother-9)
+ appos(brother-9, Tim-11)
+ 
+ (ROOT
+   (S
+     (NP (PRP He))
+     (VP (VBZ is)
+       (PP (IN in)
+         (NP (NNP Australia))))
+     (. .)))
+ 
+ nsubj(Australia-4, He-1)
+ cop(Australia-4, is-2)
+ case(Australia-4, in-3)
+ root(ROOT-0, Australia-4)
+ 
+ (ROOT
+   (S
+     (NP (PRP He))
+     (VP (VBZ has)
+       (VP (VBN been)
+         (ADVP (RB there))
+         (PP (IN for)
+           (NP (CD six) (NNS months)))))
+     (. .)))
+ 
+ nsubj(months-7, He-1)
+ aux(months-7, has-2)
+ cop(months-7, been-3)
+ advmod(months-7, there-4)
+ case(months-7, for-5)
+ nummod(months-7, six-6)
+ root(ROOT-0, months-7)
+ 
+ (ROOT
+   (S
+     (NP (NNP Tim))
+     (VP (VBZ is)
+       (NP (DT an) (NN engineer)))
+     (. .)))
+ 
+ nsubj(engineer-4, Tim-1)
+ cop(engineer-4, is-2)
+ det(engineer-4, an-3)
+ root(ROOT-0, engineer-4)
+ 
+ (ROOT
+   (S
+     (S
+       (NP (PRP He))
+       (VP (VBZ is)
+         (VP (VBG working)
+           (PP (IN for)
+             (NP (DT a) (JJ big) (NN firm))))))
+     (CC and)
+     (S
+       (NP (PRP he))
+       (VP (VBZ has)
+         (ADVP (RB already))
+         (VP (VBN visited)
+           (NP
+             (NP (DT a) (JJ great) (NN number))
+             (PP (IN of)
+               (NP (JJ different) (NNS places))))
+           (PP (IN in)
+             (NP (NNP Australia))))))
+     (. .)))
+ 
+ nsubj(working-3, He-1)
+ aux(working-3, is-2)
+ root(ROOT-0, working-3)
+ case(firm-7, for-4)
+ det(firm-7, a-5)
+ amod(firm-7, big-6)
+ nmod:for(working-3, firm-7)
+ cc(working-3, and-8)
+ nsubj(visited-12, he-9)
+ aux(visited-12, has-10)
+ advmod(visited-12, already-11)
+ conj:and(working-3, visited-12)
+ det(number-15, a-13)
+ amod(number-15, great-14)
+ dobj(visited-12, number-15)
+ case(places-18, of-16)
+ amod(places-18, different-17)
+ nmod:of(number-15, places-18)
+ case(Australia-20, in-19)
+ nmod:in(visited-12, Australia-20)
+ 
+ (ROOT
+   (S
+     (NP (PRP He))
+     (VP
+       (VP (VBZ has)
+         (ADVP (RB just))
+         (VP (VBN bought)
+           (NP (DT an) (NN australian) (NN car))))
+       (CC and)
+       (VP (VBZ has)
+         (VP (VBN gone)
+           (S
+             (VP (TO to)
+               (VP (VB alice)
+                 (NP
+                   (NP (NNS springs))
+                   (, ,)
+                   (NP
+                     (NP (DT a) (JJ small) (NN town))
+                     (PP (IN in)
+                       (NP
+                         (NP (DT the) (NN centre))
+                         (PP (IN of)
+                           (NP (NNP Australia)))))))))))))
+     (. .)))
+ 
+ nsubj(bought-4, He-1)
+ nsubj(gone-10, He-1)
+ nsubj:xsubj(alice-12, He-1)
+ aux(bought-4, has-2)
+ advmod(bought-4, just-3)
+ root(ROOT-0, bought-4)
+ det(car-7, an-5)
+ compound(car-7, australian-6)
+ dobj(bought-4, car-7)
+ cc(bought-4, and-8)
+ aux(gone-10, has-9)
+ conj:and(bought-4, gone-10)
+ mark(alice-12, to-11)
+ xcomp(gone-10, alice-12)
+ dobj(alice-12, springs-13)
+ det(town-17, a-15)
+ amod(town-17, small-16)
+ appos(springs-13, town-17)
+ case(centre-20, in-18)
+ det(centre-20, the-19)
+ nmod:in(town-17, centre-20)
+ case(Australia-22, of-21)
+ nmod:of(centre-20, Australia-22)
+ 
+ (ROOT
+   (S
+     (NP (PRP He))
+     (VP (MD will)
+       (ADVP (RB soon))
+       (VP (VB visit)
+         (NP (NNP Darwin))))
+     (. .)))
+ 
+ nsubj(visit-4, He-1)
+ aux(visit-4, will-2)
+ advmod(visit-4, soon-3)
+ root(ROOT-0, visit-4)
+ dobj(visit-4, Darwin-5)
+ 
+ (ROOT
+   (S
+     (PP (IN from)
+       (NP (RB there)))
+     (, ,)
+     (NP (PRP he))
+     (VP (MD will)
+       (VP (VB fly)
+         (PP (TO to)
+           (NP (NNP Perth)))))
+     (. .)))
+ 
+ case(there-2, from-1)
+ nmod:from(fly-6, there-2)
+ nsubj(fly-6, he-4)
+ aux(fly-6, will-5)
+ root(ROOT-0, fly-6)
+ case(Perth-8, to-7)
+ nmod:to(fly-6, Perth-8)
+ 
+ (ROOT
+   (S
+     (S
+       (NP (PRP$ My) (NN brother))
+       (VP (VBZ has)
+         (ADVP (RB never))
+         (VP (VBN been)
+           (VP (VBN abrad)
+             (ADVP (RB before))))))
+     (, ,) (IN so)
+     (S
+       (NP (PRP he))
+       (VP (VBZ is)
+         (VP (VBG fending)
+           (NP
+             (NP (DT this) (NN trip))
+             (ADJP (RB very) (JJ exciting))))))
+     (. .)))
+ 
+ nmod:poss(brother-2, My-1)
+ nsubjpass(abrad-6, brother-2)
+ aux(abrad-6, has-3)
+ neg(abrad-6, never-4)
+ auxpass(abrad-6, been-5)
+ root(ROOT-0, abrad-6)
+ advmod(abrad-6, before-7)
+ dep(abrad-6, so-9)
+ nsubj(fending-12, he-10)
+ aux(fending-12, is-11)
+ parataxis(abrad-6, fending-12)
+ det(trip-14, this-13)
+ dobj(fending-12, trip-14)
+ advmod(exciting-16, very-15)
+ amod(trip-14, exciting-16)
+ 
+ (ROOT
+   (NP (FW Mr) (. .)))
+ 
+ root(ROOT-0, Mr-1)
+ 
+ (ROOT
+   (S
+     (S
+       (NP (NNP James) (NNP Scott))
+       (VP (VBZ has)
+         (NP
+           (NP (DT a) (NN garage))
+           (PP (IN in)
+             (NP (NNP Silbury))))))
+     (CC and)
+     (S
+       (ADVP (RB now))
+       (NP (PRP he))
+       (VP (VBZ has)
+         (ADVP (RB just))
+         (VP (VBN bought)
+           (NP
+             (NP (DT another) (NN garage))
+             (PP (IN in)
+               (NP (NNP Pinhurst)))))))
+     (. .)))
+ 
+ compound(Scott-2, James-1)
+ nsubj(has-3, Scott-2)
+ root(ROOT-0, has-3)
+ det(garage-5, a-4)
+ dobj(has-3, garage-5)
+ case(Silbury-7, in-6)
+ nmod:in(garage-5, Silbury-7)
+ cc(has-3, and-8)
+ advmod(bought-13, now-9)
+ nsubj(bought-13, he-10)
+ aux(bought-13, has-11)
+ advmod(bought-13, just-12)
+ conj:and(has-3, bought-13)
+ det(garage-15, another-14)
+ dobj(bought-13, garage-15)
+ case(Pinhurst-17, in-16)
+ nmod:in(garage-15, Pinhurst-17)
+ 
+ (ROOT
+   (S
+     (S
+       (NP (NNP Pinhurst))
+       (VP (VBZ is)
+         (PP
+           (NP (RB only) (CD five) (NNS miles))
+           (IN from)
+           (NP (NNP Silbury)))))
+     (, ,)
+     (CC but)
+     (S
+       (S
+         (NP (NNP Mr.) (NNP Scott))
+         (VP (MD can) (RB not)
+           (VP (VB get)
+             (NP
+               (NP (DT a) (NN telephone))
+               (PP (IN for)
+                 (NP (PRP$ his) (JJ new) (NN garage)))))))
+       (, ,) (IN so)
+       (S
+         (NP (PRP he))
+         (VP (VBZ has)
+           (ADVP (RB just))
+           (VP (VBN bought)
+             (NP (CD twelve) (NNS pigeons))))))
+     (. .)))
+ 
+ nsubj(miles-5, Pinhurst-1)
+ cop(miles-5, is-2)
+ advmod(miles-5, only-3)
+ nummod(miles-5, five-4)
+ root(ROOT-0, miles-5)
+ case(miles-5, from-6)
+ dep(miles-5, Silbury-7)
+ cc(miles-5, but-9)
+ compound(Scott-11, Mr.-10)
+ nsubj(get-14, Scott-11)
+ aux(get-14, can-12)
+ neg(get-14, not-13)
+ conj:but(miles-5, get-14)
+ det(telephone-16, a-15)
+ dobj(get-14, telephone-16)
+ case(garage-20, for-17)
+ nmod:poss(garage-20, his-18)
+ amod(garage-20, new-19)
+ nmod:for(telephone-16, garage-20)
+ dep(get-14, so-22)
+ nsubj(bought-26, he-23)
+ aux(bought-26, has-24)
+ advmod(bought-26, just-25)
+ parataxis(get-14, bought-26)
+ nummod(pigeons-28, twelve-27)
+ dobj(bought-26, pigeons-28)
+ 
+ (ROOT
+   (S
+     (NP (NN Yesterday))
+     (, ,)
+     (NP (DT a) (NN pigeon))
+     (VP (VBD carried)
+       (NP (DT the) (JJ first) (NN message))
+       (PP (IN from)
+         (NP (NNP Pinhurst)))
+       (PP (TO to)
+         (NP (NNP Silbury))))
+     (. .)))
+ 
+ nmod:tmod(carried-5, Yesterday-1)
+ det(pigeon-4, a-3)
+ nsubj(carried-5, pigeon-4)
+ root(ROOT-0, carried-5)
+ det(message-8, the-6)
+ amod(message-8, first-7)
+ dobj(carried-5, message-8)
+ case(Pinhurst-10, from-9)
+ nmod:from(carried-5, Pinhurst-10)
+ case(Silbury-12, to-11)
+ nmod:to(carried-5, Silbury-12)
+ 
+ (ROOT
+   (S
+     (NP (DT The) (NN bird))
+     (VP (VBD covered)
+       (NP (DT the) (NN distance))
+       (PP (IN in)
+         (NP (CD three) (NNS minutes))))
+     (. .)))
+ 
+ det(bird-2, The-1)
+ nsubj(covered-3, bird-2)
+ root(ROOT-0, covered-3)
+ det(distance-5, the-4)
+ dobj(covered-3, distance-5)
+ case(minutes-8, in-6)
+ nummod(minutes-8, three-7)
+ nmod:in(covered-3, minutes-8)
+ 
+ (ROOT
+   (FRAG
+     (PP (IN Up)
+       (PP (TO to)
+         (NP (RB now))))
+     (, ,)
+     (NP (NNP Mr))
+     (. .)))
+ 
+ case(now-3, Up-1)
+ case(now-3, to-2)
+ nmod:to(Mr-5, now-3)
+ root(ROOT-0, Mr-5)
+ 
+ (ROOT
+   (S
+     (NP (NNP Scott))
+     (VP (VBZ has)
+       (VP (VBN sent)
+         (NP
+           (NP (DT a) (JJ great) (JJ many) (NNS requests))
+           (PP (IN for)
+             (NP
+               (NP (JJ spare) (NNS parts))
+               (CC and)
+               (NP (JJ other) (JJ urgent) (NNS messages)))))
+         (PP (IN from)
+           (NP (CD one) (NN garage)))
+         (PP (TO to)
+           (NP (DT the) (JJ other)))))
+     (. .)))
+ 
+ nsubj(sent-3, Scott-1)
+ aux(sent-3, has-2)
+ root(ROOT-0, sent-3)
+ det(requests-7, a-4)
+ amod(requests-7, great-5)
+ amod(requests-7, many-6)
+ dobj(sent-3, requests-7)
+ case(parts-10, for-8)
+ amod(parts-10, spare-9)
+ nmod:for(requests-7, parts-10)
+ cc(parts-10, and-11)
+ amod(messages-14, other-12)
+ amod(messages-14, urgent-13)
+ nmod:for(requests-7, messages-14)
+ conj:and(parts-10, messages-14)
+ case(garage-17, from-15)
+ nummod(garage-17, one-16)
+ nmod:from(sent-3, garage-17)
+ case(other-20, to-18)
+ det(other-20, the-19)
+ nmod:to(sent-3, other-20)
+ 
+ (ROOT
+   (S
+     (PP (IN In)
+       (NP (DT this) (NN way)))
+     (, ,)
+     (NP (PRP he))
+     (VP (VBZ has)
+       (VP (VBN begun)
+         (NP (PRP$ his) (JJ own) (JJ private) (`` `) (NN telephone) ('' ') (NN service))))
+     (. .)))
+ 
+ case(way-3, In-1)
+ det(way-3, this-2)
+ nmod:in(begun-7, way-3)
+ nsubj(begun-7, he-5)
+ aux(begun-7, has-6)
+ root(ROOT-0, begun-7)
+ nmod:poss(service-14, his-8)
+ amod(service-14, own-9)
+ amod(service-14, private-10)
+ compound(service-14, telephone-12)
+ dobj(begun-7, service-14)
+ 
+ (ROOT
+   (S
+     (NP (PRP I))
+     (VP (VBP have)
+       (ADVP (RB just))
+       (VP (VBN moved)
+         (PP (TO to)
+           (NP
+             (NP (DT a) (NN house))
+             (PP (IN in)
+               (NP (NNP Bridge) (NNP Street)))))))
+     (. .)))
+ 
+ nsubj(moved-4, I-1)
+ aux(moved-4, have-2)
+ advmod(moved-4, just-3)
+ root(ROOT-0, moved-4)
+ case(house-7, to-5)
+ det(house-7, a-6)
+ nmod:to(moved-4, house-7)
+ case(Street-10, in-8)
+ compound(Street-10, Bridge-9)
+ nmod:in(house-7, Street-10)
+ 
+ (ROOT
+   (S
+     (NP (NN Yesterday))
+     (NP (DT a) (NN beggar))
+     (VP (VBD knocked)
+       (PP (IN at)
+         (NP (PRP$ my) (NN door))))
+     (. .)))
+ 
+ nmod:tmod(knocked-4, Yesterday-1)
+ det(beggar-3, a-2)
+ nsubj(knocked-4, beggar-3)
+ root(ROOT-0, knocked-4)
+ case(door-7, at-5)
+ nmod:poss(door-7, my-6)
+ nmod:at(knocked-4, door-7)
+ 
+ (ROOT
+   (S
+     (NP (PRP He))
+     (VP (VBD asked)
+       (NP (PRP me))
+       (PP (IN for)
+         (NP
+           (NP (DT a) (NN meal))
+           (CC and)
+           (NP
+             (NP (DT a) (NN glass))
+             (PP (IN of)
+               (NP (NN beer)))))))
+     (. .)))
+ 
+ nsubj(asked-2, He-1)
+ root(ROOT-0, asked-2)
+ dobj(asked-2, me-3)
+ case(meal-6, for-4)
+ det(meal-6, a-5)
+ nmod:for(asked-2, meal-6)
+ cc(meal-6, and-7)
+ det(glass-9, a-8)
+ nmod:for(asked-2, glass-9)
+ conj:and(meal-6, glass-9)
+ case(beer-11, of-10)
+ nmod:of(glass-9, beer-11)
+ 
+ (ROOT
+   (S
+     (PP (IN In)
+       (NP
+         (NP (NN return))
+         (PP (IN for)
+           (NP (DT this)))))
+     (, ,)
+     (NP (DT the) (NN beggar))
+     (VP
+       (VP (VBD stood)
+         (PP (IN on)
+           (NP (PRP$ his) (NN head))))
+       (CC and)
+       (VP (VBD sang)
+         (NP (NNS songs))))
+     (. .)))
+ 
+ case(return-2, In-1)
+ nmod:in(stood-8, return-2)
+ case(this-4, for-3)
+ nmod:for(return-2, this-4)
+ det(beggar-7, the-6)
+ nsubj(stood-8, beggar-7)
+ nsubj(sang-13, beggar-7)
+ root(ROOT-0, stood-8)
+ case(head-11, on-9)
+ nmod:poss(head-11, his-10)
+ nmod:on(stood-8, head-11)
+ cc(stood-8, and-12)
+ conj:and(stood-8, sang-13)
+ dobj(sang-13, songs-14)
+ 
+ (ROOT
+   (S
+     (NP (PRP I))
+     (VP (VBD gave)
+       (NP (PRP him))
+       (NP (DT a) (NN meal)))
+     (. .)))
+ 
+ nsubj(gave-2, I-1)
+ root(ROOT-0, gave-2)
+ iobj(gave-2, him-3)
+ det(meal-5, a-4)
+ dobj(gave-2, meal-5)
+ 
+ (ROOT
+   (S
+     (NP (PRP He))
+     (VP
+       (VP (VBD ate)
+         (NP (DT the) (NN food)))
+       (CC and)
+       (VP (VBD drank)
+         (NP (DT the) (NN beer))))
+     (. .)))
+ 
+ nsubj(ate-2, He-1)
+ nsubj(drank-6, He-1)
+ root(ROOT-0, ate-2)
+ det(food-4, the-3)
+ dobj(ate-2, food-4)
+ cc(ate-2, and-5)
+ conj:and(ate-2, drank-6)
+ det(beer-8, the-7)
+ dobj(drank-6, beer-8)
+ 
+ (ROOT
+   (S (RB Then)
+     (NP (PRP he))
+     (VP
+       (VP (VBD put)
+         (NP
+           (NP (DT a) (NN piece))
+           (PP (IN of)
+             (NP (NN cheese))))
+         (PP (IN in)
+           (NP (PRP$ his) (NN pokcet))))
+       (CC and)
+       (VP (VBD went)
+         (PRT (RP away))))
+     (. .)))
+ 
+ advmod(put-3, Then-1)
+ nsubj(put-3, he-2)
+ nsubj(went-12, he-2)
+ root(ROOT-0, put-3)
+ det(piece-5, a-4)
+ dobj(put-3, piece-5)
+ case(cheese-7, of-6)
+ nmod:of(piece-5, cheese-7)
+ case(pokcet-10, in-8)
+ nmod:poss(pokcet-10, his-9)
+ nmod:in(put-3, pokcet-10)
+ cc(put-3, and-11)
+ conj:and(put-3, went-12)
+ compound:prt(went-12, away-13)
+ 
+ (ROOT
+   (S
+     (ADVP (RB Later))
+     (NP (DT a) (NN neighbour))
+     (VP (VBD told)
+       (NP (PRP me))
+       (PP (IN about)
+         (NP (PRP him))))
+     (. .)))
+ 
+ advmod(told-4, Later-1)
+ det(neighbour-3, a-2)
+ nsubj(told-4, neighbour-3)
+ root(ROOT-0, told-4)
+ dobj(told-4, me-5)
+ case(him-7, about-6)
+ nmod:about(told-4, him-7)
+ 
+ (ROOT
+   (S
+     (NP (NN Everybody))
+     (VP (VBZ knows)
+       (NP (PRP him)))
+     (. .)))
+ 
+ nsubj(knows-2, Everybody-1)
+ root(ROOT-0, knows-2)
+ dobj(knows-2, him-3)
+ 
+ (ROOT
+   (S
+     (NP (PRP$ His) (NN name))
+     (VP (VBZ is)
+       (NP (NNP Percy) (NNPS Buttons)))
+     (. .)))
+ 
+ nmod:poss(name-2, His-1)
+ nsubj(Buttons-5, name-2)
+ cop(Buttons-5, is-3)
+ compound(Buttons-5, Percy-4)
+ root(ROOT-0, Buttons-5)
+ 
+ (ROOT
+   (S
+     (NP (PRP He))
+     (VP
+       (VP (VBZ calls)
+         (PP (IN at)
+           (NP
+             (NP (DT every) (NN house))
+             (PP (IN in)
+               (NP (DT the) (NN street)))
+             (NP (RB once) (DT a) (NN month)))))
+       (CC and)
+       (VP
+         (ADVP (RB always))
+         (VBZ asks)
+         (PP (IN for)
+           (NP
+             (NP (DT a) (NN meal))
+             (CC and)
+             (NP
+               (NP (DT a) (NN glass))
+               (PP (IN of)
+                 (NP (NN beer))))))))
+     (. .)))
+ 
+ nsubj(calls-2, He-1)
+ nsubj(asks-14, He-1)
+ root(ROOT-0, calls-2)
+ case(house-5, at-3)
+ det(house-5, every-4)
+ nmod:at(calls-2, house-5)
+ case(street-8, in-6)
+ det(street-8, the-7)
+ nmod:in(house-5, street-8)
+ advmod(month-11, once-9)
+ det(month-11, a-10)
+ dep(house-5, month-11)
+ cc(calls-2, and-12)
+ advmod(asks-14, always-13)
+ conj:and(calls-2, asks-14)
+ case(meal-17, for-15)
+ det(meal-17, a-16)
+ nmod:for(asks-14, meal-17)
+ cc(meal-17, and-18)
+ det(glass-20, a-19)
+ nmod:for(asks-14, glass-20)
+ conj:and(meal-17, glass-20)
+ case(beer-22, of-21)
+ nmod:of(glass-20, beer-22) 
  
