@@ -14,6 +14,7 @@ import json
 
 from . import issue
 
+from papersmith.editor.grammar import quantifier
 from papersmith.editor.grammar import grammar
 from papersmith.editor.grammar import PersonalPronoun
 from papersmith.editor.spelling import capital
@@ -40,6 +41,7 @@ def check():
     spelling_results = spelling.check(content)
     spelling_results += capital.check(content)
     grammar_results += PersonalPronoun.check(content)
+    grammar_results += quantifier.check(content)
 
     spelling_issues = {'err':[], 'sug': []}
     grammar_issues = {'err':[], 'sug': []}
