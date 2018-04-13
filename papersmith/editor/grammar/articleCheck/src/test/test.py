@@ -73,12 +73,14 @@ fan = open(os_path+"articleCheck/data/train/an.txt","r")
 fu = open(os_path+"articleCheck/data/train/conalpha.txt","r")
 fnon = open(os_path+"articleCheck/data/train/nonarticle.txt","r")
 fbody = open(os_path+"articleCheck/data/train/body.txt","r")
+fphrase = open(os_path+"articleCheck/data/train/phrase.txt","r")
 uc_words = []
 a_words = []
 an_words = []
 con_alph = []
 non_art = []
 body = []
+phrases = []
 Dict_W = {'~':{5:0}}
 Dict_WW = {'~':{'~':{5:0}}}
 Dict_WH = {'~':{'~':{5:0}}}
@@ -101,6 +103,8 @@ for each in fnon.readlines():
     non_art.append(each[:-1])
 for each in fbody.readlines():
     body.append(each[:-1])
+for each in fphrase.readlines():
+    phrases.append(each[:-1])
 PART = 0
 for each in fngram.readlines():
     if each.find(' ')==-1:
@@ -338,6 +342,7 @@ while True:
             begin =words[pos].lower()
         posh = int(sets[2])-1
         head = words[ posh ].lower()
+        len_of_phrase = int(sets[1])-int(sets[0])+1
         for k in range(4):
             if words[pos] in Dict_W:
                 value[pos][k] += Dict_W[words[pos]][k]*H_VALUE
@@ -352,6 +357,17 @@ while True:
             continue
         for j in range(4):
             Article[pos][j] = 1
+        if len_of_phrase>=2:
+            if (words[lpos]+' '+words[lpos+1]) in phrases:
+                for i in range(4):
+                    Article[pos][i] = 0
+                if words[lpos]=='a':
+                    Article[pos][0] = 1
+                if words[lpos]=='an':
+                    Article[pos][0] = 1
+                if words[lpos]=='the':
+                    Article[pos][0] = 1
+                continue
         if (head in non_art) and POS[posh-1]!='JJ' and POS[posh-1]!='JJR' and POS[posh-1]!='JJS':
             Article[pos][0] = Article[pos][1] = Article[pos][2] = 0
             continue
