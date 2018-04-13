@@ -29,11 +29,8 @@ def check(content):
                         if not(ord(content[i+j+k+2])>96 and ord(content[i+j+k+2])<123):
                             break
                     for k in PRPlist:
-                        if p in k and p!=k[1] and p!=k[3]:
-                            if p ==k[0]:
-                                issues.append(Issue(2,1,[i+j+1],[i+j+len(p)+1],k[1],0))
-                            else:
-                                issues.append(Issue(2,1,[i+j+1],[i+j+len(p)+1],k[3],0))
+                        if p!=k[1] and p ==k[0]:
+                            issues.append(Issue(2,1,[i+j+1],[i+j+len(p)+1],k[1],0))
                 break
         w=''
             
