@@ -8,12 +8,10 @@ __author__='Jay Gao 1219'
 import nltk
 import nltk.data
 
-scentence="""In 2014, he says the first workshop about the creative community. It had attracted more than 40 people from government agencies, social organizations, business circles, IT experts and design professional teachers and students to participate. The design of the six teams are based on Internet.
-
-   Communication technology such as Internet of things, sensor network and so on, so as to form a new management form community based on large-scale information intelligent processing.
-
-Six teams results varied, respectively: the design of electronic waste recycling platform, the prototype design of community old-age self-help, the design of remote control robot, Babel Tower breaker Bracelet design, the design of the joint office, commercial exhibition and creative communication space design and the design of City pet dog intelligence community. We can do it very well.
+scentence="""
+Yesterday a beggar knocked at my door. 
 """
+
 
 Big_table=['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
 Small_table=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
@@ -57,8 +55,9 @@ def if_single_n(np):
         else:
             if np[i].label()=='NP':
                 if i>0:
-                    if np[i-1][1]=='CC':
-                        return False;
+                    if len(np[i-1])>1:
+                        if np[i-1][1]=='CC':
+                            return False;
                     if np[i-1][0]=='of':
                         if i>1:
                             return if_single_n(np[i-2])
