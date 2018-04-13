@@ -22,7 +22,3 @@ october
 november
 december
 christmas
-breakfast
-supper
-lunch
-dinner
