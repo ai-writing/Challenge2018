@@ -1,7 +1,0 @@
-yesterday i went to my housei have many sheep . 
-
-yesterday i went to my housei have many sheep.
-
-['yesterday', 'i', 'went', 'to', 'my', 'housei', 'have', 'many', 'sheep', '.']
-[0, 10, 12, 17, 20, 23, 30, 35, 40, 45]
-[]
