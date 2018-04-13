@@ -1,7 +1,7 @@
 
 os_path = "papersmith/editor/grammar/"
 f = open(os_path+"articleCheck/data/test/output.txt","r")
-ftext = open(os_path+"articleCheck/data/test/text.txt","r")
+#ftext = open(os_path+"articleCheck/data/test/text.txt","r")
 ftree = open(os_path+"articleCheck/data/test/tree.txt","w")
 fconll = open(os_path+"articleCheck/data/test/data.conll","w")
 tree = ""
@@ -150,6 +150,6 @@ for each in edge:
     print(each, file = fconll)
 print(file = fconll)
 f.close()
-ftext.close()
+#ftext.close()
 ftree.close()
 fconll.close()

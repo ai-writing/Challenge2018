@@ -4,6 +4,8 @@ import os
 def articleCheck(content):
     #print content
     os_path = "papersmith/editor/grammar/articleCheck/"
+    fout = open("output.txt","w")
+    fout.close()
     f = open(os_path+"data/text.txt","w")
     print(content,file = f)
     f.close()

@@ -33,7 +33,11 @@ def articleChoose(pos,art):
     if pos!=0:
         if words[pos-1]==art:
             return
-
+    if len(art)==0:
+        if pos==0:
+            return
+        if words[pos-1]!='the' and words[pos-1]!='a' and words[pos-1]!='an':
+            return
     if words[pos]=='-lrb-' or words[pos]=='-rrb-':
         return
     L = pos
@@ -62,7 +66,6 @@ def PrintError():
     fresult.close()
 
 os_path = "papersmith/editor/grammar/"
-ftext = open(os_path+"articleCheck/data/test/text.txt","r")
 fhead = open(os_path+"articleCheck/data/test/headwords.txt","r")
 fconll = open(os_path+"articleCheck/data/test/data.conll","r")
 func = open(os_path+"articleCheck/data/train/uncountable.txt","r")
@@ -446,7 +449,6 @@ while True:
             continue
         if head in Dict:
             value[pos][2] += P_VALUE
-ftext.close()
 fhead.close()
 fconll.close()
 func.close()
