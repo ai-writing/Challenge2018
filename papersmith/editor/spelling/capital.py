@@ -6,13 +6,13 @@ from papersmith.editor.issue import Issue
 def check(content):
     s=eval(open("papersmith/editor/spelling/say.txt").read())
     issues = []
-    for j in range(5):
+    for j in range(10):
         if content[j]=='\'' or content[j]=='\"' or content[j]==' ':
             continue
         if ord(content[j])>96 and ord(content[j])<123:
             l=0
             for k in range(100):
-                if (ord(content[j+k+1])>96 and ord(content[j+k+1])<123) or (ord(content[j+k+1])>64 and ord(content[j+k+1])<91) or ord(content[j+k+1])=="'":
+                if (ord(content[j+k+1])>96 and ord(content[j+k+1])<123) or (ord(content[j+k+1])>64 and ord(content[j+k+1])<91) or content[j+k+1]=="'":
                     l+=1
                 else:
                     break
@@ -42,6 +42,8 @@ def check(content):
                     ww=''
                     for k in range(100):
                         w+=content[i+j+k+1]
+                        if i+j+k+2>=len(content):
+                            break
                         if not((ord(content[i+j+k+2])>96 and ord(content[i+j+k+2])<123) or (ord(content[i+j+k+2])>64 and ord(content[i+j+k+2])<91) or content[i+j+k+2]=="'"):
                             break
                     for k in range(30):
