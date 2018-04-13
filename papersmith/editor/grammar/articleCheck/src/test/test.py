@@ -33,7 +33,11 @@ def articleChoose(pos,art):
     if pos!=0:
         if words[pos-1]==art:
             return
-
+    if len(art)==0:
+        if pos==0:
+            return
+        if words[pos-1]!='the' and words[pos-1]!='a' and words[pos-1]!='an':
+            return
     if words[pos]=='-lrb-' or words[pos]=='-rrb-':
         return
     L = pos
