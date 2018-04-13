@@ -1,7 +1,0 @@
-i have sheep . 
-
-i have sheep.
-
-['i', 'have', 'sheep', '.']
-[0, 2, 7, 12]
-[]
