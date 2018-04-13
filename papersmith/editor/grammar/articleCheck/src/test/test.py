@@ -66,7 +66,6 @@ def PrintError():
     fresult.close()
 
 os_path = "papersmith/editor/grammar/"
-ftext = open(os_path+"articleCheck/data/test/text.txt","r")
 fhead = open(os_path+"articleCheck/data/test/headwords.txt","r")
 fconll = open(os_path+"articleCheck/data/test/data.conll","r")
 func = open(os_path+"articleCheck/data/train/uncountable.txt","r")
@@ -450,7 +449,6 @@ while True:
             continue
         if head in Dict:
             value[pos][2] += P_VALUE
-ftext.close()
 fhead.close()
 fconll.close()
 func.close()

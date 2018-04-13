@@ -1,2 +1,0 @@
-(ROOT(S(NP(NN(1)))(NP(FW(2)))(VP(VBD(3))(PP(TO(4))(NP(PRP$(5))(NNS(6))))(S(VP(VB(7))(NP(JJ(8))(NN(9))))))(.(10))))
-(ROOT(S(NP(PRP(1)))(VP(VBP(2))(NP(PRP(3))))(.(4))))
