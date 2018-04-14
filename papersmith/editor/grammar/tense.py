@@ -7,14 +7,15 @@ import time
 import os
 import pickle
 import sys, getopt
-import papersmith.editor.grammar.tensereader
-import papersmith.editor.grammar.tensernnmodel 
+import tensereader
+import tensernnmodel 
 
 
 
 
 def tensecheck(verse):
     dir0='Challenge2018/blob/dev/papersmith/editor/grammar/tense/'
+    dir0='tense/'
 
     reader=tensereader.reader(verse)
 
@@ -96,12 +97,24 @@ def tensecheck(verse):
                 pred=session.run([model.pred],  feed_dict={model.x: inputs, model.p:pads})[0]
 
                 
+                print(answers,pred)
+                print(tf.argmax(pred[0]).eval() )
                 for i in range(len(pred)):
-                    if tf.argmax(pred[i]).eval() != answers[i]:
+                    if tf.argmax(pred[i]).eval() != answers[i][multitime]:
+                        mem=tf.argmax(pred[i]).eval()
                         pred[i][tf.argmax(pred[i]).eval()]=-100
-                        if tf.argmax(pred[i]).eval() != answers[i]:
+                        if tf.argmax(pred[i]).eval() != answers[i][multitime]:
                             temp=poses[multitime]
-                            temp.append(cldict[reader.lemma(words[multitime])+'('+reader.printtag(tf.argmax(pred[i]).eval())])
+                            #temp.append(cldict[reader.lemma(words[multitime])+'('+reader.printtag(tf.argmax(pred[i]).eval())])
+                            temp.append(words[multitime]+' '+reader.printtag(answers[i][multitime])+'改为'+reader.printtag(mem))
+                            temp.append(1)
+                            suggests.append(temp)
+                        else:
+                            temp=poses[multitime]
+                            #temp.append(cldict[reader.lemma(words[multitime])+'('+reader.printtag(tf.argmax(pred[i]).eval())])
+                            temp.append(words[multitime]+' '+reader.printtag(answers[i][multitime])+'改为'+reader.printtag(mem))
+                            #print(cldict)
+                            temp.append(2)
                             suggests.append(temp)
                             #print(suggests)
                 pred=pred[0]
@@ -111,4 +124,4 @@ def tensecheck(verse):
                 if multitime>=total:
                     break
 
-#print('sug',tensecheck('The fox was big.'))
+#print('sug',tensecheck('The fox was big, grows bigger.'))
