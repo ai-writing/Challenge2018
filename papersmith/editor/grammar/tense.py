@@ -1,19 +1,27 @@
 #encoding:utf-8
 #run3.py 只看含有两个动词的句子
-
-import numpy as np
-import tensorflow as tf
-import time
-import os
-import pickle
-import sys, getopt
-from papersmith.editor.grammar import tensereader
-from papersmith.editor.grammar import tensernnmodel 
+passflag=0
+try:
+    import word2vec
+    import requests
+    import json
+    import numpy as np
+    import tensorflow as tf
+    import time
+    import os
+    import pickle
+    import sys, getopt
+    from papersmith.editor.grammar import tensereader
+    from papersmith.editor.grammar import tensernnmodel 
+except:
+    passflag=1
 
 
 
 
 def tensecheck(verse):
+    if passflag==1:
+        return []
     dir0='papersmith/editor/grammar/tense/'
 
     reader=tensereader.reader(verse)
@@ -74,6 +82,8 @@ def tensecheck(verse):
             with tf.Session(config=config) as session:
                 session.run(tf.global_variables_initializer())#初始化变量
                 ckpt = tf.train.get_checkpoint_state(dir0+'p'+str(multitime)+'n1')
+                if ckpt==None:
+                    return []
                 #print('p'+str(multitime)+'n1')
                 saver.restore(session, ckpt.model_checkpoint_path)
 #读入一个batch的数据
