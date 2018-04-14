@@ -62,3 +62,6 @@ papersmith/editor/grammar/articleCheck/data/test/*.txt
 papersmith/editor/grammar/articleCheck/data/text.txt
 output.txt
 papersmith/editor/grammar/articleCheck/data/test/data.conll
+
+papersmith/editor/grammar/tense/*
+

@@ -1,36 +1,44 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'node', '/usr/local/bin/npm', 'run-script', 'build' ]
-2 info using npm@2.10.1
-3 info using node@v0.12.4
-4 verbose node symlink /usr/local/bin/node
-5 verbose run-script [ 'prebuild', 'build', 'postbuild' ]
-6 info prebuild papersmith@1.0.0
-7 info build papersmith@1.0.0
-8 verbose unsafe-perm in lifecycle true
-9 info papersmith@1.0.0 Failed to exec build script
-10 verbose stack Error: papersmith@1.0.0 build: `NODE_ENV=production webpack --progress --colors -p`
-10 verbose stack Exit status 1
-10 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
-10 verbose stack     at EventEmitter.emit (events.js:110:17)
-10 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
-10 verbose stack     at ChildProcess.emit (events.js:110:17)
-10 verbose stack     at maybeClose (child_process.js:1015:16)
-10 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
-11 verbose pkgid papersmith@1.0.0
-12 verbose cwd /Users/Jason/Developer/papersmith/papersmith
-13 error Darwin 17.4.0
-14 error argv "node" "/usr/local/bin/npm" "run-script" "build"
-15 error node v0.12.4
-16 error npm  v2.10.1
-17 error code ELIFECYCLE
-18 error papersmith@1.0.0 build: `NODE_ENV=production webpack --progress --colors -p`
-18 error Exit status 1
-19 error Failed at the papersmith@1.0.0 build script 'NODE_ENV=production webpack --progress --colors -p'.
-19 error This is most likely a problem with the papersmith package,
-19 error not with npm itself.
-19 error Tell the author that this fails on your system:
-19 error     NODE_ENV=production webpack --progress --colors -p
-19 error You can get their info via:
-19 error     npm owner ls papersmith
-19 error There is likely additional logging output above.
-20 verbose exit [ 1, true ]
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'run', 'build' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 verbose run-script [ 'prebuild', 'build', 'postbuild' ]
+5 info lifecycle papersmith@1.0.0~prebuild: papersmith@1.0.0
+6 silly lifecycle papersmith@1.0.0~prebuild: no script for prebuild, continuing
+7 info lifecycle papersmith@1.0.0~build: papersmith@1.0.0
+8 verbose lifecycle papersmith@1.0.0~build: unsafe-perm in lifecycle true
+9 verbose lifecycle papersmith@1.0.0~build: PATH: /usr/share/npm/bin/node-gyp-bin:/home/d/workspace/language/Challenge2018/node_modules/.bin:/home/d/workspace/language/Challenge2018/venv/bin:/home/d/bin:/home/d/.local/bin:/home/d/programs/jdk1.8.0_161/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/altera9.1sp2/quartus/bin/:/opt/altera9.1sp2/quartus/linux/
+10 verbose lifecycle papersmith@1.0.0~build: CWD: /home/d/workspace/language/Challenge2018
+11 silly lifecycle papersmith@1.0.0~build: Args: [ '-c', 'NODE_ENV=production webpack --progress --colors -p' ]
+12 info lifecycle papersmith@1.0.0~build: Failed to exec build script
+13 verbose stack Error: papersmith@1.0.0 build: `NODE_ENV=production webpack --progress --colors -p`
+13 verbose stack spawn ENOENT
+13 verbose stack     at ChildProcess.<anonymous> (/usr/share/npm/lib/utils/spawn.js:17:16)
+13 verbose stack     at emitTwo (events.js:87:13)
+13 verbose stack     at ChildProcess.emit (events.js:172:7)
+13 verbose stack     at maybeClose (internal/child_process.js:821:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+14 verbose pkgid papersmith@1.0.0
+15 verbose cwd /home/d/workspace/language/Challenge2018
+16 error Linux 4.13.0-38-generic
+17 error argv "/usr/bin/nodejs" "/usr/bin/npm" "run" "build"
+18 error node v4.2.6
+19 error npm  v3.5.2
+20 error file sh
+21 error code ELIFECYCLE
+22 error errno ENOENT
+23 error syscall spawn
+24 error papersmith@1.0.0 build: `NODE_ENV=production webpack --progress --colors -p`
+24 error spawn ENOENT
+25 error Failed at the papersmith@1.0.0 build script 'NODE_ENV=production webpack --progress --colors -p'.
+25 error Make sure you have the latest version of node.js and npm installed.
+25 error If you do, this is most likely a problem with the papersmith package,
+25 error not with npm itself.
+25 error Tell the author that this fails on your system:
+25 error     NODE_ENV=production webpack --progress --colors -p
+25 error You can get information on how to open an issue for this project with:
+25 error     npm bugs papersmith
+25 error Or if that isn't available, you can get their info via:
+25 error     npm owner ls papersmith
+25 error There is likely additional logging output above.
+26 verbose exit [ 1, true ]

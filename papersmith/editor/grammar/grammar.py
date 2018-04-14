@@ -3,7 +3,18 @@
 from papersmith.editor.issue import Issue
 from papersmith.editor.grammar.articleCheck.src.test.articleCheck import *
 from papersmith.editor.grammar import single_three
+from papersmith.editor.grammar import tense
 
+
+#djl
+def checkTense(content):
+    suggests=tensecheck(verse)
+    issuesOfArticle = []
+    for i in suggests:
+        issue = Issue(2, 2, [i[0]], [i[1]], i[2], 1)
+        issuesOfArticle.append(issue)
+    return issuesOfArticle
+    
 
 # ht
 def checkArticle(content):
