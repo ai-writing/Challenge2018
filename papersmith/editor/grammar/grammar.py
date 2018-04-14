@@ -16,16 +16,12 @@ def checkTense(content):
     
  
  
-def check(content):
+def check(content,tensechecker):
     '检查内容中的语法错误'
  
     issues = []
-    issues += checkTense(content)
-    issues += checkTense(content)
-    issues += checkTense(content)
-    issues += checkTense(content)
-    issues += checkTense(content)
-    issues += checkTense(content)
+    issues += tensechecker.checkTense(content)
+    issues += tensechecker.checkTense(content)
     # Issue(category, itype, start(list), end(list), replacement, exp_id), 参见 ../issue.py
  
     #issues = [issue]
@@ -45,4 +41,5 @@ def check(content):
     return issues # List of issues'''
  
  
-print(check("The fox is big, grew bigger. The rat was small but runs quickly."))
+tensechecker=tense.Tense()
+print(check("The fox is big, grew bigger. The rat was small but runs quickly."),tensechecker)
