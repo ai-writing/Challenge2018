@@ -64,7 +64,7 @@ class reader(object):
 
         
         dir0='papersmith/editor/grammar/tense/'
-        #dir0='tense/'
+        dir0='tense/'
         self.model=word2vec.load(dir0+'combine100.bin')   #加载词向量模型
         self.oldqueue=Queue()
 

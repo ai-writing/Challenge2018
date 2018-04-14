@@ -11,8 +11,10 @@ try:
     import os
     import pickle
     import sys, getopt
-    from papersmith.editor.grammar import tensereader
-    from papersmith.editor.grammar import tensernnmodel 
+    #from papersmith.editor.grammar import tensereader
+    #from papersmith.editor.grammar import tensernnmodel 
+    import tensereader
+    import tensernnmodel 
 except:
     passflag=1
 
@@ -22,8 +24,10 @@ except:
 
 def tensecheck(verse):
     if passflag==1:
+        print('not installed packages. skip tense.')
         return []
     dir0='papersmith/editor/grammar/tense/'
+    dir0='tense/'
 
     reader=tensereader.reader(verse)
 
@@ -84,6 +88,7 @@ def tensecheck(verse):
                 session.run(tf.global_variables_initializer())#初始化变量
                 ckpt = tf.train.get_checkpoint_state(dir0+'p'+str(multitime)+'n1')
                 if ckpt==None:
+                    print('checkpoint not found. skip tense.')
                     return []
 #                ckpt = tf.train.get_checkpoint_state
                 #print('p'+str(multitime)+'n1')
