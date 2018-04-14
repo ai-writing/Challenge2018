@@ -8,7 +8,7 @@ from papersmith.editor.grammar import tense
 
 #djl
 def checkTense(content):
-    suggests=tensecheck(verse)
+    suggests=tense.tensecheck(verse)
     issuesOfArticle = []
     for i in suggests:
         issue = Issue(2, 2, [i[0]], [i[1]], i[2], 1)
