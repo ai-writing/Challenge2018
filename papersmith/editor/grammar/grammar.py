@@ -51,6 +51,7 @@ def check(content):
     issues = []
     issues += checkArticle(content)
     issues += checkThirdPersonSingular(content)
+    issues += checkTense(content)
     # Issue(category, itype, start(list), end(list), replacement, exp_id), 参见 ../issue.py
 
     #issues = [issue]
