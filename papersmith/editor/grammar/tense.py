@@ -75,9 +75,9 @@ def tensecheck(verse):
             with tf.Session(config=config) as session:
                 session.run(tf.global_variables_initializer())#初始化变量
                 paths=['p0n1/p0n1.ckpt-14000','p1n1/p1n1.cpkt-39000','p2n1/p2n1.ckpt-8000','p3n1/p3n1.ckpt-75000']
-                ckpt = tf.train.get_checkpoint_state(dir0+paths[multitime])
+#                ckpt = tf.train.get_checkpoint_state
                 #print('p'+str(multitime)+'n1')
-                saver.restore(session, ckpt.model_checkpoint_path)
+                saver.restore(session, dir0+paths[multitime])
 #读入一个batch的数据
 #重用的话只要实现自己的reader.py就行.
 #输出:count:指针,指向读到文件的哪个位置
