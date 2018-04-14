@@ -15,7 +15,7 @@ pronoun = ["I", "me", "my", "mine", "myself", "you", "your", "yours", "yourself"
            "I", "Me", "My", "Mine", "Myself", "You", "Your", "Yours", "Yourself", "We", "Us", "Our", "Ours",
            "Ourselves", "Yourselves",
            ]
-agr = 2
+agr = 3
 notpro = []
 
 print("Loading spacy model")
@@ -32,9 +32,10 @@ def coref(_content):
 	import re
 	coref = Coref(nlp)
 	content = re.sub(r' \(.*?\)', '', _content.replace("\n", ''))
-	clusters = coref.continuous_coref(
-		utterances=content)
-	clu = coref.get_clusters(remove_singletons=False)
+	clusters = coref.continuous_coref(utterances=content)
+	clu = coref.get_clusters(remove_singletons=True, use_no_coref_list=True)[0]
+	coref.display_clusters()
+	print(clu)
 	utterances = coref.get_utterances()
 	print(utterances)
 	result = []
@@ -73,6 +74,7 @@ def coref(_content):
 					result.append([temptuple])
 				else:
 					notpro.append(men.index)
+					print("np:",notpro)
 
 		print(men.index, men, indexs[men.index + 1], men.mention_type)
 
@@ -118,7 +120,7 @@ def coref(_content):
 				print(indexs[id + 1], indexs[first[0] + 1], indexs[second[0] + 1])
 				result.append([indexs[id + 1], indexs[first[0] + 1], indexs[second[0] + 1]])
 		if mentions[id].mention_type == 0 and first[1] < agr - 1:
-			if indexs[firstid + 1][1] == indexs[secondid + 1][1] or indexs[firstid + 1][0] == \
+			if second[1]>0 and indexs[firstid + 1][1] == indexs[secondid + 1][1] or indexs[firstid + 1][0] == \
 					indexs[secondid + 1][0]:
 				print('reject')
 			elif str(mentions[id]) != 'It' and str(mentions[id]) != 'it' and str(mentions[id]) not in pronoun:
