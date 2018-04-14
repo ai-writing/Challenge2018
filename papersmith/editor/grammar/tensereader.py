@@ -63,9 +63,9 @@ class reader(object):
         self.verbtags=['VB','VBZ','VBP','VBD','VBN','VBG'] #所有动词的tag
 
         
-        dir0='Challenge2018/blob/dev/papersmith/editor/grammar/tense/'
+        dir0='papersmith/editor/grammar/tense/'
         #dir0='tense/'
-        self.model=word2vec.load(dir0+'/combine100.bin')   #加载词向量模型
+        self.model=word2vec.load(dir0+'combine100.bin')   #加载词向量模型
         self.oldqueue=Queue()
 
         #parse

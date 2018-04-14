@@ -14,7 +14,7 @@ import papersmith.editor.grammar.tensernnmodel
 
 
 def tensecheck(verse):
-    dir0='Challenge2018/blob/dev/papersmith/editor/grammar/tense/'
+    dir0='papersmith/editor/grammar/tense/'
 
     reader=tensereader.reader(verse)
 
