@@ -30,20 +30,17 @@ nlp = spacy.load(model)
 
 def coref(_content):
 	import re
-	coref = Coref(nlp)
+	coref = Coref(nlp=nlp,greedyness=0.5)
 	content = re.sub(r' \(.*?\)', '', _content.replace("\n", ''))
 	clusters = coref.continuous_coref(utterances=content)
 	clu = coref.get_clusters(remove_singletons=True, use_no_coref_list=True)[0]
 	coref.display_clusters()
-	print(clu)
+	# print(clu)
 	utterances = coref.get_utterances()
 	print(utterances)
 	result = []
 	mentions = coref.get_mentions()
 	utterances = coref.get_utterances()
-	# print("***************88")
-	# print(utterances)
-	# print(mentions)
 	if len(mentions) <= 1:
 		return []
 	indexs = [(0, 0)]
@@ -74,24 +71,24 @@ def coref(_content):
 					result.append([temptuple])
 				else:
 					notpro.append(men.index)
-					print("np:",notpro)
+					# print("np:",notpro)
 
-		print(men.index, men, indexs[men.index + 1], men.mention_type)
+		# print(men.index, men, indexs[men.index + 1], men.mention_type)
 
 	score = coref.get_scores()
 	for id in score['single_scores']:
-		print(id, score['single_scores'][id])
+		# print(id, score['single_scores'][id])
 		if mentions[id].mention_type == 0:
 			if score['single_scores'][id] and score['single_scores'][id] > -0.3:
 				print(mentions[id])
 				if str(mentions[id]) != 'It' and str(mentions[id]) != 'it' and str(mentions[id]) not in pronoun:
 					if str(mentions[id]) in notpro:
-						print(mentions[id])
+						# print(mentions[id])
 						result.append([indexs[id + 1]])
 				else:
 					notpro.append(id)
 
-	print(notpro, result)
+	# print(notpro, result)
 	for id in score['pair_scores']:
 		first = (0, 0)
 		second = (0, 0)
@@ -125,7 +122,7 @@ def coref(_content):
 				print('reject')
 			elif str(mentions[id]) != 'It' and str(mentions[id]) != 'it' and str(mentions[id]) not in pronoun:
 				result.append([indexs[id + 1]])
-		print(id, score['pair_scores'][id])
+		# print(id, score['pair_scores'][id])
 
 	print(coref.get_most_representative())
 	results = []
