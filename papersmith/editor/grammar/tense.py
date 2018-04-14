@@ -7,9 +7,8 @@ import time
 import os
 import pickle
 import sys, getopt
-from papersmith.editor.grammar.articleCheck.src.test.articleCheck.tensereader import *
-from papersmith.editor.grammar.articleCheck.src.test.articleCheck.tensernnmodel import *
-from elapsed import elapsed
+import papersmith.editor.grammar.tensereader
+import papersmith.editor.grammar.tensernnmodel 
 
 
 
@@ -17,7 +16,7 @@ from elapsed import elapsed
 def tensecheck(verse):
     dir0='Challenge2018/blob/dev/papersmith/editor/grammar/tense/'
 
-    reader=reader(verse)
+    reader=tensereader.reader(verse)
 
 
 #神经网络的输入是一句只有一个动词的句子（以及其语法树），把动词变为原型，语法树的tag变为了VB。
@@ -54,7 +53,7 @@ def tensecheck(verse):
 
 #input
 
-    model=rnnmodel(vocab_single=6,\
+    model=tensernnmodel.rnnmodel(vocab_single=6,\
                 maxlength=maxlength,\
                 embedding_size=embedding_size,\
                 batch_size=1,\
@@ -63,19 +62,19 @@ def tensecheck(verse):
     saver=tf.train.Saver()
     with open(dir0+'cldict','rb') as f:
         cldict=pickle.load(f)
-    print('start session')
+    #print('start session')
 
 #multi-time test
     suggests=[]
     while True:
         multitime=0
         while True:
-            print('nut,',multitime)
+            #print('nut,',multitime)
 
             with tf.Session(config=config) as session:
                 session.run(tf.global_variables_initializer())#初始化变量
                 ckpt = tf.train.get_checkpoint_state(dir0+'p'+str(multitime)+'n1')
-                print('p'+str(multitime)+'n1')
+                #print('p'+str(multitime)+'n1')
                 saver.restore(session, ckpt.model_checkpoint_path)
 #读入一个batch的数据
 #重用的话只要实现自己的reader.py就行.
@@ -88,7 +87,7 @@ def tensecheck(verse):
                         #print('listtags')
                 if multitime==0:
                     inputs,pads,poses,words,total,answers=reader.list_tags(1)
-                    print('inputs:',inputs,pads,poses,total,answers)
+                    #print('inputs:',inputs,pads,poses,total,answers)
                     if inputs==None:
                         return suggests
                     total=min(total,multinum)
@@ -104,9 +103,9 @@ def tensecheck(verse):
                             temp=poses[multitime]
                             temp.append(cldict[reader.lemma(words[multitime])+'('+reader.printtag(tf.argmax(pred[i]).eval())])
                             suggests.append(temp)
-                            print(suggests)
+                            #print(suggests)
                 pred=pred[0]
-                print(pred,type(pred))
+                #print(pred,type(pred))
 #累加计算平均正确率
                 multitime+=1
                 if multitime>=total:
