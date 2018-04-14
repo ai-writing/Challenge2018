@@ -32,7 +32,7 @@ class Issue:
         elif self.itype == 3:    print('info', end = ', ')
         else:                    print('unknown type', end = ', ')
 
-        print(self.start + ' to ' + self.end, end = ', ')
+        print(str(self.start) + ' to ' + str(self.end), end = ', ')
         print(self.replacement, end = ', ')
         print(self.exp_id)
 

@@ -57,11 +57,15 @@ venv/
 py3/
 
 papersmith/editor/grammar/articleCheck/src/Parser_lib/stanford-parser-3.8.0-models.jar
-
-papersmith/editor/grammar/articleCheck/data/test/*.txt
 papersmith/editor/grammar/articleCheck/data/text.txt
 output.txt
+papersmith/editor/grammar/articleCheck/data/test/NP.txt
 papersmith/editor/grammar/articleCheck/data/test/data.conll
 
 papersmith/editor/grammar/tense/*
 
+papersmith/editor/grammar/articleCheck/data/test/headwords.txt
+papersmith/editor/grammar/articleCheck/data/test/output.txt
+papersmith/editor/grammar/articleCheck/data/test/result.txt
+papersmith/editor/grammar/articleCheck/data/test/sets.txt
+papersmith/editor/grammar/articleCheck/data/test/tree.txt

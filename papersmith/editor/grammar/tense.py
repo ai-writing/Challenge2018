@@ -7,8 +7,8 @@ import time
 import os
 import pickle
 import sys, getopt
-import papersmith.editor.grammar.tensereader
-import papersmith.editor.grammar.tensernnmodel 
+from papersmith.editor.grammar import tensereader
+from papersmith.editor.grammar import tensernnmodel 
 
 
 
