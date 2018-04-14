@@ -16,8 +16,9 @@ from queue import Queue
 
 class reader(object):
     def printtag(self,number):
-        names=['现在式','现在式第三人称单数','现在式非第三人称单数','过去式','过去分词','现在分词']
-        return names[number]
+        #names=['现在式','现在式第三人称单数','现在式非第三人称单数','过去式','过去分词','现在分词']
+        return self.verbtags[number]
+        #return names[number]
     def parse(self,text):
         if(text==''):
             raise NameError
@@ -63,7 +64,7 @@ class reader(object):
 
         
         dir0='Challenge2018/blob/dev/papersmith/editor/grammar/tense/'
-        dir0='tense/'
+        #dir0='tense/'
         self.model=word2vec.load(dir0+'/combine100.bin')   #加载词向量模型
         self.oldqueue=Queue()
 
