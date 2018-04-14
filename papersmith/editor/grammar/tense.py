@@ -13,6 +13,7 @@ from papersmith.editor.grammar import tensernnmodel
 
 
 
+
 def tensecheck(verse):
     dir0='papersmith/editor/grammar/tense/'
 
@@ -73,7 +74,8 @@ def tensecheck(verse):
 
             with tf.Session(config=config) as session:
                 session.run(tf.global_variables_initializer())#初始化变量
-                ckpt = tf.train.get_checkpoint_state(dir0+'p'+str(multitime)+'n1')
+                paths=['p0n1/p0n1.ckpt-14000','p1n1/p1n1.cpkt-39000','p2n1/p2n1.ckpt-8000','p3n1/p3n1.ckpt-75000']
+                ckpt = tf.train.get_checkpoint_state(dir0+paths[multitime])
                 #print('p'+str(multitime)+'n1')
                 saver.restore(session, ckpt.model_checkpoint_path)
 #读入一个batch的数据
