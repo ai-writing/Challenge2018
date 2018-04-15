@@ -8,24 +8,23 @@ class Tense(object):
         try:
             import word2vec
             import requests
-            import json
             import numpy as np
             import tensorflow as tf
             import time
             import os
             import pickle
             import sys, getopt
-            from papersmith.editor.grammar import tensereader
-            from papersmith.editor.grammar import tensernnmodel 
-            #import tensereader
-            #import tensernnmodel 
+            #from papersmith.editor.grammar import tensereader
+            #from papersmith.editor.grammar import tensernnmodel 
+            import tensereader
+            import tensernnmodel 
         except:
             self.passflag=1
             print('not installed packages. skip tense.')
             return
 
         #dir0='papersmith/editor/grammar/tense/'
-        self.dir0='papersmith/editor/grammar/tense/'
+        self.dir0='tense/'
 #神经网络的输入是一句只有一个动词的句子（以及其语法树），把动词变为原型，语法树的tag变为了VB。
 #并预测它的动词时态。如果它不为0，输入变为这句话以及他前面的patchlength句话。
 #语法树结构：（VB love）会被变为三个标签：（VB的（100维）one-hot标签，love的词向量标签，反括号对应的全0标签。
@@ -33,7 +32,7 @@ class Tense(object):
         self.config=tf.ConfigProto()
         self.config.gpu_options.per_process_gpu_memory_fraction=0.45#占用45%显存
         self.config.gpu_options.allow_growth = True
-        self.batch_size=1
+        self.batch_size=20
 
 #input
         self.model=tensernnmodel.rnnmodel(vocab_single=6,\
@@ -68,7 +67,6 @@ class Tense(object):
             return []
         import word2vec
         import requests
-        import json
         import numpy as np
         import tensorflow as tf
         import time
@@ -94,7 +92,6 @@ class Tense(object):
     def worksess(self,multitime,inputs,pads,poses,words,total,answers):
         import word2vec
         import requests
-        import json
         import numpy as np
         import tensorflow as tf
         import time
@@ -139,12 +136,13 @@ class Tense(object):
         #print(pred,type(pred))
 #累加计算平均正确率
 
-tensechecker=Tense()
+if __name__=='__main__':
+    tensechecker=Tense()
 #print(tensechecker.work("The fox is big, grew bigger. The rat was small but runs quickly. The fox is big, grew bigger. The rat was small but runs quickly."))
-with open('testinput2.txt') as f:
-    content=f.read()
-    result=tensechecker.work(content)
-    print('num:',len(result))
-    print('result:',result)
-    for i in result:
-        print(content[i[0]-50:i[0]]+'('+content[i[0]:i[1]]+')'+content[i[1]:i[1]+50]+'\nchange to: '+str(i[2])+' level: '+str(i[3])+'\n')
+    with open('testinput4.txt') as f:
+        content=f.read()
+        result=tensechecker.work(content)
+        print('num:',len(result))
+        print('result:',result)
+        for i in result:
+            print(content[i[0]-50:i[0]]+'('+content[i[0]:i[1]]+')'+content[i[1]:i[1]+50]+'\nchange to: '+str(i[2])+' level: '+str(i[3])+'\n')

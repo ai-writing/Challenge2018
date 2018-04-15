@@ -41,6 +41,7 @@ class reader(object):
                 return [i['parse'] for i in content['sentences']]
             except ConnectionRefusedError:
                 print('Stnlp connection refused. Retrying...')
+                print(resp)
     def __init__(self,\
                 content,\
                 patchlength=3,\
@@ -63,7 +64,7 @@ class reader(object):
         self.verbtags=['VB','VBZ','VBP','VBD','VBN','VBG'] #所有动词的tag
 
         
-        dir0='papersmith/editor/grammar/tense/'
+        dir0='tense/'
         self.model=word2vec.load(dir0+'combine100.bin')   #加载词向量模型
         self.oldqueue=Queue()
 
@@ -92,6 +93,7 @@ class reader(object):
             resp = requests.post(self.url, verb, params=params).text
             content=json.loads(resp)
             word=content['sentences'][0]['tokens'][0]['lemma']
+            print('errverb',verb)
             self.ldict[verb]=word
             return word
 
