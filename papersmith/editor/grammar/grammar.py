@@ -32,7 +32,7 @@ def checkArticle(content):
 
 # gjy
 def checkThirdPersonSingular(content):
-   res = single_three.check(content)
+    res = single_three.check(content)
     issues = []
     for sentence_entries in res:
         for entry in sentence_entries:
