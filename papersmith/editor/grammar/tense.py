@@ -31,7 +31,7 @@ class Tense(object):
 #语法树结构：（VB love）会被变为三个标签：（VB的（100维）one-hot标签，love的词向量标签，反括号对应的全0标签。
 #每个反括号对应一个单独的标签，而正括号没有。
         self.config=tf.ConfigProto()
-        self.config.gpu_options.per_process_gpu_memory_fraction=0.45#占用45%显存
+#        self.config.gpu_options.per_process_gpu_memory_fraction=0.45#占用45%显存
         self.config.gpu_options.allow_growth = True
         self.batch_size=1
 
@@ -75,9 +75,9 @@ class Tense(object):
         import os
         import pickle
         import sys, getopt
-        #from papersmith.editor.grammar import tensereader
+        from papersmith.editor.grammar import tensereader
         #from papersmith.editor.grammar import tensernnmodel 
-        import tensereader
+        #import tensereader
         self.reader=tensereader.reader(verse)
         #print('start session')
 
@@ -131,7 +131,7 @@ class Tense(object):
                             temp.append(level)
                             suggests.append(temp)
                     except:
-                        print('err')
+                        print('err:cannot find proper tense for verb:' + words[i][multitime])
                         pass
         print('worksess: ',multitime,'sug', suggests)
 #        pred=pred[0]
@@ -139,12 +139,13 @@ class Tense(object):
         #print(pred,type(pred))
 #累加计算平均正确率
 
-tensechecker=Tense()
+if __name__=='__main__':
+    tensechecker=Tense()
 #print(tensechecker.work("The fox is big, grew bigger. The rat was small but runs quickly. The fox is big, grew bigger. The rat was small but runs quickly."))
-with open('testinput2.txt') as f:
-    content=f.read()
-    result=tensechecker.work(content)
-    print('num:',len(result))
-    print('result:',result)
-    for i in result:
-        print(content[i[0]-50:i[0]]+'('+content[i[0]:i[1]]+')'+content[i[1]:i[1]+50]+'\nchange to: '+str(i[2])+' level: '+str(i[3])+'\n')
+    with open('testinput2.txt') as f:
+        content=f.read()
+        result=tensechecker.work(content)
+        print('num:',len(result))
+        print('result:',result)
+        for i in result:
+            print(content[i[0]-50:i[0]]+'('+content[i[0]:i[1]]+')'+content[i[1]:i[1]+50]+'\nchange to: '+str(i[2])+' level: '+str(i[3])+'\n')
