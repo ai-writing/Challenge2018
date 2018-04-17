@@ -1,5 +1,5 @@
 #encoding:utf-8
-#reader.py 只看含有一个动词的句子(十分之一左右)
+#注意!没做nounflag.需要的去reader.py取
 
 import numpy as np
 import word2vec
@@ -108,7 +108,9 @@ class reader(object):
                 shorten=False,\
                 shorten_front=False,\
                 testflag=False,\
-                passnum=0):   #几句前文是否shorten #是否输出不带tag,只有单词的句子 
+                passnum=0,\
+                nounflag=False,\
+                dpflag=False):   #几句前文是否shorten #是否输出不带tag,只有单词的句子 
 
 #patchlength:每次输入前文额外的句子的数量.
 #maxlength:每句话的最大长度.(包括前文额外句子).超过该长度的句子会被丢弃.
@@ -159,7 +161,13 @@ class reader(object):
         with open('train/cldict', 'rb') as f:
             self.cldict = pickle.load(f)
         
-        print('loaded lemma')
+
+    def isverb(self,verb):
+        if verb not in self.ldict: return False
+        for i in self.verbtags:
+            if (self.ldict[verb]+'('+i) not in self.cldict: return False
+        return True
+
 
 
 
@@ -205,6 +213,19 @@ class reader(object):
 
                 outword=[]
                 total=0
+                singleverb=0
+#筛选只有一个动词的句子                
+                for tag in sentence.split():
+                    if tag[0]!='(':
+                        node=re.match('([^\)]+)(\)*)',tag.strip())
+                        if node:
+                            if isverb(node.group(1)):
+                                total+=1
+                if (self.allinclude==True and total<(self.num_verbs+self.passnum)) or (self.allinclude==False and total!=(self.num_verbs+self.passnum)):
+                    self.oldqueue.put(sentence)
+                    self.oldqueue.get()
+                    #print('short')
+                    continue
 #前文句子
                 newqueue=Queue()
                 for _ in range(self.patchlength):
@@ -250,6 +271,13 @@ class reader(object):
                         else:
                             mdflag=0
                             if tag[1:] in self.verbtags:
+                                if dpflag==False:
+                                    if singleverb==self.passnum:
+                                        answer.append(self.verbtags.index(tag[1:]))
+                                    elif singleverb>self.passnum and singleverb<self.num_verbs+self.passnum:
+                                        answer[-1]*=len(self.verbtags)
+                                        answer[-1]+=self.verbtags.index(tag[1:])
+                                    singleverb+=1
                                 tag='(VB'
                                 vbflag=1
                             else:
@@ -270,22 +298,34 @@ class reader(object):
                                 if verb in self.model:
                                     if vbflag==1 or isverb(verb):
                                         if vbflag==0:
-                                            answer.append(len(self.verbtags))
+                                            if dpflag==True:
+                                                answer.append(len(self.verbtags))
+                                            else:
+                                                if singleverb==self.passnum:
+                                                    answer.append(len(self.verbtags))
+                                                elif singleverb>self.passnum and singleverb<self.num_verbs+self.passnum:
+                                                    answer[-1]*=len(self.verbtags)
+                                                    answer[-1]+=len(self.verbtags)
+                                                singleverb+=1
+
                                             
 #去除时态
-                                        node2=self.lemma(node.group(1))
+                                        node2=self.lemma(verb)
                                         if node2 in self.model:
-                                            if not (node2=='is' or node2=='have'):#去除is,have
+                                            if dpflag==True:
+                                                if not (node2=='is' or node2=='have'):#去除is,have
 
-                                                posdict[wordcount]=verbcount
-                                                verbcount+=1
+                                                    posdict[wordcount]=verbcount
+                                                    verbcount+=1
+                                                    outword.append(self.model[node2].tolist())
+                                            else:
                                                 outword.append(self.model[node2].tolist())
 
 
                                         else:
                                             outword.append([0]*self.embedding_size)
                                     else:
-                                        outword.append(self.model[node.group(1)].tolist())
+                                        outword.append(self.model[verb].tolist())
                                 else:
                                     outword.append([0]*self.embedding_size)
                                 if not self.shorten:
@@ -296,13 +336,17 @@ class reader(object):
                 outword=np.array(outword)
 #句子过长
                 if outword.shape[0]>self.maxlength:
+                    if dpflag==False and singleverb>0:
+                        answer=answer[:-1]
+                    print('toolong')
                     continue
-                temp=[0]*5
-                qq=self.work(self.cleanclear(sentence),posdict)
-                temp[qq]=1
-        #        print(self.clean(sentence),qq)
-        #        input()
-                answer.append(temp)
+                if dpflag==True:
+                    temp=[0]*5
+                    qq=self.work(self.cleanclear(sentence),posdict)
+                    temp[qq]=1
+            #        print(self.clean(sentence),qq)
+            #        input()
+                    answer.append(temp)
 #补零
                 pads.append(outword.shape[0])
                 outword=np.pad(outword,((0,self.maxlength-outword.shape[0]),(0,0)),'constant')
@@ -310,9 +354,14 @@ class reader(object):
 
             inputs=np.array(inputs)
 #构建输出
+            if dpflag==False:
+                answers=np.zeros((len(answer),pow(len(self.verbtags),self.num_verbs)))
+                for num in range(len(answer)):
+                    answers[num][answer[num]]=1
+                answer=answers
 #用完整个输入,从头开始
 #continue the 'while True' loop
-            return inputs,pads,answer
+            return inputs,pads,answer,singleverb
 
 if __name__ == '__main__':
     model = reader()

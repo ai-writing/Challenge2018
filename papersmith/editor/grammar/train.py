@@ -53,7 +53,7 @@ vocab_single=6
 time_verbose_flag=False         #测量输入和运行的时间比
 
 reader = importlib.import_module('tensereader')
-rnnmodel = importlib.import_module('rnnmodel')
+rnnmodel = importlib.import_module('tensernnmodel')
 
 
 config=tf.ConfigProto()
@@ -65,7 +65,7 @@ testflag=False
 multiflag=False
 multinum=1
 try:
-    opts, args = getopt.getopt(sys.argv[1:],"hg:l:L:p:x:n:r:m:ais:oStP:T:K")
+    opts, args = getopt.getopt(sys.argv[1:],"hg:l:L:p:x:n:r:m:ais:oStP:T:KD")
 except getopt.GetoptError:
     print('使用不正确.详见python run.py -h')
     sys.exit()
@@ -147,6 +147,9 @@ run.py  -g 使用gpu号(0,1) 默认:不使用
     elif opt=='-K':
         vocab_single=7
         reader = importlib.import_module('reader2')
+    elif opt=='-D':
+        vocab_single=5
+        reader = importlib.import_module('readerdp')
 
 
 
