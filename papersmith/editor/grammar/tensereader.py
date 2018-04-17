@@ -17,6 +17,8 @@ from queue import Queue
 class reader(object):
     def printtag(self,number):
         #names=['现在式','现在式第三人称单数','现在式非第三人称单数','过去式','过去分词','现在分词']
+        if number==len(self.verbtags):
+            return 'NN'
         return self.verbtags[number]
         #return names[number]
     def parse(self,text):
@@ -67,7 +69,10 @@ class reader(object):
         
         dir0='papersmith/editor/grammar/tense/'
         dir0='tense/'
+        print('0')
         self.model=word2vec.load(dir0+'combine100.bin')   #加载词向量模型
+        #self.model=[]
+        print('1')
         self.oldqueue=Queue()
 
         #parse
@@ -75,7 +80,7 @@ class reader(object):
         self.readlength=len(self.resp)
         print('rdlng',self.readlength)
         self.pointer=0
-        self.pointer=45521*50+4363449
+#        self.pointer=45521*50+4363449
         for _ in range(self.patchlength):
             self.oldqueue.put(self.resp[0])
 
@@ -93,6 +98,25 @@ class reader(object):
         for i in self.verbtags:
             if (self.ldict[verb]+'('+i) not in self.cldict: return False
         return True
+
+    def clean(self,sentence):
+        initial=''
+        for tag in sentence.split():
+            if tag[0]=='(':
+                if tag[1:] in self.verbtags:
+                    vbflag=1
+                else:
+                    vbflag=0
+            else:
+                node=re.match('([^\)]+)(\)*)',tag.strip())
+                if node:
+                    if vbflag==1:
+                        initial+=' ('+node.group(1)+')'
+                    elif self.isverb(node.group(1)):
+                        initial+=' ['+node.group(1)+']'
+                    else:
+                        initial+=' '+node.group(1)
+        return initial
 
 
 
@@ -200,7 +224,7 @@ class reader(object):
                             if node:
                                 verb=node.group(1)
                                 if verb in self.model:
-                                    if vbflag==1 or isverb(verb):
+                                    if vbflag==1 or self.isverb(verb):
                                         if vbflag==0:
                                             answer.append(len(self.verbtags))
 
@@ -232,6 +256,7 @@ class reader(object):
                 answers.append(answer)
                 poses.append(pose)
                 words.append(word)
+                print(self.clean(sentence),[self.printtag(x) for x in answer])
 
 #            inputs=np.array(inputs)
 #构建输出
@@ -240,10 +265,7 @@ class reader(object):
             return inputs,pads,poses,words,total,answers
 
 if __name__ == '__main__':
-    with open('tense/combine.txt') as f:
+    with open('tense/testfile1.txt') as f:
         model = reader(f.read())
-        for i in range(500000000):
-            model.list_tags(1)
-            model.pointer+=200
-            model.list_tags(1)
+        model.list_tags(1)
 
