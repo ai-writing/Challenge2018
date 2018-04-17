@@ -12,6 +12,7 @@ class Tense(object):
             import tensorflow as tf
             import time
             import os
+            os.environ["CUDA_VISIBLE_DEVICES"]=""#环境变量：使用第一块gpu
             import pickle
             import sys, getopt
             #from papersmith.editor.grammar import tensereader
@@ -71,6 +72,7 @@ class Tense(object):
         import tensorflow as tf
         import time
         import os
+        os.environ["CUDA_VISIBLE_DEVICES"]=""#环境变量：使用第一块gpu
         import pickle
         import sys, getopt
         #from papersmith.editor.grammar import tensereader
@@ -96,6 +98,7 @@ class Tense(object):
         import tensorflow as tf
         import time
         import os
+        os.environ["CUDA_VISIBLE_DEVICES"]=""#环境变量：使用第一块gpu
         import pickle
         import sys, getopt
         suggests=[]

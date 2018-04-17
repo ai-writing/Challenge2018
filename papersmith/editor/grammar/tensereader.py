@@ -26,6 +26,7 @@ class reader(object):
         params = {'properties' : r"{'annotators': 'tokenize,ssplit,pos,lemma,parse', 'outputFormat': 'json'}"}
         while True:
             try:
+                temptime=time.time()
                 resp = requests.post(url, text, params=params).text
                 content=json.loads(resp)
                 self.numtopos=[]
@@ -39,8 +40,8 @@ class reader(object):
                 #print( re.sub('\s+',' ',content['sentences'][:]['parse'].replace('\n',' ')))
                 #return re.sub('\s+',' ',content['sentences'][:]['parse'].replace('\n',' '))
                 return [i['parse'] for i in content['sentences']]
-            except ConnectionRefusedError:
-                print('Stnlp connection refused. Retrying...')
+            except:# ConnectionRefusedError:
+                print('Stnlp connection refused. Retrying...',time.time()-temptime)
                 print(resp)
     def __init__(self,\
                 content,\
@@ -64,6 +65,7 @@ class reader(object):
         self.verbtags=['VB','VBZ','VBP','VBD','VBN','VBG'] #所有动词的tag
 
         
+        dir0='papersmith/editor/grammar/tense/'
         dir0='tense/'
         self.model=word2vec.load(dir0+'combine100.bin')   #加载词向量模型
         self.oldqueue=Queue()
@@ -73,6 +75,7 @@ class reader(object):
         self.readlength=len(self.resp)
         print('rdlng',self.readlength)
         self.pointer=0
+        self.pointer=45521*50+4363449
         for _ in range(self.patchlength):
             self.oldqueue.put(self.resp[0])
 
@@ -81,7 +84,16 @@ class reader(object):
             self.ldict = pickle.load(f)
         with open(dir0+'tagdict', 'rb') as f:
             self.tagdict = pickle.load(f)
+        with open(dir0+'cldict', 'rb') as f:
+            self.cldict = pickle.load(f)
         
+
+    def isverb(self,verb):
+        if verb not in self.ldict: return False
+        for i in self.verbtags:
+            if (self.ldict[verb]+'('+i) not in self.cldict: return False
+        return True
+
 
 
 
@@ -119,9 +131,11 @@ class reader(object):
                 total=0
 #筛选只有一个动词的句子                
                 for tag in sentence.split():
-                    if tag[0]=='(':
-                        if tag[1:] in self.verbtags:
-                            total+=1
+                    if tag[0]!='(':
+                        node=re.match('([^\)]+)(\)*)',tag.strip())
+                        if node:
+                            if self.isverb(node.group(1)):
+                                total+=1
                 if total==0:
                     self.oldqueue.put(sentence)
                     self.oldqueue.get()
@@ -135,6 +149,7 @@ class reader(object):
                         if tag[0]=='(':
                             if tag not in self.tagdict:
                                 self.tagdict[tag]=len(self.tagdict)
+                                print('tagdicterror:',len(self.tagdict),tag)
                             tagword=[0]*self.embedding_size
                             tagword[self.tagdict[tag]]=1
                             outword.append(tagword)
@@ -142,8 +157,9 @@ class reader(object):
                             node=re.match('([^\)]+)(\)*)',tag.strip())
                             if node:
                                 #group(1) 单词
-                                if node.group(1) in self.model:
-                                    outword.append(self.model[node.group(1)].tolist())
+                                verb=node.group(1)
+                                if verb in self.model:
+                                    outword.append(self.model[verb].tolist())
                                 else:
                                     outword.append([0]*self.embedding_size)
                                 #group(2) 括号
@@ -173,6 +189,7 @@ class reader(object):
                                 vbflag=0
                             if tag not in self.tagdict:
                                 self.tagdict[tag]=len(self.tagdict)
+                                print('tagdicterror:',len(self.tagdict),tag)
                             tagword=[0]*self.embedding_size
                             tagword[self.tagdict[tag]]=1
                             outword.append(tagword)
@@ -181,18 +198,22 @@ class reader(object):
                         if mdflag==0:
                             node=re.match('([^\)]+)(\)*)',tag.strip())
                             if node:
-                                if node.group(1) in self.model:
-                                    if vbflag==1:
+                                verb=node.group(1)
+                                if verb in self.model:
+                                    if vbflag==1 or isverb(verb):
+                                        if vbflag==0:
+                                            answer.append(len(self.verbtags))
+
                                         pose.append(self.numtopos[self.pointer-1][tagcount])
-                                        word.append(node.group(1))
+                                        word.append(verb)
 #去除时态
-                                        node2=self.lemma(node.group(1))
+                                        node2=self.lemma(verb)
                                         if node2 in self.model:
                                             outword.append(self.model[node2].tolist())
                                         else:
                                             outword.append([0]*self.embedding_size)
                                     else:
-                                        outword.append(self.model[node.group(1)].tolist())
+                                        outword.append(self.model[verb].tolist())
                                 else:
                                     outword.append([0]*self.embedding_size)
                                 tagword=[0]*self.embedding_size
@@ -219,6 +240,10 @@ class reader(object):
             return inputs,pads,poses,words,total,answers
 
 if __name__ == '__main__':
-    model = reader('The fox is big.The foxes are bigger.The fox is big.The foxes are bigger.')
-    print('1a',model.list_tags(4))
-    print('2a',model.list_tags(1))
+    with open('tense/combine.txt') as f:
+        model = reader(f.read())
+        for i in range(500000000):
+            model.list_tags(1)
+            model.pointer+=200
+            model.list_tags(1)
+
