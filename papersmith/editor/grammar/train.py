@@ -48,11 +48,11 @@ saving_step=1000                  #多少步保存一次
 num_verbs=1                     #一次看两个动词
 allinclude=True                #只看刚好含有num_verbs个动词的句子
 passnum=0
-vocab_single=6
+vocab_single=7                  #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!以后都是7维了
 
 time_verbose_flag=False         #测量输入和运行的时间比
 
-reader = importlib.import_module('tensereader')
+reader = importlib.import_module('trainreader')
 rnnmodel = importlib.import_module('tensernnmodel')
 
 
@@ -64,6 +64,10 @@ shorten_front=False
 testflag=False
 multiflag=False
 multinum=1
+
+dpflag=False#被动语态训练
+
+
 try:
     opts, args = getopt.getopt(sys.argv[1:],"hg:l:L:p:x:n:r:m:ais:oStP:T:KD")
 except getopt.GetoptError:
@@ -144,12 +148,9 @@ run.py  -g 使用gpu号(0,1) 默认:不使用
         training_iters=2
     elif opt=='-P':
         passnum=int(arg)
-    elif opt=='-K':
-        vocab_single=7
-        reader = importlib.import_module('reader2')
     elif opt=='-D':
-        vocab_single=5
-        reader = importlib.import_module('readerdp')
+        dpflag=True
+        vocab_single=7
 
 
 
@@ -165,7 +166,8 @@ data=reader.reader(patchlength=patchlength,\
             shorten=shorten,\
             shorten_front=shorten_front,\
             testflag=testflag,\
-            passnum=passnum)
+            passnum=passnum,\
+            dpflag=dpflag)
 
 
 model=rnnmodel.rnnmodel(vocab_single=vocab_single,\
