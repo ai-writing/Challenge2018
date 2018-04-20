@@ -46,6 +46,8 @@ class reader(object):
                 if node:
                     if vbflag==1:
                         initial+=' ('+node.group(1)+')'
+                    elif self.isverb(node.group(1)):
+                        initial+=' ['+node.group(1)+']'
                     else:
                         initial+=' '+node.group(1)
         return initial
@@ -64,23 +66,24 @@ class reader(object):
         return initial
     def work(self,a,posdict):
         url = 'http://166.111.139.15:9000'
-        params = {'properties' : r"{'annotators': 'tokenize,ssplit,pos,lemma,parse,depparse', 'outputFormat': 'json'}"}
+        params = {'properties' : r"{'annotators': 'tokenize,ssplit,pos,depparse', 'outputFormat': 'json'}"}
         while True:
             try:
+                #print('0')
                 resp = requests.post(url,a,params=params).text
+                content=json.loads(resp)
+                #print('1')
                 break
-            except ConnectionRefusedError:
-                print('error, retrying...')
-#        print(resp)
-#        input()
-        try:
-            content=json.loads(resp)
-        except:
-            print('resperror: ',resp)
-            return 1
+            except Exception as e:
+                if e!=KeyboardInterrupt:
+                    print('error...')
+                    return -2
+                else:
+                    raise KeyboardInterrupt
         for sentence in content['sentences']:
             for i in sentence['enhancedPlusPlusDependencies']:
-                for j in i:
+                    #print('out',i)
+#                for j in i:
                     if i['dep']=='nsubjpass':
                         #print(i)
                         #input()
@@ -136,7 +139,7 @@ class reader(object):
             self.readlength=len(self.resp)
             print('readlength',self.readlength)
             self.pointer=random.randint(0,self.readlength-1)
-#            self.pointer=1621919
+#            self.pointer=101118
             print('pointer',self.pointer)
             for _ in range(self.patchlength):
                 self.oldqueue.put(self.resp[self.pointer])
@@ -247,9 +250,7 @@ class reader(object):
                             if node:
                                 #group(1) 单词
                                 if node.group(1) in self.model:
-                                    outword.append(self.model[node.group(1)].tolist())
-                                else:
-                                    outword.append([0]*self.embedding_size)
+                                    outword.append(self.readmodel(node.group(1)))
                                 #group(2) 括号
                                 if not self.shorten_front:
                                     tagword=[0]*self.embedding_size
@@ -292,35 +293,35 @@ class reader(object):
                             outword.append(tagword)
                     else:
                         wordcount+=1
+                        #print('word:',re.match('([^\)]+)(\)*)',tag.strip()).group(1),wordcount)
                         if mdflag==0:
                             node=re.match('([^\)]+)(\)*)',tag.strip())
                             if node:
                                 verb=node.group(1)
 
-                                if verb in self.model:
 #                                    if vbflag==1 and not self.isverb(verb):
 #                                        print('error:verbflag=1 and notverb',verb)
 #                                        input()
-                                    if vbflag==1 or self.isverb(verb):
-                                        node2=self.lemma(verb)
+                                if vbflag==1 or self.isverb(verb):
+                                    node2=self.lemma(verb)
 
-                                        if self.dpflag==True:
-                                            if not (node2=='is' or node2=='have'):#去除is,have
-                                                posdict[wordcount]=verbcount
-                                                verbcount+=1
-                                                outword.append(self.readmodel(node2))
-                                            else:
-                                                outword=outword[:-1]
-
-                                        else:
+                                    if self.dpflag==True:
+                                        if not (node2=='be' or node2=='have'):#去除is,have
+                                            posdict[wordcount]=verbcount
+                                            verbcount+=1
                                             outword.append(self.readmodel(node2))
-                                            if vbflag==0:
-                                                if singleverb==self.passnum:
-                                                    answer.append(len(self.verbtags))
-                                                elif singleverb>self.passnum and singleverb<self.num_verbs+self.passnum:
-                                                    answer[-1]*=7
-                                                    answer[-1]+=len(self.verbtags)
-                                                singleverb+=1
+                                        else:
+                                            outword=outword[:-1]
+
+                                    else:
+                                        outword.append(self.readmodel(node2))
+                                        if vbflag==0:
+                                            if singleverb==self.passnum:
+                                                answer.append(len(self.verbtags))
+                                            elif singleverb>self.passnum and singleverb<self.num_verbs+self.passnum:
+                                                answer[-1]*=7
+                                                answer[-1]+=len(self.verbtags)
+                                            singleverb+=1
 
                                 if not self.shorten:
                                     tagword=[0]*self.embedding_size
@@ -341,12 +342,13 @@ class reader(object):
                 if self.dpflag==True:
                     temp=[0]*7
                     qq=self.work(self.cleanclear(sentence),posdict)
-                    if qq>6:
-                        print('word too far back',qq,self.clean(sentence))
-                        qq=0
+                    if qq>6 or qq==-2:
+        #                print('word too far back',qq,self.clean(sentence))
+                        continue
                     if qq<0:
                         print('key error',qq,self.clean(sentence),posdict)
-                        input()
+                        continue
+#                        input()
 
                     temp[qq]=1
                     #print(self.clean(sentence),qq)
@@ -356,6 +358,7 @@ class reader(object):
                 pads.append(outword.shape[0])
                 outword=np.pad(outword,((0,self.maxlength-outword.shape[0]),(0,0)),'constant')
                 inputs.append(outword)
+                #print('2')
 
             inputs=np.array(inputs)
 #构建输出
@@ -370,5 +373,6 @@ class reader(object):
 
 if __name__ == '__main__':
     model = reader()
-    for i in range(2):
-        model.list_tags(1)
+    for i in range(20):
+        t,p,a,s=model.list_tags(1)
+        print(a)
