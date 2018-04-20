@@ -98,7 +98,15 @@ class reader(object):
     def isverb(self,verb):
         if verb not in self.ldict: return False
         for i in self.verbtags:
-            if (self.ldict[verb]+'('+i) not in self.cldict: return False
+            if (self.ldict[verb]+'('+i) not in self.cldict:
+                if verb in self.verbset:
+                    print('verb in set and ldict but not in verbtags',verb)
+                    return True
+                else:
+                    return False
+        if verb not in self.verbset:
+            print('verb not in set but in ldict and verbtags',verb)
+            return False
         return True
         
 
@@ -163,6 +171,9 @@ class reader(object):
             self.tagdict = pickle.load(f)
         with open('tense/cldict', 'rb') as f:
             self.cldict = pickle.load(f)
+        with open('tense/verbset', 'rb') as f:
+            self.verbset = pickle.load(f)
+        
         
 
 
