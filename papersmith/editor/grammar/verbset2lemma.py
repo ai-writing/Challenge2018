@@ -46,7 +46,6 @@ class reader(object):
                 print('Stnlp connection refused. Retrying...',time.time()-temptime)
                 print(resp)
     def __init__(self,\
-                content,\
                 patchlength=3,\
                 maxlength=700,\
                 embedding_size=100,\
@@ -75,9 +74,9 @@ class reader(object):
         self.oldqueue=Queue()
 
         #parse
-        self.resp=self.parse(content)
+        self.resp=open('tense/resp2').readlines()
         self.readlength=len(self.resp)
-        self.readlength=10
+        print(self.readlength)
         #print('rdlng',self.readlength)
         self.pointer=0
 #        self.pointer=45521*50+4363449
@@ -101,21 +100,22 @@ class reader(object):
             resp = requests.post(self.url, verb, params=params).text
             content=json.loads(resp)
             word=content['sentences'][0]['tokens'][0]['lemma']
-            print('errverb',verb)
             self.ldict[verb]=word
             self.cldict[word+'('+tag]=verb
             return word
 
     def list_tags(self,batch_size):
+        dir0='tense/'
         while True:#防止读到末尾
                 if self.pointer==self.readlength:
                     with open(dir0+'ldict5','wb') as f:
-                        pickle.dump(ldict,f)
+                        pickle.dump(self.ldict,f)
                     with open(dir0+'cldict5','wb') as f:
-                        pickle.dump(cldict,f)
+                        pickle.dump(self.cldict,f)
                     
                     print('epoch')
-                if self.pointer%2000==0:
+                    return
+                if self.pointer%20000==0:
                     print(self.pointer)
 
                 sentence=self.resp[self.pointer]
@@ -130,11 +130,11 @@ class reader(object):
                         else:
                             flag=0
                     elif flag==1:
-                        lemma(verb,odtag)
+                        node=re.match('([^\)]+)(\)*)',tag.strip())
+                        self.lemma(node.group(1),odtag)
 
 
 if __name__ == '__main__':
-    with open('tense/combine.txt') as f:
-            model = reader(f.readline())
+            model = reader()
             model.list_tags(1)
 
