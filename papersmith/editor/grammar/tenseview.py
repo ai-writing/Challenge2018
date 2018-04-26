@@ -70,7 +70,6 @@ class reader(object):
         dir0='papersmith/editor/grammar/tense/'
         dir0='tense/'
         #print('0')
-        #self.model=[]
         #print('1')
         self.oldqueue=Queue()
 
@@ -90,8 +89,6 @@ class reader(object):
             self.tagdict = pickle.load(f)
         with open(dir0+'cldict', 'rb') as f:
             self.cldict = pickle.load(f)
-        with open(dir0+'verbset', 'rb') as f:
-            self.verbset = pickle.load(f)
         
 
     def isverb(self,verb):
@@ -257,7 +254,7 @@ class reader(object):
 
 if __name__ == '__main__':
     with open('tense/combine.txt') as f:
-        for i in range(10):
+        for i in range(1000):
             model = reader(f.readline())
             model.list_tags(1)
 
