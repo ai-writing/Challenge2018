@@ -93,8 +93,18 @@ class reader(object):
         with open(dir0+'verbset', 'rb') as f:
             self.verbset = pickle.load(f)
         
-
     def isverb(self,verb):
+        if verb not in self.verbset:
+            if self.isverb2(verb)==True:
+                print('not verb in verb2',verb)
+            return False
+        else:
+            if self.isverb2(verb)==False:
+                print('is verb not in verb2',verb)
+            return True
+
+
+    def isverb2(self,verb):
         if verb not in self.ldict: return False
         for i in self.verbtags:
             if (self.ldict[verb]+'('+i) not in self.cldict: return False

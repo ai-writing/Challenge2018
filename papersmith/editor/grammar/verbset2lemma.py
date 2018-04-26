@@ -1,5 +1,5 @@
 #encoding:utf-8
-#reader.py 只看含有一个动词的句子(十分之一左右)
+#verbset2lemma.py 读入verbset,遍历文字,写出ldict和cldict
 
 import numpy as np
 import word2vec
@@ -70,6 +70,7 @@ class reader(object):
         dir0='papersmith/editor/grammar/tense/'
         dir0='tense/'
         #print('0')
+        #self.model=[]
         #print('1')
         self.oldqueue=Queue()
 
@@ -83,15 +84,25 @@ class reader(object):
             self.oldqueue.put(self.resp[0])
 
 #加载原型词典(把动词变为它的原型)
-        with open(dir0+'ldict2', 'rb') as f:
-            self.ldict = pickle.load(f)
+        self.ldict ={}
         with open(dir0+'tagdict', 'rb') as f:
             self.tagdict = pickle.load(f)
-        with open(dir0+'cldict', 'rb') as f:
-            self.cldict = pickle.load(f)
+        self.cldict ={}
+        with open(dir0+'verbset', 'rb') as f:
+            self.verbset = pickle.load(f)
         
-
     def isverb(self,verb):
+        if verb not in self.verbset:
+            if self.isverb2(verb)==True:
+                print('not verb in verb2',verb)
+            return False
+        else:
+            if self.isverb2(verb)==False:
+                print('is verb not in verb2',verb)
+            return True
+
+
+    def isverb2(self,verb):
         if verb not in self.ldict: return False
         for i in self.verbtags:
             if (self.ldict[verb]+'('+i) not in self.cldict: return False
@@ -119,7 +130,7 @@ class reader(object):
 
 
 
-    def lemma(self,verb):
+    def lemma(self,verb,tag):
         if verb in self.ldict:
             return self.ldict[verb]
         else:
@@ -129,20 +140,15 @@ class reader(object):
             word=content['sentences'][0]['tokens'][0]['lemma']
             print('errverb',verb)
             self.ldict[verb]=word
+            self.cldict[word+'('+tag]=verb
             return word
 
     def list_tags(self,batch_size):
         while True:#防止读到末尾
-            inputs=[]
-            pads=[]
-            poses=[]
-            words=[]
-            answers=[]
-            count=0
-            while len(inputs)<batch_size:
                 if self.pointer==self.readlength:
                     self.pointer=0
-                    return None,None,None,None,None,None
+                    print('epoch')
+                if self.pointer%
                 sentence=self.resp[self.pointer]
                 self.pointer+=1
 
@@ -153,11 +159,15 @@ class reader(object):
                 total=0
 #筛选只有一个动词的句子                
                 for tag in sentence.split():
-                    if tag[0]!='(':
-                        node=re.match('([^\)]+)(\)*)',tag.strip())
-                        if node:
-                            if self.isverb(node.group(1)):
-                                total+=1
+                    if tag[0]=='(':
+                        if tag[1:] in self.verbtags:
+                            flag=1
+                            odtag=tag[1:]
+                        else:
+                            flag=0
+                    elif flag==1:
+                        lemma(verb,odtag)
+
                 if total==0:
                     self.oldqueue.put(sentence)
                     self.oldqueue.get()
@@ -254,7 +264,7 @@ class reader(object):
 
 if __name__ == '__main__':
     with open('tense/combine.txt') as f:
-        for i in range(1000):
+        for i in range(10):
             model = reader(f.readline())
             model.list_tags(1)
 
