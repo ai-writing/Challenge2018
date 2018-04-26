@@ -77,6 +77,7 @@ class reader(object):
         #parse
         self.resp=self.parse(content)
         self.readlength=len(self.resp)
+        self.readlength=10
         #print('rdlng',self.readlength)
         self.pointer=0
 #        self.pointer=45521*50+4363449
@@ -91,44 +92,6 @@ class reader(object):
         with open(dir0+'verbset', 'rb') as f:
             self.verbset = pickle.load(f)
         
-    def isverb(self,verb):
-        if verb not in self.verbset:
-            if self.isverb2(verb)==True:
-                print('not verb in verb2',verb)
-            return False
-        else:
-            if self.isverb2(verb)==False:
-                print('is verb not in verb2',verb)
-            return True
-
-
-    def isverb2(self,verb):
-        if verb not in self.ldict: return False
-        for i in self.verbtags:
-            if (self.ldict[verb]+'('+i) not in self.cldict: return False
-        return True
-
-    def clean(self,sentence):
-        initial=''
-        for tag in sentence.split():
-            if tag[0]=='(':
-                if tag[1:] in self.verbtags:
-                    vbflag=1
-                else:
-                    vbflag=0
-            else:
-                node=re.match('([^\)]+)(\)*)',tag.strip())
-                if node:
-                    if vbflag==1:
-                        initial+=' ('+node.group(1)+')'
-                    elif self.isverb(node.group(1)):
-                        initial+=' ['+node.group(1)+']'
-                    else:
-                        initial+=' '+node.group(1)
-        return initial
-
-
-
 
     def lemma(self,verb,tag):
         if verb in self.ldict:
@@ -146,17 +109,18 @@ class reader(object):
     def list_tags(self,batch_size):
         while True:#防止读到末尾
                 if self.pointer==self.readlength:
-                    self.pointer=0
+                    with open(dir0+'ldict5','wb') as f:
+                        pickle.dump(ldict,f)
+                    with open(dir0+'cldict5','wb') as f:
+                        pickle.dump(cldict,f)
+                    
                     print('epoch')
-                if self.pointer%
+                if self.pointer%2000==0:
+                    print(self.pointer)
+
                 sentence=self.resp[self.pointer]
                 self.pointer+=1
 
-                outword=[]
-                answer=[]
-                word=[]
-                pose=[]
-                total=0
 #筛选只有一个动词的句子                
                 for tag in sentence.split():
                     if tag[0]=='(':
@@ -168,103 +132,9 @@ class reader(object):
                     elif flag==1:
                         lemma(verb,odtag)
 
-                if total==0:
-                    self.oldqueue.put(sentence)
-                    self.oldqueue.get()
-                    continue
-#前文句子
-                newqueue=Queue()
-                for _ in range(self.patchlength):
-                    oldsentence=self.oldqueue.get()
-                    newqueue.put(oldsentence)
-                    for tag in oldsentence.split():
-                        if tag[0]=='(':
-                            if tag not in self.tagdict:
-                                self.tagdict[tag]=len(self.tagdict)
-                                print('tagdicterror:',len(self.tagdict),tag)
-                            tagword=[0]*self.embedding_size
-                            tagword[self.tagdict[tag]]=1
-                            outword.append(tagword)
-                        else:                
-                            node=re.match('([^\)]+)(\)*)',tag.strip())
-                            if node:
-                                #group(1) 单词
-                                verb=node.group(1)
-                                #group(2) 括号
-                                tagword=[0]*self.embedding_size
-                                tagword[0]=1
-                                for _ in range(len(node.group(2))-1):
-                                    outword.append(tagword)
-                self.oldqueue=newqueue
-                self.oldqueue.put(sentence)
-                self.oldqueue.get()
-                #print('point at:',self.resp.tell())
-
-#本句                
-                tagcount=-1
-                for tag in sentence.split():
-                    if tag[0]=='(':
-#去除情态动词
-                        if tag=='(MD':
-                            mdflag=1
-                        else:
-                            mdflag=0
-                            if tag[1:] in self.verbtags:
-                                answer.append(self.verbtags.index(tag[1:]))
-                                tag='(VB'
-                                vbflag=1
-                            else:
-                                vbflag=0
-                            if tag not in self.tagdict:
-                                self.tagdict[tag]=len(self.tagdict)
-                                print('tagdicterror:',len(self.tagdict),tag)
-                            tagword=[0]*self.embedding_size
-                            tagword[self.tagdict[tag]]=1
-                            outword.append(tagword)
-                    else:
-                        tagcount+=1
-                        if mdflag==0:
-                            node=re.match('([^\)]+)(\)*)',tag.strip())
-                            if node:
-                                verb=node.group(1)
-                                if True:
-                                    if vbflag==1 or self.isverb(verb):
-                                        if vbflag==0:
-                                            answer.append(len(self.verbtags))
-
-                                        pose.append(self.numtopos[self.pointer-1][tagcount])
-                                        word.append(verb)
-#去除时态
-                                        node2=self.lemma(verb)
-                                else:
-                                    outword.append([0]*self.embedding_size)
-                                tagword=[0]*self.embedding_size
-                                tagword[0]=1
-                                for _ in range(len(node.group(2))-1):
-                                    outword.append(tagword)
-                outword=np.array(outword)
-#句子过长
-                if outword.shape[0]>self.maxlength:
-                    print('passed too long sentence')
-                    continue
-#补零
-                pads.append(outword.shape[0])
-                outword=np.pad(outword,((0,self.maxlength-outword.shape[0]),(0,0)),'constant')
-                inputs.append(outword)
-                answers.append(answer)
-                poses.append(pose)
-                words.append(word)
-                print(self.clean(sentence),[self.printtag(x) for x in answer])
-
-#            inputs=np.array(inputs)
-#构建输出
-#用完整个输入,从头开始
-#continue the 'while True' loop
-            return inputs,pads,poses,words,total,answers
 
 if __name__ == '__main__':
     with open('tense/combine.txt') as f:
-        for i in range(10):
             model = reader(f.readline())
             model.list_tags(1)
 
